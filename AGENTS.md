@@ -12,7 +12,7 @@ The approved gallery is the self-contained root `index.html`. GitHub Pages serve
 
 ## Preserve the interaction and design
 
-- Toggle labels are **Grid** and **Detailed**; **Grid** is the initial default.
+- The view toggle is icon-only (a grid icon and a detailed icon, with aria-labels **Grid** and **Detailed**); **Grid** is the initial default.
 - Both modes use the same expanding horizontal rectangular canvas. Do not revert to a scrolling list or a narrow mobile grid. Mobile initially shows about three columns; pan exposes the rest of the wider board.
 - Keep mouse/touch dragging, trackpad panning, pinch/modified-wheel zoom, zoom buttons, Fit all, and reset.
 - Photo taps open the larger viewer. Preserve previous/next outfit navigation, swipe navigation, front/back flips, full-screen photo view, original-resolution downloads, accessory toggles, keyboard navigation, and dialog focus handling.
