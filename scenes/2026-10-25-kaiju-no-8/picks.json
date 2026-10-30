@@ -1,0 +1,8 @@
+{
+  "outfit": "2026-10-25-kaiju-no-8",
+  "dateLabel": "Sat, Oct 25, 2026",
+  "picked": ["waking", "idle", "working", "making-something"],
+  "excluded": ["milestone_level_up"],
+  "states_covered": ["waking", "idle", "connecting", "working", "waiting_for_subagents", "making_something"],
+  "note": "idle.mp4 also serves the connecting state; working.mp4 also serves waiting_for_subagents. Source: temporary live activation avatar-1793337957280075422-1 (Kaiju Option 1 re-render from the Oct 25 front). The working and making_something clips arrived late (about 17 minutes after activation); only waking and idle were present at first."
+}
