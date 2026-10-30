@@ -1,0 +1,8 @@
+{
+  "outfit": "2026-10-26-halo",
+  "dateLabel": "Mon, Oct 26, 2026",
+  "picked": ["waking", "idle", "working", "making-something"],
+  "excluded": ["milestone_level_up"],
+  "states_covered": ["waking", "idle", "connecting", "working", "waiting_for_subagents", "making_something"],
+  "note": "idle.mp4 also serves the connecting state; working.mp4 also serves waiting_for_subagents. Source: temporary live activation avatar-1793336639138003599-0 (Halo Option 1 re-render from the with-helmet front). The working clip arrived late (about 15 minutes after activation, after the first check showed only 3 variants) — it was delayed, not failed."
+}
