@@ -1,0 +1,13 @@
+{
+  "outfit": "2026-10-16-demon-slayer",
+  "variant": "sword version (sword-set Option 2: back-diagonal Tanjiro katana, added at user request Oct 30, 2026; original saved front has no sword)",
+  "activation": "avatar-1793387752765831712-0",
+  "activation_image_sha256": "f6ca2cf7886b9df942d7d04d985286d7c615d541924c80c80ec0b3d516ef17cd",
+  "picks": {
+    "waking": "avatar-1793387752765831712-0-waking-attempt-409110878702.mp4",
+    "idle": "avatar-1793387752765831712-0-attempt-0c3514a2e13a.mp4",
+    "working": "avatar-1793387752765831712-0-working-attempt-7f24d75115e5.mp4",
+    "making-something": "avatar-1793387752765831712-0-making_something-attempt-b66ce8ca9fbd.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. All 4 picks were complete within ~2 min of activation (fast path). Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
