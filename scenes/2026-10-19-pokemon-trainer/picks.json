@@ -1,0 +1,12 @@
+{
+  "outfit": "2026-10-19-pokemon-trainer",
+  "activation": "avatar-1793372975697946023-1",
+  "activation_image_sha256": "65e55903bd646bc8d17738d209154a7a45886faa34f5998ac33ed26d78e5cbec",
+  "picks": {
+    "waking": "avatar-1793372975697946023-1-waking-attempt-c6b1c31536a5.mp4",
+    "idle": "avatar-1793372975697946023-1-attempt-01dee8560541.mp4",
+    "working": "avatar-1793372975697946023-1-working-attempt-a172417d78cf.mp4",
+    "making-something": "avatar-1793372975697946023-1-making_something-attempt-22ab4c680004.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. All 4 picks were complete within ~2 min of activation (fast path, like Dragon Ball/Tracer/AoT). Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
