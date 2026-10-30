@@ -1,0 +1,13 @@
+{
+  "outfit": "2026-10-30-sylveon",
+  "variant": "daily outfit (not backfill): pink-and-white zip-up hoodie, tall ears/bows, pleated skirt, fluffy pink-and-white tail",
+  "activation": "avatar-1793377441224609707-0",
+  "activation_image_sha256": "a3c8e4c8f8b9ba85e16bb6ad054b7fe463f67cef3cf80b7c07e91e8abbd4cb55",
+  "picks": {
+    "waking": "avatar-1793377441224609707-0-waking-attempt-e2ad14c233ec.mp4",
+    "idle": "avatar-1793377441224609707-0-attempt-f850e6f2fe6d.mp4",
+    "working": "avatar-1793377441224609707-0-working-attempt-81283704bb23.mp4",
+    "making-something": "avatar-1793377441224609707-0-making_something-attempt-5d7c70195a1a.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. Captured Oct 30, 2026 from the live daily activation (not a backfill round) at the user's request; presented for review before any upload, per the user's Oct 30 rule that the daily task includes scene generation + review before upload."
+}
