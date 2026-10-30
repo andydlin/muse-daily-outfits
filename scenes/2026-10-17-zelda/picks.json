@@ -1,0 +1,13 @@
+{
+  "outfit": "2026-10-17-zelda",
+  "variant": "sword-fixed (fixed Option 2; original Option 1 had hilt and tip on the same side)",
+  "activation": "avatar-1793374220823723599-3",
+  "activation_image_sha256": "619b54b399302479ab1fd06cc95f2265c5bd3c798f71140376615d693bce41e8",
+  "picks": {
+    "waking": "avatar-1793374220823723599-3-waking-attempt-e1326e1b27cc.mp4",
+    "idle": "avatar-1793374220823723599-3-attempt-bfc18ebcd201.mp4",
+    "working": "avatar-1793374220823723599-3-working-attempt-0e89afedb1a3.mp4",
+    "making-something": "avatar-1793374220823723599-3-making_something-attempt-f6ce36c65026.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. All 4 picks were complete within ~1-2 min of activation (fast path). Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
