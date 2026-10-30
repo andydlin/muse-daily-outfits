@@ -1,0 +1,13 @@
+{
+  "outfit": "2026-10-20-dragon-ball",
+  "variant": "with-hair (gallery-main)",
+  "activation": "avatar-1793371620820533527-0",
+  "activation_image_sha256": "91baf3ce24fac906ade20ec73fe398f8aefb877506e040a22c9e9cbcaa14a60b",
+  "picks": {
+    "waking": "avatar-1793371620820533527-0-waking-attempt-ee6d33448a97.mp4",
+    "idle": "avatar-1793371620820533527-0-attempt-210a3f481e4a.mp4",
+    "working": "avatar-1793371620820533527-0-working-attempt-db9f6bf4d21d.mp4",
+    "making-something": "avatar-1793371620820533527-0-making_something-attempt-187c99216948.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. All 4 picks were complete within ~2-3 min of activation (fast path, like Tracer/AoT). Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
