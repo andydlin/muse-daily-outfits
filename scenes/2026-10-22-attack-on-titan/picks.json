@@ -1,0 +1,12 @@
+{
+  "outfit": "2026-10-22-attack-on-titan",
+  "activation": "avatar-1793344801713984726-2",
+  "activation_image_sha256": "fa18bc98f02b603e738904960cedd8989247e948b5b310823ecea812829dee10",
+  "picks": {
+    "waking": "avatar-1793344801713984726-2-waking-attempt-b0e418d2c72f.mp4",
+    "idle": "avatar-1793344801713984726-2-attempt-d951b9625e5c.mp4",
+    "working": "avatar-1793344801713984726-2-working-attempt-f056a4eddbea.mp4",
+    "making-something": "avatar-1793344801713984726-2-making_something-attempt-a9798f7df713.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. All 4 variants were already present ~2 min after activation (fast, like Tracer — the late-arrival delay seen on Halo/Kaiju/Gengar did not recur). Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
