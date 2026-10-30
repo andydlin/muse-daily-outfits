@@ -1,0 +1,12 @@
+{
+  "outfit": "2026-10-18-naruto",
+  "activation": "avatar-1793373252362808277-2",
+  "activation_image_sha256": "14489e1e27fdb276dacd314ed4e8109ab278d99ca24a150fafe01b3954bd1eb7",
+  "picks": {
+    "waking": "avatar-1793373252362808277-2-waking-attempt-7e2600197e0a.mp4",
+    "idle": "avatar-1793373252362808277-2-attempt-d5eba8313f22.mp4",
+    "working": "avatar-1793373252362808277-2-working-attempt-9851a7c66ed7.mp4",
+    "making-something": "avatar-1793373252362808277-2-making_something-attempt-079352a65ca4.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. All 4 picks were complete within ~2 min of activation (fast path, like Dragon Ball/PT/Tracer/AoT). Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
