@@ -1,0 +1,12 @@
+{
+  "outfit": "2026-10-23-overwatch-tracer",
+  "activation": "avatar-1793343326671429319-1",
+  "activation_image_sha256": "baf63ce49c4c8ecb891ceb0b6c8a7b7a8c06c5afaf85d3d1cbaba50980ff0681",
+  "picks": {
+    "waking": "avatar-1793343326671429319-1-waking-attempt-586bcb11921b.mp4",
+    "idle": "avatar-1793343326671429319-1-attempt-cab5738d8e96.mp4",
+    "working": "avatar-1793343326671429319-1-working-attempt-225531bbed4c.mp4",
+    "making-something": "avatar-1793343326671429319-1-making_something-attempt-7db4c407f843.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. All 4 variants were already present ~1 min after activation (unusually fast vs the 15-17 min late-arrival pattern on Halo/Kaiju/Gengar). Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
