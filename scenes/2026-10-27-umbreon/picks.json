@@ -1,0 +1,8 @@
+{
+  "outfit": "2026-10-27-umbreon",
+  "dateLabel": "Mon, Oct 27, 2026",
+  "picked": ["waking", "idle", "working", "making-something"],
+  "excluded": ["milestone_level_up"],
+  "states_covered": ["waking", "idle", "connecting", "working", "waiting_for_subagents", "making_something"],
+  "note": "idle.mp4 also serves the connecting state; working.mp4 also serves waiting_for_subagents. Source: temporary live activation avatar-1793333228301815404-2 (Umbreon Option 1 re-render from the corrected Oct 27 front)."
+}
