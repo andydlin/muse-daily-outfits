@@ -1,0 +1,8 @@
+{
+  "outfit": "2026-10-29-valorant-jett",
+  "dateLabel": "Thu, Oct 29, 2026",
+  "picked": ["waking", "idle", "working", "making-something"],
+  "excluded": ["milestone_level_up"],
+  "states_covered": ["waking", "idle", "connecting", "working", "waiting_for_subagents", "making_something"],
+  "note": "idle.mp4 also serves the connecting state; working.mp4 also serves waiting_for_subagents. Source: live avatar activation avatar-1793296888205094137-0 (corrected Jett)."
+}
