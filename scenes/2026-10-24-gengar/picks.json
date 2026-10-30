@@ -1,0 +1,12 @@
+{
+  "outfit": "2026-10-24-gengar",
+  "activation": "avatar-1793341537008027283-0",
+  "activation_image_sha256": "8716cc9c24da6fca47de862b156ed4c7b92822ebfa9f701f9eecd4834c17fcc2",
+  "picks": {
+    "waking": "avatar-1793341537008027283-0-waking-attempt-b30debb8e6d7.mp4",
+    "idle": "avatar-1793341537008027283-0-attempt-b8a787afcb9a.mp4",
+    "working": "avatar-1793341537008027283-0-working-attempt-17a1b7bd2d97.mp4",
+    "making-something": "avatar-1793341537008027283-0-making_something-attempt-f046bd5900eb.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. Waking + working arrived late (absent at the 15-min check, present by ~17 min after activation), consistent with the Halo/Kaiju late-arrival pattern. Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
