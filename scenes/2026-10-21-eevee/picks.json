@@ -1,0 +1,12 @@
+{
+  "outfit": "2026-10-21-eevee",
+  "activation": "avatar-1793346643014992043-3",
+  "activation_image_sha256": "ea8ec5cb6fc57120a24f3ed8f311cc43b78e67c8a2ae90290aae74ecb33286c3",
+  "picks": {
+    "waking": "avatar-1793346643014992043-3-waking-attempt-7ae8dc07bc1d.mp4",
+    "idle": "avatar-1793346643014992043-3-attempt-6cc5d60dbfd4.mp4",
+    "working": "avatar-1793346643014992043-3-working-attempt-0e8441b29c40.mp4",
+    "making-something": "avatar-1793346643014992043-3-making_something-attempt-0a670f43e68b.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. Working + making-something arrived late (absent at the 15-min check, present by ~17 min after activation) — same late-arrival pattern as Halo/Kaiju/Gengar. Share-card handoff for this activation verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
