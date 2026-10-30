@@ -1,0 +1,13 @@
+{
+  "outfit": "2026-10-15-zelda",
+  "variant": "sword + shield version (flipped-sword Option 1: Master Sword mirrored with hilt over viewer-left shoulder, Hylian Shield on left forearm; added at user request Oct 30, 2026; original saved front has neither sword nor shield)",
+  "activation": "avatar-1793392884665108217-0",
+  "activation_image_sha256": "81c53e6d4557c7aa8d1106eb0a39badbe3d204453c64a2eda604cc08ee91054a",
+  "picks": {
+    "waking": "avatar-1793394311271168433-1-waking-attempt-baeb8070fb7b.mp4",
+    "idle": "avatar-1793392884665108217-0-attempt-84d823be5ae9.mp4",
+    "working": "avatar-1793392884665108217-0-working-attempt-a19812627089.mp4",
+    "making-something": "avatar-1793392884665108217-0-making_something-attempt-519bde9d83f2.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. idle/working/making-something are from the original Zelda activation (fast path, ~2 min). WAKING IS DIFFERENT: at the user's request (Oct 30, 2026 ~13:45 PDT) the original waking clip was replaced — in it the sword was drawn out at the side with a detached sheath and a large forearm shield. A temporary activation (avatar-1793394311271168433-1, waking-version Option 1: sword behind the back at the live angle, shield completely hidden) supplied the replacement waking clip only, which the user approved ('Beautiful', Oct 30, 2026 ~14:45 PDT). Share-card handoffs for both activations were verified then skipped per the user's backfill rule (no share widgets during backfill)."
+}
