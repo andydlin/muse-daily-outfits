@@ -1,0 +1,13 @@
+{
+  "outfit": "2026-10-14-ninja",
+  "variant": "base saved front (no additions requested)",
+  "activation": "avatar-1793397943860336773-2",
+  "activation_image_sha256": "e1fb627d976ec624ec89130128352a3f54618b6a57c842e0bb266ddd72ecf048",
+  "picks": {
+    "waking": "avatar-1793397943860336773-2-waking-attempt-2d6820a507b4.mp4",
+    "idle": "avatar-1793397943860336773-2-attempt-02f75abdc108.mp4",
+    "working": "avatar-1793397943860336773-2-working-attempt-1dee71c1daaa.mp4",
+    "making-something": "avatar-1793397943860336773-2-making_something-attempt-7b1e6e42e5da.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. The 15-min wait timer was killed by a runtime restart; on re-check at ~6 min, waking/idle/making were present and working was still rendering. Working landed by ~23 min (share handoff check). Share-card handoff verified (Ninja still active) then skipped per the user's backfill rule (no share widgets during backfill)."
+}
