@@ -33,7 +33,14 @@ Do NOT reintroduce inlined `data:image/...` images or a top-level `file` field o
 - Each card plays one random scene video on load, chosen from waking, idle, working, making-something.
 - Scene files live under `scenes/<slug>/` in this repo (same Pages host, not a third-party dependency). `<slug>` derives from the outfit's front filename minus `-front.webp`; no per-record scene field is needed.
 - Scene files in this repo are **540×540 grid encodes** (h264, 24fps, 8s). Cards are ~230px wide, so 720p sources are overkill. When uploading newly captured 720×720 clips, re-encode them first (e.g. `ffmpeg -i in.mp4 -vf scale=540:540 -c:v libx264 -crf 24 -preset medium -pix_fmt yuv420p -r 24 -an out.mp4`) and push the encodes; the 720p originals stay in the local archive only.
-- Videos are muted and looping, and play only while their card is near the viewport and showing its front view. Flipping to the back pauses the video and shows the back photo; the viewer still shows photos only.
+- Videos are muted and looping. At most four visible cards play at once, only while showing the default front view at a useful size (at least 140 screen pixels wide). Offscreen clips release their media source. Pause all clips when the tab is hidden or the outfit viewer is open. Flipping to the back pauses the video and shows the back photo; the viewer still shows photos only.
 - If a scene file is missing or fails, the card keeps its photo. New outfits get this automatically once their scenes are uploaded.
 
 Before committing, check that `OUTFITS` parses as JSON, dates remain newest first, every record has front/back file paths that resolve to files included in the push, every view has a thumbnail in the push, all pre-existing records are unchanged, and the embedded JavaScript passes `node --check` after extraction. Preview Grid and Detailed plus the outfit viewer. Update this guidance only when the owner requests a behavior change.
+
+## Canvas performance
+
+- Cards mount only within the visible canvas and a surrounding buffer; keep outfit state separate from card DOM. Use the `cards` map, never `world.children[index]`.
+- Full-board dimensions derive from outfit count and measured card height. Fit all may mount the complete collection, but small overview cards stay static.
+- Batch pan/zoom painting through requestAnimationFrame. Preserve the reduced-motion preference and accessory/photo behavior.
+- Run `node tools/check-gallery.cjs` for data/asset checks and simulated 18-, 365-, and 1,000-outfit runtime checks. These checks do not replace browser preview.

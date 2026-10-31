@@ -1,37 +1,21 @@
-# Barry's Outfit Gallery — GitHub Pages export
+# Gizmo’s Outfit Gallery
 
-Prepared 2026-10-22 from the live Muse-hosted Outfit Gallery (slug: outfit-gallery).
+A static gallery served directly from the repository root by GitHub Pages. No build step or third-party runtime dependencies.
 
-## What's in here
+- `index.html`: outfit metadata, canvas, and photo viewer.
+- `images/`: original-resolution WebP photos for the viewer and downloads.
+- `images/thumb/`: card thumbnails.
+- `scenes/`: compressed short MP4 clips, four scenes per outfit.
+- `assets/`: legacy archive; retained intact.
 
-- `index.html` — the complete gallery page (84 KB, self-contained except for the images below and Google Fonts)
-- `assets/` — 89 WebP images, 25 MB total: for each outfit, the main photo plus turntable views (front, three-quarter, side, back, waving, sitting); the Oct 20 Dragon Ball look also has with-hair / without-hair view sets
-- `icon.webp` — gallery icon
-- `.nojekyll` — tells GitHub Pages to serve the files exactly as-is, with no Jekyll processing
+Cards mount near the visible area. Up to four visible videos play at a time; zoomed-out overviews use photos. Opening the viewer or hiding the tab stops playback. Photos and scene files remain hosted with the site.
 
-Covers 10 looks, Oct 13–22, 2026: School Uniform, Ninja, Zelda (Oct 15), Demon Slayer, Zelda (Oct 17), Naruto, Pokemon Trainer, Dragon Ball, Eevee, Attack on Titan.
+## Daily updates and checks
 
-Deliberately left out: the Muse artifact's `audits/` folder (~159 MB of build screenshots/reports), `space.json`, and `AGENTS.md` — none of those are part of the website.
+Follow `AGENTS.md`. Add photos, matching thumbnails, and scene clips alongside each new outfit record. Preserve existing media bytes and metadata.
 
-## Publish it on GitHub Pages
+Run `node tools/check-gallery.cjs` and extract the inline script for `node --check`. The check compares records with HEAD, so run it before committing an optimization; adding an outfit intentionally changes that baseline. Preview Grid, Detailed, pan/zoom, and the viewer in a browser as well.
 
-1. Create a new repository on github.com (pick the name, e.g. `outfit-gallery`).
-2. Upload / push everything in this folder to the repo's `main` branch, keeping `index.html` at the root and `assets/` as a folder.
-3. In the repo: Settings → Pages → Build and deployment → Source: "Deploy from a branch", Branch: `main` / `(root)`.
-4. After a minute or two the site is live at `https://<your-username>.github.io/<repo-name>/`.
+## Storage
 
-Size check: the whole site is ~25 MB. GitHub Pages allows up to 1 GB for a published site and GitHub blocks individual files over 100 MB — every image here is under 0.5 MB, so there's years of daily outfits of headroom at ~2.5 MB per new look.
-
-## Public vs private — the one real trade-off
-
-- **Public repo:** GitHub Pages is free, and the gallery is viewable by anyone with the link. Anyone can also download the images.
-- **Private repo:** GitHub Pages from a private repo needs GitHub Pro / Team / Enterprise (per GitHub's Pages limits doc). On a free account, a private repo won't publish a Pages site.
-
-## Keeping it updated after the move
-
-The daily 8:20am outfit job currently updates the Muse-hosted gallery. If GitHub becomes the home, say whether you want:
-
-- **Mirror:** daily job keeps working as now, and each new look is also committed to the GitHub repo (needs a GitHub login/token connected here once), or
-- **Replace:** GitHub is the only gallery, and the daily job pushes there instead.
-
-Either way, a one-time GitHub sign-in on this machine is required before any push can happen — it is not currently logged in (`gh auth status`: not logged into any GitHub host).
+Keep original master media backed up separately. At the present encoding sizes, a typical outfit adds roughly 2 MB including four clips. Dedicated object storage can be added later; no media migration or external account is required for this version.
