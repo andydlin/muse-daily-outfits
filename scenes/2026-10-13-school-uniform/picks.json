@@ -1,0 +1,13 @@
+{
+  "outfit": "2026-10-13-school-uniform",
+  "variant": "base saved front (no additions requested)",
+  "activation": "avatar-1793405659988158094-0",
+  "activation_image_sha256": "80e52a8b8b0a1d81743ed415aba94cdfb91d5db53c7a0f82539a42664a0f02a8",
+  "picks": {
+    "waking": "avatar-1793405659988158094-0-waking-attempt-523b2171d880.mp4",
+    "idle": "avatar-1793405659988158094-0-attempt-afcd7c0a1712.mp4",
+    "working": "avatar-1793405659988158094-0-working-attempt-374a46634efa.mp4",
+    "making-something": "avatar-1793405659988158094-0-making_something-attempt-86c3989be138.mp4"
+  },
+  "notes": "idle also covers connecting; working also covers waiting_for_subagents. Working landed late (present by the ~17-min share handoff check, after being absent at the 15-min check). Share-card handoff verified (School Uniform still active) then skipped per the user's backfill rule (no share widgets during backfill)."
+}
