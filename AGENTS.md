@@ -19,4 +19,11 @@ The approved gallery is the self-contained root `index.html`. GitHub Pages serve
 - Keep compact cards and the warm dotted canvas. No logo, hero, featured outfit, or 3D turntable.
 - `assets/` contains legacy images; leave it intact. It is not the active source for this inlined gallery.
 
+## Scenes on cards (owner-requested, Oct 30, 2026)
+
+- Each card plays one random scene video on load, chosen from waking, idle, working, making-something.
+- Scene files live under `scenes/<slug>/` in this repo (same Pages host, not a third-party dependency). `<slug>` derives from the outfit's front filename minus `-front.webp`; no per-record scene field is needed.
+- Videos are muted and looping, and play only while their card is near the viewport and showing its front view. Flipping to the back pauses the video and shows the back photo; the viewer still shows photos only.
+- If a scene file is missing or fails, the card keeps its photo. New outfits get this automatically once their scenes are uploaded.
+
 Before committing, check that `OUTFITS` parses as JSON, dates remain newest first, every record has front/back images, all pre-existing records are unchanged, and the embedded JavaScript passes `node --check` after extraction. Preview Grid and Detailed plus the outfit viewer. Update this guidance only when the owner requests a behavior change.
