@@ -8,7 +8,7 @@ A static gallery served directly from the repository root by GitHub Pages. No bu
 - `scenes/`: compressed short MP4 clips, four scenes per outfit.
 - `assets/`: legacy archive; retained intact.
 
-Cards mount near the visible area. Up to four visible videos play at a time; zoomed-out overviews use photos. Opening the viewer or hiding the tab stops playback. Photos and scene files remain hosted with the site.
+Cards mount near the visible area. Mobile and smaller screens play up to four visible videos; screens at least 1024px wide play up to eight within a 160px margin around the viewport; zoomed-out overviews use photos. Opening the viewer or hiding the tab stops playback. Photos and scene files remain hosted with the site.
 
 ## Daily updates and checks
 

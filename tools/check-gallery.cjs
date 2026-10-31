@@ -18,9 +18,10 @@ function runtime(count,width=1200){
  const ctx=vm.createContext({document:doc,window:{addEventListener(){}},innerWidth:width,innerHeight:850,matchMedia:()=>({matches:false,addEventListener(){}}),requestAnimationFrame:f=>(queue.push(f),queue.length),console});
  const source=script.replace(/var OUTFITS = [\s\S]*?;\s*const \$/,`var OUTFITS = ${JSON.stringify(Array.from({length:count},(_,i)=>outfits[i%outfits.length]))};\nconst $`);
  vm.runInContext(source,ctx);function run(code){return vm.runInContext(code,ctx)}function flush(){let n=0;while(queue.length){assert(++n<20,'draw loop');queue.shift()()}}
- flush();run("scale=1;x=14;y=104;draw()");flush();assert(run('cards.size')<40,'normal view should mount a bounded number of cards');assert(run("[...cards.values()].filter(c=>!c.querySelector('video').paused).length")<=4);
+ flush();run("scale=1;x=14;y=104;draw()");flush();assert(run('cards.size')<40,'normal view should mount a bounded number of cards');assert(run("[...cards.values()].filter(c=>!c.querySelector('video').paused).length")<=run('playbackWindow().limit'));assert.equal(run('playbackWindow().margin'),width>=1024?160:0);
  run("setMode('detailed')");flush();assert(run('rowHeight')===398);run("open(0)");assert(run("[...cards.values()].every(c=>c.querySelector('video').paused)"));run('close();x=-2000;draw()');flush();assert(run('cards.size')<40);
  run('fit()');flush();assert(run('dimensions().w*scale')<=width);run('document.hidden=true;syncVideos()');assert(run("[...cards.values()].every(c=>c.querySelector('video').paused)"));return run('cards.size');
 }
+console.log('Mobile playback window passed:',runtime(365,390));
 for(const n of [18,365,1000])console.log(`${n} outfits: rendering, mode switching, viewer pause, pan, Fit all, hidden-tab pause passed (${runtime(n)} overview cards)`);
 console.log('Original outfit records, ordering, all photos, thumbnails, and scene paths passed.');
