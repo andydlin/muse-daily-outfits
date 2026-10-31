@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-31",
+  "theme": "Hunter x Hunter - Gon",
+  "activation_id": "avatar-1793461554596980771-0",
+  "live_image": "workspace/avatars/avatar-1793461554596980771-0.webp",
+  "live_image_sha256": "2be6404a2c6e0b0cdaac8f51399f2c5acf34b4f0c9256a264c4b725a64822b94",
+  "picks": {
+    "waking": "avatar-1793461554596980771-0-waking-attempt-f9dd83f0dca4.mp4",
+    "idle": "avatar-1793461554596980771-0-attempt-39f78f95dee4.mp4",
+    "working": "avatar-1793461554596980771-0-working-attempt-2289fcb19f0d.mp4",
+    "making-something": "avatar-1793461554596980771-0-making_something-attempt-83b8dea30dcb.mp4"
+  },
+  "notes": "idle also covers connecting (same file); working also covers waiting_for_subagents (same file); milestone_level_up excluded. Hair on (with-hair look is live)."
+}
