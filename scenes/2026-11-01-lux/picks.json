@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "slug": "lux",
+  "outfit": "League of Legends Lux",
+  "activation_id": "avatar-1793552596814193730-0",
+  "live_image_sha256": "fa56f68cb688aaeda194de964c4ff08abb204292893b24d4adb1e180b61017ce",
+  "variants": {
+    "waking": "avatar-1793552596814193730-0-waking-attempt-d8b568a36776.mp4",
+    "working": "avatar-1793552596814193730-0-working-attempt-782868436195.mp4",
+    "making-something": "avatar-1793552596814193730-0-making_something-attempt-ff935c261c65.mp4"
+  },
+  "notes": "Idle skipped per user Nov 1, 2026 (moving forward, scene sets are waking, working, making-something only). Idle clip stays local-only."
+}
