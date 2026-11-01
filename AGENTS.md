@@ -30,7 +30,7 @@ Do NOT reintroduce inlined `data:image/...` images or a top-level `file` field o
 
 ## Scenes on cards (owner-requested, Oct 30, 2026)
 
-- Each card plays one random scene video on load, chosen from waking, idle, working, making-something.
+- Each card plays one random scene video on load, chosen from waking, working, making-something (idle removed Nov 1, 2026 — the picker no longer selects it, and no idle.mp4 files remain in this repo).
 - Scene files live under `scenes/<slug>/` in this repo (same Pages host, not a third-party dependency). `<slug>` derives from the outfit's front filename minus `-front.webp`; no per-record scene field is needed.
 - Scene files in this repo are **540×540 grid encodes** (h264, 24fps, 8s). Cards are ~230px wide, so 720p sources are overkill. When uploading newly captured 720×720 clips, re-encode them first (e.g. `ffmpeg -i in.mp4 -vf scale=540:540 -c:v libx264 -crf 24 -preset medium -pix_fmt yuv420p -r 24 -an out.mp4`) and push the encodes; the 720p originals stay in the local archive only.
 - Videos are muted and looping. Below 1024px viewport width, at most four visible cards play at once. On larger screens, allow up to eight cards within the viewport plus a 160px surrounding margin, only while showing the default front view at a useful size (at least 140 screen pixels wide). Clips outside the playback budget or playback area release their media source. Pause all clips when the tab is hidden or the outfit viewer is open. Flipping to the back pauses the video and shows the back photo; the viewer still shows photos only.

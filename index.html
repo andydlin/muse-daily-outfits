@@ -12,7 +12,7 @@ function acc(i){return OUTFITS[i].theme==='Halo'?'Helmet':'Wig'}
 function thumb(a){return 'images/thumb/'+a.name}
 function updateCard(i){let c=cards.get(i);if(!c)return;let a=asset(i),s=state[i];if(c.querySelector('img').getAttribute('src')!==thumb(a))c.querySelector('img').src=thumb(a);c.querySelector('img').onerror=()=>{let im=c.querySelector('img');if(!im.src.endsWith(a.file))im.src=a.file};c.querySelector('img').alt=a.alt;c.querySelector('.side').textContent=s.side;c.querySelector('.save').href=a.file;c.querySelector('.save').download=a.name;let v=c.querySelector('.variant');if(v){v.textContent=acc(i)+' '+(s.on?'on':'off');v.setAttribute('aria-pressed',s.on)}let vid=c.querySelector('video');if(vid){vid.poster=thumb(a);if(s.side!=='front'){c.querySelector('.photo').classList.remove('show-video');if(!vid.paused)vid.pause()}else scheduleDraw()}}
 const cards=new Map(),sceneChoices=new Map();
-const SCENES=['waking','idle','working','making-something'];
+const SCENES=['waking','working','making-something'];
 const motion=matchMedia('(prefers-reduced-motion: reduce)');
 let rowHeight=240,frame=0;
 function sceneSlug(o){return o.front.name.replace(/-(?:with-helmet-|with-hair-)?front\.webp$/,'')}
