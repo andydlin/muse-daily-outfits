@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "slug": "charmander",
+  "outfit": "Pok\u00e9mon Charmander",
+  "activation_id": "avatar-1793642224862972945-0",
+  "live_image_sha256": "c1b88dfe33dfa58b6094e80ca14b06049a0ff08a9059d9138fd9606a7095003d",
+  "variants": {
+    "waking": "avatar-1793642224862972945-0-waking-attempt-bbf0ab1c0f3b.mp4",
+    "working": "avatar-1793642224862972945-0-working-attempt-acccf0cd761d.mp4",
+    "making-something": "avatar-1793642224862972945-0-making_something-attempt-1199b10a2ea2.mp4"
+  },
+  "notes": "Idle skipped per user Nov 1, 2026 (moving forward, scene sets are waking, working, making-something only). Idle clip stays local-only."
+}
