@@ -26,7 +26,7 @@ function mountCard(i){let o=OUTFITS[i];let c=document.createElement('article');c
 function draw(){scheduleDraw()}
 function paint(){world.style.transform=`translate(${x}px,${y}px) scale(${scale})`;$('#percent').textContent=Math.round(scale*100)+'%';vp.style.backgroundPosition=`${x}px ${y}px`;vp.style.backgroundSize=`${24*scale}px ${24*scale}px`;reconcile()}
 function dimensions(){return {w:cols*248-18,h:Math.ceil(OUTFITS.length/cols)*rowHeight-18}}
-function layout(){cols=Math.min(OUTFITS.length,Math.max(1,Math.ceil(Math.sqrt(OUTFITS.length*3))));world.classList.toggle('grid-only',mode==='grid');if(!cards.size)mountCard(0);rowHeight=cards.values().next().value.offsetHeight+18;let d=dimensions();world.style.width=d.w+'px';world.style.height=d.h+'px'}
+function layout(){cols=mode==='grid'?Math.min(OUTFITS.length,5):Math.min(OUTFITS.length,Math.max(1,Math.ceil(Math.sqrt(OUTFITS.length*3))));world.classList.toggle('grid-only',mode==='grid');if(!cards.size)mountCard(0);rowHeight=cards.values().next().value.offsetHeight+18;let d=dimensions();world.style.width=d.w+'px';world.style.height=d.h+'px'}
 function fit(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;scale=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,1.4);scale=Math.max(.001,scale);x=(innerWidth-d.w*scale)/2;y=top+(innerHeight-top-bottom-d.h*scale)/2;draw()}
 function reset(){layout();if(innerWidth>=600){fit();return}scale=mode==='grid'?(innerWidth-28)/(3*248-18):.77;x=14;y=104;draw()}
 function zoom(f,cx=innerWidth/2,cy=innerHeight/2){let n=Math.max(.001,Math.min(2.5,scale*f));x=cx-(cx-x)*n/scale;y=cy-(cy-y)*n/scale;scale=n;draw()}

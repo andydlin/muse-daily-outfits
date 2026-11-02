@@ -22,6 +22,7 @@ Do NOT reintroduce inlined `data:image/...` images or a top-level `file` field o
 ## Preserve the interaction and design
 
 - The view toggle is icon-only (a grid icon and a detailed icon, with aria-labels **Grid** and **Detailed**); **Grid** is the initial default.
+- **Grid** mode uses 5 columns (owner-requested Nov 2, 2026, to match the wall page); **Detailed** mode keeps the computed column count from the outfit total.
 - Both modes use the same expanding horizontal rectangular canvas. Do not revert to a scrolling list or a narrow mobile grid. Mobile initially shows about three columns; pan exposes the rest of the wider board.
 - Keep mouse/touch dragging, trackpad panning, pinch/modified-wheel zoom, zoom buttons, Fit all, and reset.
 - Photo taps open the larger viewer. Preserve previous/next outfit navigation, swipe navigation, front/back flips, full-screen photo view, original-resolution downloads, accessory toggles, keyboard navigation, and dialog focus handling.
