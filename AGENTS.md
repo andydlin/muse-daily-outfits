@@ -21,12 +21,13 @@ Do NOT reintroduce inlined `data:image/...` images or a top-level `file` field o
 
 ## Preserve the interaction and design
 
-- The view toggle is icon-only (a grid icon and a detailed icon, with aria-labels **Grid** and **Detailed**); **Grid** is the initial default.
-- Both **Grid** and **Detailed** modes use 5 columns (owner-requested Nov 2, 2026, to match the wall page).
-- Both modes use the same expanding horizontal rectangular canvas. Do not revert to a scrolling list or a narrow mobile grid. Mobile initially shows about three columns; pan exposes the rest of the wider board.
+- There is no view toggle; the gallery shows the detailed card view only (owner-requested Nov 2, 2026).
+- Cards carry no action buttons; flip, save, and accessory toggles live in the outfit viewer only (owner-requested Nov 2, 2026).
+- The board uses 5 columns (owner-requested Nov 2, 2026, to match the wall page).
+- The gallery uses one expanding horizontal rectangular canvas. Do not revert to a scrolling list or a narrow mobile grid. Pan exposes the rest of the wider board.
 - Keep mouse/touch dragging, trackpad panning, pinch/modified-wheel zoom, zoom buttons, Fit all, and reset.
 - Photo taps open the larger viewer. Preserve previous/next outfit navigation, swipe navigation, front/back flips, full-screen photo view, original-resolution downloads, accessory toggles, keyboard navigation, and dialog focus handling.
-- Keep compact cards and the warm dotted canvas. No logo, hero, featured outfit, or 3D turntable.
+- Keep the detailed cards and the warm dotted canvas. No logo, hero, featured outfit, or 3D turntable.
 - `assets/` contains legacy images; leave it intact. It is not the active source for this gallery.
 
 ## Scenes on cards (owner-requested, Oct 30, 2026)
@@ -37,7 +38,7 @@ Do NOT reintroduce inlined `data:image/...` images or a top-level `file` field o
 - Videos are muted and looping. Below 1024px viewport width, at most four visible cards play at once. On larger screens, allow up to eight cards within the viewport plus a 160px surrounding margin, only while showing the default front view at a useful size (at least 140 screen pixels wide). Clips outside the playback budget or playback area release their media source. Pause all clips when the tab is hidden or the outfit viewer is open. Flipping to the back pauses the video and shows the back photo; the viewer still shows photos only.
 - If a scene file is missing or fails, the card keeps its photo. New outfits get this automatically once their scenes are uploaded.
 
-Before committing, check that `OUTFITS` parses as JSON, dates remain newest first, every record has front/back file paths that resolve to files included in the push, every view has a thumbnail in the push, all pre-existing records are unchanged, and the embedded JavaScript passes `node --check` after extraction. Preview Grid and Detailed plus the outfit viewer. Update this guidance only when the owner requests a behavior change.
+Before committing, check that `OUTFITS` parses as JSON, dates remain newest first, every record has front/back file paths that resolve to files included in the push, every view has a thumbnail in the push, all pre-existing records are unchanged, and the embedded JavaScript passes `node --check` after extraction. Preview the detailed board plus the outfit viewer. Update this guidance only when the owner requests a behavior change.
 
 ## Canvas performance
 
