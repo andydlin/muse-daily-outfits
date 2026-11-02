@@ -50,7 +50,7 @@
   function scheduleDraw(){if(!frame)frame=requestAnimationFrame(()=>{frame=0;paint()})}
   function draw(){scheduleDraw()}
   function fit(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;scale=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,1.4);scale=Math.max(.001,scale);x=(innerWidth-d.w*scale)/2;y=top+(innerHeight-top-bottom-d.h*scale)/2;draw()}
-  function home(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;let fs=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,1.4);fs=Math.max(.001,fs);scale=Math.min(fs*2,2.5);x=innerWidth/2-800*scale;y=top+(innerHeight-top-bottom)/2-800*scale;draw()}
+  function home(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;let fs=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,1.4);fs=Math.max(.001,fs);scale=Math.min(fs*2,2.5);x=16;y=top;draw()}
   function reset(){home()}
   function zoom(f,cx=innerWidth/2,cy=innerHeight/2){let n=Math.max(.001,Math.min(2.5,scale*f));x=cx-(cx-x)*n/scale;y=cy-(cy-y)*n/scale;scale=n;draw()}
   $('#plus').onclick=()=>zoom(1.25);$('#minus').onclick=()=>zoom(.8);$('#fit').onclick=fit;$('#reset').onclick=reset;
