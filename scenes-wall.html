@@ -50,7 +50,8 @@
   function scheduleDraw(){if(!frame)frame=requestAnimationFrame(()=>{frame=0;paint()})}
   function draw(){scheduleDraw()}
   function fit(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;scale=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,1.4);scale=Math.max(.001,scale);x=(innerWidth-d.w*scale)/2;y=top+(innerHeight-top-bottom-d.h*scale)/2;draw()}
-  function reset(){layout();fit()}
+  function home(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;let fs=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,1.4);fs=Math.max(.001,fs);scale=Math.min(fs*2,2.5);x=innerWidth/2-800*scale;y=top+(innerHeight-top-bottom)/2-800*scale;draw()}
+  function reset(){home()}
   function zoom(f,cx=innerWidth/2,cy=innerHeight/2){let n=Math.max(.001,Math.min(2.5,scale*f));x=cx-(cx-x)*n/scale;y=cy-(cy-y)*n/scale;scale=n;draw()}
   $('#plus').onclick=()=>zoom(1.25);$('#minus').onclick=()=>zoom(.8);$('#fit').onclick=fit;$('#reset').onclick=reset;
   const points=new Map();let start,gesture;
@@ -59,7 +60,7 @@
   vp.addEventListener('pointermove',e=>{if(!points.has(e.pointerId))return;points.set(e.pointerId,{x:e.clientX,y:e.clientY});if(points.size===2){let [a,b]=[...points.values()],d=Math.hypot(a.x-b.x,a.y-b.y),cx=(a.x+b.x)/2,cy=(a.y+b.y)/2;if(gesture){zoom(d/gesture.distance,gesture.cx,gesture.cy);x+=cx-gesture.cx;y+=cy-gesture.cy;draw()}gesture={distance:d,cx,cy};moved=true}else if(start){let dx=e.clientX-start.x,dy=e.clientY-start.y;if(Math.hypot(dx,dy)>5)moved=true;if(moved){x=start.tx+dx;y=start.ty+dy;draw()}}});
   function end(e){points.delete(e.pointerId);gesture=null;if(points.size){let a=[...points.values()][0];start={x:a.x,y:a.y,tx:x,ty:y}}else{start=null;vp.classList.remove('drag')}}window.addEventListener('pointerup',end);window.addEventListener('pointercancel',end);
   vp.addEventListener('wheel',e=>{e.preventDefault();if(e.ctrlKey||e.metaKey)zoom(Math.exp(-e.deltaY*.01),e.clientX,e.clientY);else{x-=e.deltaX;y-=e.deltaY;draw()}},{passive:false});
-  window.addEventListener('resize',fit);reset();
+  window.addEventListener('resize',home);reset();
 </script>
 </body>
 </html>
