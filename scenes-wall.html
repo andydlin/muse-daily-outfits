@@ -9,7 +9,7 @@
 
   /* Scenes-wall overrides: the viewport is the wall itself, not the dotted canvas. */
   #viewport { background-image: none; background-color: rgb(231, 217, 194); }
-  #world { display: grid; grid-template-columns: repeat(4, 1600px); gap: 0; line-height: 0; }
+  #world { display: grid; grid-template-columns: repeat(5, 1600px); gap: 0; line-height: 0; }
   #world img { width: 1600px; height: 1600px; display: block; }
 </style>
 </head>
@@ -22,15 +22,27 @@
 <img src="scenes-wall/05-gengar.webp" title="Gengar — Shadow Ball" alt="Gengar — Shadow Ball">
 <img src="scenes-wall/06-gon.webp" title="Gon — Jajanken" alt="Gon — Jajanken">
 <img src="scenes-wall/07-aot.webp" title="Attack on Titan — ODM gear" alt="Attack on Titan — ODM gear">
-<img src="scenes-wall/08-empty.webp" title="Empty cubby" alt="Empty cubby">
+<img src="scenes-wall/08-kaiju.webp" title="Kaiju No. 8 — Punch" alt="Kaiju No. 8 — Punch">
+<img src="scenes-wall/09-tracer.webp" title="Overwatch — Tracer blink" alt="Overwatch — Tracer blink">
+<img src="scenes-wall/10-jett.webp" title="Valorant — Jett dash" alt="Valorant — Jett dash">
+<img src="scenes-wall/11-eevee.webp" title="Eevee — Evolution stones" alt="Eevee — Evolution stones">
+<img src="scenes-wall/12-umbreon.webp" title="Umbreon — Sleep" alt="Umbreon — Sleep">
+<img src="scenes-wall/13-sylveon.webp" title="Sylveon — Meadow" alt="Sylveon — Meadow">
+<img src="scenes-wall/14-school.webp" title="School uniform — Wave" alt="School uniform — Wave">
+<img src="scenes-wall/15-ninja.webp" title="Ninja — Stealth" alt="Ninja — Stealth">
+<img src="scenes-wall/16-zelda.webp" title="Zelda — Triforce" alt="Zelda — Triforce">
+<img src="scenes-wall/17-zeldahero.webp" title="Zelda hero — Sword across" alt="Zelda hero — Sword across">
+<img src="scenes-wall/18-trainer.webp" title="Pokémon trainer — Poké Ball throw" alt="Pokémon trainer — Poké Ball throw">
+<img src="scenes-wall/19-halo.webp" title="Halo — Bubble shield kneel" alt="Halo — Bubble shield kneel">
+<img src="scenes-wall/20-lux.webp" title="League of Legends — Lux light" alt="League of Legends — Lux light">
 </div></main>
-<header><div class="brand"><div><span class="count">8 cubbies</span><h1>Gizmo’s Scenes Wall</h1></div></div></header>
+<header><div class="brand"><div><span class="count">20 cubbies</span><h1>Gizmo’s Scenes Wall</h1></div></div></header>
 <div class="hint">EVERY SCENE, ALL TOGETHER</div>
-<footer><div class="note"><strong>Every scene, a different Gizmo.</strong><br><span class="desktop">Drag to explore &middot; Scroll to pan &middot; Ctrl + scroll to zoom</span><span class="mobile">Drag to explore &middot; Pinch to zoom</span><br><span>Naruto Rasengan &middot; Dragon Ball Kamehameha &middot; Bleach Getsuga Tensho &middot; Demon Slayer boulder &middot; Gengar Shadow Ball &middot; Gon Jajanken &middot; Attack on Titan ODM &middot; Empty cubby</span></div><div class="tools"><button class="icon" id="minus" aria-label="Zoom out">−</button><span class="percent" id="percent">100%</span><button class="icon" id="plus" aria-label="Zoom in">+</button><span class="divider"></span><button class="fit" id="fit">Fit all</button><button class="icon" id="reset" aria-label="Reset canvas view">↺</button></div></footer>
+<footer><div class="note"><strong>Every scene, a different Gizmo.</strong><br><span class="desktop">Drag to explore &middot; Scroll to pan &middot; Ctrl + scroll to zoom</span><span class="mobile">Drag to explore &middot; Pinch to zoom</span><br><span>Naruto — Rasengan &middot; Dragon Ball — Kamehameha &middot; Bleach — Getsuga Tensho &middot; Demon Slayer — Boulder push &middot; Gengar — Shadow Ball &middot; Gon — Jajanken &middot; Attack on Titan — ODM gear &middot; Kaiju No. 8 — Punch &middot; Overwatch — Tracer blink &middot; Valorant — Jett dash &middot; Eevee — Evolution stones &middot; Umbreon — Sleep &middot; Sylveon — Meadow &middot; School uniform — Wave &middot; Ninja — Stealth &middot; Zelda — Triforce &middot; Zelda hero — Sword across &middot; Pokémon trainer — Poké Ball throw &middot; Halo — Bubble shield kneel &middot; League of Legends — Lux light</span></div><div class="tools"><button class="icon" id="minus" aria-label="Zoom out">−</button><span class="percent" id="percent">100%</span><button class="icon" id="plus" aria-label="Zoom in">+</button><span class="divider"></span><button class="fit" id="fit">Fit all</button><button class="icon" id="reset" aria-label="Reset canvas view">↺</button></div></footer>
 <script>
   const $=s=>document.querySelector(s),world=$('#world'),vp=$('#viewport');
   let x=0,y=0,scale=1,frame=0,moved=false;
-  function dimensions(){return{w:6400,h:3200}}
+  function dimensions(){return{w:8000,h:6400}}
   function layout(){let d=dimensions();world.style.width=d.w+'px';world.style.height=d.h+'px'}
   function paint(){world.style.transform=`translate(${x}px,${y}px) scale(${scale})`;$('#percent').textContent=Math.round(scale*100)+'%'}
   function scheduleDraw(){if(!frame)frame=requestAnimationFrame(()=>{frame=0;paint()})}
