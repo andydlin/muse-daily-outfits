@@ -16,6 +16,8 @@
     }
   });
   menu.addEventListener('focusout', event => {
-    if (!menu.contains(event.relatedTarget)) menu.open = false;
+    // Touch browsers can blur the summary with no next focus target before
+    // dispatching the link click. Keep the links visible until that tap finishes.
+    if (event.relatedTarget && !menu.contains(event.relatedTarget)) menu.open = false;
   });
 })();
