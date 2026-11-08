@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-08",
+  "theme": "Zenitsu",
+  "hair": "bob wig (choppy layered, yellow to orange)",
+  "sword": true,
+  "scenes": {
+    "waking": "waking.mp4",
+    "working": "working.mp4",
+    "making-something": "making-something.mp4"
+  },
+  "waking": "waking.mp4 (sword removed frame-by-frame, figure re-centered; v2 fix for the white-square artifact)"
+}
