@@ -10,3 +10,7 @@
 
 /* The canvas handles pinch gestures; keep page chrome at a fixed scale. */
 html,body{touch-action:none}
+
+/* Shared page chrome: one centered zoom toolbar, without floating captions. */
+footer{justify-content:center}
+.count[hidden]{display:none}
