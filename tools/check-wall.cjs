@@ -18,9 +18,9 @@ for (const page of pages) {
   for (const [width,height] of [[390,844],[1440,900]]) {
     const nodes = new Map(), events = {}, windowEvents = {};
     function node(id) {
-      if (!nodes.has(id)) nodes.set(id, {style:{},classList:{add(){},remove(){}},
+      if (!nodes.has(id)) nodes.set(id, {style:{},classList:{add(){},remove(){}},hasAttribute(){return html.includes('data-tap-zoom')},
         addEventListener(name, fn){events[name]=fn},setPointerCapture(){},
-        querySelectorAll(){return sources.map(()=>({naturalWidth:1000}))}});
+        querySelectorAll(){return sources.map(()=>({naturalWidth:1000,setAttribute(){},addEventListener(){}}))}});
       return nodes.get(id);
     }
     const queue=[];
@@ -42,6 +42,22 @@ for (const page of pages) {
     assert.equal(resized[0],old[0]+50);assert.equal(resized[1],old[1]+30);
     node('#fit').onclick();flush();
     assert(!/NaN|Infinity/.test(transform()));
+    if(html.includes('data-tap-zoom')){
+      const pose=()=>transform().match(/translate\(([-.\d]+)px,([-.\d]+)px\) scale\(([-.\d]+)\)/).slice(1).map(Number);
+      const [tx,ty,z]=pose(),px=tx+800*z,py=ty+800*z;
+      events.pointerdown({button:0,pointerId:1,clientX:px,clientY:py});
+      windowEvents.pointerup({type:'pointerup',pointerId:1,clientX:px,clientY:py});flush();
+      const [fx,fy,fz]=pose(),top=context.innerWidth<600?104:112;
+      assert(Math.abs(fx+800*fz-context.innerWidth/2)<1e-6,'Tap must center image horizontally');
+      assert(Math.abs(fy+800*fz-context.innerHeight/2)<1e-6,'Tap must center image vertically');
+      assert(fz>z,'Tap should zoom in from overview');
+      const focused=transform();
+      events.pointerdown({button:0,pointerId:1,clientX:100,clientY:200});
+      events.pointerdown({button:0,pointerId:2,clientX:200,clientY:200});
+      windowEvents.pointerup({type:'pointerup',pointerId:2,clientX:200,clientY:200});
+      windowEvents.pointerup({type:'pointerup',pointerId:1,clientX:100,clientY:200});flush();
+      assert.equal(transform(),focused,'Two-finger gesture must not trigger tap zoom');
+    }
     // Extreme trackpad pans must stop at both edges, at overview and detail scales.
     for(const detail of [false,true]) {
       if(detail){for(let i=0;i<100;i++)node('#plus').onclick();flush()}

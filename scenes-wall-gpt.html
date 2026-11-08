@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wall</title>
-<link rel="stylesheet" href="wall.css">
+<link rel="stylesheet" href="wall.css?v=20261107-tap-zoom">
 <!-- Background sampled from the approved GPT cubby images. -->
 <style>:root{--wall-background:#f1dac1}</style>
 <link rel="stylesheet" href="navigation.css"><script src="navigation.js" defer></script></head>
 <body>
-<main id="viewport" tabindex="0" aria-label="Scenes wall. Drag to pan; pinch or use zoom controls to zoom."><div id="world">
+<main data-tap-zoom id="viewport" tabindex="0" aria-label="Scenes wall. Drag to pan; pinch or use zoom controls to zoom."><div id="world">
 <img decoding="async" width="1254" height="1254" src="scenes-wall-gpt/25-rimuru-v2.webp" alt="Rimuru inspired — Slime and swirling magic">
 <img decoding="async" width="1254" height="1254" src="scenes-wall-gpt/24-maplestory-fighter-v3.webp" alt="MapleStory Fighter inspired — Sword slash">
 <img decoding="async" width="1254" height="1254" src="scenes-wall-gpt/01-black-clover-v2.webp" alt="Black Clover inspired — Sword slash">
@@ -36,8 +36,8 @@
 <img decoding="async" width="1254" height="1254" src="scenes-wall-gpt/21-school-v2.webp" alt="School uniform — Wave">
 </div></main>
 <header><div class="brand"><div><span class="count"></span><h1>Wall</h1></div></div><details class="page-menu"><summary>Menu</summary><nav aria-label="Pages"><a href="index.html">Outfits</a><a href="scenes-wall-gpt.html">Wall</a><a href="maple-jelly.html">Maple</a></nav></details></header>
-<div class="hint">Drag to pan · Pinch to zoom</div>
+<div class="hint">Tap an image to zoom · Drag to pan</div>
 <footer><div class="tools"><button class="icon" id="minus" aria-label="Zoom out">−</button><span class="percent" id="percent">100%</span><button class="icon" id="plus" aria-label="Zoom in">+</button><span class="divider"></span><button class="fit" id="fit">Fit all</button><button class="icon" id="reset" aria-label="Reset canvas view">↺</button></div></footer>
-<script src="wall.js?v=20261107-pan-center" defer></script>
+<script src="wall.js?v=20261107-tap-zoom" defer></script>
 </body>
 </html>
