@@ -12,7 +12,7 @@ for (const page of pages) {
   assert(sources.length, `${page}: no wall images`);
   assert.equal(new Set(sources).size, sources.length, `${page}: duplicate images`);
   for (const source of sources) assert(fs.existsSync(path.join(root, source)), `Missing ${source}`);
-  for (const asset of ['wall.css', 'wall.js']) assert(html.includes(`"${asset}"`));
+  for (const asset of ['wall.css', 'wall.js']) assert(html.includes(`"${asset}"`) || html.includes(`"${asset}?`));
   assert(!/<dialog\b|onclick=/i.test(html), 'Wall must remain pan/zoom only');
   cp.execFileSync(process.execPath, ['--check', path.join(root, 'wall.js')]);
   for (const [width,height] of [[390,844],[1440,900]]) {
