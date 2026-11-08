@@ -42,6 +42,21 @@ for (const page of pages) {
     assert.equal(resized[0],old[0]+50);assert.equal(resized[1],old[1]+30);
     node('#fit').onclick();flush();
     assert(!/NaN|Infinity/.test(transform()));
+    // Extreme trackpad pans must stop at both edges, at overview and detail scales.
+    for(const detail of [false,true]) {
+      if(detail){for(let i=0;i<100;i++)node('#plus').onclick();flush()}
+      for(const delta of [-1e7,1e7]) {
+        events.wheel({preventDefault(){},deltaX:delta,deltaY:delta});flush();
+        const [tx,ty,z]=transform().match(/translate\(([-.\d]+)px,([-.\d]+)px\) scale\(([-.\d]+)\)/).slice(1).map(Number);
+        const top=context.innerWidth<600?104:112,bottom=context.innerHeight-90;
+        const bound=(v,size,a,b)=>{
+          const inset=Math.min(32,(b-a)/4),lo=Math.min(a+inset,b-size-inset),hi=Math.max(a+inset,b-size-inset);
+          assert(v>=lo-1e-6&&v<=hi+1e-6,'Pan exceeded grid bounds');
+        };
+        bound(tx,8000*z,0,context.innerWidth);
+        bound(ty,Math.ceil(sources.length/5)*1600*z,top,bottom);
+      }
+    }
   }
-  console.log(`${page}: ${sources.length} image paths, syntax, mobile/desktop pan, zoom limit, resize and Fit all pass`);
+  console.log(`${page}: ${sources.length} image paths, syntax, mobile/desktop pan, zoom limit, resize, Fit all and pan bounds pass`);
 }

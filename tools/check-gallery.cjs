@@ -20,7 +20,7 @@ function runtime(count,width=1200){
  vm.runInContext(source,ctx);function run(code){return vm.runInContext(code,ctx)}function flush(){let n=0;while(queue.length){assert(++n<20,'draw loop');queue.shift()()}}
  flush();run("scale=1;x=14;y=104;draw()");flush();assert(run('cards.size')<40,'normal view should mount a bounded number of cards');assert(run("[...cards.values()].filter(c=>!c.querySelector('video').paused).length")<=run('playbackWindow().limit'));assert.equal(run('playbackWindow().margin'),width>=1024?160:0);
  assert(run('rowHeight')===398);run("open(0)");assert(run("[...cards.values()].every(c=>c.querySelector('video').paused)"));run('close();x=-2000;draw()');flush();assert(run('cards.size')<40);
- run('fit()');flush();assert(run('dimensions().w*scale')<=width);run('document.hidden=true;syncVideos()');assert(run("[...cards.values()].every(c=>c.querySelector('video').paused)"));return run('cards.size');
+ run('fit()');flush();assert(run('dimensions().w*scale')<=width);for(const v of [-1e7,1e7]){run(`x=${v};y=${v};draw()`);flush();assert(run('x+dimensions().w*scale')>0&&run('x')<width,'grid escaped horizontal bounds');assert(run('y+dimensions().h*scale')>104&&run('y')<760,'grid escaped vertical bounds')}run('document.hidden=true;syncVideos()');assert(run("[...cards.values()].every(c=>c.querySelector('video').paused)"));return run('cards.size');
 }
 console.log('Mobile playback window passed:',runtime(365,390));
 for(const n of [18,365,1000])console.log(`${n} outfits: rendering, detailed layout, viewer pause, pan, Fit all, hidden-tab pause passed (${runtime(n)} overview cards)`);

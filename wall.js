@@ -11,7 +11,17 @@ const $=s=>document.querySelector(s),world=$('#world'),vp=$('#viewport');
   function layout(){let d=dimensions();world.style.width=d.w+'px';world.style.height=d.h+'px'}
   function paint(){world.style.transform=`translate(${x}px,${y}px) scale(${scale})`;$('#percent').textContent=Math.round(scale*100)+'%'}
   function scheduleDraw(){if(!frame)frame=requestAnimationFrame(()=>{frame=0;paint()})}
-  function draw(){scheduleDraw()}
+  function clampPan(){
+  const d=dimensions(),top=innerWidth<600?104:112,bottom=Math.max(top+1,innerHeight-90),pad=32;
+  function axis(value,size,start,end){
+    const inset=Math.min(pad,(end-start)/4);
+    const a=start+inset,b=end-size-inset;
+    return Math.max(Math.min(a,b),Math.min(Math.max(a,b),value));
+  }
+  x=axis(x,d.w*scale,0,innerWidth);
+  y=axis(y,d.h*scale,top,bottom);
+}
+function draw(){clampPan();scheduleDraw()}
   function fit(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;scale=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,maxScale());scale=Math.max(.001,scale);x=(innerWidth-d.w*scale)/2;y=top+(innerHeight-top-bottom-d.h*scale)/2;draw()}
   function home(){layout();let d=dimensions(),top=innerWidth<600?104:112,bottom=90;let fs=Math.min((innerWidth-32)/d.w,(innerHeight-top-bottom)/d.h,maxScale());fs=Math.max(.001,fs);scale=Math.min(fs*2,maxScale());x=16;y=top;draw()}
   function reset(){home()}
