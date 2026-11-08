@@ -1,4 +1,11 @@
 (() => {
+  // Safari's native page gestures are separate from the canvas pointer gestures.
+  for(const type of ['gesturestart','gesturechange']){
+    document.addEventListener(type,event=>event.preventDefault(),{passive:false});
+  }
+  document.addEventListener('wheel',event=>{
+    if((event.ctrlKey||event.metaKey)&&!event.target.closest('#viewport'))event.preventDefault();
+  },{passive:false});
   const menu = document.querySelector('.page-menu');
   if (!menu) return;
   const current = location.pathname.split('/').pop() || 'index.html';

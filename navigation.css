@@ -7,3 +7,6 @@
 .page-menu a{display:flex;align-items:center;min-height:44px;padding:10px 12px;border-radius:7px;color:inherit;text-decoration:none}
 .page-menu a:hover,.page-menu a[aria-current=page]{background:#e9ede4}
 .page-menu a[aria-current=page]{font-weight:bold}
+
+/* The canvas handles pinch gestures; keep page chrome at a fixed scale. */
+html,body{touch-action:none}
