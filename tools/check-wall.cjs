@@ -51,6 +51,13 @@ for (const page of pages) {
       assert(Math.abs(fx+800*fz-context.innerWidth/2)<1e-6,'Tap must center image horizontally');
       assert(Math.abs(fy+800*fz-context.innerHeight/2)<1e-6,'Tap must center image vertically');
       assert(fz>z,'Tap should zoom in from overview');
+      assert(fz*1600<=context.innerWidth*.8+1e-6,'Focused tile must leave neighboring images visible');
+      const neighborX=fx+1600*fz+10,neighborY=context.innerHeight/2;
+      assert(neighborX<context.innerWidth,'Neighbor must remain tappable');
+      events.pointerdown({button:0,pointerId:1,clientX:neighborX,clientY:neighborY});
+      windowEvents.pointerup({type:'pointerup',pointerId:1,clientX:neighborX,clientY:neighborY});flush();
+      const [nx,ny,nz]=pose();
+      assert(Math.abs(nx+2400*nz-context.innerWidth/2)<1e-6,'Tapping visible neighbor must center it');
       const focused=transform();
       events.pointerdown({button:0,pointerId:1,clientX:100,clientY:200});
       events.pointerdown({button:0,pointerId:2,clientX:200,clientY:200});

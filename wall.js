@@ -29,7 +29,8 @@ function draw(){clampPan();scheduleDraw()}
   function focusTile(i){
     if(i<0||i>=tiles.length)return;
     const top=innerWidth<600?104:112,bottom=90;
-    scale=Math.max(.001,Math.min(maxScale(),(innerWidth-32)/tileSize,(innerHeight-top-bottom)/tileSize));
+    // Leave a visible strip of neighboring tiles for tap-to-tap navigation.
+    scale=Math.max(.001,Math.min(maxScale(),innerWidth*.8/tileSize,(innerHeight-top-bottom)*.8/tileSize));
     x=innerWidth/2-(i%columns+.5)*tileSize*scale;
     y=innerHeight/2-(Math.floor(i/columns)+.5)*tileSize*scale;
     world.classList.add('focus-zoom');draw();
