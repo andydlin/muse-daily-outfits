@@ -48,13 +48,14 @@ for (const page of pages) {
       for(const delta of [-1e7,1e7]) {
         events.wheel({preventDefault(){},deltaX:delta,deltaY:delta});flush();
         const [tx,ty,z]=transform().match(/translate\(([-.\d]+)px,([-.\d]+)px\) scale\(([-.\d]+)\)/).slice(1).map(Number);
-        const top=context.innerWidth<600?104:112,bottom=context.innerHeight-90;
-        const bound=(v,size,a,b)=>{
-          const inset=Math.min(32,(b-a)/4),lo=Math.min(a+inset,b-size-inset),hi=Math.max(a+inset,b-size-inset);
-          assert(v>=lo-1e-6&&v<=hi+1e-6,'Pan exceeded grid bounds');
-        };
-        bound(tx,8000*z,0,context.innerWidth);
-        bound(ty,Math.ceil(sources.length/5)*1600*z,top,bottom);
+        const half=800*z;
+        const totalW=8000*z,totalH=Math.ceil(sources.length/5)*1600*z;
+        const cx=context.innerWidth/2,cy=context.innerHeight/2;
+        assert(tx>=cx-totalW+half-1e-6&&tx<=cx-half+1e-6);
+        assert(ty>=cy-totalH+half-1e-6&&ty<=cy-half+1e-6);
+        // Extreme pans reach the exact bounds, placing corner tile centers centrally.
+        assert(Math.abs(tx-(delta<0?cx-half:cx-totalW+half))<1e-6);
+        assert(Math.abs(ty-(delta<0?cy-half:cy-totalH+half))<1e-6);
       }
     }
   }
