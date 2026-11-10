@@ -11,3 +11,11 @@
 ## MapleStory V4 texture anchor
 
 When generating a new MapleStory confrontation, **attach the approved Wild Hunter vs Giant Blackheart image** and treat it as primary **material/texture** reference. It is not permission to copy the Wild Hunter outfit, pose, boss or scene. Preserve character-specific designs from their own references.
+
+## Approved project-file texture reference priority (2026-11-09)
+
+1. **Primary:** `MASTER_Texture_Wild_Hunter.jpg` — entire image's consistent handcrafted plush, fabric and miniature material language. Uploaded as a JPEG; do not assume a PNG version exists.
+2. **Secondary:** `MASTER_Texture_Mechanic.png` — auxiliary reference for detailed clothing, hardware, and matte miniature metal. It does **not** supersede Wild Hunter.
+3. **Tertiary:** `MASTER_Texture_Secondary_Sylveon.png` — supplemental fine plush/felt softness and diffuse textile highlights.
+
+These filenames identify **ChatGPT Project reference assets**; they are not automatically present in this GitHub repository. Attach/retrieve the actual images before generating. Preserve distinct facial-identity and cubby-reference priorities, which are documented separately.
