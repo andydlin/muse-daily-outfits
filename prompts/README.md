@@ -9,7 +9,7 @@ Canonical prompt specifications for Gizmo's Wall dioramas. This folder contains 
 | New daily outfit or targeted redo | [daily-outfits/create-redo.md](daily-outfits/create-redo.md) | Jolly, cubby/lighting, plush materials |
 | Recolor an approved daily outfit | [daily-outfits/recolor.md](daily-outfits/recolor.md) | Cubby/lighting; Bulbasaur visual reference |
 | New MapleStory hero + boss | [maplestory/hero-pairing.md](maplestory/hero-pairing.md) | Jolly, cubby/lighting, plush materials; Wild Hunter texture |
-| Recolor an approved MapleStory scene | [maplestory/recolor.md](maplestory/recolor.md) | Cubby/lighting; Buccaneer visual reference |
+| Recolor an approved MapleStory scene | [maplestory/recolor.md](maplestory/recolor.md) | Cubby/lighting; Bulbasaur primary, Link secondary |
 
 Shared:
 - [shared/jolly-character.md](shared/jolly-character.md)
@@ -28,10 +28,10 @@ Shared:
 
 ## Visual-reference hierarchy
 
-- **Daily scenes**: approved Muse Jolly identity references for the face; approved **Bulbasaur** for current daily cubby recolors; Sylveon Meadow Dance for the slim ceiling LED geometry where needed.
-- **MapleStory scenes**: approved **Wild Hunter vs Giant Blackheart** for material finish; **Buccaneer vs Lord Pirate** for newer color palette; original Black Clover for legacy geometry/framing when explicitly applicable.
+- **Daily scenes**: approved Muse Jolly identity references for the face; approved **Bulbasaur** primary and **Link** secondary for all cubby colors and geometry; Sylveon Meadow Dance for the slim ceiling LED geometry where needed.
+- **MapleStory scenes**: approved **Wild Hunter vs Giant Blackheart** for material finish; **Bulbasaur** primary and **Link** secondary for cubby color and geometry; **Buccaneer** is a MapleStory face/expression reference only; original Black Clover for legacy geometry/framing only when explicitly requested.
 - Hex targets are **visual guides**, not flat fills. Where a reference image is provided, visual matching wins over mechanically applying hex values.
-- **Do not blend** Daily Outfit and MapleStory recolor reference palettes unless explicitly requested.
+- **One unified cubby palette for Daily Outfit and MapleStory:** Bulbasaur primary, Link secondary. Do not derive frame or wall colors from Buccaneer.
 
 ## Versioning and history
 
@@ -40,4 +40,5 @@ This is the consolidated working specification (November 9, 2026), assembled fro
 When changing the standard, update the relevant shared file and the affected workflow, add a dated note below, and verify the other workflows do not contradict it.
 
 ### Change log
+- 2026-11-09 (revision): Unified all cubby color references under Bulbasaur primary and Link secondary; Buccaneer remains face/expression only.
 - 2026-11-09: Initial modular library; Jolly face lock, thin flush LED, Bulbasaur daily recolor, Buccaneer MapleStory color, Wild Hunter material lock, 75–85% MapleStory hero/action silhouette.
