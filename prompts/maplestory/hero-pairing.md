@@ -28,3 +28,7 @@ Gizmo and the primary weapon/action silhouette occupy approximately **75–85% o
 **Cubby:** rigid sharp beveled square cubby, fully framed with four outer margins, ceiling and side walls visible. Small thin circular warm-white LED disc exactly centered and flush in ceiling, narrow cream ring, soft warm falloff; no bulky lamp. Match the **Buccaneer vs Lord Pirate approved palette** and soft shadow, using original Black Clover only as legacy geometry master where specified. Maintain scene depth and natural lighting.
 
 Return **ONE image**, no numbered plaque, title, label, text, UI, branding or side-by-side.
+
+## Eye-style reference supplements
+
+Use `MASTER_Maple_Face_Ice_Lightning_Mage.png` as the primary MapleStory face master and `MASTER_Maple_Face_Secondy_Buccaneer.png` as secondary. **Specifically cross-reference the eye treatment** in both `MASTER_Texture_Wild_Hunter.jpg` and `MASTER_Texture_Mechanic.png`. These support the simple rounded dark embroidered/button-style eyes, small controlled catchlights, and clear expressive gaze. They do not replace the primary MapleStory facial identity references, dictate the costume/pose, or change cubby standards. Attach actual image files when available.
