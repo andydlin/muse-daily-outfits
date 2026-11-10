@@ -19,3 +19,7 @@ Daily outfit faces prioritize the smooth velvety inset and fluffy framing ring. 
 ## Face-only correction instruction
 
 “Edit the supplied image. Restore the approved Muse Jolly face: broad smooth finely velvety cream inset face, separate fluffy cream head ring, small spaced dark bead eyes, simple mouth, rosy cheeks, no ears or muzzle. Preserve ALL other pixels and elements as closely as possible, including pose, costume, hair styling, effects, scene, cubby, lighting, composition and scale.”
+
+## MapleStory eye references — supplemental (2026-11-09)
+
+For **MapleStory-inspired** scenes only, primary face and eye reference is `MASTER_Maple_Face_Ice_Lightning_Mage.png`, with `MASTER_Maple_Face_Secondy_Buccaneer.png` as secondary. **Also use the eyes shown in** `MASTER_Texture_Wild_Hunter.jpg` and `MASTER_Texture_Mechanic.png` as supporting eye-style references. Match their simple rounded dark embroidered/button-like eye shapes, restrained small highlights, and soft expressive proportions, adapting gaze to the scene. They supplement the MapleStory face masters; do not override overall face shape, expression, or identity. Avoid large anime irises, exaggerated lashes, reflective glass eyes or a plastic face. Everyday Jolly face priority remains Jett then Goku.
