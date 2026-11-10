@@ -1,6 +1,8 @@
 # Daily Outfits — Recolor (Bulbasaur V1)
 
-**Visual master:** Attach the **approved final Bulbasaur cubby image** AND the **source image to edit**. Read ../shared/cubby-lighting.md.
+**Visual master:** Attach the **`MASTER_Cubby_Bulbasaur.png` (approved final Bulbasaur, primary cubby)** AND the **source image to edit**. Read ../shared/cubby-lighting.md.
+
+**Supporting cubby:** `MASTER_Cubby_Secondary_Link.png` is secondary only; Bulbasaur controls conflicts. Face masters do not authorize a face repair during recolor. `MASTER_Texture_Mechanic.png` remains proposed/conditional and requires explicit approval for the current material pass; `MASTER_Texture_Secondary_Sylveon.png` is supporting only. Neither adds material cleanup to a color-only edit.
 
 ## Edit instruction
 
