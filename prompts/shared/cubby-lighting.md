@@ -1,6 +1,6 @@
 # Shared spec — Cubby, framing, and lighting
 
-**Applies:** All dioramas. Use the workflow-specific palette/reference; do not replace a referenced palette by guessing.
+**Applies:** All dioramas. Unified cubby reference for both Daily Outfits and MapleStory: `MASTER_Cubby_Bulbasaur.png` is **primary** and `MASTER_Cubby_Secondary_Link.png` is **secondary**. Do not replace these references by guessing colors.
 
 ## Geometry
 
@@ -23,18 +23,11 @@
 - Light should be soft, naturally gradated, with a gently feathered **exterior contact shadow**, not a dark outline.
 - Preserve dramatic spell lighting, night conditions and themed interior artwork during recolor.
 
-## Separate color references — do not silently merge
+## Unified cubby color masters — all scenes
 
-### Daily Outfit recolor
-Use the **final approved Bulbasaur** image as the **visual master** for current daily cubby frame, exterior wall, interior ceiling/side walls, LED behavior, and exterior shadow. Reference image is mandatory for precise matching. Do not substitute guessed hex codes.
+1. **Primary:** `MASTER_Cubby_Bulbasaur.png` — frame color, exterior peach-beige wall, interior ceiling/sidewall color, LED appearance, exterior soft shadow, cubby depth and warmth.
+2. **Secondary:** `MASTER_Cubby_Secondary_Link.png` — cross-check bevel geometry, proportions, and color/lighting consistency wherever Bulbasaur alone is ambiguous. In case of disagreement, Bulbasaur controls colors.
 
-### MapleStory recolor and new-scene palette
-Use final approved **Buccaneer vs Lord Pirate (Nov 7, 2026)** for newer colors and shadow softness. Approximate sampled targets:
-- Exterior wall `#F1D9BF` pale peach-beige
-- Outer ivory-cream frame `#F5E0CD`
-- Interior ceiling warm shaded region `#DB9D6A` (not flat)
-- Interior sidewall `#FFD3AC`
-- Bottom frame `#F4DBC5`
-- Exterior shadow `#C29A76`, broad feathering at low opacity
+These apply to **both Daily Outfit and MapleStory** creation and recoloring. Attach the images for accurate visual matching; do not substitute invented hex colors. Preserve different scene atmospheres and magical effects.
 
-Visual comparison beats flat hex fills. The earlier **Black Clover — Anti-Magic Slash** image is a **legacy master for framing / geometry** where requested. Original older V1 color samples (`#EBDAC5` wall and `#EEDFD1` frame) are *not* defaults for the latest MapleStory color pass.
+**Buccaneer is not a cubby-color master:** `MASTER_Maple_Face_Secondy_Buccaneer.png` is a secondary **MapleStory face/expression** reference only. Historical Buccaneer-derived sample hex values are superseded and must not drive new cubby colors. Black Clover — Anti-Magic Slash remains an optional *legacy geometry* reference only when explicitly requested.
