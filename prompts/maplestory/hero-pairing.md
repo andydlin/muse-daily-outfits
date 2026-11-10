@@ -11,6 +11,14 @@
 - Approved scene plan + pose direction: [APPROVED PLAN]
 - Wild Hunter vs Giant Blackheart texture reference, Buccaneer vs Lord Pirate color reference, and original Black Clover geometry reference where needed: [ATTACHED]
 
+## Reference roles and priority
+
+Attach **`MASTER_Maple_Face_Ice_Lightning_Mage.png` (primary face)** and, when useful, **`MASTER_Maple_Face_Secondy_Buccaneer.png` (secondary face)**. Primary wins face conflicts; neither supplies costume, boss, or scene content. The secondary Buccaneer face role is distinct from the approved Buccaneer vs Lord Pirate palette role.
+
+**Wild Hunter vs Giant Blackheart remains the V4 texture authority.** **`MASTER_Texture_Mechanic.png`** is the selected primary texture candidate **only as proposed/conditional**; use requires explicit approval for the current material pass and must not silently replace V4. **`MASTER_Texture_Secondary_Sylveon.png`** is supporting texture only. Revising the V4 authority requires explicit user approval and updates to shared and workflow specs.
+
+**`MASTER_Cubby_Bulbasaur.png` (primary cubby)** and **`MASTER_Cubby_Secondary_Link.png` (secondary cubby)** may support compatible geometry/lighting, but do not overwrite the MapleStory Buccaneer palette or specified legacy Black Clover framing.
+
 ## Workflow
 
 **Brainstorm the pairing and staging first and obtain approval before rendering.** Where creating sequential pairs, vary/alternate facing direction, action silhouette and gaze rather than repeating poses. Class references determine costume/hair/weapon details; boss references determine monster silhouette. Neither controls the image's plush rendering style.

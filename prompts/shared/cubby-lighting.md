@@ -2,6 +2,10 @@
 
 **Applies:** All dioramas. Use the workflow-specific palette/reference; do not replace a referenced palette by guessing.
 
+## Assigned Project cubby references
+
+Attach **`MASTER_Cubby_Bulbasaur.png` (primary)** and, when useful, **`MASTER_Cubby_Secondary_Link.png` (secondary)**. Primary controls daily cubby consistency; Link supplies compatible supporting geometry/lighting detail without replacing Bulbasaur. These are exact Project filenames, not repository assets. For MapleStory, the separate Buccaneer palette below takes precedence over daily cubby colors. Secondary references never authorize changing an approved source outside the requested edit.
+
 ## Geometry
 
 - Square, physically plausible recessed miniature cubby, complete **visible ceiling, both side walls, and back/ground**, not a flat poster.
@@ -26,7 +30,7 @@
 ## Separate color references — do not silently merge
 
 ### Daily Outfit recolor
-Use the **final approved Bulbasaur** image as the **visual master** for current daily cubby frame, exterior wall, interior ceiling/side walls, LED behavior, and exterior shadow. Reference image is mandatory for precise matching. Do not substitute guessed hex codes.
+Use **`MASTER_Cubby_Bulbasaur.png`**, the **final approved Bulbasaur** image as the **visual master** for current daily cubby frame, exterior wall, interior ceiling/side walls, LED behavior, and exterior shadow. Reference image is mandatory for precise matching. Do not substitute guessed hex codes.
 
 ### MapleStory recolor and new-scene palette
 Use final approved **Buccaneer vs Lord Pirate (Nov 7, 2026)** for newer colors and shadow softness. Approximate sampled targets:

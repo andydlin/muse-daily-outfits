@@ -10,7 +10,10 @@
 - No elongated muzzle, oversized anime eyes, lash-heavy eyes, or human face. No shaggy/bouclé/woolly face; the **surrounding fur**, not the smooth facial inset, provides the visible fluff.
 - Hair and hairstyles added by costume are **separate dimensional sculpted plush-fabric tufts**, with textile grain, thickness and contact shadows, never flat painted/illustrated hair or sharp plastic spikes.
 - Creature-themed costume hoods **may have attached costume ears** and should carry appropriate embroidered eyes/facial markings **on the hood** while Jolly's own face remains visible.
-- Use approved Jett — Wind Dash, Zelda — Triforce, Demon Slayer, and corrected Fighter references for Jolly identity when available. A face-only repair must not alter pose, clothing, props, environment, scene, or framing.
+- Daily face anchors: **`MASTER_Jolly_Face_Jett.png` primary**, **`MASTER_Jolly_Face_Secondy_Goku.png` secondary**.
+- MapleStory face anchors: **`MASTER_Maple_Face_Ice_Lightning_Mage.png` primary**, **`MASTER_Maple_Face_Secondy_Buccaneer.png` secondary**.
+- Attach actual approved images. Primary controls identity where references differ; secondary provides compatible detail. Earlier approved Zelda, Demon Slayer, and corrected Fighter references remain supporting historical references, without displacing the assigned masters.
+- Face roles do not authorize copying outfits, hairstyles, poses, or scenes, or changing workflow-specific materials/palettes. A face-only repair must not alter pose, clothing, props, environment, scene, or framing.
 
 ## Context-sensitive finish
 

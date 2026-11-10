@@ -4,8 +4,9 @@
 
 ## Before generating
 1. Ask/offer a concrete scene plan (pose, main action, mini environment, lighting/effects) and **wait for user approval** even if an outfit reference is supplied.
-2. User supplies outfit/theme references and ideally current approved Jolly and cubby visual masters.
-3. Always use **“inspired”** in the character/theme descriptor.
+2. Attach outfit/theme references plus **`MASTER_Jolly_Face_Jett.png` (primary face)** and **`MASTER_Cubby_Bulbasaur.png` (primary cubby)**. Supporting references are **`MASTER_Jolly_Face_Secondy_Goku.png` (secondary face)** and **`MASTER_Cubby_Secondary_Link.png` (secondary cubby)**; primary wins within each role.
+3. Apply the shared handmade material standard. **`MASTER_Texture_Mechanic.png` is primary texture only as proposed/conditional**, requiring explicit approval for the current material pass; **`MASTER_Texture_Secondary_Sylveon.png`** supplies compatible secondary texture detail only. Neither silently changes the default standard or authorizes material changes in a redo.
+4. Always use **“inspired”** in the character/theme descriptor.
 
 ## Create — template
 

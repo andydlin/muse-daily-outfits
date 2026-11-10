@@ -26,12 +26,31 @@ Shared:
 6. No labels, titles, numbering, branding, UI, or checklist inside images. “Inspired” is used in theme descriptions.
 7. The existing root `AGENTS.md` governs the *website/gallery code* and remains unchanged. These files govern *art generation*.
 
+## Approved Project image assignments
+
+All eight references are selected and approved as assignments; none are unchecked. Preserve these **exact filenames**, including the spelling `Secondy`. These are ChatGPT Project image names, not repository asset paths; attach the actual approved images when using them.
+
+| Role | Exact Project filename | Priority and scope |
+| --- | --- | --- |
+| Primary Jolly face | `MASTER_Jolly_Face_Jett.png` | Default daily Jolly face/identity anchor. |
+| Secondary Jolly face | `MASTER_Jolly_Face_Secondy_Goku.png` | Supporting daily face reference; primary wins on conflicts. |
+| Primary MapleStory face | `MASTER_Maple_Face_Ice_Lightning_Mage.png` | Default MapleStory face anchor within the shared Jolly identity. |
+| Secondary MapleStory face | `MASTER_Maple_Face_Secondy_Buccaneer.png` | Supporting MapleStory face reference; this face role does not redefine the separate Buccaneer palette role. |
+| Primary cubby | `MASTER_Cubby_Bulbasaur.png` | Default daily cubby geometry, palette, LED, and shadow anchor. |
+| Secondary cubby | `MASTER_Cubby_Secondary_Link.png` | Supporting cubby reference; does not override Bulbasaur or the workflow-specific MapleStory palette. |
+| Primary texture — proposed/conditional | `MASTER_Texture_Mechanic.png` | Selected texture candidate; use only when explicitly approved for the current material pass. Does not establish a new default or supersede Wild Hunter V4. |
+| Secondary texture | `MASTER_Texture_Secondary_Sylveon.png` | Supporting material reference within the active texture standard; does not independently authorize a material change. |
+
 ## Visual-reference hierarchy
 
-- **Daily scenes**: approved Muse Jolly identity references for the face; approved **Bulbasaur** for current daily cubby recolors; Sylveon Meadow Dance for the slim ceiling LED geometry where needed.
-- **MapleStory scenes**: approved **Wild Hunter vs Giant Blackheart** for material finish; **Buccaneer vs Lord Pirate** for newer color palette; original Black Clover for legacy geometry/framing when explicitly applicable.
-- Hex targets are **visual guides**, not flat fills. Where a reference image is provided, visual matching wins over mechanically applying hex values.
-- **Do not blend** Daily Outfit and MapleStory recolor reference palettes unless explicitly requested.
+- Choose references **by role and workflow**, not by one global ranking. Face references control identity; cubby references control architecture/lighting within the applicable palette; texture references control material finish. They do not supply costume, pose, boss, or scene content.
+- Within a role, primary takes precedence and secondary supplies compatible supporting detail. Do not average conflicting faces, palettes, or finishes.
+- **Daily scenes:** Jett primary / Goku secondary face; Bulbasaur primary / Link secondary cubby. Apply the shared handmade material standard; Mechanic requires explicit approval for its conditional texture use, with Sylveon supporting only the active standard.
+- **MapleStory scenes:** Ice Lightning Mage primary / Buccaneer secondary face. **Wild Hunter vs Giant Blackheart remains the established V4 material/texture authority**; final approved **Buccaneer vs Lord Pirate** remains the newer cubby color/shadow authority. Bulbasaur/Link must not overwrite that palette. Original Black Clover remains a legacy geometry/framing reference only where explicitly applicable.
+- Mechanic's selected primary-texture assignment is **proposed/conditional**, not approval to replace Wild Hunter V4. A replacement requires explicit user approval to revise that standard, followed by updates to the shared material spec and affected workflows. Until then, Wild Hunter wins any MapleStory texture conflict; Sylveon remains supporting.
+- Approved Sylveon — Meadow Dance remains a slim LED fixture-shape reference where needed; this is separate from Sylveon's secondary texture role.
+- Hex targets are visual guides, not flat fills. Match the actual approved reference pixels. Do not blend Daily Outfit and MapleStory recolor palettes unless explicitly requested.
+- In targeted edits/recolors, the approved source and requested edit scope take precedence over masters for all untouched content. Attaching a master never authorizes unrelated changes. If a required reference is unavailable, request it rather than inventing its appearance.
 
 ## Versioning and history
 
@@ -41,3 +60,5 @@ When changing the standard, update the relevant shared file and the affected wor
 
 ### Change log
 - 2026-11-09: Initial modular library; Jolly face lock, thin flush LED, Bulbasaur daily recolor, Buccaneer MapleStory color, Wild Hunter material lock, 75–85% MapleStory hero/action silhouette.
+
+- 2026-11-09: Recorded all eight selected Project reference assignments with exact filenames and role-specific priority. Mechanic remains proposed/conditional; Wild Hunter V4, workflow palettes, and approved-source edit scope remain in force.

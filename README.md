@@ -19,3 +19,7 @@ Run `node tools/check-gallery.cjs` and extract the inline script for `node --che
 ## Storage
 
 Keep original master media backed up separately. At the present encoding sizes, a typical outfit adds roughly 2 MB including four clips. Dedicated object storage can be added later; no media migration or external account is required for this version.
+
+## Art prompt library
+
+See [prompts/README.md](prompts/README.md) for canonical shared specifications, workflows, and the eight approved Project image reference assignments. All eight are selected; Mechanic's primary texture role remains proposed/conditional and does not replace the established MapleStory Wild Hunter V4 texture standard. Project images must be attached separately; this library records their roles without changing the website.
