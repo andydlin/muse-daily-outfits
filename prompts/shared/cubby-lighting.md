@@ -44,3 +44,14 @@ Before treating **any newly generated scene** (Daily Outfit or MapleStory) as co
 6. **Lighting balance:** prevent an excessive orange cast over the cubby and character while retaining intentional sunsets, golden magic, night ambience, or other scene-specific effects. Keep outfit and prop colors distinct.
 
 If the initial render misses any of these, **correct the cubby/frame/wall/lighting before considering the scene finished**, while preserving every approved character, costume, pose, creature-hood design, prop, particle, magical effect, and interior environment detail as closely as possible. This is a visual-quality check, not permission to redesign the scene. Do not claim that an image passed a check unless actually visually inspected.
+
+## Bulbasaur Neutral Cream Lock — color corrections and new scenes
+
+**Color target:** `MASTER_Cubby_Bulbasaur.png` is the authoritative visual reference for the **light, neutral peach-beige exterior wall; soft, neutral ivory-cream beveled frame; creamy beige interior architectural ceiling and side walls; small flush warm-white LED; and soft neutral exterior shadows**. The aim is **lighter, creamier, and less saturated — not warmer**. Preserve gentle warm depth, but explicitly remove excessive **orange, yellow, and pink** saturation and any overall orange cast. Avoid salmon-pink, strong golden-orange or yellow display-box color. Do not infer an invented hex palette; compare visually to Bulbasaur.
+
+- Keep **all four frame sides** consistent in ivory-cream color, bevel, thickness and geometry, with the existing complete square frame and exterior margins intact.
+- Keep the **centered, thin, flush-mounted circular warm-white LED** physically unchanged; its architectural glow should be gentle, not a broad orange wash.
+- Keep **exterior contact shadows** soft, diffuse and neutral, without dark/orange outlines.
+- Neutralize excessive warmth on **architectural surfaces only**; retain natural interior depth and the original scene-specific atmosphere (including sunsets, red moons, purple battlefields, fire, sandstorms, spell light, reflections and glows).
+
+**Strict scope for an approved scene recolor:** adjust only the cubby frame/structure, exterior wall/background, interior architectural ceiling and side-wall color/lighting as needed, and architectural LED/exterior shadows. **Do not** alter Jolly/hero/boss characters, faces, eyes, hair, plush finish, costumes, weapons, wings, accessories, poses, sizes, terrain, scenery, interior artwork, magical effects, camera framing or composition. Do not move, resize or crop the cubby. This is a **color consistency pass, not a creative redesign**.
