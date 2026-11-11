@@ -13,3 +13,9 @@ Match Bulbasaur's approved **exterior peach-beige wall, square sharp beveled ivo
 **Optional separate material cleanup — only when explicitly requested:** use the Wild Hunter-inspired handmade plush consistency check: fine cream velvet/fibers rather than vinyl, dimensional textile-grain hair, woven/stitch clothing, soft diffuse highlights, coherent matte miniature props. Mechanical equipment remains metal, not furry. Preserve eyes, identity, expression, transparency and source composition. Never let an optional material pass authorize unrequested changes.
 
 Return exactly **one individual edited image first**. Do not generate a side-by-side unless asked. For any comparison use the **unaltered original master and output**, touching edge-to-edge, without cropping or stretching.
+
+## Neutral Cream Lock — required color target
+
+Use the **Bulbasaur Neutral Cream Lock** in `../shared/cubby-lighting.md`. Match Bulbasaur's **light neutral peach-beige exterior, soft ivory-cream frame, and creamy interior architectural surfaces**. Specifically **reduce excessive orange, yellow and pink saturation**; aim for a **lighter, creamier, less saturated** architectural palette rather than making the entire image warmer. Keep all four frame sides identical in color and thickness, the small flush ceiling LED intact, and the exterior shadows subtle and neutral.
+
+Apply the correction **only to cubby structure, exterior wall/background, architectural ceiling/side walls and relevant cubby lighting/shadows**. Preserve every approved character/body texture, face/eyes/expression, hood/costume, weapon/props, pose/scale, terrain, environment art, atmosphere and magic effects. Do not alter camera framing or cubby geometry. Avoid washing out intentional sunset or magical glow in the scene itself.
