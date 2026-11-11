@@ -27,3 +27,14 @@ Apply the separate character material hierarchy from `shared/jolly-character.md`
 **Supplementary texture role:** `MASTER_Cubby_Bulbasaur.png` also serves as the visual standard for Jolly's fine, smooth cream plush pile on face and exposed body. This adds a role to Bulbasaur; it does **not** replace the established texture-reference priority of Wild Hunter → Mechanic → Sylveon for the entire diorama. Preserve woven hoodies/clothing, stitches, and structured matte armor/horns/spikes as distinct materials.
 
 A **plush texture-only correction** must preserve identity, eye shape, blush, expression, anatomy/silhouette, clothes/hood/armor, pose, scene, atmospheric effects, and cubby/lighting as closely as possible; do not treat a surface-finish request as approval to redesign the image.
+
+## Approved Ice/Lightning Mage soft-finish refinement (2026-11-11)
+
+The user-approved **refined Ice/Lightning Mage vs Pink Bean** image is a **supplemental soft-finish reference**, alongside the existing texture masters. It does **not** replace or reorder the primary Wild Hunter, secondary Mechanic, or tertiary Sylveon references.
+
+- **Hair:** Preserve dimensional sculpted strands and silhouette, with fine directional textile grain and **low-gloss, diffuse highlights**. Avoid shiny plastic-looking streaks and overly coarse/fuzzy yarn.
+- **Face:** Soft velvety short-pile cream plush, very fine fibers without etched/coarse surface patterns or excessive fuzz. Preserve the approved Jolly/MapleStory eye and face identities.
+- **Clothing:** Fine woven fabrics, delicate stitching and embroidery, with restrained roughness rather than thick, coarse felt.
+- **Overall:** Cohesive premium handmade plush finish across hero, boss, and environment. Soften specular shine on fabric surfaces, **without flattening dimensional detail**.
+- **Material exceptions:** Metal remains matte painted hard-surface metal, ice/crystals and glass can be reflective, and spell effects remain luminous; do not make all objects fuzzy or dull.
+- **Scope:** Use as an additional visual check when creating or refining MapleStory scenes; do not alter approved character designs, poses, cubby colors, or scene effects during texture-only refinements.
