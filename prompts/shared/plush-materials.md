@@ -19,3 +19,11 @@ When generating a new MapleStory confrontation, **attach the approved Wild Hunte
 3. **Tertiary:** `MASTER_Texture_Secondary_Sylveon.png` — supplemental fine plush/felt softness and diffuse textile highlights.
 
 These filenames identify **ChatGPT Project reference assets**; they are not automatically present in this GitHub repository. Attach/retrieve the actual images before generating. Preserve distinct facial-identity and cubby-reference priorities, which are documented separately.
+
+## Jolly-specific short-pile finish — applies to all scenes (2026-11-10)
+
+Apply the separate character material hierarchy from `shared/jolly-character.md`: **velvety fine-pile face → subtly fluffier cream face border → dense, uniformly short-pile exposed cream body**. Avoid long, coarse, individually obvious directional hairs on Jolly's face, belly, arms, hands, legs and feet. Even though Wild Hunter is the **primary overall scene/material** reference, it must **not** cause Jolly's cream body to become shaggy, fuzzy-bouclé, or oversharpened. Keep Jolly visibly textile and handmade, not glossy plastic.
+
+**Supplementary texture role:** `MASTER_Cubby_Bulbasaur.png` also serves as the visual standard for Jolly's fine, smooth cream plush pile on face and exposed body. This adds a role to Bulbasaur; it does **not** replace the established texture-reference priority of Wild Hunter → Mechanic → Sylveon for the entire diorama. Preserve woven hoodies/clothing, stitches, and structured matte armor/horns/spikes as distinct materials.
+
+A **plush texture-only correction** must preserve identity, eye shape, blush, expression, anatomy/silhouette, clothes/hood/armor, pose, scene, atmospheric effects, and cubby/lighting as closely as possible; do not treat a surface-finish request as approval to redesign the image.
