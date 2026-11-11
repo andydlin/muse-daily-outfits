@@ -31,3 +31,16 @@
 These apply to **both Daily Outfit and MapleStory** creation and recoloring. Attach the images for accurate visual matching; do not substitute invented hex colors. Preserve different scene atmospheres and magical effects.
 
 **Buccaneer is not a cubby-color master:** `MASTER_Maple_Face_Secondy_Buccaneer.png` is a secondary **MapleStory face/expression** reference only. Historical Buccaneer-derived sample hex values are superseded and must not drive new cubby colors. Black Clover — Anti-Magic Slash remains an optional *legacy geometry* reference only when explicitly requested.
+
+## Mandatory first-pass cubby consistency gate
+
+Before treating **any newly generated scene** (Daily Outfit or MapleStory) as complete, compare the result against **`MASTER_Cubby_Bulbasaur.png`**, using **`MASTER_Cubby_Secondary_Link.png`** as secondary validation. The validation must check:
+
+1. **Complete square geometry:** rigid, sharp, consistently beveled frame with a visibly recessed ceiling, sides, and back/ground; same apparent cubby scale and centered placement as Bulbasaur. Never expand the cubby to nearly fill the entire canvas.
+2. **Exterior breathing room:** pale warm-beige exterior wall clearly visible on **all four sides**, with balanced margins. No cropped frame edges, reduced margins, or zoomed-in composition.
+3. **Frame color:** neutral light ivory-cream, not saturated peach, pink, orange, or yellow. Compare to Bulbasaur visually rather than guessing hex values.
+4. **Exterior shadow:** subtle, broad, soft feathering beneath and around the frame; never a thick dark border.
+5. **Ceiling LED:** the correct small, thin, flush-mounted circular warm-white disc with a fine rim, centered in the ceiling.
+6. **Lighting balance:** prevent an excessive orange cast over the cubby and character while retaining intentional sunsets, golden magic, night ambience, or other scene-specific effects. Keep outfit and prop colors distinct.
+
+If the initial render misses any of these, **correct the cubby/frame/wall/lighting before considering the scene finished**, while preserving every approved character, costume, pose, creature-hood design, prop, particle, magical effect, and interior environment detail as closely as possible. This is a visual-quality check, not permission to redesign the scene. Do not claim that an image passed a check unless actually visually inspected.

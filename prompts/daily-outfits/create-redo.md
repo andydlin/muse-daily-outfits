@@ -30,3 +30,11 @@ Maintain the approved Jolly identity, clothing, action, gesture, cubby and visua
 ## After output
 
 Keep any scene checklist **in chat, not inside the image**. If presenting Create/Redo checklist controls, they must copy editable prompts **without automatically sending them** or launching image generation.
+
+## First-pass quality checks — mandatory
+
+**Cubby validation:** After generation, inspect the image against `MASTER_Cubby_Bulbasaur.png` (primary) and `MASTER_Cubby_Secondary_Link.png` (secondary) using the checklist in `../shared/cubby-lighting.md`. Confirm centered full-frame geometry, generous and balanced **exterior wall visible on all four sides**, neutral ivory-cream bevels, a softly feathered exterior shadow, the small flush centered LED, and warm—but not excessively orange—lighting. A strong sunset, sandstorm, fire, or dramatic glow may affect the interior, but must not erase exterior wall margins or tint the whole frame pink/orange.
+
+**Creature hood validation:** For a creature-themed hood, verify the theme's recognizable embroidered eyes, pupils, highlights and markings are visibly **on the hood**, with Jolly's original cream face unobstructed. Preserve approved silhouette details such as spikes, horns, ears, armor or tail according to the supplied reference. Do not invent the same markings for unrelated creatures.
+
+If only the cubby fails validation, correct **only** cubby geometry, frame/wall color, LED and architectural lighting/shadow; do not regenerate or reinterpret approved interior scene artwork, face, costume, pose or effects. Keep one output per iteration.
