@@ -31,7 +31,17 @@ Maintain the approved Jolly identity, clothing, action, gesture, cubby and visua
 
 Keep any scene checklist **in chat, not inside the image**. If presenting Create/Redo checklist controls, they must copy editable prompts **without automatically sending them** or launching image generation.
 
+## Daily Outfit face construction — first-pass lock
+
+**Use `MASTER_Jolly_Face_Jett.png` primary and `MASTER_Jolly_Face_Secondy_Goku.png` secondary.** Before generation, describe the face as a **distinct broad smooth velvety cream inner oval** surrounded by a **clearly visible slightly fluffier cream head-fur ring**. The two surfaces must differ in fiber length, contour and material finish; no uniformly furry face, coarse bouclé, flat painted border or shiny vinyl. Sculpted costume hair stays separate from both layers.
+
+**Expression follows the approved scene:** serious, angry, shouting, sleeping and happy expressions are all valid. Preserve approved brows, gaze and mouth; never automatically turn a fierce Jolly into a smiling one. Small Jolly-style eyes and rounded underlying proportions remain recognizable. Daily Outfit faces must not inherit MapleStory-specific eye/expression styling.
+
+**Face-only repair:** localize edits to the smooth inset, cream fur-ring separation and only the expression features explicitly requested. Keep all other approved scene elements as unchanged as possible. The approved Yuji Itadori — Black Flash Option 1 illustrates successful separation with a serious expression but is **not** a new master or a change in reference priority.
+
 ## First-pass quality checks — mandatory
+
+**Jolly face validation:** Compare against Jett (primary) and Goku (secondary). Confirm (1) smooth, softly contoured cream inner facial inset, (2) distinct fluffier cream outer head ring, (3) separate dimensional costume hair, (4) original rounded Jolly proportions and restrained eyes, and (5) exact scene-approved emotion, including fierce angled brows or shouting mouth where called for. Reject a uniformly furry face or a correction that makes a serious character cheerful. Wild Hunter is a texture reference, not a substitute Daily Outfit face reference.
 
 **Cubby validation:** After generation, inspect the image against `MASTER_Cubby_Bulbasaur.png` (primary) and `MASTER_Cubby_Secondary_Link.png` (secondary) using the checklist in `../shared/cubby-lighting.md`. Confirm centered full-frame geometry, generous and balanced **exterior wall visible on all four sides**, neutral ivory-cream bevels, a softly feathered exterior shadow, the small flush centered LED, and warm—but not excessively orange—lighting. A strong sunset, sandstorm, fire, or dramatic glow may affect the interior, but must not erase exterior wall margins or tint the whole frame pink/orange.
 
