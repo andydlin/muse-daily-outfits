@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.6 · November 13, 2026
+## Draft 0.7 · November 13, 2026
 
-Revision 0.6 adds a prioritized generation prompt, an acceptance checklist, measurement definitions and repair routing, plus the first fresh Fighter/Balrog test assessment. It retains #F3E6DD and the opaque PNG delivery workflow. Layout targets remain working targets; this revision does not invent universal numerical rejection tolerances. The existing v0.1 filename is retained for link continuity.
+Revision 0.7 records the accepted Fighter versus Crimson Balrog outcome, direct boss-reference verification, separate scenery/subject/effect bounds, and the approved tall-wing exception. It retains the prioritized prompt, acceptance checklist, #F3E6DD opaque PNG workflow and provisional layout targets. This revision does not invent universal numerical rejection tolerances. The existing v0.1 filename is retained for link continuity.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -47,11 +47,13 @@ Coordinates start at the top-left. Normalize all values for output resolutions o
 | Ground contact line | 64% down | y803 | Rounded from hero boot contacts |
 | Connected island bottom | 81% down | y1016 | Approved original silhouettes |
 | Bottom clearance | 19% | About 238 px | Derived from island bottom |
-| Scenery ceiling | Usually 27–30% down | y339–376 | Observed scenery tops |
+| Rear-scenery ceiling | Usually 27–30% down | y339–376 | Environment only; measure boss features and effects separately |
 | Visible hero face width | About 6.8% | 85 px | Provisional cheek-to-cheek anchor |
 | Website background | Exact solid exterior and page color | #F3E6DD / RGB 243, 230, 221 | Opaque PNG with separately approved masked background finishing |
 
 These are experimental working targets. Exact acceptance tolerances remain unresolved. Report measured drift for review before inventing hard rejection thresholds.
+
+The scenery ceiling applies to rear environmental architecture and connected foliage. It is not automatically a shared cap for bosses, hero accessories or effects. Record environment bounds, hero bounds, boss bounds and effect bounds separately. A distinctive boss feature may extend above the scenery ceiling when explicitly approved; keep full visibility and adequate outer clearance without enlarging the island or hero to accommodate it.
 
 The ground line is a subject-placement reference. The front platform edge, floor rear boundary and steps can occur at other heights. Jumping heroes and hovering bosses retain the same implied ground reference.
 
@@ -250,7 +252,7 @@ Keep scene-specific exceptions explicit in the approved plan. General cubby hero
 
 ### Reference roles for a fresh render
 
-- Hero/boss design references define costume, hair silhouette, anatomy and physical weapon construction.
+- Hero/boss design references define costume, hair silhouette, anatomy and physical weapon construction. Before generating, inspect a direct reference for the exact named boss and variant. Verify defining anatomy, proportions, face, wings/horns, armor, hands and feet; a prior stylized render alone may perpetuate a generic or incorrect boss design. If stylized artwork conflicts with the approved direct boss reference, use the direct reference for boss design while keeping assigned face/material masters for rendering style.
 - MapleStory face masters define facial refinement within Jolly identity.
 - Wild Hunter defines overall handmade materials; Mechanic and Sylveon retain their existing supporting priority.
 - When included, floating-island references define layout/camera/apparent scale only. They must not overwrite the chosen characters or environment.
@@ -265,7 +267,7 @@ Fill the bracketed fields from the approved scene plan. Keep the priority order;
 Create ONE new square photorealistic handmade plush miniature MapleStory-inspired battle: [HERO] versus [BOSS], in a floating island inspired by [MAP / INTERPRETATION]. This is a fresh scene, not an edit of an earlier island.
 
 PRIORITY 1 — WIDE FLOATING-ISLAND FRAMING
-Show the complete miniature from a distance on an open warm cream #F3E6DD background. No cubby or physical frame. Center the platform, spanning approximately x12%–88%. Grounded feet meet the foreground combat lane around y64%. The tapered connected underside ends around y81%. Highest rear scenery usually begins around y27%–30%. Preserve empty margins; do not zoom in to fill the canvas. Coordinates are percentages from top-left.
+Show the complete miniature from a distance on an open warm cream #F3E6DD background. No cubby or physical frame. Center the platform, spanning approximately x12%–88%. Grounded feet meet the foreground combat lane around y64%. The tapered connected underside ends around y81%. Highest rear scenery usually begins around y27%–30%. Track boss/hero/effect bounds separately; [EXPLICITLY APPROVED SILHOUETTE EXCEPTION, IF ANY]. Preserve empty margins; do not zoom in to fill the canvas. Coordinates are percentages from top-left.
 
 PRIORITY 2 — SUBJECT SCALE AND STAGING
 The hero's visible cream cheek-to-cheek face width is about 6.8% of canvas width, excluding hair and accessories. Scale the whole hero coherently. [HERO SIDE, FACING, POSE, GAZE]. [BOSS SIDE, FACING, RELATIVE SIZE, GROUNDED/HOVERING STATUS]. Faces, weapon and boss silhouette stay readable. Main combat lane is near the front lip with a narrow paving strip ahead of toes; stairs and most environmental depth are behind the subjects. Use the approved shallow elevated front view, upright architecture and restrained perspective.
@@ -293,7 +295,8 @@ Use the actual output resolution. Normalize each coordinate by the corresponding
 | Platform width and center | Left/right connected platform-lip bounds. State the row range and whether moss, snow or foliage is included. Exclude independent particles and trailing extensions; measure extensions separately |
 | Ground line | Grounded hero sole-to-terrain contact, not stair height or frontmost lip; use the implied landing plane for jumping/hovering subjects |
 | Underside | Lowest connected solid island point; distinguish hanging vines, water, isolated debris and soft glow |
-| Scenery ceiling | Highest connected rear scenery; state whether foliage is included. Effects/particles measured separately |
+| Rear-scenery ceiling | Highest connected rear environment; state whether foliage is included. Do not count boss wings/horns as environmental scenery |
+| Subject and effect bounds | Record hero silhouette, boss silhouette and effects separately, including wings, horns, accessories and particles. Check approved exceptions, full visibility, overlap/readability and outer clearance |
 | Hero face scale | Visible cream facial inset cheek-to-cheek, excluding hair/hat/ornaments. Identify endpoints and uncertainty; cross-check similar three-quarter orientation and compact body proportions |
 | Environment detail scale | Compare paving blocks, stair risers and columns relative to hero face and boots; no single universal block size is established |
 | Camera and floor | Compare against assigned camera reference; narrow foreground strip, depth behind subjects, upright ruins. Do not infer exact lens/elevation from a single image |
@@ -340,6 +343,57 @@ Measurement method: Euclidean RGB distance from the median top-150-row backgroun
 **Conclusion:** character design, action and integration transferred more successfully than framing. Written numeric instructions alone did not hold the intended footprint. This image is a diagnostic example, not an approved layout master.
 
 A proposed 76/93.3 ≈ **81.5%** uniform resize, anchored on an estimated current ground line y825 and moved to y803, would put the scenery top near **y307 (24.5%)** and island bottom near **y1057 (84.3%)**. These are calculated predictions, not an applied edit. Thus resizing alone would improve framing but would not satisfy every vertical target. Recheck hero face scale and detail proportions, then decide whether to accept variation or approve a separate scenery/underside repair. No image repair is authorized by this documentation update alone.
+
+
+### Completed Fighter versus Crimson Balrog test — accepted November 13, 2026
+
+[Accepted finished scene](https://chatgpt.com/library?file_id=libfile_ae502bbb7a1c8191947dd60125f796fb&account_id=personal)
+
+**Assigned role:** accepted experimental example of an integrated melee battle, corrected hero/environment proportions, accurate Crimson Balrog design and exact-color opaque background finishing. The original Ice/Lightning remains the preferred baseline for apparent scale and framing. This Fighter scene does not replace any shared face, texture or cubby master.
+
+#### Corrections that led to acceptance
+
+1. **Fresh generation:** character design/action transferred more successfully than geometry. The platform measured about 93.3% wide despite a 76% written target.
+2. **Whole-scene correction:** a uniform pixel resize and translation brought the footprint near the intended width while preserving the relative artwork. This did not independently correct hero face scale, scenery height or underside depth.
+3. **Internal composition correction:** the user approved a separate reduction of Fighter, lower rear architecture and a shorter underside. The two-handed sword action, ground contact and natural terrain integration were retained visually. At this intermediate stage, contrast measurements were approximately **76.7% platform width**, **30.1% rear-scenery top**, and **81.5% connected island bottom**.
+4. **Boss-design correction:** a direct Crimson Balrog sprite revealed that the prior boss was too stocky and generic. Corrected to a lean brown body, long brown muzzle under an ivory skull-like brow, compact black side horns, slim central horn, tall dark brown wings, substantial dark skull shoulder armor, narrow navy wrist cuffs and black cloven hooves. Retained readable sword-to-claw contact and shared illumination.
+5. **Approved silhouette exception:** the user accepted Crimson Balrog's tall wings extending above the rear-scenery ceiling. Keep these recognizable proportions in this encounter. This is a scene-specific exception, not permission to increase every boss's size or change the baseline island/hero scale.
+6. **Background-only finish:** a controlled pixel mask set the clear exterior to **#F3E6DD**, with only a narrow edge-blending fringe. The user accepted the finished result after review.
+
+**Measurement provenance:** the 76.7% / 30.1% / 81.5% readings belong to the pre-Crimson-design correction stage. Do not present them as freshly measured final-image geometry. The final image was visually accepted; final hero face width, boss wing bounds and post-correction geometry were not independently remeasured into a complete final acceptance table. Record new final measurements if a later comparison needs that precision. Acceptance does not prove that generative edits preserved every non-target pixel.
+
+#### Crimson Balrog design reference
+
+[User-approved Crimson Balrog sprite](https://static.wikia.nocookie.net/maplestory/images/d/dd/Mob_Crimson_Balrog.png/revision/latest?cb=20091231235815)
+
+Use this sprite for this encounter's recognizable anatomy and equipment, interpreted through the existing handmade miniature material standards. The approved Fighter/Balrog cubby artwork remains useful for Fighter costume and weapon design; it was insufficient as the sole authority for the exact Crimson Balrog silhouette.
+
+#### Final background verification
+
+Source: the user-approved Crimson Balrog correction, followed by the non-generative exterior-only finishing pass. The recorded checks for the finished PNG were:
+
+| Check | Recorded result |
+| --- | --- |
+| Source and output dimensions | 1,254 × 1,254; unchanged |
+| Clear-background mask target | RGB 243, 230, 221 / #F3E6DD |
+| Mask pixels at exact target | Verified |
+| Masked background pixels | 1,125,906 |
+| Narrow blending-fringe pixels | 3,058 |
+| Changed pixels outside mask plus fringe | 0 |
+
+The mask included genuine exterior openings while protecting similarly colored subject surfaces. Narrow-fringe pixels were adjusted for edge blending, so this is not a claim that every artwork-edge pixel remained unchanged.
+
+The finished scene was added to the comparison preview beside Ice/Lightning. Publication succeeded. A browser access block prevented the final live-page inspection in that pass; the standalone finished image and pixel checks were inspected. The user subsequently accepted the scene visually.
+
+#### Rules supported by this outcome
+
+- Verify framing, hero face scale and environmental detail/proportions independently.
+- Use uniform scene transforms for global framing failures; use separately approved local changes for internal scale or shape failures.
+- Verify the exact boss design from a direct reference before generation, rather than repairing a generic interpretation late.
+- Preserve physically coherent contact, terrain overlaps and shared lighting through repairs.
+- Measure rear scenery, hero, boss and effects as distinct groups. Keep explicit encounter-specific silhouette exceptions.
+- Finish accepted artwork with a controlled exterior mask; do not regenerate accepted artwork solely for background color.
+- Preserve failed and intermediate measurements as diagnostic history. Promote only explicitly accepted images to their stated experimental reference roles.
 
 
 ## Working review sequence
