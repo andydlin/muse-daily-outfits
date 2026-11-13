@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.9 · November 13, 2026
+## Draft 0.10 · November 13, 2026
 
-Revision 0.9 registers the four approved floating-island masters and five supplemental environment references after the user's upload confirmation. It adds explicit environment-reference selection to the generation prompt while retaining the accepted Black Mage lessons, #F3E6DD finishing workflow, provisional layout targets and unchanged shared master priorities. The existing v0.1 filename is retained for link continuity.
+Revision 0.10 makes character-scale review an independent required gate after island framing and before artwork approval/background finishing. It records the accepted Corsair hero-only correction, expands the reusable generation prompt and acceptance checklist, and preserves the four island-master and five supplemental environment-reference roles. All changes remain scoped to this experimental floating-island system; shared Jolly, MapleStory face, material and cubby master priorities are unchanged.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -87,6 +87,35 @@ Scale the hero’s head, body, costume, cape and physical equipment coherently. 
 Hairstyles, hats, bows, long robes and capes may change the total silhouette. Jumping, crouching and lunging may change crown-to-foot height. Maintain recognizable compact plush proportions through these variations.
 
 Faces use fine short velvety cream nap, a subtly fluffier framing border, rounded dark embroidered/button-like eyes with restrained catchlights, rosy cheeks and expressive brows and mouth. Preserve approved class-specific exceptions from the current canonical specifications.
+
+### Required character-scale review — independent from island framing
+
+**Always evaluate; adjust only when needed.** Matching island width, camera or facial inset width does not establish that the hero has comparable apparent scale or overall visual weight. A scene can pass island framing and still fail character-scale review.
+
+1. Compare the actual output side by side with the approved original Ice/Lightning layout and Fighter example at **equal full-canvas display size**, preserving aspect ratio and all margins. Do not crop subjects or independently zoom the scenes to make them look aligned.
+2. Evaluate visible cream facial inset width, head/body proportions, torso and limb scale, and the hero's overall silhouette/visual weight. Compare similar head orientations where possible. Report measurements separately from visual judgments and uncertain landmarks.
+3. Inspect hats, feathers, bows, hair, capes and physical weapons as a separate silhouette contribution. Retain recognizable costume and equipment proportions; these may extend beyond the body, but must not make the hero unintentionally dominate. Do not impose identical total hero height across different poses/costumes or shrink every elaborate costume automatically.
+4. Check the boss and summons independently: boss-to-hero relationship, silhouette clearance, firing space, secondary hierarchy and encounter-specific proportions. A summon may be intentionally smaller than its in-game size to fit the approved composition.
+5. Record this gate as pass, repair or uncertain. Numeric targets support visual comparison; neither a close face-width estimate nor matched island width alone is sufficient to mark it pass.
+6. If the island is aligned but the hero is oversized, propose a **hero-only coherent scale change** for approval. Scale the hero's head, body, hair, costume and physical equipment together; anchor grounded feet on the existing combat lane. Preserve island footprint/camera, boss and summons unless explicitly authorized otherwise. Reconstruct newly exposed scenery and adjust immediate contact shadows/attack connections only as necessary.
+7. After any local scale edit, recheck actual hero size, anatomy/grips, foot contact and integration, as well as island framing, boss and summon preservation. Generative changes are not guaranteed exact transforms or pixel preservation. State the requested percentage separately from the measured/visually accepted result.
+
+The approximately 6.8% facial-inset width remains a provisional planning anchor, not a universal pass/fail threshold and not a substitute for this gate. No new universal numeric tolerance or total-height rule is established by the Corsair example.
+
+### Corsair versus Pianus — accepted scale-correction learning
+
+[Accepted smaller Corsair scene](https://chatgpt.com/library?file_id=libfile_90167c1e7fd08191924dd962422edef9&account_id=personal)
+
+**Role:** supplemental experimental example of elaborate pirate costume, grounded dual-pistol combat, a large full-body fish boss, a translucent Broadside ghost ship and solid Siege Bomber. It does not replace the Ice/Lightning layout authority or any face/material master. Exact #F3E6DD background finishing remains pending for this source; do not use its current background as the color standard.
+
+- The fresh render included the actual island layout master plus Corsair design, full-body Pianus collectible, Aqua Road map and Wild Hunter material reference. Framing still drifted; attaching a layout reference helps specify intent but does not guarantee compliance.
+- The user preferred the cubby Pianus design over the collectible interpretation. Corrected to a visible stern pale eye beneath a heavy orange brow, fleshy tan downturned lips, taller orange body, yellow underside, irregular pale forehead markings and orange-yellow fins, while retaining full body and tail. The collectible was useful for completing anatomy, not as the final facial-design authority.
+- Summons were deliberately reduced to suit the miniature composition. The golden ship is translucent and was moved to Corsair's left; Siege Bomber is solid matte mechanical equipment on the floor. Neither is part of the hero's physical equipment when performing a hero-only scale correction.
+- A user-approved **non-generative uniform resize** produced a 1104 × 1104 resampled scene from the 1254-square source, placed at x75/y15 on a 1254-square canvas. Actual scale was about 88.04%; the selected source ground anchor y894 mapped to y802. Background extension/blending was confined to exterior canvas margins. This preserves composition and designs through resampling, not original per-pixel equality.
+- At that global-framing stage, contrast measurements found a platform width of 966 px / 77.03%, x143–1108, and lowest connected island point y997 / 79.51%. Fighter comparison was 964 px / 76.87%, x141–1104 and bottom y1022 / 81.50%. These measurements belong to the **pre-hero-correction** stage.
+- Despite matched platform width, the user correctly observed that Corsair still looked substantially larger. The earlier face-width estimate and island measurements had missed the visual weight of her large feathered hat, flowing hair and costume. **Do not repeat the claim that aligned islands establish aligned heroes.**
+- The user approved a separate roughly 12–15% hero reduction; the generative edit requested about 13%, anchored at the feet, preserving boss, summons and island in scope. The user visually accepted the smaller Corsair. This is not a verified exact 13% transform, and final face/hero bounds and post-edit island geometry have not yet been independently remeasured into a final acceptance table.
+- Next steps for the artwork remain a focused side-by-side character-scale review, recheck of framing/integration, then separately approved exact exterior-background finishing. Acceptance of the correction is not permission for further unapproved image edits.
 
 ## Camera and floor
 
@@ -270,7 +299,7 @@ PRIORITY 1 — WIDE FLOATING-ISLAND FRAMING
 Show the complete miniature from a distance on an open warm cream #F3E6DD background. No cubby or physical frame. Center the platform, spanning approximately x12%–88%. Grounded feet meet the foreground combat lane around y64%. The tapered connected underside has a baseline end around y81%, but its thickness and lowest tip may vary with the approved island design; keep the combat ground line stable. Highest rear scenery usually begins around y27%–30% as a starting guide, with map-specific variation permitted by the approved plan. Track boss/hero/effect bounds separately; [EXPLICITLY APPROVED SILHOUETTE EXCEPTION, IF ANY]. Preserve empty margins; do not zoom in to fill the canvas. Coordinates are percentages from top-left.
 
 PRIORITY 2 — SUBJECT SCALE AND STAGING
-The hero's visible cream cheek-to-cheek face width is about 6.8% of canvas width, excluding hair and accessories. Scale the whole hero coherently. [HERO SIDE, FACING, POSE, GAZE]. [BOSS SIDE, FACING, RELATIVE SIZE, GROUNDED/HOVERING STATUS]. Faces, weapon and boss silhouette stay readable. Main combat lane is near the front lip with a narrow paving strip ahead of toes; stairs and most environmental depth are behind the subjects. Use the approved shallow elevated front view, upright architecture and restrained perspective.
+The hero's visible cream cheek-to-cheek face width is about 6.8% of canvas width, excluding hair and accessories. Scale the whole hero coherently. Facial width alone does not determine apparent scale: compare head/body proportions and overall visual weight with the supplied approved heroes. Account separately for elaborate hats, feathers, flowing hair, capes and weapons without losing their recognizable proportions. Keep boss and summons as independently staged subjects. [HERO SIDE, FACING, POSE, GAZE]. [BOSS SIDE, FACING, RELATIVE SIZE, GROUNDED/HOVERING STATUS]. Faces, weapon and boss silhouette stay readable. Main combat lane is near the front lip with a narrow paving strip ahead of toes; stairs and most environmental depth are behind the subjects. Use the approved shallow elevated front view, upright architecture and restrained perspective.
 
 PRIORITY 3 — WEAPON AND BATTLE
 [PHYSICAL WEAPON SHAPE, COMPONENTS, GRIP, ARM PLACEMENT, MOTION AND TARGET]. [RESTRAINED EFFECT PATH AND CONTACT LIGHT]. Physical equipment must remain distinct from energy effects; hands and limbs must read correctly.
@@ -298,6 +327,7 @@ Use the actual output resolution. Normalize each coordinate by the corresponding
 | Rear-scenery ceiling | Highest connected rear environment; state whether foliage is included. Do not count boss wings/horns as environmental scenery |
 | Subject and effect bounds | Record hero silhouette, boss silhouette and effects separately, including wings, horns, accessories and particles. Check approved exceptions, full visibility, overlap/readability and outer clearance |
 | Hero face scale | Visible cream facial inset cheek-to-cheek, excluding hair/hat/ornaments. Identify endpoints and uncertainty; cross-check similar three-quarter orientation and compact body proportions |
+| Required independent character-scale gate | Equal-canvas side-by-side review of face, head/body proportions, torso/limbs and overall silhouette/visual weight. Inspect hat/hair/cape/weapon contribution separately. Record boss and summon hierarchy independently. Matched face width or island width alone cannot pass this gate |
 | Environment detail scale | Compare paving blocks, stair risers and columns relative to hero face and boots; no single universal block size is established |
 | Camera and floor | Compare against assigned camera reference; narrow foreground strip, depth behind subjects, upright ruins. Do not infer exact lens/elevation from a single image |
 | Weapon and anatomy | Correct physical construction, grip, visible wrist/arm relationships, readable action; no duplicated/missing limbs |
@@ -479,16 +509,17 @@ Preserve full source canvases and margins; no screenshots, comparison sheets, ti
 
 ## Working review sequence
 
-1. Identify the experiment’s purpose and its applicable references.
-2. Consult current canonical files and inspect relevant actual reference images.
-3. Propose the detailed scene or changes, including weapon construction, grip, subject scale, map inspiration and staging.
-4. Obtain explicit approval before generating or editing artwork. Generate one image at a time.
-5. Inspect the actual result against the chosen composition reference. Check island footprint, ground placement, hero face scale, foreground combat-lane placement, camera feel, materials and integration. Record source-background drift separately from final exterior-background validation.
-6. Report observed deviations, distinguishing actual readings from estimates and prompt targets.
-7. After artwork approval, propose and obtain approval for the default masked exterior-background finishing pass, then perform the checks above. Use transparency only when specifically approved. Render or edit one image at a time.
-8. Propose any further visual repair for approval.
+1. **Plan and approve:** identify encounter, actual map inspiration, reference roles, physical weapon/grip, pose, hero/boss scale and any summons. Consult current canonical specifications and inspect actual references. Obtain explicit approval.
+2. **Generate one scene:** attach actual selected image references with assigned roles; process only one image at a time.
+3. **Design-accuracy review:** inspect identity, expression, costume, boss anatomy, weapons/grips, materials, skills and summons. Propose targeted repairs for approval when needed.
+4. **Island-framing calibration:** measure platform width, center, ground reference and underside; compare camera/foreground lane with layout master. Scenery height and underside thickness may vary as approved. Prefer an explicitly authorized controlled uniform resize for global framing-only errors.
+5. **Required independent character-scale review:** compare at equal full-canvas size against approved Ice/Lightning and Fighter. Evaluate face width, head/body proportions and full silhouette/visual weight. Inspect costume extensions, boss and summons separately. Always evaluate, never automatically shrink.
+6. **Character-scale correction if needed:** obtain approval; resize hero and physical equipment coherently, anchored at grounded feet. Preserve boss, summons, island/camera unless explicitly authorized. Recheck actual character size, anatomy, contact, integration and island framing after the edit.
+7. **Artwork approval:** report measured values, estimates and unresolved issues distinctly. Obtain artwork acceptance after design/framing/scale/integration checks; do not call a requested percentage a verified result.
+8. **Background finishing:** separately propose and obtain approval for opaque PNG matching to #F3E6DD, protecting pale artwork and effects. Do not regenerate accepted art merely for color. Transparency only by specific approval.
+9. **Final verification/export:** verify canvas, unchanged authorized geometry, background mask and fringe scope, exact clear color, fine edges and effects. Inspect on the intended page when available; disclose when live-page validation was not performed. Preserve original and finished copies.
 
-Keep artwork free of text, labels, branding, plaques and UI. Measurement diagrams may include explanatory annotations as separate planning artifacts.
+Keep artwork free of text, labels, branding, plaques and UI. Measurement diagrams may include explanatory annotations as separate planning artifacts. Any further image repair requires approval.
 
 ## Open decisions
 
