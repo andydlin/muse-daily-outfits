@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.2 · November 12, 2026
+## Draft 0.3 · November 12, 2026
 
-Revision 0.2 records the user-accepted snow, volcanic and nature staging studies. The existing v0.1 filename is retained for link continuity.
+Revision 0.3 adds the user-approved transparent PNG delivery workflow and tree/snow website previews. It retains the accepted staging measurements from revision 0.2. The existing v0.1 filename is retained for link continuity.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -29,7 +29,7 @@ The approved experiment replaces the physical cubby presentation with a floating
 | Experimental composition and apparent scale | Supplied floating Ice/Lightning vs Pink Bean original, with latest approved Fighter vs Balrog original as cross-check |
 | Experimental camera and foreground staging | Simplified snowy mage scene, checked against original Ice/Lightning |
 | Environment-transfer examples | Accepted volcanic altar and nature root-gate studies |
-| Experimental exterior background | Original Ice/Lightning sample; matching pass deferred |
+| Experimental website delivery | Transparent PNG; page background #FDE1D3, sampled from original Ice/Lightning |
 | Character, boss and map designs | Specific supplied or verified encounter references |
 
 The floating Ice/Lightning scene and `MASTER_Maple_Face_Ice_Lightning_Mage.png` serve distinct roles. Use the floating scene for layout and the named face master for identity.
@@ -49,7 +49,7 @@ Coordinates start at the top-left. Normalize all values for output resolutions o
 | Bottom clearance | 19% | About 238 px | Derived from island bottom |
 | Scenery ceiling | Usually 27–30% down | y339–376 | Observed scenery tops |
 | Visible hero face width | About 6.8% | 85 px | Provisional cheek-to-cheek anchor |
-| Exterior background | Deferred matching pass | Retain #FDE1D3 as sampled reference | Background differences accepted for current layout studies |
+| Website background | Solid page color | #FDE1D3 / RGB 253, 225, 211 | Transparent PNG artwork composited by the browser |
 
 These are experimental working targets. Exact acceptance tolerances remain unresolved. Report measured drift for review before inventing hard rejection thresholds.
 
@@ -74,7 +74,7 @@ Both originals are 1,254 × 1,254. Geometry values below are manual visual bound
 
 These early floor-strip readings describe local visible surfaces. The later boot-to-front-lip clearance estimates below use a different landmark definition. Neither establishes complete walkable floor depth or camera elevation.
 
-Background samples used median RGB values from clear patches. The supplied JPEGs contain subtle variation. #FDE1D3 remains the original Ice/Lightning reference. Background matching is deferred at the user’s request. Current accepted layout studies may differ in background color.
+Background samples used median RGB values from clear patches. The supplied JPEGs contain subtle variation. #FDE1D3 remains the original Ice/Lightning reference and is now the website page color. Original staging renders retain their source backgrounds; website delivery uses the separate transparent export workflow below.
 
 ## Hero construction and scale
 
@@ -165,9 +165,41 @@ Method and limits
 - Background medians depend on source encoding and sampled region. A prior volcanic PNG sample differed by one red-channel value from the supplied JPEG.
 - These accepted differences establish successful examples. They do not create universal numerical acceptance tolerances.
 
-### Deferred background matching
+### Approved website delivery — transparent PNG
 
-The user explicitly deferred background matching until after this revision. Retain existing image backgrounds during this stage. A later background pass can address color and uniformity against the original Ice/Lightning sample, with its own approved edit plan.
+For this experimental floating-island series, deliver website artwork as **PNG with genuine alpha transparency**. Set the website page background to **#FDE1D3 (RGB 253, 225, 211)**. Keep the original approved renders as source files. Transparency is a separate final export step after approval of the artwork.
+
+#### Export and preservation rules
+
+1. Preserve the source canvas dimensions and transparent margins. The tested canvases are **1,254 × 1,254**. Keep island placement, apparent scale, ground line and camera framing; do not tightly crop, enlarge or recenter during extraction.
+2. Remove the exterior background and genuine exterior gaps, including open arches and gaps between branches. Preserve actual rear foliage, terrain, architecture and scene lighting within those openings.
+3. Preserve characters, faces, poses, equipment, textures, colors, island geometry, scenery and illumination. Keep the original source alongside the export for comparison.
+4. Use partial alpha for antialiased edges, fine leaves, vines, plush fibers, pale snow, icicles and other translucent elements. Opaque white snow must remain opaque. Remove peach matte contamination without eroding fine details.
+5. Preserve intended luminous effects and their soft falloff. Check spell glows separately; the tree and snow tests do not establish a general solution for complex aura, smoke or particle effects.
+6. Export genuine transparency, not a painted checkerboard or a solid white background. Do not add a floor-like shadow beneath the island.
+
+#### Required export checks
+
+- Verify actual alpha transparency, original canvas dimensions, preserved margins, island placement and apparent hero scale.
+- Inspect the silhouette and enclosed exterior gaps at full size, especially fine foliage, hanging vines, pale snow and thin icicles.
+- Composite the export over **#FDE1D3** and inspect the actual webpage at its intended display size. Check for peach/white halos, hard cutout edges, lost detail and visible rectangular background patches. A contrasting diagnostic backdrop can help reveal edge defects.
+- Compare against the approved source for unintended changes to faces, textures, lighting, color or geometry. Generative extraction can alter artwork; do not call it pixel-preserving without a verified pixel comparison. Report observed changes for review.
+- Retain approved originals and exported files separately. Website delivery approval does not make an experimental scene a replacement identity, texture or cubby master.
+
+#### Reviewed examples
+
+| Export | Tested edge features |
+| --- | --- |
+| [Tree island — transparent](https://chatgpt.com/library?file_id=libfile_6e0280207b0c819186b6b598b256620e&account_id=personal) | Fine leaves, hanging vines, branch gaps and a root doorway |
+| [Snow island — transparent](https://chatgpt.com/library?file_id=libfile_05d61f25982c8191a27b5c53ecd62e3c&account_id=personal) | Opaque white snow, pale edges, translucent icicles and an open stone arch |
+
+The user accepted both transparent versions after website review. These are visually accepted exports, not evidence of exact source-pixel preservation. The tree extraction was observed to shift some fine texture and lighting.
+
+[Website comparison preview](https://gizmo-tree-island-preview.honestpony262.chatgpt.site) displays transparent tree and snow exports and the supplied snow/volcanic originals with their backgrounds intact. This preview is a review aid; its layout is not a permanent gallery specification.
+
+#### Solid-background fallback
+
+Masked pixel replacement to **#FDE1D3**, with minimal edge blending, was also tested successfully on volcanic, nature and snow scenes. Use this as an alternative when an opaque image is specifically needed. It is not the default website delivery format. Verify the masked background color and preserve artwork outside the approved mask and narrow blending fringe.
 
 ## Composition studies reviewed in this chat
 
@@ -193,9 +225,10 @@ Study files
 2. Consult current canonical files and inspect relevant actual reference images.
 3. Propose the detailed scene or changes, including weapon construction, grip, subject scale, map inspiration and staging.
 4. Obtain explicit approval before generating or editing artwork. Generate one image at a time.
-5. Inspect the actual result against the chosen composition reference. Check island footprint, ground placement, hero face scale, foreground combat-lane placement, camera feel, materials and integration. Record background drift for the deferred matching pass.
+5. Inspect the actual result against the chosen composition reference. Check island footprint, ground placement, hero face scale, foreground combat-lane placement, camera feel, materials and integration. Record source-background drift separately from the transparent delivery check.
 6. Report observed deviations, distinguishing actual readings from estimates and prompt targets.
-7. Propose any further visual repair for approval.
+7. After artwork approval, propose and obtain approval for the transparency export, then perform the export checks above. Render or edit one image at a time.
+8. Propose any further visual repair for approval.
 
 Keep artwork free of text, labels, branding, plaques and UI. Measurement diagrams may include explanatory annotations as separate planning artifacts.
 
@@ -206,6 +239,6 @@ Keep artwork free of text, labels, branding, plaques and UI. Measurement diagram
 - Numerical tolerances for island placement and face scale.
 - How far waterfalls, lava, foliage and particles may extend beyond the solid island bounds.
 - Behavior for enormous or partly off-island bosses.
-- Background color and uniformity matching are deferred to a later pass.
+- Transparent export handling for complex auras, smoke, particles, waterfalls and other extended translucent effects remains to be tested.
 
 The snow, volcanic and nature transfers complete the currently agreed environment-staging tests. Further scenes or edge-case studies can be planned as needed. Permanent adoption and further GitHub edits remain subject to explicit user direction.
