@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.10 · November 13, 2026
+## Draft 0.11 · November 13, 2026
 
-Revision 0.10 makes character-scale review an independent required gate after island framing and before artwork approval/background finishing. It records the accepted Corsair hero-only correction, expands the reusable generation prompt and acceptance checklist, and preserves the four island-master and five supplemental environment-reference roles. All changes remain scoped to this experimental floating-island system; shared Jolly, MapleStory face, material and cubby master priorities are unchanged.
+Revision 0.11 records the approved finished Corsair versus Pianus encounter, equal-canvas character-scale review and controlled #F3E6DD background export. It adds the named supplemental encounter reference and pale-artwork masking lesson. The independent character-scale gate from revision 0.10 remains required. Existing layout, face, material and cubby master priorities remain unchanged.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -102,11 +102,11 @@ Faces use fine short velvety cream nap, a subtly fluffier framing border, rounde
 
 The approximately 6.8% facial-inset width remains a provisional planning anchor, not a universal pass/fail threshold and not a substitute for this gate. No new universal numeric tolerance or total-height rule is established by the Corsair example.
 
-### Corsair versus Pianus — accepted scale-correction learning
+### Corsair versus Pianus — finished encounter and scale-correction learning
 
 [Accepted smaller Corsair scene](https://chatgpt.com/library?file_id=libfile_90167c1e7fd08191924dd962422edef9&account_id=personal)
 
-**Role:** supplemental experimental example of elaborate pirate costume, grounded dual-pistol combat, a large full-body fish boss, a translucent Broadside ghost ship and solid Siege Bomber. It does not replace the Ice/Lightning layout authority or any face/material master. Exact #F3E6DD background finishing remains pending for this source; do not use its current background as the color standard.
+**Role:** supplemental experimental example of elaborate pirate costume, grounded dual-pistol combat, a large full-body fish boss, a translucent Broadside ghost ship and solid Siege Bomber. It does not replace the Ice/Lightning layout authority or any face/material master. The linked smaller-Corsair image is the pre-background source. Use the finished reference below for the accepted encounter; the exterior target remains exact #F3E6DD.
 
 - The fresh render included the actual island layout master plus Corsair design, full-body Pianus collectible, Aqua Road map and Wild Hunter material reference. Framing still drifted; attaching a layout reference helps specify intent but does not guarantee compliance.
 - The user preferred the cubby Pianus design over the collectible interpretation. Corrected to a visible stern pale eye beneath a heavy orange brow, fleshy tan downturned lips, taller orange body, yellow underside, irregular pale forehead markings and orange-yellow fins, while retaining full body and tail. The collectible was useful for completing anatomy, not as the final facial-design authority.
@@ -114,8 +114,17 @@ The approximately 6.8% facial-inset width remains a provisional planning anchor,
 - A user-approved **non-generative uniform resize** produced a 1104 × 1104 resampled scene from the 1254-square source, placed at x75/y15 on a 1254-square canvas. Actual scale was about 88.04%; the selected source ground anchor y894 mapped to y802. Background extension/blending was confined to exterior canvas margins. This preserves composition and designs through resampling, not original per-pixel equality.
 - At that global-framing stage, contrast measurements found a platform width of 966 px / 77.03%, x143–1108, and lowest connected island point y997 / 79.51%. Fighter comparison was 964 px / 76.87%, x141–1104 and bottom y1022 / 81.50%. These measurements belong to the **pre-hero-correction** stage.
 - Despite matched platform width, the user correctly observed that Corsair still looked substantially larger. The earlier face-width estimate and island measurements had missed the visual weight of her large feathered hat, flowing hair and costume. **Do not repeat the claim that aligned islands establish aligned heroes.**
-- The user approved a separate roughly 12–15% hero reduction; the generative edit requested about 13%, anchored at the feet, preserving boss, summons and island in scope. The user visually accepted the smaller Corsair. This is not a verified exact 13% transform, and final face/hero bounds and post-edit island geometry have not yet been independently remeasured into a final acceptance table.
-- Next steps for the artwork remain a focused side-by-side character-scale review, recheck of framing/integration, then separately approved exact exterior-background finishing. Acceptance of the correction is not permission for further unapproved image edits.
+- The user approved a separate roughly 12–15% hero reduction; the generative edit requested about 13%, anchored at the feet, preserving boss, summons and island in scope. The user visually accepted the smaller Corsair. This is not a verified exact 13% transform. Subsequent equal-canvas review accepted the hero's overall visual weight; exact final face/hero bounds were not measured.
+- **Final review completed:** Fighter, original Ice/Lightning and the smaller Corsair were compared at equal full-canvas size. Approximate platform widths were 76.9%, 76.8% and 77.0%; lowest connected island points were 81.5%, 81.0% and 79.5% down. Contrast-based readings are approximate boundary estimates. Corsair's slightly smaller visible face and taller hat/feathers were accepted as a balanced overall silhouette. Ground contact and supporting summon hierarchy passed visual review. The thinner underside and taller map-specific reef remain accepted variation.
+- **Background finish completed and accepted:** opaque lossless RGB PNG, 1254 × 1254. Clear selected exterior is exact #F3E6DD (243,230,221); 1,061,868 clear-mask pixels, 10,991 candidate fringe pixels, and zero changed pixels outside mask plus fringe. Geometry was not resized or translated during finishing. Inspecting the first mask caught pale Pianus forehead patches and paving; these were excluded before export. Color similarity alone never proves background membership. Preserve pale subjects and internal surfaces while matching genuine exterior openings and narrow edge transitions.
+- The finished image was inspected standalone; live-page validation was not performed. Preserve the pre-finish source separately. Any further artwork edits require approval.
+
+#### Finished supplemental encounter reference
+
+**Filename:** `REF_Island_Encounter_Corsair_Pianus.png`  
+[Download/reference file](https://chatgpt.com/library?file_id=libfile_cdbd9b84c9088191bc7b2e71092b5992&account_id=personal)
+
+Use for a large full-body boss, elaborate pirate costume, foreground ranged combat, reduced secondary summons, translucent golden Broadside at Corsair's left and solid Siege Bomber. Aqua Road turquoise shelves, cave openings, glowing branching coral and short chains reflect the supplied actual map inspiration. This is a supplemental encounter example, not a new layout, face or texture master. Original Ice/Lightning remains the primary layout authority. Do not force future classes to copy Corsair's pose, face size, costume height, boss proportions or reef landmarks. The named PNG is a byte-identical copy of the accepted finished export. It is ready for the user to upload to Project sources; uploading has not been confirmed.
 
 ## Camera and floor
 
