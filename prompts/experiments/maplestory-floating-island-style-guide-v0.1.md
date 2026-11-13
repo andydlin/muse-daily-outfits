@@ -454,9 +454,12 @@ These references are scoped to the experimental floating-island system and do no
 
 | Intended reference filename | Role | Source status |
 | --- | --- | --- |
-| MASTER_Island_Layout_Ice_Lightning.png | Primary apparent scale, framing, shallow camera and foreground staging | Exact original-versus-enhanced source selection must be confirmed before promoting a file |
+| MASTER_Island_Layout_Ice_Lightning.png | Primary apparent scale, framing, shallow camera and foreground staging | Approved original, background-matched opaque PNG, 1254 × 1254; [file](https://chatgpt.com/library?file_id=libfile_dc85c841d3148191a1e0b90b9bb66f24&account_id=personal) |
+| MASTER_Island_Effects_Ice_Lightning.png | Supplemental lighting, electricity, ice and snow effects only; not layout authority | Approved enhanced variant, background-matched opaque PNG, 1265 × 1243; [file](https://chatgpt.com/library?file_id=libfile_88c7a9f28b848191a0b0ed8c3a25e200&account_id=personal) |
 | MASTER_Island_Melee_Fighter.png | Integrated melee contact, grounded stance and winged boss | Accepted finished Fighter PNG |
 | MASTER_Island_Hover_Black_Mage.png | Hover clearance, dark robes, ranged magic and map-specific scenery | Accepted finished Priest / Black Mage PNG |
+
+The user approved all four reference roles on November 13, 2026. The two Ice/Lightning files were finished to #F3E6DD without resizing and renamed without changing image bytes. The enhanced file remains nonsquare; preserve its native aspect ratio and never use it to override the original square layout master. These named files are prepared for the user to upload as Project source files; preparation does not prove that Project upload has occurred.
 
 Preserve full source canvases and margins; no screenshots, comparison sheets, tight crops or nonuniform stretching. Prefer original approved PNG bytes. Converting a JPEG to PNG does not restore lost detail, and a later variant is not automatically the layout authority. Attach actual files during generation and explicitly assign their roles. Under a five-image input limit, choose the relevant island reference plus encounter design and face/material references; do not silently omit essential design references or claim an omitted image was supplied. Prioritize reference selection in the approved scene plan.
 
