@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.5 · November 12, 2026
+## Draft 0.6 · November 13, 2026
 
-Revision 0.5 adopts warm cream #F3E6DD as the experimental exterior/page background. It retains revision 0.4's exact-color opaque PNG default after review of transparency preservation risks. Transparency remains optional for a specifically approved use. Accepted staging measurements remain unchanged. The existing v0.1 filename is retained for link continuity.
+Revision 0.6 adds a prioritized generation prompt, an acceptance checklist, measurement definitions and repair routing, plus the first fresh Fighter/Balrog test assessment. It retains #F3E6DD and the opaque PNG delivery workflow. Layout targets remain working targets; this revision does not invent universal numerical rejection tolerances. The existing v0.1 filename is retained for link continuity.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -18,7 +18,7 @@ https://github.com/andydlin/muse-daily-outfits/tree/main/prompts
 
 Relevant files are `shared/jolly-character.md`, `shared/cubby-lighting.md`, `shared/plush-materials.md` and `maplestory/hero-pairing.md`. Consult `maplestory/recolor.md` for recoloring.
 
-The approved experiment replaces the physical cubby presentation with a floating island and open peach background. Its measured island framing and smaller hero scale govern these studies. Other identity, face, material and lighting principles continue to apply where compatible with this presentation.
+The approved experiment replaces the physical cubby presentation with a floating island and open warm cream background. Its measured island framing and smaller hero scale govern these studies. Other identity, face, material and lighting principles continue to apply where compatible with this presentation.
 
 | Purpose | Reference priority |
 | --- | --- |
@@ -177,7 +177,7 @@ This decision supersedes Draft 0.3's transparent-PNG default. The user liked the
 2. Propose the exterior-only finishing pass and obtain explicit approval. Process one image at a time.
 3. Use a controlled pixel mask to replace clear exterior background with **#F3E6DD**. Do not regenerate the scene merely to obtain the background color, and do not depend on repeated generative color-matching attempts.
 4. Include genuine background openings, such as open arches and exterior gaps between branches. Protect actual rear foliage, architecture, characters, skin, equipment and other similarly colored artwork. Background classification needs image-specific review.
-5. Use only the minimal edge blending needed to avoid halos. Preserve snow, icicles, fine foliage, vines, translucent ice and soft spell glows. Retain gradual effect-to-background transitions rather than flattening luminous or translucent artwork to solid peach.
+5. Use only the minimal edge blending needed to avoid halos. Preserve snow, icicles, fine foliage, vines, translucent ice and soft spell glows. Retain gradual effect-to-background transitions rather than flattening luminous or translucent artwork to solid background color.
 6. Preserve the canvas dimensions, margins, island footprint, position, hero scale, ground placement and camera. Change only the approved background mask and narrow blending fringe. Keep pixels outside that edit region unchanged.
 7. Export as lossless **opaque PNG**. Preserve the original and finished copy separately. Do not introduce JPEG compression in the final delivery.
 
@@ -213,7 +213,7 @@ If transparency is requested, preserve the source canvas and margins, genuine al
 | [Snow transparency test](https://chatgpt.com/library?file_id=libfile_05d61f25982c8191a27b5c53ecd62e3c&account_id=personal) | Historical pale-snow/icicle extraction test; not a default delivery master |
 | [Ice/Lightning battle effects test](https://chatgpt.com/library?file_id=libfile_dbf3d4a9fe2c819193c085c3579baeec&account_id=personal) | Experimental glow/ice/snow test with framing drift; not a layout master |
 
-[Website comparison preview](https://gizmo-tree-island-preview.honestpony262.chatgpt.site) uses the current #F3E6DD page color and is a review aid showing experimental exports and source images. Older opaque source images may retain their previous peach backgrounds Its contents and layout do not override this guide or establish permanent standards.
+[Website comparison preview](https://gizmo-tree-island-preview.honestpony262.chatgpt.site) uses the current #F3E6DD page color and is a review aid showing experimental exports and source images. Older opaque source images may retain their previous peach backgrounds. Its contents and layout do not override this guide or establish permanent standards.
 
 ## Composition studies reviewed in this chat
 
@@ -232,6 +232,115 @@ Study files
 - [Tall boss](https://chatgpt.com/library?file_id=libfile_42a9722f579c8191b7bbe4c54a549edd&account_id=personal)
 - [Wide boss](https://chatgpt.com/library?file_id=libfile_8c69457b4ce481918d0827b24d88890b&account_id=personal)
 - [Hovering boss](https://chatgpt.com/library?file_id=libfile_2299777dbc2481918d42e370985b2e9a&account_id=personal)
+
+## Generation and acceptance system
+
+Numerical prompting guides composition but does not guarantee it. Use three layers: purpose-specific visual references, a concise prioritized scene prompt, and measured review/controlled finishing. A successful style match is not evidence of a successful geometry match.
+
+### Requirement hierarchy
+
+| Type | Requirements | Review behavior |
+| --- | --- | --- |
+| Hard requirements | Square canvas; full island and required subjects visible; approved subject identity/design; readable correct weapon/grip and limb construction; assigned face/material references; no artwork text/UI; no cubby for this experiment; no ground-like cast shadow below island | Inspect the actual result; flag failures before final acceptance |
+| Measured working targets | Platform width about 76%; center x50%; grounded contact y64%; connected island bottom y81%; scenery ceiling usually y27–30%; visible hero face width about 6.8% | Record values and deltas; review together with the references. Universal tolerances remain unresolved |
+| Flexible design choices | Rear ruin arrangement, plants, terrain dressing, tapered underside shape, boss-specific proportions and effect paths | Vary within the approved encounter plan while preserving readability and integration |
+| Final delivery requirement | Opaque PNG with clear exterior #F3E6DD, unchanged source dimensions and unchanged pixels outside approved finishing mask/fringe | Verify separately after artwork approval; source background drift is not grounds to redraw accepted artwork |
+
+Keep scene-specific exceptions explicit in the approved plan. General cubby hero-dominance percentages do not apply to this smaller floating-island layout. Boss size is encounter-specific; the hero's face is the primary relative scale landmark.
+
+### Reference roles for a fresh render
+
+- Hero/boss design references define costume, hair silhouette, anatomy and physical weapon construction.
+- MapleStory face masters define facial refinement within Jolly identity.
+- Wild Hunter defines overall handmade materials; Mechanic and Sylveon retain their existing supporting priority.
+- When included, floating-island references define layout/camera/apparent scale only. They must not overwrite the chosen characters or environment.
+- Do not attach cubby composition imagery without explicitly excluding its frame, lamp, close-up hero size and scene layout.
+- For a fresh-render test, create a new scene rather than editing a previous island. State exactly which references were supplied. A prompt-only geometry test and a test using an island layout reference are different experiments; record that distinction.
+
+### Reusable generation prompt
+
+Fill the bracketed fields from the approved scene plan. Keep the priority order; add only necessary encounter-specific details.
+
+```text
+Create ONE new square photorealistic handmade plush miniature MapleStory-inspired battle: [HERO] versus [BOSS], in a floating island inspired by [MAP / INTERPRETATION]. This is a fresh scene, not an edit of an earlier island.
+
+PRIORITY 1 — WIDE FLOATING-ISLAND FRAMING
+Show the complete miniature from a distance on an open warm cream #F3E6DD background. No cubby or physical frame. Center the platform, spanning approximately x12%–88%. Grounded feet meet the foreground combat lane around y64%. The tapered connected underside ends around y81%. Highest rear scenery usually begins around y27%–30%. Preserve empty margins; do not zoom in to fill the canvas. Coordinates are percentages from top-left.
+
+PRIORITY 2 — SUBJECT SCALE AND STAGING
+The hero's visible cream cheek-to-cheek face width is about 6.8% of canvas width, excluding hair and accessories. Scale the whole hero coherently. [HERO SIDE, FACING, POSE, GAZE]. [BOSS SIDE, FACING, RELATIVE SIZE, GROUNDED/HOVERING STATUS]. Faces, weapon and boss silhouette stay readable. Main combat lane is near the front lip with a narrow paving strip ahead of toes; stairs and most environmental depth are behind the subjects. Use the approved shallow elevated front view, upright architecture and restrained perspective.
+
+PRIORITY 3 — WEAPON AND BATTLE
+[PHYSICAL WEAPON SHAPE, COMPONENTS, GRIP, ARM PLACEMENT, MOTION AND TARGET]. [RESTRAINED EFFECT PATH AND CONTACT LIGHT]. Physical equipment must remain distinct from energy effects; hands and limbs must read correctly.
+
+PRIORITY 4 — IDENTITY, MATERIALS AND ENVIRONMENT
+[ASSIGNED REFERENCE ROLES]. Preserve Jolly identity with approved MapleStory face refinements, fine short velvety face nap, subtly fluffier framing edge, dimensional textile hair and woven clothing. Apply Wild Hunter's cohesive miniature materials to hero, boss and environment; hard equipment stays structured matte miniature material. [MAP LANDMARKS, TERRAIN, REAR SCENERY AND UNDERSIDE]. Keep masonry/foliage detail appropriately small.
+
+Render subjects and terrain together with contact shadows, natural terrain overlaps, consistent perspective and soft shared illumination. [LOCAL EFFECT LIGHT]. No floor-like shadow below the island. No text, labels, UI, branding or watermark.
+
+Output one opaque square image. Exact exterior background matching is a separate approved finishing step; do not sacrifice artwork to chase color accuracy.
+```
+
+This prompt is a control brief, not a guarantee. Do not label an unmeasured result “locked” or “exact.” Do not add a fixed total hero-height rule that conflicts with face scale across crouched, jumping or elaborately costumed poses.
+
+### Measurement landmarks and acceptance checklist
+
+Use the actual output resolution. Normalize each coordinate by the corresponding canvas dimension. Record target, observed value, uncertainty and review status.
+
+| Check | Landmark or evidence |
+| --- | --- |
+| Canvas and framing | Actual pixel width/height; full silhouette and effect clearance; no cropping |
+| Platform width and center | Left/right connected platform-lip bounds. State the row range and whether moss, snow or foliage is included. Exclude independent particles and trailing extensions; measure extensions separately |
+| Ground line | Grounded hero sole-to-terrain contact, not stair height or frontmost lip; use the implied landing plane for jumping/hovering subjects |
+| Underside | Lowest connected solid island point; distinguish hanging vines, water, isolated debris and soft glow |
+| Scenery ceiling | Highest connected rear scenery; state whether foliage is included. Effects/particles measured separately |
+| Hero face scale | Visible cream facial inset cheek-to-cheek, excluding hair/hat/ornaments. Identify endpoints and uncertainty; cross-check similar three-quarter orientation and compact body proportions |
+| Environment detail scale | Compare paving blocks, stair risers and columns relative to hero face and boots; no single universal block size is established |
+| Camera and floor | Compare against assigned camera reference; narrow foreground strip, depth behind subjects, upright ruins. Do not infer exact lens/elevation from a single image |
+| Weapon and anatomy | Correct physical construction, grip, visible wrist/arm relationships, readable action; no duplicated/missing limbs |
+| Physical integration | Foot contact, terrain overlap, shared lighting, perspective and appropriate contact shadows; no pasted cutout appearance |
+| Identity/materials | Actual face/eye treatment and surface hierarchy against assigned masters |
+| Effects | Faces and physical weapon readable, coherent paths, localized light and sufficient outer clearance |
+| Exterior finish | Separate post-approval pixel-mask/background checks from the delivery section |
+
+Use statuses **pass**, **repair**, or **uncertain**. “Pass” may mean visually accepted when that is explicitly stated; it does not imply a measured numeric match. Proposed tolerance bands require user review before becoming rules.
+
+### Choose the repair from the failure
+
+1. **Whole scene too large or displaced, with sound relative proportions:** propose a uniform pixel resize and translation of all artwork together. Recheck face scale, scenery ceiling, ground line and underside afterward. Do not stretch horizontally/vertically to force all landmarks.
+2. **Hero or environment detail scale wrong relative to platform:** whole-image resizing cannot solve it. Propose a targeted subject/environment composition change, preserving approved elements where feasible.
+3. **Scenery too tall or underside too deep after framing normalization:** propose an environment-only change; keep hero scale, ground placement and platform width stable.
+4. **Grip, anatomy, identity or integration failure:** propose a localized repair. Do not rebuild the whole image solely for a small fix.
+5. **Background mismatch only:** use the approved masked pixel finish, not a generative redraw.
+
+Check the complete result again after any repair. Obtain approval before image edits and process one image at a time.
+
+### Fresh Fighter versus Balrog test — November 13, 2026
+
+[Test image](https://chatgpt.com/library?file_id=libfile_5b81ebaf161c819196112a4ed3de3f11&account_id=personal)
+
+Inputs: Fighter/Balrog cubby design reference, Ice/Lightning face master and Wild Hunter material master. No previous floating island was supplied as a composition reference or edit target. Numerical framing instructions were included in the generation prompt. This specifically tested whether written geometry targets plus design/style references were sufficient.
+
+| Check | Target | Observed | Assessment |
+| --- | --- | --- | --- |
+| Canvas | Square | 1254 × 1254 | Pass |
+| Platform-region width | About 76% / 953 px | x49–1218, 1170 px / 93.3% | Repair; +17.3 percentage points |
+| Platform horizontal center | x627 | x633.5 | Close to center; width is the larger problem |
+| Side clearance in platform band | About 12% each | Left 3.9%, right 2.8% | Repair |
+| Highest scenery | y27–30% | y216 / 17.2% | Repair; scenery reaches too high |
+| Lowest connected underside | y81% | y1137 / 90.7% | Repair; extends too low |
+| Hero sole-contact line | Around y803 / 64% | Approximately y820–827 / 65–66%, visual estimate | Slightly low; endpoints affected by pose and paving |
+| Hero facial inset | About 85 px / 6.8% | Appears larger than target; reliable endpoint measurement still pending | Uncertain; do not declare relative scale correct from framing alone |
+| Foreground staging/integration | Near front lip, coherent contact | Boots meet paving, rear stairs supply depth, contact and material language read coherently | Visual pass; camera/detail-scale comparison remains provisional |
+| Sword/action | Two-handed physical blade, raised-claw contact | Recognizable slotted blade and handle, two-handed stance and visible contact sparks | Visual pass at current viewing size |
+| Clear exterior color | Final #F3E6DD | Top 150-row median RGB 251, 232, 218 / #FBE8DA | Finish pending after artwork approval |
+
+Measurement method: Euclidean RGB distance from the median top-150-row background, thresholds 45/55/65. Platform-region bounds measured within rows 800–879; includes lip-adjacent foliage. Width varied by 1 px across thresholds; scenery top varied by 1 px; bottom was stable. These are contrast-mask observations, not semantic segmentation or guarantees about all silhouette details. Sole-contact readings are manual estimates. Hero face endpoints and environment detail-scale checks need a focused comparison before a final repair choice.
+
+**Conclusion:** character design, action and integration transferred more successfully than framing. Written numeric instructions alone did not hold the intended footprint. This image is a diagnostic example, not an approved layout master.
+
+A proposed 76/93.3 ≈ **81.5%** uniform resize, anchored on an estimated current ground line y825 and moved to y803, would put the scenery top near **y307 (24.5%)** and island bottom near **y1057 (84.3%)**. These are calculated predictions, not an applied edit. Thus resizing alone would improve framing but would not satisfy every vertical target. Recheck hero face scale and detail proportions, then decide whether to accept variation or approve a separate scenery/underside repair. No image repair is authorized by this documentation update alone.
+
 
 ## Working review sequence
 
