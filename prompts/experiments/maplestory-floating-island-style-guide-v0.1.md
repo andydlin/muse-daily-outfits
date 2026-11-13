@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.7 · November 13, 2026
+## Draft 0.8 · November 13, 2026
 
-Revision 0.7 records the accepted Fighter versus Crimson Balrog outcome, direct boss-reference verification, separate scenery/subject/effect bounds, and the approved tall-wing exception. It retains the prioritized prompt, acceptance checklist, #F3E6DD opaque PNG workflow and provisional layout targets. This revision does not invent universal numerical rejection tolerances. The existing v0.1 filename is retained for link continuity.
+Revision 0.8 records the accepted Priest versus Black Mage test, stable island footprint with flexible scenery and underside thickness, protected pale surfaces during background finishing, and explicit floating-island reference roles. It updates the reusable prompt and repair workflow. All rules remain scoped to this experimental series; shared master priorities are unchanged. The existing v0.1 filename is retained for link continuity.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -45,19 +45,19 @@ Coordinates start at the top-left. Normalize all values for output resolutions o
 | Horizontal center | 50% | x627 | Centered presentation |
 | Side clearance | About 12% each | About 150 px each | Derived from width |
 | Ground contact line | 64% down | y803 | Rounded from hero boot contacts |
-| Connected island bottom | 81% down | y1016 | Approved original silhouettes |
-| Bottom clearance | 19% | About 238 px | Derived from island bottom |
-| Rear-scenery ceiling | Usually 27–30% down | y339–376 | Environment only; measure boss features and effects separately |
+| Connected island bottom | About 81% down as a baseline; may vary with underside design | y1016 baseline | Verify ground placement separately; accepted Black Mage bottom is 78.5% |
+| Bottom clearance | About 19% baseline; flexible with underside thickness | About 238 px baseline | Not an independent fixed-position requirement |
+| Rear-scenery ceiling | Usually 27–30% down as a starting guide; map-dependent | y339–376 baseline | Accepted Black Mage scenery reaches about 24%; preserve margins and readability |
 | Visible hero face width | About 6.8% | 85 px | Provisional cheek-to-cheek anchor |
 | Website background | Exact solid exterior and page color | #F3E6DD / RGB 243, 230, 221 | Opaque PNG with separately approved masked background finishing |
 
 These are experimental working targets. Exact acceptance tolerances remain unresolved. Report measured drift for review before inventing hard rejection thresholds.
 
-The scenery ceiling applies to rear environmental architecture and connected foliage. It is not automatically a shared cap for bosses, hero accessories or effects. Record environment bounds, hero bounds, boss bounds and effect bounds separately. A distinctive boss feature may extend above the scenery ceiling when explicitly approved; keep full visibility and adequate outer clearance without enlarging the island or hero to accommodate it.
+The scenery ceiling is a planning guide for rear environmental architecture and connected foliage, not a universal hard cap. Map-specific architecture and scenery may vary substantially while the island footprint, hero apparent scale and foreground combat lane remain consistent. It is not automatically a shared cap for bosses, hero accessories or effects. Record environment bounds, hero bounds, boss bounds and effect bounds separately. A distinctive boss feature may extend above the scenery ceiling when explicitly approved; keep full visibility and adequate outer clearance without enlarging the island or hero to accommodate it.
 
 The ground line is a subject-placement reference. The front platform edge, floor rear boundary and steps can occur at other heights. Jumping heroes and hovering bosses retain the same implied ground reference.
 
-The roughly 213 px interval from ground line to island bottom is an image-space placement guide. Front-edge shape and projected surfaces affect its interpretation; allow tapered, map-specific undersides.
+The roughly 213 px interval from ground line to island bottom is an image-space placement guide, not a mandatory underside thickness. A shallower taper may end higher without indicating a vertical-position error; check grounded sole contact and platform lip separately before moving the whole island. Front-edge shape and projected surfaces affect its interpretation; allow tapered, map-specific undersides.
 
 Earlier targets of 75% width, 65% ground line, 22% island thickness and 15% bottom clearance preceded the latest original-image review. The table above records the subsequent proposed working values. It remains a draft pending guide review.
 
@@ -110,7 +110,7 @@ Use soft diffuse shared illumination. Let localized spells illuminate nearby pav
 
 Render terrain and subjects together with coherent perspective, softness, occlusion and lighting. Grounded feet meet paving with tight contact shadows. Suitable rubble, snow or plants can overlap boot edges naturally.
 
-Hovering subjects show readable air clearance. Effects may occupy that clearance while preserving the floating silhouette. Keep weapon grips, hand anatomy and physical weapon components legible.
+Hovering subjects show readable air clearance. Effects may occupy that clearance while preserving the floating silhouette. A localized hover shadow and magical illumination may sit on the island beneath them; no floor-like shadow belongs below the island itself. Preserve readable folds and surface texture in dark robes through restrained charcoal highlights and localized light, without turning black fabric gray. Keep weapon grips, hand anatomy and physical weapon components legible.
 
 ## Map adaptation and island variation
 
@@ -179,7 +179,7 @@ This decision supersedes Draft 0.3's transparent-PNG default. The user liked the
 2. Propose the exterior-only finishing pass and obtain explicit approval. Process one image at a time.
 3. Use a controlled pixel mask to replace clear exterior background with **#F3E6DD**. Do not regenerate the scene merely to obtain the background color, and do not depend on repeated generative color-matching attempts.
 4. Include genuine background openings, such as open arches and exterior gaps between branches. Protect actual rear foliage, architecture, characters, skin, equipment and other similarly colored artwork. Background classification needs image-specific review.
-5. Use only the minimal edge blending needed to avoid halos. Preserve snow, icicles, fine foliage, vines, translucent ice and soft spell glows. Retain gradual effect-to-background transitions rather than flattening luminous or translucent artwork to solid background color.
+5. Before applying a color mask, inspect an overlay against the actual artwork. Background-like colors may also occur in cream faces, white hats, robes, blonde hair, feathered equipment, book pages and pale effects. Protect these surfaces explicitly; one global color-distance threshold is insufficient. Distinguish true enclosed background openings from pale interior objects. Use only the minimal edge blending needed to avoid halos. Preserve snow, icicles, fine foliage, vines, translucent ice and soft spell glows. Retain gradual effect-to-background transitions rather than flattening luminous or translucent artwork to solid background color.
 6. Preserve the canvas dimensions, margins, island footprint, position, hero scale, ground placement and camera. Change only the approved background mask and narrow blending fringe. Keep pixels outside that edit region unchanged.
 7. Export as lossless **opaque PNG**. Preserve the original and finished copy separately. Do not introduce JPEG compression in the final delivery.
 
@@ -267,7 +267,7 @@ Fill the bracketed fields from the approved scene plan. Keep the priority order;
 Create ONE new square photorealistic handmade plush miniature MapleStory-inspired battle: [HERO] versus [BOSS], in a floating island inspired by [MAP / INTERPRETATION]. This is a fresh scene, not an edit of an earlier island.
 
 PRIORITY 1 — WIDE FLOATING-ISLAND FRAMING
-Show the complete miniature from a distance on an open warm cream #F3E6DD background. No cubby or physical frame. Center the platform, spanning approximately x12%–88%. Grounded feet meet the foreground combat lane around y64%. The tapered connected underside ends around y81%. Highest rear scenery usually begins around y27%–30%. Track boss/hero/effect bounds separately; [EXPLICITLY APPROVED SILHOUETTE EXCEPTION, IF ANY]. Preserve empty margins; do not zoom in to fill the canvas. Coordinates are percentages from top-left.
+Show the complete miniature from a distance on an open warm cream #F3E6DD background. No cubby or physical frame. Center the platform, spanning approximately x12%–88%. Grounded feet meet the foreground combat lane around y64%. The tapered connected underside has a baseline end around y81%, but its thickness and lowest tip may vary with the approved island design; keep the combat ground line stable. Highest rear scenery usually begins around y27%–30% as a starting guide, with map-specific variation permitted by the approved plan. Track boss/hero/effect bounds separately; [EXPLICITLY APPROVED SILHOUETTE EXCEPTION, IF ANY]. Preserve empty margins; do not zoom in to fill the canvas. Coordinates are percentages from top-left.
 
 PRIORITY 2 — SUBJECT SCALE AND STAGING
 The hero's visible cream cheek-to-cheek face width is about 6.8% of canvas width, excluding hair and accessories. Scale the whole hero coherently. [HERO SIDE, FACING, POSE, GAZE]. [BOSS SIDE, FACING, RELATIVE SIZE, GROUNDED/HOVERING STATUS]. Faces, weapon and boss silhouette stay readable. Main combat lane is near the front lip with a narrow paving strip ahead of toes; stairs and most environmental depth are behind the subjects. Use the approved shallow elevated front view, upright architecture and restrained perspective.
@@ -276,7 +276,7 @@ PRIORITY 3 — WEAPON AND BATTLE
 [PHYSICAL WEAPON SHAPE, COMPONENTS, GRIP, ARM PLACEMENT, MOTION AND TARGET]. [RESTRAINED EFFECT PATH AND CONTACT LIGHT]. Physical equipment must remain distinct from energy effects; hands and limbs must read correctly.
 
 PRIORITY 4 — IDENTITY, MATERIALS AND ENVIRONMENT
-[ASSIGNED REFERENCE ROLES]. Preserve Jolly identity with approved MapleStory face refinements, fine short velvety face nap, subtly fluffier framing edge, dimensional textile hair and woven clothing. Apply Wild Hunter's cohesive miniature materials to hero, boss and environment; hard equipment stays structured matte miniature material. [MAP LANDMARKS, TERRAIN, REAR SCENERY AND UNDERSIDE]. Keep masonry/foliage detail appropriately small.
+Attach the selected floating-island layout reference for framing/camera only, and an encounter example only when relevant; state each image's role. Filenames alone do not supply visual references. [ASSIGNED REFERENCE ROLES]. Preserve Jolly identity with approved MapleStory face refinements, fine short velvety face nap, subtly fluffier framing edge, dimensional textile hair and woven clothing. Apply Wild Hunter's cohesive miniature materials to hero, boss and environment; hard equipment stays structured matte miniature material. [MAP LANDMARKS, TERRAIN, REAR SCENERY AND UNDERSIDE]. Keep masonry/foliage detail appropriately small.
 
 Render subjects and terrain together with contact shadows, natural terrain overlaps, consistent perspective and soft shared illumination. [LOCAL EFFECT LIGHT]. No floor-like shadow below the island. No text, labels, UI, branding or watermark.
 
@@ -310,7 +310,7 @@ Use statuses **pass**, **repair**, or **uncertain**. “Pass” may mean visuall
 
 ### Choose the repair from the failure
 
-1. **Whole scene too large or displaced, with sound relative proportions:** propose a uniform pixel resize and translation of all artwork together. Recheck face scale, scenery ceiling, ground line and underside afterward. Do not stretch horizontally/vertically to force all landmarks.
+1. **Whole scene too large or displaced, with sound relative proportions:** propose a controlled, non-generative uniform pixel resize and translation of all artwork together and obtain explicit authorization for that method. Prefer it over repeated generative framing edits when preservation of approved detail matters. Never stretch only width to meet a target. Recheck face scale, scenery ceiling, ground line and underside afterward. Do not stretch horizontally/vertically to force all landmarks.
 2. **Hero or environment detail scale wrong relative to platform:** whole-image resizing cannot solve it. Propose a targeted subject/environment composition change, preserving approved elements where feasible.
 3. **Scenery too tall or underside too deep after framing normalization:** propose an environment-only change; keep hero scale, ground placement and platform width stable.
 4. **Grip, anatomy, identity or integration failure:** propose a localized repair. Do not rebuild the whole image solely for a small fix.
@@ -395,6 +395,70 @@ The finished scene was added to the comparison preview beside Ice/Lightning. Pub
 - Finish accepted artwork with a controlled exterior mask; do not regenerate accepted artwork solely for background color.
 - Preserve failed and intermediate measurements as diagnostic history. Promote only explicitly accepted images to their stated experimental reference roles.
 
+
+## Accepted Priest versus Black Mage test — November 13, 2026
+
+[Finished opaque PNG](https://chatgpt.com/library?file_id=libfile_516d502b15f4819190bf002dc4471598&account_id=personal)
+
+The user accepted this encounter as a successful companion to Fighter and Ice/Lightning. Direct Black Mage sprites controlled hood, robe silhouette, red eyes and aura; the supplied priest artwork controlled hair, costume, winged blue-orb staff and floating book; the supplied Throne of Darkness map controlled blade-like structures, chains, crimson crystals and central throne. Face and material masters retained their assigned roles. The first generation used these design/style references but no floating-island layout image. Thus this is not evidence that an attached layout reference was tested.
+
+The boss hovers on the left, priest stands on the right, and a focused golden ray connects the confrontation. Black woven robes retain legible folds; gold and crimson light integrate subjects with terrain. The map is adapted into finite miniature architecture rather than a full rectangular backdrop.
+
+### Measured final comparison
+
+| Landmark | Fighter supplied JPEG | Accepted Priest / Black Mage PNG |
+| --- | --- | --- |
+| Canvas | 1254 × 1254 | 1254 × 1254 |
+| Platform-lip bounds | x141–1104 | x144–1111 |
+| Platform width, inclusive | 964 px / 76.87% | 968 px / 77.19% |
+| Horizontal center | 49.64% | 50.04% |
+| Hero sole contact | About 65% down, manual estimate | About 64% down, manual estimate |
+| Lowest connected island point | y1022 / 81.50% | y985 / 78.55% |
+| Highest rear scenery | About 30%, manual estimate; boss wings excluded | About y299 / 23.8% |
+| Clear top-background median | RGB 243,230,221 | RGB 243,230,221 |
+
+Method: Euclidean RGB distance greater than 65 from the top-150-row background median. Platform row bands were 63–70% for Fighter and 59–68% for Priest, chosen to capture each lip rather than a shared scenery row. Irregular edge vegetation is included. These are contrast measurements, not semantic segmentation. Foot lines and Fighter rear-scenery readings are approximate. Final face width was visually accepted as comparable, not independently segmented into an exact measurement.
+
+The separate enhanced Ice/Lightning JPEG used in the earlier comparison measured 1265 × 1243 and approximately 78.3% wide. It is a later variant, not automatically a replacement for the original 1254-square layout authority. Normalize axes independently when comparing it; do not stretch it into a square and declare an exact match.
+
+### Explicitly accepted variation
+
+- Island footprint stays consistent in apparent width and horizontal placement. Hero face scale, foreground contact lane and shallow camera remain independent checks.
+- Rear architecture and scenery may vary by map, including height and density. The Black Mage architecture reaching higher is accepted; do not impose identical scenery bounding boxes.
+- Underside thickness and taper may vary. The Black Mage island ends 37 px above Fighter's while the combat lane remains near the shared ground reference. This is accepted design variation, not a reason to lower the whole island.
+- Hovering boss proportions and aura differ from grounded melee bosses without changing the hero scale or island footprint.
+- These accepted examples do not establish universal numeric tolerance bands.
+
+### Framing and preservation lesson
+
+The original generation was oversized. Generative framing passes produced approximately 73.3%, then 80.7%, then 77.2% platform width; a requested 5% enlargement did not produce an exact 5% transform. Some fine details changed. These are generative reconstructions, not pixel-preserving resizes. Measure the actual output rather than reporting the requested transform as achieved. Once artwork is approved, propose a deterministic uniform resize/translation for a framing-only correction and obtain explicit authorization for that method. Use generative edits for internal design, anatomy, integration or composition changes that actually require reconstruction. Preserve the last approved source.
+
+### Background finishing and pale-surface protection
+
+The first candidate mask selected pale parts of the priest and book as well as background. It was rejected before delivery. A refined mask protected light interior components and selected subject regions, retaining aura and book-glow transitions while matching clear exterior and genuine architecture openings.
+
+| Final check | Recorded result |
+| --- | --- |
+| Output | Opaque lossless PNG, 1254 × 1254 |
+| Clear mask target | Exact #F3E6DD / RGB 243,230,221 |
+| Masked pixels | 1,139,630 |
+| Narrow candidate fringe | 14,575 pixels; not all necessarily changed |
+| Changed pixels outside mask plus fringe | 0 |
+| Original source | Retained separately |
+
+Inspect the background mask overlay before export. Color similarity is not proof that a pixel is background. Protect fine chain/branch boundaries and pale subjects without introducing rectangular protected patches or flattening translucent light. Standalone image and numerical checks were inspected; this pass did not add the scene to or validate it on the live preview page.
+
+## Floating-island reference files — organization and roles
+
+These references are scoped to the experimental floating-island system and do not supersede Jolly, MapleStory face, Wild Hunter texture or cubby master priorities.
+
+| Intended reference filename | Role | Source status |
+| --- | --- | --- |
+| MASTER_Island_Layout_Ice_Lightning.png | Primary apparent scale, framing, shallow camera and foreground staging | Exact original-versus-enhanced source selection must be confirmed before promoting a file |
+| MASTER_Island_Melee_Fighter.png | Integrated melee contact, grounded stance and winged boss | Accepted finished Fighter PNG |
+| MASTER_Island_Hover_Black_Mage.png | Hover clearance, dark robes, ranged magic and map-specific scenery | Accepted finished Priest / Black Mage PNG |
+
+Preserve full source canvases and margins; no screenshots, comparison sheets, tight crops or nonuniform stretching. Prefer original approved PNG bytes. Converting a JPEG to PNG does not restore lost detail, and a later variant is not automatically the layout authority. Attach actual files during generation and explicitly assign their roles. Under a five-image input limit, choose the relevant island reference plus encounter design and face/material references; do not silently omit essential design references or claim an omitted image was supplied. Prioritize reference selection in the approved scene plan.
 
 ## Working review sequence
 
