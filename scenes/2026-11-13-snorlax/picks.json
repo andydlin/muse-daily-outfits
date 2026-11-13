@@ -1,0 +1,15 @@
+{
+  "activation": "avatar-1794584735593282916-0",
+  "live_sha256": "890f4e398963e1e7d1eb32d10a9dba08c8a95f3b683f760a0b4f289ff078a2da",
+  "sources": {
+    "waking": "avatar-1794584735593282916-0-waking-attempt-12c5f2308e66.mp4",
+    "working": "avatar-1794584735593282916-0-working-attempt-3e800d2303f5.mp4",
+    "making-something": "avatar-1794584735593282916-0-making_something-attempt-74e5aa04976d.mp4"
+  },
+  "md5": {
+    "waking": "ffe750fced6d146ac641cd22c5c926ae",
+    "working": "2631f05d7be2b6fc2e2acd015d6dd75b",
+    "making-something": "641376467023676b8ff26286c96ac4a0"
+  },
+  "theme": "Snorlax zip-up hoodie"
+}
