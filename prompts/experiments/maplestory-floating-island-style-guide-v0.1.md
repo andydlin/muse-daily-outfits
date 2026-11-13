@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.4 · November 12, 2026
+## Draft 0.5 · November 12, 2026
 
-Revision 0.4 makes exact-color opaque PNGs the default website delivery format after the user reviewed the transparency tests and preservation risks. Transparency remains optional for a specifically approved use. Accepted staging measurements remain unchanged. The existing v0.1 filename is retained for link continuity.
+Revision 0.5 adopts warm cream #F3E6DD as the experimental exterior/page background. It retains revision 0.4's exact-color opaque PNG default after review of transparency preservation risks. Transparency remains optional for a specifically approved use. Accepted staging measurements remain unchanged. The existing v0.1 filename is retained for link continuity.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -29,7 +29,7 @@ The approved experiment replaces the physical cubby presentation with a floating
 | Experimental composition and apparent scale | Supplied floating Ice/Lightning vs Pink Bean original, with latest approved Fighter vs Balrog original as cross-check |
 | Experimental camera and foreground staging | Simplified snowy mage scene, checked against original Ice/Lightning |
 | Environment-transfer examples | Accepted volcanic altar and nature root-gate studies |
-| Experimental website delivery | Opaque PNG with masked exterior matching to #FDE1D3; same page color. Transparency optional by approval |
+| Experimental website delivery | Opaque PNG with masked exterior matching to #F3E6DD; same page color. Transparency optional by approval |
 | Character, boss and map designs | Specific supplied or verified encounter references |
 
 The floating Ice/Lightning scene and `MASTER_Maple_Face_Ice_Lightning_Mage.png` serve distinct roles. Use the floating scene for layout and the named face master for identity.
@@ -49,7 +49,7 @@ Coordinates start at the top-left. Normalize all values for output resolutions o
 | Bottom clearance | 19% | About 238 px | Derived from island bottom |
 | Scenery ceiling | Usually 27–30% down | y339–376 | Observed scenery tops |
 | Visible hero face width | About 6.8% | 85 px | Provisional cheek-to-cheek anchor |
-| Website background | Exact solid exterior and page color | #FDE1D3 / RGB 253, 225, 211 | Opaque PNG with separately approved masked background finishing |
+| Website background | Exact solid exterior and page color | #F3E6DD / RGB 243, 230, 221 | Opaque PNG with separately approved masked background finishing |
 
 These are experimental working targets. Exact acceptance tolerances remain unresolved. Report measured drift for review before inventing hard rejection thresholds.
 
@@ -74,7 +74,7 @@ Both originals are 1,254 × 1,254. Geometry values below are manual visual bound
 
 These early floor-strip readings describe local visible surfaces. The later boot-to-front-lip clearance estimates below use a different landmark definition. Neither establishes complete walkable floor depth or camera elevation.
 
-Background samples used median RGB values from clear patches. The supplied JPEGs contain subtle variation. #FDE1D3 remains the original Ice/Lightning reference and is now the website page color. Original staging renders retain their source backgrounds; website delivery uses the separate masked background-finishing workflow below.
+Background samples used median RGB values from clear patches. The supplied JPEGs contain subtle variation. Original Ice/Lightning was sampled as #FDE1D3; the user subsequently selected #F3E6DD (RGB 243, 230, 221) as the new exterior and website page color. This is a deliberate palette change, not a new sample from the original. Original staging renders retain their source backgrounds; website delivery uses the separate masked background-finishing workflow below.
 
 ## Hero construction and scale
 
@@ -167,7 +167,7 @@ Method and limits
 
 ### Approved website delivery — exact-color opaque PNG
 
-**Default:** finish approved artwork as an **opaque PNG** whose clear exterior background is exactly **#FDE1D3 (RGB 253, 225, 211)**. Set the website page background to the same color. Keep the original approved render separately.
+**Default:** finish approved artwork as an **opaque PNG** whose clear exterior background is exactly **#F3E6DD (RGB 243, 230, 221)**. Set the website page background to the same color. Keep the original approved render separately.
 
 This decision supersedes Draft 0.3's transparent-PNG default. The user liked the transparent previews but chose the more conservative solid-background workflow to reduce unintended changes to artwork. It applies only to this experimental floating-island series; shared Jolly, MapleStory and cubby master priorities remain unchanged.
 
@@ -175,7 +175,7 @@ This decision supersedes Draft 0.3's transparent-PNG default. The user liked the
 
 1. Create and approve the artwork, including lighting and effects, before background finishing. Preserve its original source file.
 2. Propose the exterior-only finishing pass and obtain explicit approval. Process one image at a time.
-3. Use a controlled pixel mask to replace clear exterior background with **#FDE1D3**. Do not regenerate the scene merely to obtain the background color, and do not depend on repeated generative color-matching attempts.
+3. Use a controlled pixel mask to replace clear exterior background with **#F3E6DD**. Do not regenerate the scene merely to obtain the background color, and do not depend on repeated generative color-matching attempts.
 4. Include genuine background openings, such as open arches and exterior gaps between branches. Protect actual rear foliage, architecture, characters, skin, equipment and other similarly colored artwork. Background classification needs image-specific review.
 5. Use only the minimal edge blending needed to avoid halos. Preserve snow, icicles, fine foliage, vines, translucent ice and soft spell glows. Retain gradual effect-to-background transitions rather than flattening luminous or translucent artwork to solid peach.
 6. Preserve the canvas dimensions, margins, island footprint, position, hero scale, ground placement and camera. Change only the approved background mask and narrow blending fringe. Keep pixels outside that edit region unchanged.
@@ -183,13 +183,13 @@ This decision supersedes Draft 0.3's transparent-PNG default. The user liked the
 
 #### Required checks
 
-- Verify all pixels designated as clear exterior background are exactly RGB **253, 225, 211**. Blended silhouette pixels and intentional translucent/glowing effects are not classified as clear background.
+- Verify all pixels designated as clear exterior background are exactly RGB **243, 230, 221**. Blended silhouette pixels and intentional translucent/glowing effects are not classified as clear background.
 - Compare source and output to confirm unchanged dimensions and zero changed pixels outside the authorized mask and blending fringe. Do not claim complete pixel preservation when a fringe was adjusted.
 - Inspect fine leaves, hanging vines, pale snow, thin icicles, enclosed openings and effect boundaries at full size. Look for missing detail, peach/white halos, hard cutout edges or rectangular remnants from protected regions.
-- View the finished image on the actual **#FDE1D3** webpage at intended display size. Check that the outer image rectangle disappears into the page.
+- View the finished image on the actual **#F3E6DD** webpage at intended display size. Check that the outer image rectangle disappears into the page.
 - If an edge or effect cannot be separated reliably, report it and propose a targeted repair for approval. Do not expand the mask or regenerate the scene silently.
 
-Masked exterior matching was successfully reviewed on volcanic, nature and snow examples in this chat. This supports the default method; it does not establish that one color threshold or mask works for all scenes. Complex glows and translucent effects still need individual checks.
+Masked exterior matching to the previous #FDE1D3 target was successfully reviewed on volcanic, nature and snow examples in this chat. The newly selected #F3E6DD target requires a new finishing pass on existing opaque assets; their backgrounds are not automatically updated by this guide. This supports the default method; it does not establish that one color threshold or mask works for all scenes. Complex glows and translucent effects still need individual checks.
 
 #### Optional transparency and lessons from testing
 
@@ -203,9 +203,9 @@ The PNG format is lossless; risk comes from extraction or regeneration, not the 
 | Non-generative alpha extraction | Can preserve interior RGB, but fine edges, translucent ice and glows require careful alpha and matte handling |
 | Generative transparency edit | Can change texture, lighting, shapes, proportions and framing as well as the background; visual acceptance does not establish pixel preservation |
 
-The tree and snow transparent previews looked good on the peach page. The tree extraction shifted fine texture and lighting. The later combined Ice/Lightning effects-and-transparency pass showed framing drift. Treat these as lessons: **separate artwork creation/effects approval from final background finishing**, and compare every export to its source.
+The tree and snow transparent previews looked good on the previous #FDE1D3 peach page. The tree extraction shifted fine texture and lighting. The later combined Ice/Lightning effects-and-transparency pass showed framing drift. Treat these as lessons: **separate artwork creation/effects approval from final background finishing**, and compare every export to its source.
 
-If transparency is requested, preserve the source canvas and margins, genuine alpha, opaque white snow, partial-alpha edges and intended glow falloff. Remove matte contamination without eroding details. Check over #FDE1D3 and a contrasting diagnostic backdrop, and disclose unintended artwork changes.
+If transparency is requested, preserve the source canvas and margins, genuine alpha, opaque white snow, partial-alpha edges and intended glow falloff. Remove matte contamination without eroding details. Check over #F3E6DD and a contrasting diagnostic backdrop, and disclose unintended artwork changes.
 
 | Experimental test | Assigned role |
 | --- | --- |
@@ -213,7 +213,7 @@ If transparency is requested, preserve the source canvas and margins, genuine al
 | [Snow transparency test](https://chatgpt.com/library?file_id=libfile_05d61f25982c8191a27b5c53ecd62e3c&account_id=personal) | Historical pale-snow/icicle extraction test; not a default delivery master |
 | [Ice/Lightning battle effects test](https://chatgpt.com/library?file_id=libfile_dbf3d4a9fe2c819193c085c3579baeec&account_id=personal) | Experimental glow/ice/snow test with framing drift; not a layout master |
 
-[Website comparison preview](https://gizmo-tree-island-preview.honestpony262.chatgpt.site) is a review aid showing experimental exports and source images. Its contents and layout do not override this guide or establish permanent standards.
+[Website comparison preview](https://gizmo-tree-island-preview.honestpony262.chatgpt.site) uses the current #F3E6DD page color and is a review aid showing experimental exports and source images. Older opaque source images may retain their previous peach backgrounds Its contents and layout do not override this guide or establish permanent standards.
 
 ## Composition studies reviewed in this chat
 
