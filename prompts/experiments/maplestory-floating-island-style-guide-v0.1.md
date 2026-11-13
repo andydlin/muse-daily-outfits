@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.8 · November 13, 2026
+## Draft 0.9 · November 13, 2026
 
-Revision 0.8 records the accepted Priest versus Black Mage test, stable island footprint with flexible scenery and underside thickness, protected pale surfaces during background finishing, and explicit floating-island reference roles. It updates the reusable prompt and repair workflow. All rules remain scoped to this experimental series; shared master priorities are unchanged. The existing v0.1 filename is retained for link continuity.
+Revision 0.9 registers the four approved floating-island masters and five supplemental environment references after the user's upload confirmation. It adds explicit environment-reference selection to the generation prompt while retaining the accepted Black Mage lessons, #F3E6DD finishing workflow, provisional layout targets and unchanged shared master priorities. The existing v0.1 filename is retained for link continuity.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -276,7 +276,7 @@ PRIORITY 3 — WEAPON AND BATTLE
 [PHYSICAL WEAPON SHAPE, COMPONENTS, GRIP, ARM PLACEMENT, MOTION AND TARGET]. [RESTRAINED EFFECT PATH AND CONTACT LIGHT]. Physical equipment must remain distinct from energy effects; hands and limbs must read correctly.
 
 PRIORITY 4 — IDENTITY, MATERIALS AND ENVIRONMENT
-Attach the selected floating-island layout reference for framing/camera only, and an encounter example only when relevant; state each image's role. Filenames alone do not supply visual references. [ASSIGNED REFERENCE ROLES]. Preserve Jolly identity with approved MapleStory face refinements, fine short velvety face nap, subtly fluffier framing edge, dimensional textile hair and woven clothing. Apply Wild Hunter's cohesive miniature materials to hero, boss and environment; hard equipment stays structured matte miniature material. [MAP LANDMARKS, TERRAIN, REAR SCENERY AND UNDERSIDE]. Keep masonry/foliage detail appropriately small.
+Attach the selected floating-island layout reference for framing/camera only, an encounter example only when relevant, and at most the relevant REF_Island_Environment_[TYPE].png when useful for environment construction. Actual map references determine landmarks and staging; supplemental environment examples guide materials and miniature adaptation. State each image's role. Filenames alone do not supply visual references. [ASSIGNED REFERENCE ROLES]. Preserve Jolly identity with approved MapleStory face refinements, fine short velvety face nap, subtly fluffier framing edge, dimensional textile hair and woven clothing. Apply Wild Hunter's cohesive miniature materials to hero, boss and environment; hard equipment stays structured matte miniature material. [MAP LANDMARKS, TERRAIN, REAR SCENERY AND UNDERSIDE]. Keep masonry/foliage detail appropriately small.
 
 Render subjects and terrain together with contact shadows, natural terrain overlaps, consistent perspective and soft shared illumination. [LOCAL EFFECT LIGHT]. No floor-like shadow below the island. No text, labels, UI, branding or watermark.
 
@@ -459,7 +459,21 @@ These references are scoped to the experimental floating-island system and do no
 | MASTER_Island_Melee_Fighter.png | Integrated melee contact, grounded stance and winged boss | Accepted finished Fighter PNG |
 | MASTER_Island_Hover_Black_Mage.png | Hover clearance, dark robes, ranged magic and map-specific scenery | Accepted finished Priest / Black Mage PNG |
 
-The user approved all four reference roles on November 13, 2026. The two Ice/Lightning files were finished to #F3E6DD without resizing and renamed without changing image bytes. The enhanced file remains nonsquare; preserve its native aspect ratio and never use it to override the original square layout master. These named files are prepared for the user to upload as Project source files; preparation does not prove that Project upload has occurred.
+The user approved all four reference roles on November 13, 2026. The two Ice/Lightning files were finished to #F3E6DD without resizing and renamed without changing image bytes. The enhanced file remains nonsquare; preserve its native aspect ratio and never use it to override the original square layout master. The user confirmed uploading all nine named files as Project source references. Matching new uploads were verified in Library on November 13, 2026. The runtime Project-source attachment list had not yet refreshed in that verification turn; retrieve or attach actual file bytes as needed rather than assuming filename mention alone supplies an image.
+
+### Supplemental environment references — approved filenames
+
+| Filename | Assigned purpose |
+| --- | --- |
+| REF_Island_Environment_Garden.png | Miniature trees, blossoms, delicate foliage, pavilion construction, cloud and petal extensions |
+| REF_Island_Environment_Waterfall.png | Waterfalls, wet stone, moss, pools and falling-water extensions |
+| REF_Island_Environment_Volcanic.png | Basalt, lava overflow, emissive cracks and soft smoke |
+| REF_Island_Environment_Ruins.png | Paving, masonry, stairs, shallow stage construction and environmental detail scale |
+| REF_Island_Environment_Mechanical.png | Matte miniature metal, machinery, pipes, cables and localized cyan illumination |
+
+All five were finished as opaque 1254 × 1254 PNGs with clear exterior #F3E6DD, preserving source framing. Fine silhouette/effect transitions may blend rather than equal the flat color. The volcanic smoke used a localized matte transition; do not describe every retained effect pixel as unchanged.
+
+These are supplemental environment-construction references, not replacements for the original Ice/Lightning layout authority, hero face/texture masters, or encounter-specific actual map screenshots. Their visual acceptance does not establish exact geometry alignment or validate character scale in empty scenes. Use only the relevant environment file for the selected map. Do not rotate through a fixed catalog of islands or copy its landmarks when the real map calls for different features. Record solid island bounds separately from falling water, lava, roots, clouds, smoke and particles.
 
 Preserve full source canvases and margins; no screenshots, comparison sheets, tight crops or nonuniform stretching. Prefer original approved PNG bytes. Converting a JPEG to PNG does not restore lost detail, and a later variant is not automatically the layout authority. Attach actual files during generation and explicitly assign their roles. Under a five-image input limit, choose the relevant island reference plus encounter design and face/material references; do not silently omit essential design references or claim an omitted image was supplied. Prioritize reference selection in the approved scene plan.
 
