@@ -1,6 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.1 · November 12, 2026
+## Draft 0.2 · November 12, 2026
+
+Revision 0.2 records the user-accepted snow, volcanic and nature staging studies. The existing v0.1 filename is retained for link continuity.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -25,7 +27,9 @@ The approved experiment replaces the physical cubby presentation with a floating
 | Material language | Wild Hunter primary, Mechanic secondary, Sylveon tertiary |
 | Established cubby foundation | Bulbasaur primary, Link secondary, consulted for applicable shared standards |
 | Experimental composition and apparent scale | Supplied floating Ice/Lightning vs Pink Bean original, with latest approved Fighter vs Balrog original as cross-check |
-| Experimental exterior background | Sampled floating Ice/Lightning original |
+| Experimental camera and foreground staging | Simplified snowy mage scene, checked against original Ice/Lightning |
+| Environment-transfer examples | Accepted volcanic altar and nature root-gate studies |
+| Experimental exterior background | Original Ice/Lightning sample; matching pass deferred |
 | Character, boss and map designs | Specific supplied or verified encounter references |
 
 The floating Ice/Lightning scene and `MASTER_Maple_Face_Ice_Lightning_Mage.png` serve distinct roles. Use the floating scene for layout and the named face master for identity.
@@ -45,13 +49,13 @@ Coordinates start at the top-left. Normalize all values for output resolutions o
 | Bottom clearance | 19% | About 238 px | Derived from island bottom |
 | Scenery ceiling | Usually 27–30% down | y339–376 | Observed scenery tops |
 | Visible hero face width | About 6.8% | 85 px | Provisional cheek-to-cheek anchor |
-| Exterior background | RGB 253, 225, 211 | #FDE1D3 | Ice/Lightning sample |
+| Exterior background | Deferred matching pass | Retain #FDE1D3 as sampled reference | Background differences accepted for current layout studies |
 
 These are experimental working targets. Exact acceptance tolerances remain unresolved. Report measured drift for review before inventing hard rejection thresholds.
 
 The ground line is a subject-placement reference. The front platform edge, floor rear boundary and steps can occur at other heights. Jumping heroes and hovering bosses retain the same implied ground reference.
 
-The roughly 213 px interval from ground line to island bottom includes the front edge, surface projection and underside. It is not a requirement to construct a uniform 213 px vertical slab.
+The roughly 213 px interval from ground line to island bottom is an image-space placement guide. Front-edge shape and projected surfaces affect its interpretation; allow tapered, map-specific undersides.
 
 Earlier targets of 75% width, 65% ground line, 22% island thickness and 15% bottom clearance preceded the latest original-image review. The table above records the subsequent proposed working values. It remains a draft pending guide review.
 
@@ -68,9 +72,9 @@ Both originals are 1,254 × 1,254. Geometry values below are manual visual bound
 | Visible cheek-to-cheek face width | About 80–85 px | About 85–90 px |
 | Visible front floor strip | About 25–40 px | About 35–50 px |
 
-Floor-strip readings describe visible local surfaces. They do not establish the complete walkable floor depth or a camera angle in degrees.
+These early floor-strip readings describe local visible surfaces. The later boot-to-front-lip clearance estimates below use a different landmark definition. Neither establishes complete walkable floor depth or camera elevation.
 
-Background samples used median RGB values from small clear patches. The supplied JPEGs contain subtle variation. #FDE1D3 is a chosen solid target sampled from Ice/Lightning. Matching a prompt’s hex instruction requires output verification.
+Background samples used median RGB values from clear patches. The supplied JPEGs contain subtle variation. #FDE1D3 remains the original Ice/Lightning reference. Background matching is deferred at the user’s request. Current accepted layout studies may differ in background color.
 
 ## Hero construction and scale
 
@@ -84,7 +88,11 @@ Faces use fine short velvety cream nap, a subtly fluffier framing border, rounde
 
 ## Camera and floor
 
-Use Ice/Lightning and Fighter as visual camera anchors. Show a shallow strip of floor that supports visible boot contact, shadows, attack light and terrain overlap. Keep vertical architecture visually upright and perspective restrained.
+Use original Ice/Lightning and the accepted simplified snowy mage scene as visual camera anchors, with Fighter as a cross-check.
+
+**Foreground staging principle:** place the main combat lane near the front lip. Keep a narrow strip of paving ahead of grounded toes. Extend most environmental depth behind the subjects, where stairs, architecture, roots and landmarks establish the map. Maintain plausible foot contact, shadow and terrain overlap. Keep vertical architecture visually upright and perspective restrained.
+
+Use the actual accepted scene as the edit base when transferring an environment. Preserve the mage as the scale reference during tests. Subtract distracting subjects and effects first, then change the terrain and rear scenery. The neutral teal-figure studies repeatedly drifted in character size and ground placement and are retired as calibration candidates.
 
 Camera elevation, lens or projection parameters and exact floor depth remain provisional. A generated image alone does not identify unique camera settings. The simplified ellipses in the composition studies are schematic floor boundaries.
 
@@ -104,13 +112,62 @@ Hovering subjects show readable air clearance. Effects may occupy that clearance
 
 ## Map adaptation and island variation
 
-Choose an actual map and encounter phase before developing a finished environment. Use screenshots or verified references to identify characteristic landmarks, architecture, terrain, palette and atmosphere.
+Choose an actual map and encounter phase as appropriate to the scene. Use screenshots when available, or research characteristic landmarks, architecture, terrain, palette and atmosphere. The user accepted an artistic map-inspired interpretation without a directly attached map image. A map screenshot is optional unless a specific fidelity requirement makes it necessary. Explain when details are interpreted.
 
 Translate recognizable map features into the miniature material language. Preserve a readable combat lane and space for both subjects. Island silhouettes, underside materials, rock formations, roots and architectural remnants may vary with the map while following the shared framing and apparent scale.
 
 Scenery density may vary. Open arenas can remain open. Nature, waterfalls, lava, leaves and debris may extend beyond the solid platform silhouette while retaining outer clearance. Measure the solid island and these extensions separately.
 
 Use the celestial scene as an experimental staging example. Its fictional architecture has not been selected as a reusable map standard.
+
+
+## Accepted environment transfers
+
+The original Ice/Lightning scene, simplified snow scene, volcanic altar and nature root gate were accepted as sufficiently consistent for this chat’s experimental system. These examples support varying terrain, architecture, vegetation and underside materials while preserving apparent hero scale and foreground staging.
+
+| Reference | Assigned role |
+| --- | --- |
+| [Original Ice/Lightning](https://chatgpt.com/library?file_id=libfile_269160aaee448191bd3d02ecc0ef97fa&account_id=personal) | Preferred apparent scale and original framing |
+| [Simplified snow](https://chatgpt.com/library?file_id=libfile_07b0434181b08191b36056780b515348&account_id=personal) | Working camera and foreground combat-lane reference |
+| [Volcanic altar](https://chatgpt.com/library?file_id=libfile_1e02d998aa14819180492f181e64c619&account_id=personal) | Accepted volcanic terrain and architecture transfer |
+| [Nature root gate](https://chatgpt.com/library?file_id=libfile_f860d82a28088191a4476a3909fe5ce2&account_id=personal) | Accepted organic terrain, foliage and root-bound underside transfer |
+
+These are experimental reference roles. Overall project master priorities remain those specified above. The volcanic and nature designs are artistic map-inspired interpretations.
+
+### Full-resolution comparison
+
+All inputs measured 1,254 × 1,254. Original, simplified snow and volcanic measurements used supplied JPEGs; nature used the generated PNG. Coordinates are inclusive where bounds are listed.
+
+| Measurement | Original ice | Simplified snow | Volcanic | Nature |
+| --- | --- | --- | --- | --- |
+| Platform-region width | About 964 px | About 963 px | About 972 px | About 972 px |
+| Canvas width percentage | 76.9% | 76.8% | 77.5% | 77.5% |
+| Left boundary | x146 | x147 | x140 | x138 |
+| Right boundary | x1109 | x1109 | x1111 | x1109 |
+| Horizontal center | x627.5 | x628 | x625.5 | x623.5 |
+| Highest scenery detected | y363 | y364 | y372 | y350 |
+| Lowest island point | y1016 | y1016 | y1016 | y1019 |
+| Clear rows beneath island | 237 px | 237 px | 237 px | 234 px |
+| Facial comparison patch width | 84 px | 84 px | 84 px | 85 px |
+| Approximate sole-contact line | y800 | y800 | y802 | y801 |
+| Estimated boot-to-front-lip clearance | 10–25 px | 10–25 px | 15–30 px | 15–35 px |
+| Top-region background median | #FDE1D3 | #FDE2D6 | #FDDDD0 | #FDDED0 |
+
+Method and limits
+
+- Platform-region bounds use an RGB contrast mask, measuring Euclidean distance from the median top-region background color. Thresholds of 45 and 65 were checked. The reported wider-bound values use 45.
+- Platform bounds were taken within rows 775–849. They include irregular snow, moss and foliage edges. They are distinct from the early manual solid-platform estimates.
+- Most boundaries shifted by roughly 1–2 px with threshold choice. Pale snow shifted the detected scenery top more substantially, so its y363 reading has greater uncertainty.
+- Facial and boot patches were matched with normalized grayscale correlation over a small range of scales and translations. The 84 px face patch was manually selected from the original cheeks. It provides relative matching evidence and does not independently segment anatomical face boundaries.
+- Simplified snow’s facial patch matched the original at essentially the same position and scale. Volcanic matched about 1 px down. Nature matched about 2 px left with an 85 px patch.
+- Boot-patch matching suggested about 2 px downward movement in volcanic, and about 2 px left plus 1 px down in nature. Volcanic boot correlation was weaker because lighting and terrain changed.
+- Sole-contact and front-lip clearance readings are manual estimates. Snow and moss obscure exact lip boundaries.
+- Background medians depend on source encoding and sampled region. A prior volcanic PNG sample differed by one red-channel value from the supplied JPEG.
+- These accepted differences establish successful examples. They do not create universal numerical acceptance tolerances.
+
+### Deferred background matching
+
+The user explicitly deferred background matching until after this revision. Retain existing image backgrounds during this stage. A later background pass can address color and uniformity against the original Ice/Lightning sample, with its own approved edit plan.
 
 ## Composition studies reviewed in this chat
 
@@ -136,7 +193,7 @@ Study files
 2. Consult current canonical files and inspect relevant actual reference images.
 3. Propose the detailed scene or changes, including weapon construction, grip, subject scale, map inspiration and staging.
 4. Obtain explicit approval before generating or editing artwork. Generate one image at a time.
-5. Inspect the actual result against the chosen composition reference. Check island footprint, ground placement, hero face scale, camera feel, materials, integration and background.
+5. Inspect the actual result against the chosen composition reference. Check island footprint, ground placement, hero face scale, foreground combat-lane placement, camera feel, materials and integration. Record background drift for the deferred matching pass.
 6. Report observed deviations, distinguishing actual readings from estimates and prompt targets.
 7. Propose any further visual repair for approval.
 
@@ -144,11 +201,11 @@ Keep artwork free of text, labels, branding, plaques and UI. Measurement diagram
 
 ## Open decisions
 
-- Camera calibration and a repeatable floor-depth measurement protocol.
-- Environmental detail scale using a neutral figure beside paving, steps, a doorway and foliage.
+- Exact camera parameters and a repeatable complete floor-depth measurement protocol remain provisional. Accepted scene references guide the working camera.
+- Broader environmental detail-scale tests may be useful for future map types. The retired neutral teal-figure scenes are not required calibration targets.
 - Numerical tolerances for island placement and face scale.
 - How far waterfalls, lava, foliage and particles may extend beyond the solid island bounds.
 - Behavior for enormous or partly off-island bosses.
-- A repeatable method for verifying a truly uniform background and matching its sampled color.
+- Background color and uniformity matching are deferred to a later pass.
 
-A neutral camera/scale study is the proposed next experiment. Its detailed design and generation remain subject to the user’s approval.
+The snow, volcanic and nature transfers complete the currently agreed environment-staging tests. Further scenes or edge-case studies can be planned as needed. Permanent adoption and further GitHub edits remain subject to explicit user direction.
