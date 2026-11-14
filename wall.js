@@ -30,7 +30,8 @@ function draw(){clampPan();scheduleDraw()}
     if(i<0||i>=tiles.length)return;
     const top=innerWidth<600?104:112,bottom=90;
     // Leave a visible strip of neighboring tiles for tap-to-tap navigation.
-    scale=Math.max(.001,Math.min(maxScale(),innerWidth*.8/tileSize,(innerHeight-top-bottom)*.8/tileSize));
+    const fixedScale=Number(vp.getAttribute('data-tap-scale'));
+    scale=fixedScale>0?Math.min(maxScale(),fixedScale):Math.max(.001,Math.min(maxScale(),innerWidth*.8/tileSize,(innerHeight-top-bottom)*.8/tileSize));
     x=innerWidth/2-(i%columns+.5)*tileSize*scale;
     y=innerHeight/2-(Math.floor(i/columns)+.5)*tileSize*scale;
     world.classList.add('focus-zoom');draw();

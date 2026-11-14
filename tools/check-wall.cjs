@@ -18,7 +18,7 @@ for (const page of pages) {
   for (const [width,height] of [[390,844],[1440,900]]) {
     const nodes = new Map(), events = {}, windowEvents = {};
     function node(id) {
-      if (!nodes.has(id)) nodes.set(id, {style:{},classList:{add(){},remove(){}},hasAttribute(){return html.includes('data-tap-zoom')},
+      if (!nodes.has(id)) nodes.set(id, {style:{},classList:{add(){},remove(){}},hasAttribute(){return html.includes('data-tap-zoom')},getAttribute(name){return name==='data-tap-scale'?(html.match(/data-tap-scale="([^"]+)"/)?.[1]||null):null},
         addEventListener(name, fn){events[name]=fn},setPointerCapture(){},
         querySelectorAll(){return sources.map(()=>({naturalWidth:1000,setAttribute(){},addEventListener(){}}))}});
       return nodes.get(id);
@@ -51,9 +51,11 @@ for (const page of pages) {
       assert(Math.abs(fx+800*fz-context.innerWidth/2)<1e-6,'Tap must center image horizontally');
       assert(Math.abs(fy+800*fz-context.innerHeight/2)<1e-6,'Tap must center image vertically');
       assert(fz>z,'Tap should zoom in from overview');
-      assert(fz*1600<=context.innerWidth*.8+1e-6,'Focused tile must leave neighboring images visible');
+      const fixed=Number(html.match(/data-tap-scale="([^"]+)"/)?.[1]);
+      if(fixed)assert.equal(fz,fixed,'Tap must use requested zoom');
+      else assert(fz*1600<=context.innerWidth*.8+1e-6,'Focused tile must leave neighboring images visible');
       const neighborX=fx+1600*fz+10,neighborY=context.innerHeight/2;
-      assert(neighborX<context.innerWidth,'Neighbor must remain tappable');
+      if(!fixed)assert(neighborX<context.innerWidth,'Neighbor must remain tappable');
       events.pointerdown({button:0,pointerId:1,clientX:neighborX,clientY:neighborY});
       windowEvents.pointerup({type:'pointerup',pointerId:1,clientX:neighborX,clientY:neighborY});flush();
       const [nx,ny,nz]=pose();
