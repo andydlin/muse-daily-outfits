@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.13 · November 13, 2026
+## Draft 0.14 · November 14, 2026
 
-Revision 0.13 supersedes the earlier Wind Archer scale-pass claim: the user identified an oversized hero, accepted a further hero-only reduction, then approved an exact 20 px downward scene translation. It records the rebuilt #F3E6DD finish and revised supplemental reference. Material checks, independent scale review and master priorities remain unchanged.
+Revision 0.14 adds independent visible-floor-depth and open-combat-space checks during planning, initial review and post-effects review. Fighter's broader floor presentation is under reconsideration, not a new camera standard. Existing reference priorities remain unchanged.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -135,6 +135,18 @@ Use original Ice/Lightning and the accepted simplified snowy mage scene as visua
 Use the actual accepted scene as the edit base when transferring an environment. Preserve the mage as the scale reference during tests. Subtract distracting subjects and effects first, then change the terrain and rear scenery. The neutral teal-figure studies repeatedly drifted in character size and ground placement and are retired as calibration candidates.
 
 Camera elevation, lens or projection parameters and exact floor depth remain provisional. A generated image alone does not identify unique camera settings. The simplified ellipses in the composition studies are schematic floor boundaries.
+
+
+### Required visible-floor-depth and open-combat-space review
+
+Evaluate these independently from island width, horizontal/vertical placement, hero/boss scale and underside thickness. Passing those checks does not establish a consistent floor presentation.
+
+- **Visible floor depth:** inspect the projected top surface from the front lip toward the first rear step, wall or major terrain obstruction. Separately note toe-to-lip clearance at grounded feet and open floor behind/between the subjects. A narrow strip in front of toes alone does not describe total floor depth. Compare several readable locations because terrain and occlusion vary.
+- **Open combat space:** inspect usable, visually legible room around/between hero and boss for weapon reach, attack paths, grounded movement and planned summons. Distinguish the underlying stage from the portion obscured by characters, snow, rocks, stairs or effects. Do not equate more empty paving with better staging, or remove signature effects merely to expose floor.
+- Compare actual images at equal full-canvas display size and preserve their aspect ratios. Report observations and manual estimates separately from measurements. If boundaries are hidden, mark them uncertain; do not invent exact floor area, camera elevation, lens or projection values.
+- Check once during initial staging **before detailed effects**, and again after effects and major composition edits. Record visible floor depth and open combat space separately as acceptable, repair or uncertain, with a brief reason.
+- Propose targeted changes for approval only when needed. Moving the whole island vertically or resizing it uniformly does not change its internal floor presentation. A camera/perspective or terrain-depth repair may require reconstruction; preserve approved character scale, designs, contact, footprint and effects as closely as the authorized scope permits.
+- **Current preference status:** the user identified Fighter as showing more exposed flat ground than Wind Archer and Ice/Lightning, and plans to reconsider Fighter in a later rerender. Do not promote Fighter's broader floor or seemingly higher viewpoint to a universal standard. Original Ice/Lightning remains the layout authority; no new exact floor-depth target or camera angle has been approved. Discuss the intended amount of exposed floor and combat space in each scene plan.
 
 ## Materials and lighting
 
@@ -518,15 +530,16 @@ Preserve full source canvases and margins; no screenshots, comparison sheets, ti
 
 ## Working review sequence
 
-1. **Plan and approve:** identify encounter, actual map inspiration, reference roles, physical weapon/grip, pose, hero/boss scale and any summons. Consult current canonical specifications and inspect actual references. Obtain explicit approval.
+1. **Plan and approve:** identify encounter, actual map inspiration, reference roles, physical weapon/grip, pose, hero/boss scale, intended visible floor depth, open combat space and any summons. Consult current canonical specifications and inspect actual references. Obtain explicit approval.
 2. **Generate one scene:** attach actual selected image references with assigned roles; process only one image at a time.
 3. **Design-accuracy review:** inspect identity, expression, costume, boss anatomy, weapons/grips, materials, skills and summons. Propose targeted repairs for approval when needed.
 4. **Island-framing calibration:** measure platform width, center, ground reference and underside; compare camera/foreground lane with layout master. Scenery height and underside thickness may vary as approved. Prefer an explicitly authorized controlled uniform resize for global framing-only errors.
-5. **Required independent character-scale review:** compare at equal full-canvas size against approved Ice/Lightning and Fighter. Evaluate face width, head/body proportions and full silhouette/visual weight. Inspect costume extensions, boss and summons separately. Always evaluate, never automatically shrink.
-6. **Character-scale correction if needed:** obtain approval; resize hero and physical equipment coherently, anchored at grounded feet. Preserve boss, summons, island/camera unless explicitly authorized. Recheck actual character size, anatomy, contact, integration and island framing after the edit.
-7. **Post-edit material review and artwork approval:** after iterative repairs, inspect face, hair, clothing, boss, props and terrain against the actual material masters. Look for softened detail, waxy/clay-like surfaces and a repeated etched or veiny pattern across unrelated materials. Evaluate each material separately; do not apply a global grain or sharpening fix. Obtain approval for any texture-only correction, then recheck design, grips, effects, scale and framing before finishing the background. For artwork approval, report measured values, estimates and unresolved issues distinctly. Obtain artwork acceptance after design/framing/scale/integration checks; do not call a requested percentage a verified result.
-8. **Background finishing:** separately propose and obtain approval for opaque PNG matching to #F3E6DD, protecting pale artwork and effects. Do not regenerate accepted art merely for color. Transparency only by specific approval.
-9. **Final verification/export:** verify canvas, unchanged authorized geometry, background mask and fringe scope, exact clear color, fine edges and effects. Inspect on the intended page when available; disclose when live-page validation was not performed. Preserve original and finished copies.
+5. **Independent floor-depth and combat-space review:** inspect exposed top-surface depth, toe-to-lip clearance, rear terrain encroachment and readable space for subjects, weapons, attacks and summons. Distinguish floor geometry from effect/terrain occlusion. Compare with the current approved presentation, document uncertainty and obtain approval for repairs. Recheck after effects or major composition changes; this is separate from footprint, placement and character scale.
+6. **Required independent character-scale review:** compare at equal full-canvas size against approved Ice/Lightning and Fighter. Evaluate face width, head/body proportions and full silhouette/visual weight. Inspect costume extensions, boss and summons separately. Always evaluate, never automatically shrink.
+7. **Character-scale correction if needed:** obtain approval; resize hero and physical equipment coherently, anchored at grounded feet. Preserve boss, summons, island/camera unless explicitly authorized. Recheck actual character size, anatomy, contact, integration and island framing after the edit.
+8. **Post-edit material review and artwork approval:** after iterative repairs, inspect face, hair, clothing, boss, props and terrain against the actual material masters. Look for softened detail, waxy/clay-like surfaces and a repeated etched or veiny pattern across unrelated materials. Evaluate each material separately; do not apply a global grain or sharpening fix. Obtain approval for any texture-only correction, then recheck design, grips, effects, scale, framing, visible floor depth and open combat space before finishing the background. For artwork approval, report measured values, estimates and unresolved issues distinctly. Obtain artwork acceptance after design/framing/scale/integration checks; do not call a requested percentage a verified result.
+9. **Background finishing:** separately propose and obtain approval for opaque PNG matching to #F3E6DD, protecting pale artwork and effects. Do not regenerate accepted art merely for color. Transparency only by specific approval.
+10. **Final verification/export:** verify canvas, unchanged authorized geometry, background mask and fringe scope, exact clear color, fine edges and effects. Inspect on the intended page when available; disclose when live-page validation was not performed. Preserve original and finished copies.
 
 Keep artwork free of text, labels, branding, plaques and UI. Measurement diagrams may include explanatory annotations as separate planning artifacts. Any further image repair requires approval.
 
