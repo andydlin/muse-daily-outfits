@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.12 · November 13, 2026
+## Draft 0.13 · November 13, 2026
 
-Revision 0.12 records the accepted Wind Archer versus Vellum encounter and its supplemental reference role. It adds a material review after iterative edits, preserving distinct fabric, scale and stone finishes, before the separately approved background finish. Existing independent character-scale checks and master-reference priorities remain unchanged.
+Revision 0.13 supersedes the earlier Wind Archer scale-pass claim: the user identified an oversized hero, accepted a further hero-only reduction, then approved an exact 20 px downward scene translation. It records the rebuilt #F3E6DD finish and revised supplemental reference. Material checks, independent scale review and master priorities remain unchanged.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -545,7 +545,15 @@ Keep artwork free of text, labels, branding, plaques and UI. Measurement diagram
 - Approved skills include the narrow Song of Heaven stream, curved homing arrows, a tall translucent Howling Gale directly in front of Vellum and a floating emerald rune crystal behind the hero. The physical gold bow remains distinct from magical effects, with the forward hand gripping its riser.
 - The user preferred the **drawn-bow pose**, retaining the rear hand near the cheek, over the open release-hand experiment. This is an accepted skill-animation pose for this scene, not a rule that every bow attack must show a drawn string.
 - The Vellum attack-charge experiment was rejected. Preserve the selected **no-charge** version; natural orange accents and existing braziers remain.
-- After several edits, the user identified an odd shared wrinkled/veiny material pattern and overly smooth clay-like surfaces. Iterative reconstruction is a possible cause, not a proven diagnosis. A separately approved texture-only pass using Wild Hunter and Mechanic was accepted. The later equal-full-canvas comparison with Fighter and original Ice/Lightning looked consistent in apparent island width and hero scale; this was visual review, not a complete final landmark measurement.
+- After several edits, the user identified an odd shared wrinkled/veiny material pattern and overly smooth clay-like surfaces. Iterative reconstruction is a possible cause, not a proven diagnosis. A separately approved texture-only pass using Wild Hunter and Mechanic was accepted. The initial post-texture scale-pass claim was incorrect: the user subsequently identified that Wind Archer read larger than Fighter and Corsair. Do not use that earlier claim as evidence of final scale consistency.
+
+### Final hero-scale and position corrections
+
+- A new equal-full-canvas comparison against **Fighter and Corsair** confirmed excess visual weight in Wind Archer's head/hair and torso despite matched island widths. The user approved a further **requested 10% hero-only reduction** of head, body, cape and physical bow, anchored at the feet. Boss, crystal and wind effects were to remain in place, with minimal attack reconnection. The user explicitly accepted the resulting hero sizes as perfect. This is a visually accepted generative reduction, not a verified exact 10% transform.
+- Position was then assessed independently. Before the final translation, contrast measurements in rows 780–869 gave Wind Archer platform bounds **x144–1108 / 965 px**, versus Fighter **x141–1104 / 964 px**. Lowest connected points were **y981** and **y1022** respectively. Foot-contact estimates were about **y800 vs y815**, and front lip about **y810 vs y835**; these vertical landmarks are manual estimates, not segmented exact edges.
+- The user approved moving the **entire Wind Archer scene down exactly 20 px**, without scaling. A deterministic integer-pixel translation preserved the retained source raster exactly: output rows 20 onward equal input rows up to height minus 20. Only the new top background strip was filled; no artwork was cropped at the bottom. The bottom maps to **y1001**, while the shallower underside remains accepted. This translation did not change hero size, island width or relative positions.
+- The user accepted the position, then authorized background matching on this revised source. The final named reference now contains this smaller-hero, lower-position, background-finished version. Earlier exports remain historical intermediates.
+- **Review lesson:** island width, hero apparent scale, ground placement and underside thickness are four independent checks. Compare actual final output against the most relevant accepted encounters, including Corsair when assessing hero visual weight. Recheck after edits, and do not mark a scale or placement gate passed merely because an earlier stage passed.
 
 ### Reusable material lessons
 
@@ -559,8 +567,8 @@ Keep artwork free of text, labels, branding, plaques and UI. Measurement diagram
 ### Finished export and limits
 
 - Opaque lossless RGB PNG, **1254 × 1254**; the named reference is a byte-identical copy of the accepted finished export.
-- Controlled, non-generative background matching set **1,136,117 clear-mask pixels** to exact **#F3E6DD / RGB 243,230,221**. A **11,987-pixel candidate fringe** allowed narrow edge blending; zero pixels changed outside mask plus fringe. The mask overlay, standalone output and equal-canvas comparison were inspected.
-- No resizing or translation occurred during this background pass. Effect-transition pixels may blend with the new background; do not claim every glow-edge pixel was untouched.
+- Controlled, non-generative background matching set **1,134,044 clear-mask pixels** to exact **#F3E6DD / RGB 243,230,221**. A **11,796-pixel candidate fringe** allowed narrow edge blending; zero pixels changed outside mask plus fringe. The rebuilt mask overlay and standalone finished output were inspected. The smaller-hero comparison preceded the exact translation; this is not a claim of a fresh three-way final comparison after finishing.
+- No resizing or translation occurred during this background pass; the separately accepted exact 20 px translation preceded it. Effect-transition pixels may blend with the new background; do not claim every glow-edge pixel was untouched.
 - Original pre-finish artwork is retained separately. Live-page validation was not performed.
 - Ready for the user to upload as a Project source. Registration here does not claim that Project-source upload has occurred.
 
