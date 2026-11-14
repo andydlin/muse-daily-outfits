@@ -1,8 +1,8 @@
 # Gizmo’s Wall — Experimental MapleStory Floating Islands
 
-## Draft 0.11 · November 13, 2026
+## Draft 0.12 · November 13, 2026
 
-Revision 0.11 records the approved finished Corsair versus Pianus encounter, equal-canvas character-scale review and controlled #F3E6DD background export. It adds the named supplemental encounter reference and pale-artwork masking lesson. The independent character-scale gate from revision 0.10 remains required. Existing layout, face, material and cubby master priorities remain unchanged.
+Revision 0.12 records the accepted Wind Archer versus Vellum encounter and its supplemental reference role. It adds a material review after iterative edits, preserving distinct fabric, scale and stone finishes, before the separately approved background finish. Existing independent character-scale checks and master-reference priorities remain unchanged.
 
 This working guide applies to experiments in this chat. Permanent adoption and GitHub specification changes require the user’s explicit approval. Experimental renders retain their assigned reference roles. Approved project masters retain their priority.
 
@@ -524,11 +524,45 @@ Preserve full source canvases and margins; no screenshots, comparison sheets, ti
 4. **Island-framing calibration:** measure platform width, center, ground reference and underside; compare camera/foreground lane with layout master. Scenery height and underside thickness may vary as approved. Prefer an explicitly authorized controlled uniform resize for global framing-only errors.
 5. **Required independent character-scale review:** compare at equal full-canvas size against approved Ice/Lightning and Fighter. Evaluate face width, head/body proportions and full silhouette/visual weight. Inspect costume extensions, boss and summons separately. Always evaluate, never automatically shrink.
 6. **Character-scale correction if needed:** obtain approval; resize hero and physical equipment coherently, anchored at grounded feet. Preserve boss, summons, island/camera unless explicitly authorized. Recheck actual character size, anatomy, contact, integration and island framing after the edit.
-7. **Artwork approval:** report measured values, estimates and unresolved issues distinctly. Obtain artwork acceptance after design/framing/scale/integration checks; do not call a requested percentage a verified result.
+7. **Post-edit material review and artwork approval:** after iterative repairs, inspect face, hair, clothing, boss, props and terrain against the actual material masters. Look for softened detail, waxy/clay-like surfaces and a repeated etched or veiny pattern across unrelated materials. Evaluate each material separately; do not apply a global grain or sharpening fix. Obtain approval for any texture-only correction, then recheck design, grips, effects, scale and framing before finishing the background. For artwork approval, report measured values, estimates and unresolved issues distinctly. Obtain artwork acceptance after design/framing/scale/integration checks; do not call a requested percentage a verified result.
 8. **Background finishing:** separately propose and obtain approval for opaque PNG matching to #F3E6DD, protecting pale artwork and effects. Do not regenerate accepted art merely for color. Transparency only by specific approval.
 9. **Final verification/export:** verify canvas, unchanged authorized geometry, background mask and fringe scope, exact clear color, fine edges and effects. Inspect on the intended page when available; disclose when live-page validation was not performed. Preserve original and finished copies.
 
 Keep artwork free of text, labels, branding, plaques and UI. Measurement diagrams may include explanatory annotations as separate planning artifacts. Any further image repair requires approval.
+
+
+## Accepted Wind Archer versus Vellum encounter — November 13, 2026
+
+**Supplemental reference filename:** `REF_Island_Encounter_Wind_Archer_Vellum.png`  
+[Approved finished reference](https://chatgpt.com/library?file_id=libfile_81c2e9af8a0c81919aa1526198abddc0&account_id=personal)
+
+**Assigned role:** tall segmented boss, grounded ranged combat, layered wind attacks, curved homing arrows and a floating support crystal. This is an encounter example, not a replacement layout, face or texture master. Original Ice/Lightning remains the primary layout authority; Wild Hunter → Mechanic → Sylveon retains material priority. Do not copy this scene's boss size, pose, eye pigment, terrain or effects into unrelated encounters.
+
+### Accepted design and review decisions
+
+- Wind Archer stands on the right facing left; Vellum rises on the left with a curved segmented neck, dark layered scales, pale underside plates and restrained orange accents. The actual cavern/altar references guide the finite rocky scenery, horn-shaped altar, stairs, braziers and bones.
+- Island framing was corrected first. A separately approved hero reduction was visually accepted after comparison with Fighter and Ice/Lightning. The boss was then reduced by a requested 3% and accepted. These requested generative percentages are not independently verified exact transforms.
+- Approved skills include the narrow Song of Heaven stream, curved homing arrows, a tall translucent Howling Gale directly in front of Vellum and a floating emerald rune crystal behind the hero. The physical gold bow remains distinct from magical effects, with the forward hand gripping its riser.
+- The user preferred the **drawn-bow pose**, retaining the rear hand near the cheek, over the open release-hand experiment. This is an accepted skill-animation pose for this scene, not a rule that every bow attack must show a drawn string.
+- The Vellum attack-charge experiment was rejected. Preserve the selected **no-charge** version; natural orange accents and existing braziers remain.
+- After several edits, the user identified an odd shared wrinkled/veiny material pattern and overly smooth clay-like surfaces. Iterative reconstruction is a possible cause, not a proven diagnosis. A separately approved texture-only pass using Wild Hunter and Mechanic was accepted. The later equal-full-canvas comparison with Fighter and original Ice/Lightning looked consistent in apparent island width and hero scale; this was visual review, not a complete final landmark measurement.
+
+### Reusable material lessons
+
+1. Check materials again after iterative pose, scale, grip and effect edits, even if the initial render passed. Surface quality can drift independently of composition.
+2. Keep **distinct material construction**: face = fine short velvet; hair = dimensional tufts with subtle directional textile grain; clothes = fine weave and delicate seams; boss scales/horns/armor = structured matte miniature surfaces; terrain = matte sculpted stone with restrained cracks and micrograin. Cohesion does not mean one texture on every surface.
+3. Avoid repetitive etched, veiny or crumpled marbling, waxy smoothing, coarse grain, excessive fuzz and global sharpening/noise overlays. Restore appropriate surface detail without flattening sculpted forms.
+4. Preserve luminous/translucent wind, arrows, runes, crystals and fire. A texture correction must preserve approved identity, eye shape/color, expression, anatomy, grips, pose, sizes, scene, effects and framing in scope; generative edits do not guarantee unchanged pixels.
+5. Use the original matching PNG as the repair base when available. Re-uploaded JPEGs and PNG conversions do not restore lost detail.
+6. Complete artwork and material acceptance **before** background finishing. If artwork changes afterward, rebuild and inspect the background mask against that new source rather than blindly reusing an earlier mask.
+
+### Finished export and limits
+
+- Opaque lossless RGB PNG, **1254 × 1254**; the named reference is a byte-identical copy of the accepted finished export.
+- Controlled, non-generative background matching set **1,136,117 clear-mask pixels** to exact **#F3E6DD / RGB 243,230,221**. A **11,987-pixel candidate fringe** allowed narrow edge blending; zero pixels changed outside mask plus fringe. The mask overlay, standalone output and equal-canvas comparison were inspected.
+- No resizing or translation occurred during this background pass. Effect-transition pixels may blend with the new background; do not claim every glow-edge pixel was untouched.
+- Original pre-finish artwork is retained separately. Live-page validation was not performed.
+- Ready for the user to upload as a Project source. Registration here does not claim that Project-source upload has occurred.
 
 ## Open decisions
 
