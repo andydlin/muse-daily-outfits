@@ -1,5 +1,9 @@
 # Gizmo's Wall — Nova Class × Boss Master Checklist
 
+**Web tracker:** [MapleStory Pairings](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
+**GitHub page source:** [pairings.html](../pairings.html)  
+**Planning focus:** This record stores approved pairings and alternatives. Hero, boss, and skill references will be provided later in each scene-generation conversation.  
+
 **Approved:** November 15, 2026  
 **Collection:** Nova (4 playable classes)  
 **Approval scope:** Class × boss pairings and **cubby format** only. Individual hero skills, poses, camera, scene layouts, boss forms, and artwork are **not yet approved**.  
