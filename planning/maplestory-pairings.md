@@ -3,9 +3,10 @@
 **Canonical data:** [maplestory-pairings.json](maplestory-pairings.json)  
 **Pairing website:** [MapleStory Pairing Tracker](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
 **Explorer approval:** V4.1, November 15, 2026  
-**Cygnus Knights approval:** V1, November 15, 2026
+**Cygnus Knights approval:** V1, November 15, 2026  
+**Resistance approval:** V1, November 15, 2026
 
-Current approved primary pairing is a planning decision, not verification of a completed final image. The published gallery thumbnail may show an earlier boss. Historical entries distinguish earlier created work from proposals and uncertain identity. No cubby/island choice or signature action tracked here.
+An approved primary pairing is a planning decision, NOT confirmation of final artwork approval. Published gallery thumbnails may depict older opponents. Historical records distinguish created work, exploratory proposals, and uncertain identities. No cubby/island format selection or signature-action metadata is tracked here.
 
 ## Explorers
 
@@ -27,9 +28,9 @@ Current approved primary pairing is a planning decision, not verification of a c
 | Corsair | Pianus | Captain Latanica, Leviathan | Approved 2026-11-15 | [View](../islands/01-corsair.webp) |
 | Cannoneer | — (not created; proposed: Guardian Angel Slime) | Guardian Angel Slime, Papulatus | Not created | — |
 
-### Explorers historical pairings and explorations
+### Explorers — historical encounters and proposals
 
-| Class | Boss | Evidence / qualification |
+| Class | Boss | Historical evidence / qualification |
 |---|---|---|
 | Hero | Jr. Balrog | Historical encounter; current wall selection |
 | Paladin | Zakum | Historical encounter; current wall selection |
@@ -57,7 +58,7 @@ Current approved primary pairing is a planning decision, not verification of a c
 | Corsair | Pianus | Current wall and approved island encounter |
 | Corsair | Captain Latanica | Earlier accepted encounter |
 
-**Bishop caveat:** User approved Zombie Mushmom as current wall pairing and earlier creation supports it, but the deployed Bishop binary has not been directly inspected.
+**Bishop caveat:** Zombie Mushmom is user-approved as the current wall pairing and has an earlier creation record, but the deployed Bishop gallery binary was not directly inspected.
 
 ## Cygnus Knights
 
@@ -70,9 +71,9 @@ Current approved primary pairing is a planning decision, not verification of a c
 | Thunder Breaker | Kaling | Captain Darkgoo, Pianus | Approved 2026-11-15 | [View](../maple-jelly/13-thunder-breaker-v2.webp) |
 | Mihile | Arkarium | Seren, Magnus | Approved 2026-11-15 | [View](../maple-jelly/19-mihile.webp) |
 
-### Cygnus Knights historical pairings and explorations
+### Cygnus Knights — historical encounters and proposals
 
-| Class | Boss | Evidence / qualification |
+| Class | Boss | Historical evidence / qualification |
 |---|---|---|
 | Dawn Warrior | Magnus | Earlier pairing documented in the tracker and approved in previous Cygnus work; older variant |
 | Dawn Warrior | Arkarium | Earlier pairing explored; final artwork approval not established |
@@ -86,19 +87,34 @@ Current approved primary pairing is a planning decision, not verification of a c
 | Thunder Breaker | Captain Darkgoo | Earlier boss proposal, exact identity and scene completion unverified |
 | Mihile | Arkarium | Previously approved composition and current approved primary |
 
-**Dawn Warrior caveat:** Seren is now the approved primary; the existing Dawn Warrior thumbnail may show an earlier Magnus version. An approved pairing does not imply the Seren artwork was created.
+**Dawn Warrior caveat:** Seren is now the approved primary, although the published thumbnail may still depict the older Magnus encounter.
 
 ## Resistance
 
 | Class | Primary boss | Alternatives | Pairing status | Gallery image |
 |---|---|---|---|---|
-| Battle Mage | Von Leon | Lotus | Approved earlier | [View](../maple-jelly/18-battle-mage.webp) |
-| Wild Hunter | Giant Blackheart | Crimson Queen | Approved earlier | [View](../maple-jelly/20-wild-hunter.webp) |
-| Mechanic | Lotus | Vellum | Previously explored | — |
-| Blaster | — (not created) | Pierre, Papulatus | Needs verification | [View](../maple-jelly/22-blaster-v2.webp) |
-| Xenon | Verus Hilla | Lotus | Approved earlier | [View](../maple-jelly/21-xenon-v2.webp) |
-| Demon Slayer | Damien | Black Mage | Previously created | [View](../maple-jelly/24-winged-swordsman.webp) |
-| Demon Avenger | Gloom | Cygnus | Approved earlier | [View](../maple-jelly/23-demon-avenger-v2.webp) |
+| Battle Mage | Von Leon | Lotus, Verus Hilla | Approved 2026-11-15 | [View](../maple-jelly/18-battle-mage.webp) |
+| Wild Hunter | Giant Blackheart | Crimson Queen, Horntail | Approved 2026-11-15 | [View](../maple-jelly/20-wild-hunter.webp) |
+| Mechanic | Lotus | Kalos, Papulatus, Vellum | Approved 2026-11-15 | — |
+| Blaster | Papulatus | Magnus, Ursus, Pierre | Approved 2026-11-15 | [View](../maple-jelly/22-blaster-v2.webp) |
+| Xenon | Verus Hilla | Lotus, Damien | Approved 2026-11-15 | [View](../maple-jelly/21-xenon-v2.webp) |
+| Demon Slayer | Damien | Black Mage, Darknell | Approved 2026-11-15 | [View](../maple-jelly/24-winged-swordsman.webp) |
+| Demon Avenger | Gloom | Verus Hilla, Damien, Cygnus | Approved 2026-11-15 | [View](../maple-jelly/23-demon-avenger-v2.webp) |
+
+### Resistance — historical encounters and proposals
+
+| Class | Boss | Historical evidence / qualification |
+|---|---|---|
+| Battle Mage | Von Leon | Established historical pairing; primary reaffirmed Nov 15 |
+| Wild Hunter | Giant Blackheart | Earlier accepted encounter, used as approved handmade-plush texture reference |
+| Mechanic | Lotus | Selected encounter in recent island development; artwork underwent revisions and final approval cannot be inferred |
+| Blaster | Magnus | Earlier pairing reported as previously approved in collection audit; exact source image and final artwork state not independently confirmed |
+| Blaster | Papulatus | Later primary proposal selected and explicitly approved November 15, 2026; published Blaster image does not name opponent |
+| Xenon | Verus Hilla | Established earlier pairing; approved as primary Nov 15 |
+| Demon Slayer | Damien | Earlier Demon Slayer vs Damien encounter was created/explored; exact gallery winged-swordsman image identity not independently verified |
+| Demon Avenger | Gloom | Previously selected and refined encounter; primary confirmed Nov 15 |
+
+**Resistance caveats:** Blaster × Papulatus is an approved primary selection; the boss in the published Blaster thumbnail was not independently identified. Demon Slayer's winged-swordsman thumbnail identity is likewise not independently verified. Mechanic × Lotus approval does not establish completion of the floating-island artwork.
 
 ## Heroes of Maple
 
@@ -122,8 +138,8 @@ Current approved primary pairing is a planning decision, not verification of a c
 
 ## Maintenance
 
-- Edit `planning/maplestory-pairings.json` first; the website reads it directly.
-- Run `node tools/build-pairings.cjs` after editing JSON to regenerate this Markdown.
-- Preserve historical encounters separately and distinguish render evidence from earlier proposals.
-- Not-created classes retain `boss: null` until approved; proposals stay alternatives.
-- Nova's two Magnus selections remain intentional and unchanged.
+- Edit `planning/maplestory-pairings.json` as the canonical source; the pairing website loads it directly.
+- Run `node tools/build-pairings.cjs` to synchronize this human-readable Markdown index.
+- Preserve historical encounters in `historicalEncounters` with evidence qualifiers; do not equate primary-pairing approval with artwork approval.
+- Not-created classes retain `boss: null` until an approved primary is selected.
+- Nova's four approved pairings remain unchanged, including the deliberate Magnus reuse.
