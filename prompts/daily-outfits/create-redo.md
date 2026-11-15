@@ -48,3 +48,8 @@ Keep any scene checklist **in chat, not inside the image**. If presenting Create
 **Creature hood validation:** For a creature-themed hood, verify the theme's recognizable embroidered eyes, pupils, highlights and markings are visibly **on the hood**, with Jolly's original cream face unobstructed. Preserve approved silhouette details such as spikes, horns, ears, armor or tail according to the supplied reference. Do not invent the same markings for unrelated creatures.
 
 If only the cubby fails validation, correct **only** cubby geometry, frame/wall color, LED and architectural lighting/shadow; do not regenerate or reinterpret approved interior scene artwork, face, costume, pose or effects. Keep one output per iteration.
+
+
+## Review and approval presentation
+
+Follow [`../shared/review-approval-workflow.md`](../shared/review-approval-workflow.md) for structured master-reference checks, prioritized next steps, explicit locked details, approval/edit/keep options, and final post-edit validation. This adds communication and quality gates only; the task-specific visual and edit constraints above remain authoritative.
