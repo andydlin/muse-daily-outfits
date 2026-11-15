@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15-cygnus-v1",
-  "notes": "Approved Explorer V4.1 replaces Explorer primaries only; older encounters preserved separately in historicalEncounters. Artwork status is intentionally not tracked. Bishop deployed binary not directly inspected. Pathfinder, Dual Blade, Cannoneer not created. Nova unchanged. Cygnus Knights six primaries approved Nov 15, 2026. Older Magnus and Arkarium Dawn Warrior work and other exploratory alternatives retained with evidence labels. Pairing approval does not imply final image approval; older gallery thumbnails may depict different opponent.",
+  "version": "2026-11-15-resistance-v1",
+  "notes": "Explorer V4.1, Cygnus V1, and Resistance V1 are approved as pairing selections on November 15, 2026. Retain historical encounters with evidence qualifiers, including uncertain Blaster and Demon Slayer image identities. A pairing approval is not a claim of final artwork approval; Nova unchanged.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -451,79 +451,134 @@
       "family": "Resistance",
       "hero": "Battle Mage",
       "boss": "Von Leon",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/18-battle-mage.webp",
       "alternatives": [
-        "Lotus"
+        "Lotus",
+        "Verus Hilla"
       ],
-      "note": "Previously accepted encounter."
+      "note": "Von Leon approved as primary pairing. Published gallery image exists; pairing approval is not final artwork approval.",
+      "historicalEncounters": [
+        {
+          "boss": "Von Leon",
+          "evidence": "Established historical pairing; primary reaffirmed Nov 15"
+        }
+      ]
     },
     {
       "family": "Resistance",
       "hero": "Wild Hunter",
       "boss": "Giant Blackheart",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/20-wild-hunter.webp",
       "alternatives": [
-        "Crimson Queen"
+        "Crimson Queen",
+        "Horntail"
       ],
-      "note": "Approved texture master encounter."
+      "note": "Giant Blackheart reaffirmed as primary pairing; earlier approved image/reference recorded independently.",
+      "historicalEncounters": [
+        {
+          "boss": "Giant Blackheart",
+          "evidence": "Earlier accepted encounter, used as approved handmade-plush texture reference"
+        }
+      ]
     },
     {
       "family": "Resistance",
       "hero": "Mechanic",
       "boss": "Lotus",
-      "status": "Previously explored",
+      "status": "Approved 2026-11-15",
       "image": null,
       "alternatives": [
+        "Kalos",
+        "Papulatus",
         "Vellum"
       ],
-      "note": "Mechanic encounter worked on, not treated as a finalized artwork."
+      "note": "Mechanic vs Lotus approved primary. Mechanic floating-island iterations remain a separate artwork workflow and do not imply final image approval.",
+      "historicalEncounters": [
+        {
+          "boss": "Lotus",
+          "evidence": "Selected encounter in recent island development; artwork underwent revisions and final approval cannot be inferred"
+        }
+      ]
     },
     {
       "family": "Resistance",
       "hero": "Blaster",
-      "boss": null,
-      "status": "Needs verification",
+      "boss": "Papulatus",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/22-blaster-v2.webp",
       "alternatives": [
-        "Pierre",
-        "Papulatus"
+        "Magnus",
+        "Ursus",
+        "Pierre"
       ],
-      "note": "Existing class artwork present, boss partner requires reconfirmation."
+      "note": "Papulatus is now approved pairing, but boss pictured in maple-jelly/22-blaster-v2.webp remains visually unverified. Earlier Magnus variant is preserved with an evidence qualifier.",
+      "historicalEncounters": [
+        {
+          "boss": "Magnus",
+          "evidence": "Earlier pairing reported as previously approved in collection audit; exact source image and final artwork state not independently confirmed"
+        },
+        {
+          "boss": "Papulatus",
+          "evidence": "Later primary proposal selected and explicitly approved November 15, 2026; published Blaster image does not name opponent"
+        }
+      ]
     },
     {
       "family": "Resistance",
       "hero": "Xenon",
       "boss": "Verus Hilla",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/21-xenon-v2.webp",
       "alternatives": [
-        "Lotus"
+        "Lotus",
+        "Damien"
       ],
-      "note": "Previously approved pairing."
+      "note": "Verus Hilla approved primary; historical work includes an earlier approved encounter.",
+      "historicalEncounters": [
+        {
+          "boss": "Verus Hilla",
+          "evidence": "Established earlier pairing; approved as primary Nov 15"
+        }
+      ]
     },
     {
       "family": "Resistance",
       "hero": "Demon Slayer",
       "boss": "Damien",
-      "status": "Previously created",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/24-winged-swordsman.webp",
       "alternatives": [
-        "Black Mage"
+        "Black Mage",
+        "Darknell"
       ],
-      "note": "Previous Demon Slayer vs Damien work; gallery thumbnail identification requires verification."
+      "note": "Damien approved primary. maple-jelly/24-winged-swordsman.webp is associated with earlier work, but class/boss identity of that binary remains unverified.",
+      "historicalEncounters": [
+        {
+          "boss": "Damien",
+          "evidence": "Earlier Demon Slayer vs Damien encounter was created/explored; exact gallery winged-swordsman image identity not independently verified"
+        }
+      ]
     },
     {
       "family": "Resistance",
       "hero": "Demon Avenger",
       "boss": "Gloom",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/23-demon-avenger-v2.webp",
       "alternatives": [
+        "Verus Hilla",
+        "Damien",
         "Cygnus"
       ],
-      "note": "Previously completed work with Gloom according to project record."
+      "note": "Gloom approved primary; older artwork record kept separate from pairing approval.",
+      "historicalEncounters": [
+        {
+          "boss": "Gloom",
+          "evidence": "Previously selected and refined encounter; primary confirmed Nov 15"
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",
