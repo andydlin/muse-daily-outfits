@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15-resistance-v1",
-  "notes": "Explorer V4.1, Cygnus V1, and Resistance V1 are approved as pairing selections on November 15, 2026. Retain historical encounters with evidence qualifiers, including uncertain Blaster and Demon Slayer image identities. A pairing approval is not a claim of final artwork approval; Nova unchanged.",
+  "version": "2026-11-15-heroes-v1",
+  "notes": "Approved Explorer V4.1, Cygnus V1, Resistance V1, Heroes of Maple V1 and Nova primaries. Historical encounters and proposed pairings distinguished by evidence notes. Pairing approval alone does not indicate final artwork approval; gallery thumbnails may not establish boss identity.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -584,67 +584,139 @@
       "family": "Heroes of Maple",
       "hero": "Aran",
       "boss": "Von Leon",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/25-aran.webp",
       "alternatives": [
-        "Arkarium"
+        "Arkarium",
+        "Damien"
       ],
-      "note": "Prior confirmed final pairing."
+      "note": "Aran × Von Leon is the approved primary and has an existing snowy-castle gallery image. Pairing approval is separate from final artwork approval.",
+      "historicalEncounters": [
+        {
+          "boss": "Von Leon",
+          "evidence": "Existing pairing documented in the canonical tracker and previously approved; later affirmed as primary November 15, 2026"
+        },
+        {
+          "boss": "Arkarium",
+          "evidence": "Earlier alternative proposal; no independently confirmed rendered encounter"
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",
       "hero": "Evan",
       "boss": "Horntail",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/26-evan.webp",
       "alternatives": [
-        "Kaling"
+        "Kaling",
+        "Arkarium"
       ],
-      "note": "Evan and Mir vs Horntail final pairing."
+      "note": "Evan × Horntail approved as primary; existing icy-cavern gallery image, but gallery caption does not independently name the boss.",
+      "historicalEncounters": [
+        {
+          "boss": "Horntail",
+          "evidence": "Existing canonical pairing with Evan and Mir; affirmed as primary November 15, 2026"
+        },
+        {
+          "boss": "Kaling",
+          "evidence": "Earlier alternative proposal only; no confirmed created encounter"
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",
       "hero": "Mercedes",
       "boss": "Crimson Queen",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/27-mercedes.webp",
       "alternatives": [
-        "Lucid"
+        "Lucid",
+        "Verus Hilla"
       ],
-      "note": "Prior confirmed final pairing."
+      "note": "Mercedes × Crimson Queen remains approved primary; prior Lucid idea retained as a proposal, not a separately confirmed rendered encounter.",
+      "historicalEncounters": [
+        {
+          "boss": "Crimson Queen",
+          "evidence": "Existing pairing in canonical tracker and user's approved primary November 15, 2026"
+        },
+        {
+          "boss": "Lucid",
+          "evidence": "Earlier proposed primary/alternative, not verified as rendered"
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",
       "hero": "Phantom",
       "boss": "Dark Cygnus",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/30-phantom.webp",
       "alternatives": [
-        "Will"
+        "Hilla",
+        "Will",
+        "Pink Bean"
       ],
-      "note": "Prior confirmed final pairing."
+      "note": "Phantom × Dark Cygnus remains primary. Hilla and Pink Bean are ideas only until historical artwork evidence is found.",
+      "historicalEncounters": [
+        {
+          "boss": "Dark Cygnus",
+          "evidence": "Existing canonical pairing reaffirmed as primary November 15, 2026"
+        },
+        {
+          "boss": "Pink Bean",
+          "evidence": "Mentioned as earlier pairing proposal; no confirmed completed encounter"
+        },
+        {
+          "boss": "Hilla",
+          "evidence": "Alternative suggested for story/lore fit; not a confirmed historical render"
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",
       "hero": "Luminous",
       "boss": "Will",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/29-luminous.webp",
       "alternatives": [
-        "Black Mage"
+        "Black Mage",
+        "Hilla"
       ],
-      "note": "Prior confirmed final pairing."
+      "note": "Luminous × Will approved as primary, not proof that the final image was approved. Hilla remains a historical proposal.",
+      "historicalEncounters": [
+        {
+          "boss": "Will",
+          "evidence": "Existing canonical pairing reaffirmed as primary November 15, 2026"
+        },
+        {
+          "boss": "Hilla",
+          "evidence": "Earlier pairing proposal only; no separately confirmed created scene"
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",
       "hero": "Shade",
       "boss": "Lucid",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/28-shade.webp",
       "alternatives": [
-        "Gloom"
+        "Gloom",
+        "Damien",
+        "Magnus"
       ],
-      "note": "Prior confirmed final pairing."
+      "note": "Shade × Lucid approved as primary; older Magnus idea preserved as a proposal, not verified historical artwork.",
+      "historicalEncounters": [
+        {
+          "boss": "Lucid",
+          "evidence": "Existing canonical pairing reaffirmed as primary November 15, 2026"
+        },
+        {
+          "boss": "Magnus",
+          "evidence": "Earlier pairing proposal only; no separately confirmed created scene"
+        }
+      ]
     },
     {
       "family": "Nova",
