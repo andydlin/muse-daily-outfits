@@ -19,3 +19,8 @@ Return exactly **one individual edited image first**. Do not generate a side-by-
 Use the **Bulbasaur Neutral Cream Lock** in `../shared/cubby-lighting.md`. Match Bulbasaur's **light neutral peach-beige exterior, soft ivory-cream frame, and creamy interior architectural surfaces**. Specifically **reduce excessive orange, yellow and pink saturation**; aim for a **lighter, creamier, less saturated** architectural palette rather than making the entire image warmer. Keep all four frame sides identical in color and thickness, the small flush ceiling LED intact, and the exterior shadows subtle and neutral.
 
 Apply the correction **only to cubby structure, exterior wall/background, architectural ceiling/side walls and relevant cubby lighting/shadows**. Preserve every approved character/body texture, face/eyes/expression, hood/costume, weapon/props, pose/scale, terrain, environment art, atmosphere and magic effects. Do not alter camera framing or cubby geometry. Avoid washing out intentional sunset or magical glow in the scene itself.
+
+
+## Review and approval presentation
+
+Follow [`../shared/review-approval-workflow.md`](../shared/review-approval-workflow.md) for structured master-reference checks, prioritized next steps, explicit locked details, approval/edit/keep options, and final post-edit validation. This adds communication and quality gates only; the task-specific visual and edit constraints above remain authoritative.
