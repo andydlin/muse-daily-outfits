@@ -1,0 +1,427 @@
+{
+  "version": "2026-11-15-v2",
+  "notes": "Single source of truth for the planning webpage. Existing older encounters are recorded conservatively; verify disputed bosses before promoting status. Scene references are supplied in separate generation chats. No format, artwork-status, or skill fields.",
+  "collections": [
+    "Explorers",
+    "Cygnus Knights",
+    "Resistance",
+    "Heroes of Maple",
+    "Nova"
+  ],
+  "pairings": [
+    {
+      "family": "Explorers",
+      "hero": "Hero",
+      "boss": "Jr. Balrog",
+      "status": "Previously created",
+      "image": "maple-jelly/12-hero-v3.webp",
+      "alternatives": [
+        "Crimson Balrog"
+      ],
+      "note": "Previously approved Hero work; boss from early scene record, reconfirm current variant."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Paladin",
+      "boss": "Zakum",
+      "status": "Previously created",
+      "image": "maple-jelly/08-paladin-v3.webp",
+      "alternatives": [
+        "Magnus"
+      ],
+      "note": "Pairing previously approved."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Dark Knight",
+      "boss": "Zakum",
+      "status": "Previously created",
+      "image": "maple-jelly/07-dark-knight-v2.webp",
+      "alternatives": [
+        "Horntail"
+      ],
+      "note": "Previously rendered with Zakum; older proposed boss Horntail."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Fire/Poison Arch Mage",
+      "boss": "Pianus",
+      "status": "Previously created",
+      "image": "maple-jelly/11-fire-poison-v2.webp",
+      "alternatives": [
+        "Vellum"
+      ],
+      "note": "Previously generated encounter."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Ice/Lightning Arch Mage",
+      "boss": "Pink Bean",
+      "status": "Previously created",
+      "image": "maple-jelly/06-ice-lightning-v2.webp",
+      "alternatives": [
+        "Papulatus"
+      ],
+      "note": "Previously approved encounter."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Bishop",
+      "boss": "Von Leon",
+      "status": "Previously created",
+      "image": "maple-jelly/05-bishop-v2.webp",
+      "alternatives": [
+        "Black Mage"
+      ],
+      "note": "Von Leon accepted in earlier collection; later proposals differ."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Bowmaster",
+      "boss": "Horntail",
+      "status": "Needs verification",
+      "image": "maple-jelly/04-bowmaster-v3.webp",
+      "alternatives": [
+        "Griffey"
+      ],
+      "note": "Hero artwork present; exact boss not consistently established in records."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Marksman",
+      "boss": null,
+      "status": "Needs verification",
+      "image": "maple-jelly/03-marksman-v2.webp",
+      "alternatives": [
+        "Manon",
+        "Kalos"
+      ],
+      "note": "Hero artwork present; earlier notes mention Manon and Horntail-like head, neither final confirmed."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Night Lord",
+      "boss": "Crimson Balrog",
+      "status": "Previously created",
+      "image": "maple-jelly/09-night-lord-v2.webp",
+      "alternatives": [],
+      "note": "Night Lord previously approved; boss identity still merits comparison with archived image."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Shadower",
+      "boss": "Crimson Queen",
+      "status": "Previously created",
+      "image": "maple-jelly/10-shadower-v2.webp",
+      "alternatives": [
+        "Dodo"
+      ],
+      "note": "Crimson Queen encounter worked on; older test used Dodo."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Buccaneer",
+      "boss": "Lord Pirate",
+      "status": "Approved earlier",
+      "image": "maple-jelly/01-buccaneer-v2.webp",
+      "alternatives": [
+        "Leviathan"
+      ],
+      "note": "Final approved Buccaneer vs Lord Pirate recorded."
+    },
+    {
+      "family": "Explorers",
+      "hero": "Corsair",
+      "boss": "Pianus",
+      "status": "Approved earlier",
+      "image": "islands/01-corsair.webp",
+      "alternatives": [
+        "Captain Latanica",
+        "Leviathan"
+      ],
+      "note": "Approved finished floating-island Corsair vs Pianus encounter; separate earlier pirate ship variant."
+    },
+    {
+      "family": "Cygnus Knights",
+      "hero": "Dawn Warrior",
+      "boss": "Magnus",
+      "status": "Approved earlier",
+      "image": "maple-jelly/17-dawn-warrior-v2.webp",
+      "alternatives": [
+        "Arkarium"
+      ],
+      "note": "Pairing locked in earlier discussions."
+    },
+    {
+      "family": "Cygnus Knights",
+      "hero": "Blaze Wizard",
+      "boss": null,
+      "status": "Needs verification",
+      "image": "maple-jelly/16-blaze-wizard.webp",
+      "alternatives": [
+        "Zakum"
+      ],
+      "note": "Existing image verified, boss name not independently confirmed."
+    },
+    {
+      "family": "Cygnus Knights",
+      "hero": "Wind Archer",
+      "boss": "Chaos Vellum",
+      "status": "Approved earlier",
+      "image": "islands/02-wind-archer-v2.webp",
+      "alternatives": [
+        "Griffey"
+      ],
+      "note": "Approved island pairing; stone serpent is Vellum."
+    },
+    {
+      "family": "Cygnus Knights",
+      "hero": "Night Walker",
+      "boss": "Verus Hilla",
+      "status": "Approved earlier",
+      "image": "maple-jelly/15-night-walker-v2.webp",
+      "alternatives": [
+        "Papulatus"
+      ],
+      "note": "Recent approved boss pairing in project history."
+    },
+    {
+      "family": "Cygnus Knights",
+      "hero": "Thunder Breaker",
+      "boss": "Kaling",
+      "status": "Approved earlier",
+      "image": "maple-jelly/13-thunder-breaker-v2.webp",
+      "alternatives": [
+        "Pianus"
+      ],
+      "note": "Recent approved boss pairing in project history."
+    },
+    {
+      "family": "Cygnus Knights",
+      "hero": "Mihile",
+      "boss": "Arkarium",
+      "status": "Approved earlier",
+      "image": "maple-jelly/19-mihile.webp",
+      "alternatives": [
+        "Seren"
+      ],
+      "note": "Previously accepted encounter."
+    },
+    {
+      "family": "Resistance",
+      "hero": "Battle Mage",
+      "boss": "Von Leon",
+      "status": "Approved earlier",
+      "image": "maple-jelly/18-battle-mage.webp",
+      "alternatives": [
+        "Lotus"
+      ],
+      "note": "Previously accepted encounter."
+    },
+    {
+      "family": "Resistance",
+      "hero": "Wild Hunter",
+      "boss": "Giant Blackheart",
+      "status": "Approved earlier",
+      "image": "maple-jelly/20-wild-hunter.webp",
+      "alternatives": [
+        "Crimson Queen"
+      ],
+      "note": "Approved texture master encounter."
+    },
+    {
+      "family": "Resistance",
+      "hero": "Mechanic",
+      "boss": "Lotus",
+      "status": "Previously explored",
+      "image": null,
+      "alternatives": [
+        "Vellum"
+      ],
+      "note": "Mechanic encounter worked on, not treated as a finalized artwork."
+    },
+    {
+      "family": "Resistance",
+      "hero": "Blaster",
+      "boss": null,
+      "status": "Needs verification",
+      "image": "maple-jelly/22-blaster-v2.webp",
+      "alternatives": [
+        "Pierre",
+        "Papulatus"
+      ],
+      "note": "Existing class artwork present, boss partner requires reconfirmation."
+    },
+    {
+      "family": "Resistance",
+      "hero": "Xenon",
+      "boss": "Verus Hilla",
+      "status": "Approved earlier",
+      "image": "maple-jelly/21-xenon-v2.webp",
+      "alternatives": [
+        "Lotus"
+      ],
+      "note": "Previously approved pairing."
+    },
+    {
+      "family": "Resistance",
+      "hero": "Demon Slayer",
+      "boss": "Damien",
+      "status": "Previously created",
+      "image": "maple-jelly/24-winged-swordsman.webp",
+      "alternatives": [
+        "Black Mage"
+      ],
+      "note": "Previous Demon Slayer vs Damien work; gallery thumbnail identification requires verification."
+    },
+    {
+      "family": "Resistance",
+      "hero": "Demon Avenger",
+      "boss": "Gloom",
+      "status": "Approved earlier",
+      "image": "maple-jelly/23-demon-avenger-v2.webp",
+      "alternatives": [
+        "Cygnus"
+      ],
+      "note": "Previously completed work with Gloom according to project record."
+    },
+    {
+      "family": "Heroes of Maple",
+      "hero": "Aran",
+      "boss": "Von Leon",
+      "status": "Approved earlier",
+      "image": "maple-jelly/25-aran.webp",
+      "alternatives": [
+        "Arkarium"
+      ],
+      "note": "Prior confirmed final pairing."
+    },
+    {
+      "family": "Heroes of Maple",
+      "hero": "Evan",
+      "boss": "Horntail",
+      "status": "Approved earlier",
+      "image": "maple-jelly/26-evan.webp",
+      "alternatives": [
+        "Kaling"
+      ],
+      "note": "Evan and Mir vs Horntail final pairing."
+    },
+    {
+      "family": "Heroes of Maple",
+      "hero": "Mercedes",
+      "boss": "Crimson Queen",
+      "status": "Approved earlier",
+      "image": "maple-jelly/27-mercedes.webp",
+      "alternatives": [
+        "Lucid"
+      ],
+      "note": "Prior confirmed final pairing."
+    },
+    {
+      "family": "Heroes of Maple",
+      "hero": "Phantom",
+      "boss": "Dark Cygnus",
+      "status": "Approved earlier",
+      "image": "maple-jelly/30-phantom.webp",
+      "alternatives": [
+        "Will"
+      ],
+      "note": "Prior confirmed final pairing."
+    },
+    {
+      "family": "Heroes of Maple",
+      "hero": "Luminous",
+      "boss": "Will",
+      "status": "Approved earlier",
+      "image": "maple-jelly/29-luminous.webp",
+      "alternatives": [
+        "Black Mage"
+      ],
+      "note": "Prior confirmed final pairing."
+    },
+    {
+      "family": "Heroes of Maple",
+      "hero": "Shade",
+      "boss": "Lucid",
+      "status": "Approved earlier",
+      "image": "maple-jelly/28-shade.webp",
+      "alternatives": [
+        "Gloom"
+      ],
+      "note": "Prior confirmed final pairing."
+    },
+    {
+      "family": "Nova",
+      "hero": "Kaiser",
+      "boss": "Magnus",
+      "status": "Approved 2026-11-15",
+      "image": null,
+      "alternatives": [
+        "Baldrix",
+        "Horntail"
+      ],
+      "note": "Canonical Nova rivalry.",
+      "art": {
+        "hero": "https://media.maplestorywiki.net/yetidb/thumb/ClassArtwork_Kaiser.png/800px-ClassArtwork_Kaiser.png",
+        "heroSource": "https://maplestorywiki.net/w/Kaiser",
+        "boss": "https://media.maplestorywiki.net/yetidb/Boss_UI_-_Magnus.png",
+        "bossSource": "https://maplestorywiki.net/w/Magnus/Monster"
+      }
+    },
+    {
+      "family": "Nova",
+      "hero": "Angelic Buster",
+      "boss": "Lucid",
+      "status": "Approved 2026-11-15",
+      "image": null,
+      "alternatives": [
+        "Pink Bean",
+        "Guardian Angel Slime"
+      ],
+      "note": "Contrasting idol magic and haunting dreamworld.",
+      "art": {
+        "hero": "https://static.wikia.nocookie.net/maplestory/images/1/17/ClassArtwork_Angelic_Buster_%282023%29.png/revision/latest?cb=20231109055734",
+        "heroSource": "https://maplestory.fandom.com/wiki/Angelic_Buster",
+        "boss": "https://media.maplestorywiki.net/yetidb/Boss_Entry_UI_-_Lucid.png",
+        "bossSource": "https://maplestorywiki.net/w/Lucid"
+      }
+    },
+    {
+      "family": "Nova",
+      "hero": "Cadena",
+      "boss": "Magnus",
+      "status": "Approved 2026-11-15",
+      "image": null,
+      "alternatives": [
+        "Kalos",
+        "Lotus"
+      ],
+      "note": "Intentional boss repeat; personal revenge and dynamic chain combat.",
+      "art": {
+        "hero": "https://g.nexonstatic.com/media/znzhlkzx/cadena_art.png",
+        "heroSource": "https://www.nexon.com/maplestory/game/classes-and-jobs/1339/thief",
+        "boss": "https://media.maplestorywiki.net/yetidb/Boss_UI_-_Magnus.png",
+        "bossSource": "https://maplestorywiki.net/w/Magnus/Monster"
+      }
+    },
+    {
+      "family": "Nova",
+      "hero": "Kain",
+      "boss": "Kaling",
+      "status": "Approved 2026-11-15",
+      "image": null,
+      "alternatives": [
+        "Damien",
+        "Malefic Star"
+      ],
+      "note": "Dark crossbow assassin against mystical boss forms.",
+      "art": {
+        "hero": "https://g.nexonstatic.com/media/rqbpe0sr/250723-ms-classesjobs-update-kain-395x400.png",
+        "heroSource": "https://www.nexon.com/maplestory/game/classes-and-jobs/1297/bowman",
+        "boss": "https://media.maplestorywiki.net/yetidb/Boss_Entry_UI_-_Kaling.png",
+        "bossSource": "https://maplestorywiki.net/w/Kaling"
+      }
+    }
+  ]
+}
