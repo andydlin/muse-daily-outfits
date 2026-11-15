@@ -43,3 +43,8 @@ Return **ONE image**, no numbered plaque, title, label, text, UI, branding or si
 **Class-specific colored-eye exception:** Demon Slayer vs. Damien establishes that recognizable red eyes can be kept in a determined combat expression while softening angular anime shapes and simplifying iris detail. Preserve approved facial markings, brows, mouth, hair, blush and scene; a face/eye-only correction is not a redesign. Dark eyes remain the default for classes without an explicit colored-eye reference.
 
 Use `MASTER_Maple_Face_Ice_Lightning_Mage.png` as the primary MapleStory face master and `MASTER_Maple_Face_Secondy_Buccaneer.png` as secondary. **Specifically cross-reference the eye treatment** in both `MASTER_Texture_Wild_Hunter.jpg` and `MASTER_Texture_Mechanic.png`. These support the simple rounded dark embroidered/button-style eyes, small controlled catchlights, and clear expressive gaze. They do not replace the primary MapleStory facial identity references, dictate the costume/pose, or change cubby standards. Attach actual image files when available.
+
+
+## Review and approval presentation
+
+Follow [`../shared/review-approval-workflow.md`](../shared/review-approval-workflow.md) for structured master-reference checks, prioritized next steps, explicit locked details, approval/edit/keep options, and final post-edit validation. This adds communication and quality gates only; the task-specific visual and edit constraints above remain authoritative.
