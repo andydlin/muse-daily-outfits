@@ -4,7 +4,8 @@
 **Pairing website:** [MapleStory Pairing Tracker](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
 **Explorer approval:** V4.1, November 15, 2026  
 **Cygnus Knights approval:** V1, November 15, 2026  
-**Resistance approval:** V1, November 15, 2026
+**Resistance approval:** V1, November 15, 2026  
+**Heroes of Maple approval:** V1, November 15, 2026
 
 An approved primary pairing is a planning decision, NOT confirmation of final artwork approval. Published gallery thumbnails may depict older opponents. Historical records distinguish created work, exploratory proposals, and uncertain identities. No cubby/island format selection or signature-action metadata is tracked here.
 
@@ -58,7 +59,7 @@ An approved primary pairing is a planning decision, NOT confirmation of final ar
 | Corsair | Pianus | Current wall and approved island encounter |
 | Corsair | Captain Latanica | Earlier accepted encounter |
 
-**Bishop caveat:** Zombie Mushmom is user-approved as the current wall pairing and has an earlier creation record, but the deployed Bishop gallery binary was not directly inspected.
+**Bishop caveat:** User approved Zombie Mushmom as current wall pairing and earlier creation supports it, but the deployed Bishop binary has not been directly inspected.
 
 ## Cygnus Knights
 
@@ -120,12 +121,32 @@ An approved primary pairing is a planning decision, NOT confirmation of final ar
 
 | Class | Primary boss | Alternatives | Pairing status | Gallery image |
 |---|---|---|---|---|
-| Aran | Von Leon | Arkarium | Approved earlier | [View](../maple-jelly/25-aran.webp) |
-| Evan | Horntail | Kaling | Approved earlier | [View](../maple-jelly/26-evan.webp) |
-| Mercedes | Crimson Queen | Lucid | Approved earlier | [View](../maple-jelly/27-mercedes.webp) |
-| Phantom | Dark Cygnus | Will | Approved earlier | [View](../maple-jelly/30-phantom.webp) |
-| Luminous | Will | Black Mage | Approved earlier | [View](../maple-jelly/29-luminous.webp) |
-| Shade | Lucid | Gloom | Approved earlier | [View](../maple-jelly/28-shade.webp) |
+| Aran | Von Leon | Arkarium, Damien | Approved 2026-11-15 | [View](../maple-jelly/25-aran.webp) |
+| Evan | Horntail | Kaling, Arkarium | Approved 2026-11-15 | [View](../maple-jelly/26-evan.webp) |
+| Mercedes | Crimson Queen | Lucid, Verus Hilla | Approved 2026-11-15 | [View](../maple-jelly/27-mercedes.webp) |
+| Phantom | Dark Cygnus | Hilla, Will, Pink Bean | Approved 2026-11-15 | [View](../maple-jelly/30-phantom.webp) |
+| Luminous | Will | Black Mage, Hilla | Approved 2026-11-15 | [View](../maple-jelly/29-luminous.webp) |
+| Shade | Lucid | Gloom, Damien, Magnus | Approved 2026-11-15 | [View](../maple-jelly/28-shade.webp) |
+
+### Heroes of Maple — historical encounters and proposals
+
+| Class | Boss | Historical evidence / qualification |
+|---|---|---|
+| Aran | Von Leon | Existing pairing documented in the canonical tracker and previously approved; later affirmed as primary November 15, 2026 |
+| Aran | Arkarium | Earlier alternative proposal; no independently confirmed rendered encounter |
+| Evan | Horntail | Existing canonical pairing with Evan and Mir; affirmed as primary November 15, 2026 |
+| Evan | Kaling | Earlier alternative proposal only; no confirmed created encounter |
+| Mercedes | Crimson Queen | Existing pairing in canonical tracker and user's approved primary November 15, 2026 |
+| Mercedes | Lucid | Earlier proposed primary/alternative, not verified as rendered |
+| Phantom | Dark Cygnus | Existing canonical pairing reaffirmed as primary November 15, 2026 |
+| Phantom | Pink Bean | Mentioned as earlier pairing proposal; no confirmed completed encounter |
+| Phantom | Hilla | Alternative suggested for story/lore fit; not a confirmed historical render |
+| Luminous | Will | Existing canonical pairing reaffirmed as primary November 15, 2026 |
+| Luminous | Hilla | Earlier pairing proposal only; no separately confirmed created scene |
+| Shade | Lucid | Existing canonical pairing reaffirmed as primary November 15, 2026 |
+| Shade | Magnus | Earlier pairing proposal only; no separately confirmed created scene |
+
+**Heroes of Maple caveat:** Six primary boss pairings were approved, but earlier alternatives (for example Mercedes × Lucid, Phantom × Pink Bean, Luminous × Hilla, Shade × Magnus) are proposals unless a separate created encounter is confirmed. Existing wall thumbnails do not independently prove final artwork approval.
 
 ## Nova
 
@@ -138,8 +159,8 @@ An approved primary pairing is a planning decision, NOT confirmation of final ar
 
 ## Maintenance
 
-- Edit `planning/maplestory-pairings.json` as the canonical source; the pairing website loads it directly.
-- Run `node tools/build-pairings.cjs` to synchronize this human-readable Markdown index.
+- Edit `planning/maplestory-pairings.json` first; the website reads it directly.
+- Run `node tools/build-pairings.cjs` after editing JSON to regenerate this Markdown.
 - Preserve historical encounters in `historicalEncounters` with evidence qualifiers; do not equate primary-pairing approval with artwork approval.
-- Not-created classes retain `boss: null` until an approved primary is selected.
-- Nova's four approved pairings remain unchanged, including the deliberate Magnus reuse.
+- Not-created classes retain `boss: null` until approved; proposals stay alternatives.
+- Nova's two Magnus selections remain intentional and unchanged.
