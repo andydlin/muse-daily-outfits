@@ -2,9 +2,10 @@
 
 **Canonical data:** [maplestory-pairings.json](maplestory-pairings.json)  
 **Pairing website:** [MapleStory Pairing Tracker](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
-**Explorer approval:** V4.1, November 15, 2026
+**Explorer approval:** V4.1, November 15, 2026  
+**Cygnus Knights approval:** V1, November 15, 2026
 
-One class has at most one current primary pairing, but may have many separate historical encounters. A pairing being approved does **not** establish final image approval. Site content is dynamically loaded from JSON. Historical identity or image uncertainty is labeled rather than invented. Never display scene-format selection, artwork-progress metadata, or signature-action metadata in the public tracker.
+Current approved primary pairing is a planning decision, not verification of a completed final image. The published gallery thumbnail may show an earlier boss. Historical entries distinguish earlier created work from proposals and uncertain identity. No cubby/island choice or signature action tracked here.
 
 ## Explorers
 
@@ -26,35 +27,66 @@ One class has at most one current primary pairing, but may have many separate hi
 | Corsair | Pianus | Captain Latanica, Leviathan | Approved 2026-11-15 | [View](../islands/01-corsair.webp) |
 | Cannoneer | — (not created; proposed: Guardian Angel Slime) | Guardian Angel Slime, Papulatus | Not created | — |
 
-### Explorer historical encounters (preserved separately)
+### Explorers historical pairings and explorations
 
-| Class | Earlier and current encountered bosses | Evidence / uncertainty |
+| Class | Boss | Evidence / qualification |
 |---|---|---|
-| Hero | Jr. Balrog | Jr. Balrog: Historical encounter; current wall selection |
-| Paladin | Zakum | Zakum: Historical encounter; current wall selection |
-| Dark Knight | Horntail; Zakum | Horntail: Current wall pairing, user confirmed; Zakum: Earlier created version |
-| Fire/Poison Arch Mage | Manon; Pianus | Manon: Approved replacement in earlier conversations; Pianus: Earlier created version |
-| Ice/Lightning Arch Mage | Pink Bean | Pink Bean: Historical/current encounter |
-| Bishop | Zombie Mushmom; Von Leon; Black Mage | Zombie Mushmom: Earlier completed pairing; current wall according to user, image binary not independently inspected; Von Leon: Separate previously explored version; Black Mage: Later exploration |
-| Bowmaster | Empress Cygnus; Griffey; Crimson Balrog | Empress Cygnus: Later approved composition and current wall, per user; Griffey: Earlier rendered version; Crimson Balrog: Earlier explored version |
-| Marksman | Papulatus; Manon; Horntail-like dragon | Papulatus: Current approved image on wall, user explicitly confirmed; Manon: Earlier rendered version; Horntail-like dragon: Earlier experiment; boss identity unverified |
-| Night Lord | Darknell; Crimson Balrog | Darknell: Current wall pairing, user clarified; Crimson Balrog: Earlier encounter |
-| Shadower | Crimson Queen; Dodo | Crimson Queen: Current pairing; Dodo: Earlier exploration |
-| Buccaneer | First Adversary; Lord Pirate; Leviathan | First Adversary: Current wall pairing, user clarified; Lord Pirate: Earlier final-approved encounter; Leviathan: Earlier explored encounter |
-| Corsair | Pianus; Captain Latanica | Pianus: Current wall and approved island encounter; Captain Latanica: Earlier accepted encounter |
+| Hero | Jr. Balrog | Historical encounter; current wall selection |
+| Paladin | Zakum | Historical encounter; current wall selection |
+| Dark Knight | Horntail | Current wall pairing, user confirmed |
+| Dark Knight | Zakum | Earlier created version |
+| Fire/Poison Arch Mage | Manon | Approved replacement in earlier conversations |
+| Fire/Poison Arch Mage | Pianus | Earlier created version |
+| Ice/Lightning Arch Mage | Pink Bean | Historical/current encounter |
+| Bishop | Zombie Mushmom | Earlier completed pairing; current wall according to user, image binary not independently inspected |
+| Bishop | Von Leon | Separate previously explored version |
+| Bishop | Black Mage | Later exploration |
+| Bowmaster | Empress Cygnus | Later approved composition and current wall, per user |
+| Bowmaster | Griffey | Earlier rendered version |
+| Bowmaster | Crimson Balrog | Earlier explored version |
+| Marksman | Papulatus | Current approved image on wall, user explicitly confirmed |
+| Marksman | Manon | Earlier rendered version |
+| Marksman | Horntail-like dragon | Earlier experiment; boss identity unverified |
+| Night Lord | Darknell | Current wall pairing, user clarified |
+| Night Lord | Crimson Balrog | Earlier encounter |
+| Shadower | Crimson Queen | Current pairing |
+| Shadower | Dodo | Earlier exploration |
+| Buccaneer | First Adversary | Current wall pairing, user clarified |
+| Buccaneer | Lord Pirate | Earlier final-approved encounter |
+| Buccaneer | Leviathan | Earlier explored encounter |
+| Corsair | Pianus | Current wall and approved island encounter |
+| Corsair | Captain Latanica | Earlier accepted encounter |
 
-**Bishop caveat:** Current Zombie Mushmom pairing approved from user wall identification and historical creation record. Deployed `maple-jelly/05-bishop-v2.webp` binary was not directly inspected. Existing thumbnail must not be treated as independent visual confirmation.
+**Bishop caveat:** User approved Zombie Mushmom as current wall pairing and earlier creation supports it, but the deployed Bishop binary has not been directly inspected.
 
 ## Cygnus Knights
 
 | Class | Primary boss | Alternatives | Pairing status | Gallery image |
 |---|---|---|---|---|
-| Dawn Warrior | Magnus | Arkarium | Approved earlier | [View](../maple-jelly/17-dawn-warrior-v2.webp) |
-| Blaze Wizard | — (not created) | Zakum | Needs verification | [View](../maple-jelly/16-blaze-wizard.webp) |
-| Wind Archer | Chaos Vellum | Griffey | Approved earlier | [View](../islands/02-wind-archer-v2.webp) |
-| Night Walker | Verus Hilla | Papulatus | Approved earlier | [View](../maple-jelly/15-night-walker-v2.webp) |
-| Thunder Breaker | Kaling | Pianus | Approved earlier | [View](../maple-jelly/13-thunder-breaker-v2.webp) |
-| Mihile | Arkarium | Seren | Approved earlier | [View](../maple-jelly/19-mihile.webp) |
+| Dawn Warrior | Seren | Magnus, Arkarium | Approved 2026-11-15 | [View](../maple-jelly/17-dawn-warrior-v2.webp) |
+| Blaze Wizard | Crimson Queen | Vellum, Zakum | Approved 2026-11-15 | [View](../maple-jelly/16-blaze-wizard.webp) |
+| Wind Archer | Chaos Vellum | Horntail, Griffey | Approved 2026-11-15 | [View](../islands/02-wind-archer-v2.webp) |
+| Night Walker | Verus Hilla | Von Leon, Darknell | Approved 2026-11-15 | [View](../maple-jelly/15-night-walker-v2.webp) |
+| Thunder Breaker | Kaling | Captain Darkgoo, Pianus | Approved 2026-11-15 | [View](../maple-jelly/13-thunder-breaker-v2.webp) |
+| Mihile | Arkarium | Seren, Magnus | Approved 2026-11-15 | [View](../maple-jelly/19-mihile.webp) |
+
+### Cygnus Knights historical pairings and explorations
+
+| Class | Boss | Evidence / qualification |
+|---|---|---|
+| Dawn Warrior | Magnus | Earlier pairing documented in the tracker and approved in previous Cygnus work; older variant |
+| Dawn Warrior | Arkarium | Earlier pairing explored; final artwork approval not established |
+| Blaze Wizard | Crimson Queen | Earlier pairing accepted in project discussion; current approved primary |
+| Blaze Wizard | Zakum | Earlier alternative candidate only, no completed scene confirmed |
+| Wind Archer | Chaos Vellum | Previously approved Vellum island pairing |
+| Wind Archer | Griffey | Earlier alternative, not independently verified as a completed scene |
+| Night Walker | Verus Hilla | Earlier pairing in canonical tracker; user approved as primary Nov 15 |
+| Night Walker | Von Leon | Earlier proposal; no finished image verified |
+| Thunder Breaker | Kaling | Earlier canonical tracker selection; approved primary Nov 15 |
+| Thunder Breaker | Captain Darkgoo | Earlier boss proposal, exact identity and scene completion unverified |
+| Mihile | Arkarium | Previously approved composition and current approved primary |
+
+**Dawn Warrior caveat:** Seren is now the approved primary; the existing Dawn Warrior thumbnail may show an earlier Magnus version. An approved pairing does not imply the Seren artwork was created.
 
 ## Resistance
 
@@ -90,8 +122,8 @@ One class has at most one current primary pairing, but may have many separate hi
 
 ## Maintenance
 
-- Update `planning/maplestory-pairings.json` first; the website reads it directly.
-- Regenerate this Markdown index using `node tools/build-pairings.cjs` after JSON changes.
-- Keep every historically created/explored encounter in `historicalEncounters`; distinguish from user-approved current primary.
-- For not-created classes, keep `boss: null` and retain future candidates only in `alternatives` / `proposedBoss`.
-- Nova pairings are unchanged and the deliberate Magnus repeat remains approved.
+- Edit `planning/maplestory-pairings.json` first; the website reads it directly.
+- Run `node tools/build-pairings.cjs` after editing JSON to regenerate this Markdown.
+- Preserve historical encounters separately and distinguish render evidence from earlier proposals.
+- Not-created classes retain `boss: null` until approved; proposals stay alternatives.
+- Nova's two Magnus selections remain intentional and unchanged.
