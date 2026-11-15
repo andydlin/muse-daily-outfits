@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15-v2",
-  "notes": "Single source of truth for the planning webpage. Existing older encounters are recorded conservatively; verify disputed bosses before promoting status. Scene references are supplied in separate generation chats. No format, artwork-status, or skill fields.",
+  "version": "2026-11-15-explorers-v4.1",
+  "notes": "Approved Explorer V4.1 replaces Explorer primaries only; older encounters preserved separately in historicalEncounters. Artwork status is intentionally not tracked. Bishop deployed binary not directly inspected. Pathfinder, Dual Blade, Cannoneer not created. Nova unchanged.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -13,133 +13,311 @@
       "family": "Explorers",
       "hero": "Hero",
       "boss": "Jr. Balrog",
-      "status": "Previously created",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/12-hero-v3.webp",
       "alternatives": [
+        "Darknell",
         "Crimson Balrog"
       ],
-      "note": "Previously approved Hero work; boss from early scene record, reconfirm current variant."
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "historicalEncounters": [
+        {
+          "boss": "Jr. Balrog",
+          "evidence": "Historical encounter; current wall selection"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Paladin",
       "boss": "Zakum",
-      "status": "Previously created",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/08-paladin-v3.webp",
       "alternatives": [
-        "Magnus"
+        "Magnus",
+        "Von Leon"
       ],
-      "note": "Pairing previously approved."
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "historicalEncounters": [
+        {
+          "boss": "Zakum",
+          "evidence": "Historical encounter; current wall selection"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Dark Knight",
-      "boss": "Zakum",
-      "status": "Previously created",
+      "boss": "Horntail",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/07-dark-knight-v2.webp",
       "alternatives": [
-        "Horntail"
+        "Zakum",
+        "Darknell"
       ],
-      "note": "Previously rendered with Zakum; older proposed boss Horntail."
+      "note": "Current wall: Horntail. Earlier Zakum render preserved.",
+      "historicalEncounters": [
+        {
+          "boss": "Horntail",
+          "evidence": "Current wall pairing, user confirmed"
+        },
+        {
+          "boss": "Zakum",
+          "evidence": "Earlier created version"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Fire/Poison Arch Mage",
-      "boss": "Pianus",
-      "status": "Previously created",
+      "boss": "Manon",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/11-fire-poison-v2.webp",
       "alternatives": [
+        "Pianus",
         "Vellum"
       ],
-      "note": "Previously generated encounter."
+      "note": "Current wall: Manon, replacing previous Pianus pairing.",
+      "historicalEncounters": [
+        {
+          "boss": "Manon",
+          "evidence": "Approved replacement in earlier conversations"
+        },
+        {
+          "boss": "Pianus",
+          "evidence": "Earlier created version"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Ice/Lightning Arch Mage",
       "boss": "Pink Bean",
-      "status": "Previously created",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/06-ice-lightning-v2.webp",
       "alternatives": [
-        "Papulatus"
+        "Horntail",
+        "Jupiter"
       ],
-      "note": "Previously approved encounter."
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "historicalEncounters": [
+        {
+          "boss": "Pink Bean",
+          "evidence": "Historical/current encounter"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Bishop",
-      "boss": "Von Leon",
-      "status": "Previously created",
+      "boss": "Zombie Mushmom",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/05-bishop-v2.webp",
       "alternatives": [
+        "Von Leon",
         "Black Mage"
       ],
-      "note": "Von Leon accepted in earlier collection; later proposals differ."
+      "note": "Current wall: Zombie Mushmom per user; the deployed Bishop binary was not directly inspected. Older Von Leon and later Black Mage work preserved.",
+      "historicalEncounters": [
+        {
+          "boss": "Zombie Mushmom",
+          "evidence": "Earlier completed pairing; current wall according to user, image binary not independently inspected"
+        },
+        {
+          "boss": "Von Leon",
+          "evidence": "Separate previously explored version"
+        },
+        {
+          "boss": "Black Mage",
+          "evidence": "Later exploration"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Bowmaster",
-      "boss": "Horntail",
-      "status": "Needs verification",
+      "boss": "Empress Cygnus",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/04-bowmaster-v3.webp",
       "alternatives": [
-        "Griffey"
+        "Griffey",
+        "Crimson Balrog",
+        "Horntail"
       ],
-      "note": "Hero artwork present; exact boss not consistently established in records."
+      "note": "Empress Cygnus is the current wall pairing. Earlier Griffey and Crimson Balrog versions preserved.",
+      "historicalEncounters": [
+        {
+          "boss": "Empress Cygnus",
+          "evidence": "Later approved composition and current wall, per user"
+        },
+        {
+          "boss": "Griffey",
+          "evidence": "Earlier rendered version"
+        },
+        {
+          "boss": "Crimson Balrog",
+          "evidence": "Earlier explored version"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Marksman",
-      "boss": null,
-      "status": "Needs verification",
+      "boss": "Papulatus",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/03-marksman-v2.webp",
       "alternatives": [
         "Manon",
         "Kalos"
       ],
-      "note": "Hero artwork present; earlier notes mention Manon and Horntail-like head, neither final confirmed."
+      "note": "Papulatus is the actual approved image currently on wall, confirmed by user.",
+      "historicalEncounters": [
+        {
+          "boss": "Papulatus",
+          "evidence": "Current approved image on wall, user explicitly confirmed"
+        },
+        {
+          "boss": "Manon",
+          "evidence": "Earlier rendered version"
+        },
+        {
+          "boss": "Horntail-like dragon",
+          "evidence": "Earlier experiment; boss identity unverified"
+        }
+      ]
+    },
+    {
+      "family": "Explorers",
+      "hero": "Pathfinder",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Gollux",
+        "Will"
+      ],
+      "note": "Not created; Gollux is a future boss proposal only.",
+      "historicalEncounters": [],
+      "proposedBoss": "Gollux"
     },
     {
       "family": "Explorers",
       "hero": "Night Lord",
-      "boss": "Crimson Balrog",
-      "status": "Previously created",
+      "boss": "Darknell",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/09-night-lord-v2.webp",
-      "alternatives": [],
-      "note": "Night Lord previously approved; boss identity still merits comparison with archived image."
+      "alternatives": [
+        "Crimson Balrog"
+      ],
+      "note": "Current wall opponent is Darknell (not the Dark Knight playable class).",
+      "historicalEncounters": [
+        {
+          "boss": "Darknell",
+          "evidence": "Current wall pairing, user clarified"
+        },
+        {
+          "boss": "Crimson Balrog",
+          "evidence": "Earlier encounter"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Shadower",
       "boss": "Crimson Queen",
-      "status": "Previously created",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/10-shadower-v2.webp",
       "alternatives": [
-        "Dodo"
+        "Dodo",
+        "Verus Hilla"
       ],
-      "note": "Crimson Queen encounter worked on; older test used Dodo."
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "historicalEncounters": [
+        {
+          "boss": "Crimson Queen",
+          "evidence": "Current pairing"
+        },
+        {
+          "boss": "Dodo",
+          "evidence": "Earlier exploration"
+        }
+      ]
+    },
+    {
+      "family": "Explorers",
+      "hero": "Dual Blade",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Lotus",
+        "Will"
+      ],
+      "note": "Not created; Lotus is a future boss proposal only.",
+      "historicalEncounters": [],
+      "proposedBoss": "Lotus"
     },
     {
       "family": "Explorers",
       "hero": "Buccaneer",
-      "boss": "Lord Pirate",
-      "status": "Approved earlier",
+      "boss": "First Adversary",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/01-buccaneer-v2.webp",
       "alternatives": [
+        "Lord Pirate",
         "Leviathan"
       ],
-      "note": "Final approved Buccaneer vs Lord Pirate recorded."
+      "note": "Current wall pairing is First Adversary; Lord Pirate remains an earlier separately approved encounter.",
+      "historicalEncounters": [
+        {
+          "boss": "First Adversary",
+          "evidence": "Current wall pairing, user clarified"
+        },
+        {
+          "boss": "Lord Pirate",
+          "evidence": "Earlier final-approved encounter"
+        },
+        {
+          "boss": "Leviathan",
+          "evidence": "Earlier explored encounter"
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Corsair",
       "boss": "Pianus",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "islands/01-corsair.webp",
       "alternatives": [
         "Captain Latanica",
         "Leviathan"
       ],
-      "note": "Approved finished floating-island Corsair vs Pianus encounter; separate earlier pirate ship variant."
+      "note": "Current wall pairing is Pianus. Captain Latanica remains an accepted earlier encounter.",
+      "historicalEncounters": [
+        {
+          "boss": "Pianus",
+          "evidence": "Current wall and approved island encounter"
+        },
+        {
+          "boss": "Captain Latanica",
+          "evidence": "Earlier accepted encounter"
+        }
+      ]
+    },
+    {
+      "family": "Explorers",
+      "hero": "Cannoneer",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Guardian Angel Slime",
+        "Papulatus"
+      ],
+      "note": "Not created; Guardian Angel Slime is a future boss proposal only.",
+      "historicalEncounters": [],
+      "proposedBoss": "Guardian Angel Slime"
     },
     {
       "family": "Cygnus Knights",
