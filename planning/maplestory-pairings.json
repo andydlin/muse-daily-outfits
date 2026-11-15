@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15-explorers-v4.1",
-  "notes": "Approved Explorer V4.1 replaces Explorer primaries only; older encounters preserved separately in historicalEncounters. Artwork status is intentionally not tracked. Bishop deployed binary not directly inspected. Pathfinder, Dual Blade, Cannoneer not created. Nova unchanged.",
+  "version": "2026-11-15-cygnus-v1",
+  "notes": "Approved Explorer V4.1 replaces Explorer primaries only; older encounters preserved separately in historicalEncounters. Artwork status is intentionally not tracked. Bishop deployed binary not directly inspected. Pathfinder, Dual Blade, Cannoneer not created. Nova unchanged. Cygnus Knights six primaries approved Nov 15, 2026. Older Magnus and Arkarium Dawn Warrior work and other exploratory alternatives retained with evidence labels. Pairing approval does not imply final image approval; older gallery thumbnails may depict different opponent.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -322,68 +322,130 @@
     {
       "family": "Cygnus Knights",
       "hero": "Dawn Warrior",
-      "boss": "Magnus",
-      "status": "Approved earlier",
+      "boss": "Seren",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/17-dawn-warrior-v2.webp",
       "alternatives": [
+        "Magnus",
         "Arkarium"
       ],
-      "note": "Pairing locked in earlier discussions."
+      "note": "Seren approved as the new primary on Nov 15. Earlier Magnus pairing remains in history; Arkarium was explored. Existing gallery thumbnail may depict an older version, not Seren.",
+      "historicalEncounters": [
+        {
+          "boss": "Magnus",
+          "evidence": "Earlier pairing documented in the tracker and approved in previous Cygnus work; older variant"
+        },
+        {
+          "boss": "Arkarium",
+          "evidence": "Earlier pairing explored; final artwork approval not established"
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
       "hero": "Blaze Wizard",
-      "boss": null,
-      "status": "Needs verification",
+      "boss": "Crimson Queen",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/16-blaze-wizard.webp",
       "alternatives": [
+        "Vellum",
         "Zakum"
       ],
-      "note": "Existing image verified, boss name not independently confirmed."
+      "note": "Crimson Queen approved as primary Nov 15; referenced as an earlier accepted pairing. Exact opponent in the published Blaze Wizard thumbnail has not been independently visually verified.",
+      "historicalEncounters": [
+        {
+          "boss": "Crimson Queen",
+          "evidence": "Earlier pairing accepted in project discussion; current approved primary"
+        },
+        {
+          "boss": "Zakum",
+          "evidence": "Earlier alternative candidate only, no completed scene confirmed"
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
       "hero": "Wind Archer",
       "boss": "Chaos Vellum",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "islands/02-wind-archer-v2.webp",
       "alternatives": [
+        "Horntail",
         "Griffey"
       ],
-      "note": "Approved island pairing; stone serpent is Vellum."
+      "note": "Chaos Vellum approved primary; an earlier Vellum island encounter is documented.",
+      "historicalEncounters": [
+        {
+          "boss": "Chaos Vellum",
+          "evidence": "Previously approved Vellum island pairing"
+        },
+        {
+          "boss": "Griffey",
+          "evidence": "Earlier alternative, not independently verified as a completed scene"
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
       "hero": "Night Walker",
       "boss": "Verus Hilla",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/15-night-walker-v2.webp",
       "alternatives": [
-        "Papulatus"
+        "Von Leon",
+        "Darknell"
       ],
-      "note": "Recent approved boss pairing in project history."
+      "note": "Verus Hilla approved primary. Earlier Von Leon idea retained as proposal; published thumbnail does not name the boss.",
+      "historicalEncounters": [
+        {
+          "boss": "Verus Hilla",
+          "evidence": "Earlier pairing in canonical tracker; user approved as primary Nov 15"
+        },
+        {
+          "boss": "Von Leon",
+          "evidence": "Earlier proposal; no finished image verified"
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
       "hero": "Thunder Breaker",
       "boss": "Kaling",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/13-thunder-breaker-v2.webp",
       "alternatives": [
+        "Captain Darkgoo",
         "Pianus"
       ],
-      "note": "Recent approved boss pairing in project history."
+      "note": "Kaling approved primary. Captain Darkgoo was mentioned as an older proposal, not a verified completed encounter.",
+      "historicalEncounters": [
+        {
+          "boss": "Kaling",
+          "evidence": "Earlier canonical tracker selection; approved primary Nov 15"
+        },
+        {
+          "boss": "Captain Darkgoo",
+          "evidence": "Earlier boss proposal, exact identity and scene completion unverified"
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
       "hero": "Mihile",
       "boss": "Arkarium",
-      "status": "Approved earlier",
+      "status": "Approved 2026-11-15",
       "image": "maple-jelly/19-mihile.webp",
       "alternatives": [
-        "Seren"
+        "Seren",
+        "Magnus"
       ],
-      "note": "Previously accepted encounter."
+      "note": "Arkarium approved primary; earlier Arkarium composition approval exists.",
+      "historicalEncounters": [
+        {
+          "boss": "Arkarium",
+          "evidence": "Previously approved composition and current approved primary"
+        }
+      ]
     },
     {
       "family": "Resistance",
