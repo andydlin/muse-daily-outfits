@@ -676,6 +676,24 @@ For edits to already-approved encounters, enter at the applicable review/refinem
 - Original pre-finish artwork is retained separately. Live-page validation was not performed.
 - Ready for the user to upload as a Project source. Registration here does not claim that Project-source upload has occurred.
 
+## Experimental study — larger island footprint and character readability (November 15, 2026)
+
+**Status: TEST ONLY — no new standard or master-reference promotion.** The user selected the current Mechanic vs. Lotus Black Heaven populated scene at its larger footprint rather than globally shrinking both already-small characters; this motivates testing whether a larger final presentation improves gallery legibility. Retain `MASTER_Island_Layout_Ice_Lightning.png` as the primary layout master and the existing ~76% island-width working target unless a separate revision is approved.
+
+**Controlled retrospective comparison:** use the approved original **Ice/Lightning, Fighter, Wind Archer vs. Vellum and Corsair vs. Pianus** full-canvas files. Produce separately named **experimental copies** with a verified non-generative, uniform +10% enlargement of the whole scene, on the same 1254-square canvas, horizontally centered and anchored near the former y800 ground line. This makes a nominal 76–77% island roughly 84–85% of the canvas width, subject to actual bounds. Keep the originals unchanged and avoid claiming that this test adds physical floor space or selectively improves the character-to-island ratio.
+
+**Review independently before drawing conclusions:**
+1. Absolute face and hero readability at the final gallery viewing size.
+2. Island-to-canvas footprint and margins, including effect/scenery clipping risks.
+3. Actual vs perceived usable combat-space readability and silhouette separation.
+4. Boss dominance, summons/skill-effect crowding and visual balance.
+5. Fine-detail preservation after resampling and background color/fringe quality.
+6. Cohesion of the entire gallery when both original and larger-footprint examples are viewed at **equal full-canvas display size**.
+
+**Critical distinction:** a deterministic global enlargement scales the **hero, boss, scenery and all effects together**, leaving internal proportions and available battle space unchanged. It is **not** equivalent to generating a physically wider island while keeping characters the same size, nor to a character-only scale edit. Future tests can separately compare those approaches, but they require different construction and approval paths.
+
+Do not overwrite masters, silently change target numbers, or relabel experimental scaled copies as approved finals. Choose any future default only after visually comparing real full-canvas source versions and receiving explicit user approval.
+
 ## Open decisions
 
 - Exact camera parameters and a repeatable complete floor-depth measurement protocol remain provisional. Accepted scene references guide the working camera.
