@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15-full-54-interactive-reasons-v1",
-  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained. Each suggested primary and alternative has a short editorial rationale in pairingReasons. Reasons explain aesthetics/scene composition, not approval or completion. Approved existing pairings remain untouched.",
+  "version": "2026-11-15-full-54-challenger-bosses-v2",
+  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained. Each suggested primary and alternative has a short editorial rationale in pairingReasons. Reasons explain aesthetics/scene composition, not approval or completion. Approved existing pairings remain untouched. Kai and Mayrin added to independent recommendations on November 15, 2026. Kai primary for Zero / alternative Hayato; Mayrin primary for Phantom / alternative Sia Astelle. 44 bosses each primary at least once and appearing twice across 162 slots. All prior user-approved existing pairings remain unchanged.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -989,15 +989,15 @@
           "evidence": "Alternative suggested for story/lore fit; not a confirmed historical render"
         }
       ],
-      "suggestedPrimary": "Hilla",
+      "suggestedPrimary": "Mayrin",
       "suggestedAlternatives": [
         "Empress Cygnus",
         "Will"
       ],
       "pairingReasons": {
-        "Hilla": "Card tricks and stolen skills confront an ominous royal sorceress.",
-        "Empress Cygnus": "Throwing cards and evasive illusions contrast with a dark royal court and regal magic; a visually striking alternate matchup.",
-        "Will": "Against mirrors, illusions, and spiderwebs, Phantom could bring a new rhythm and visual contrast to the fight."
+        "Mayrin": "Phantom’s playing cards meet Mayrin’s fate magic in an elegant duel about luck, destiny, and deception.",
+        "Empress Cygnus": "A rogue card magician confronting a corrupted empress creates dramatic royal intrigue and shadowy illusions.",
+        "Will": "Phantom’s card tricks and misdirection challenge Will’s mirrored chambers and spiderweb traps."
       }
     },
     {
@@ -1191,13 +1191,13 @@
       "suggestedPrimary": "Mori Ranmaru",
       "suggestedAlternatives": [
         "Akechi Mitsuhide",
-        "Darknell"
+        "Kai"
       ],
       "proposedBoss": "Mori Ranmaru",
       "pairingReasons": {
         "Mori Ranmaru": "A katana master confronts Mori Ranmaru in a dramatic sword-and-flame duel.",
-        "Akechi Mitsuhide": "Fast katana slashes contrast with a rival swordsman's precise attacks; a visually striking alternate matchup.",
-        "Darknell": "Against a heavily armored knight and a huge weapon, Hayato could bring a new rhythm and visual contrast to the fight."
+        "Akechi Mitsuhide": "Hayato’s rapid blade cuts face Akechi’s precise swordsmanship in a disciplined samurai rivalry.",
+        "Kai": "Hayato’s swift katana techniques challenge Kai’s time-bending swordplay: speed against distorted timing."
       }
     },
     {
@@ -1444,13 +1444,13 @@
       "suggestedPrimary": "Malefic Star",
       "suggestedAlternatives": [
         "Jupiter",
-        "Gloom"
+        "Mayrin"
       ],
       "proposedBoss": "Malefic Star",
       "pairingReasons": {
         "Malefic Star": "Constellation magic takes on a monstrous star, creating a cosmic spectacle.",
-        "Jupiter": "Bright zodiac constellations contrast with luminous high-level magic and unusual divine shapes; a visually striking alternate matchup.",
-        "Gloom": "Against an enormous celestial eye and tentacles, Sia Astelle could bring a new rhythm and visual contrast to the fight."
+        "Jupiter": "Sia’s luminous star formations contrast with Jupiter’s striking endgame magic and celestial geometry.",
+        "Mayrin": "Sia’s constellations meet Mayrin’s fate magic in a starlit clash between astrology and destiny."
       }
     },
     {
@@ -1533,16 +1533,16 @@
         "Limbo"
       ],
       "note": "No approved prior pairing or artwork recorded.",
-      "suggestedPrimary": "Black Mage",
+      "suggestedPrimary": "Kai",
       "suggestedAlternatives": [
         "Arkarium",
         "Limbo"
       ],
       "proposedBoss": "Black Mage",
       "pairingReasons": {
-        "Black Mage": "The twin warriors' time powers confront the Black Mage in a climactic battle.",
-        "Arkarium": "Paired sword slashes and time effects contrast with dark time magic and mystical clockwork; a visually striking alternate matchup.",
-        "Limbo": "Against distorted spatial effects and ominous transformations, Zero could bring a new rhythm and visual contrast to the fight."
+        "Kai": "Zero’s twin swordfighters and time powers meet Kai’s time-warped blade in a precise duel over time.",
+        "Arkarium": "Twin sword slashes and time control battle Arkarium’s chronomancy and dark temporal magic.",
+        "Limbo": "Zero’s coordinated time attacks confront Limbo’s unstable space and ominous dimensional shifts."
       }
     }
   ]
