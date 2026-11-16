@@ -1,12 +1,19 @@
 {
-  "version": "2026-11-15-heroes-v1",
-  "notes": "Approved Explorer V4.1, Cygnus V1, Resistance V1, Heroes of Maple V1 and Nova primaries. Historical encounters and proposed pairings distinguished by evidence notes. Pairing approval alone does not indicate final artwork approval; gallery thumbnails may not establish boss identity.",
+  "version": "2026-11-15-full-54-proposal-v1",
+  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
     "Resistance",
     "Heroes of Maple",
-    "Nova"
+    "Nova",
+    "Sengoku",
+    "Flora",
+    "Anima",
+    "Jianghu",
+    "Shine",
+    "Demon",
+    "Other"
   ],
   "pairings": [
     {
@@ -25,6 +32,11 @@
           "boss": "Jr. Balrog",
           "evidence": "Historical encounter; current wall selection"
         }
+      ],
+      "suggestedPrimary": "Balrog",
+      "suggestedAlternatives": [
+        "Darknell",
+        "Damien"
       ]
     },
     {
@@ -43,6 +55,11 @@
           "boss": "Zakum",
           "evidence": "Historical encounter; current wall selection"
         }
+      ],
+      "suggestedPrimary": "Zakum",
+      "suggestedAlternatives": [
+        "Magnus",
+        "Von Leon"
       ]
     },
     {
@@ -65,6 +82,11 @@
           "boss": "Zakum",
           "evidence": "Earlier created version"
         }
+      ],
+      "suggestedPrimary": "Horntail",
+      "suggestedAlternatives": [
+        "Darknell",
+        "Arkarium"
       ]
     },
     {
@@ -87,6 +109,11 @@
           "boss": "Pianus",
           "evidence": "Earlier created version"
         }
+      ],
+      "suggestedPrimary": "Manon",
+      "suggestedAlternatives": [
+        "Vellum",
+        "Mori Ranmaru"
       ]
     },
     {
@@ -105,6 +132,11 @@
           "boss": "Pink Bean",
           "evidence": "Historical/current encounter"
         }
+      ],
+      "suggestedPrimary": "Pink Bean",
+      "suggestedAlternatives": [
+        "Jupiter",
+        "Papulatus"
       ]
     },
     {
@@ -131,6 +163,11 @@
           "boss": "Black Mage",
           "evidence": "Later exploration"
         }
+      ],
+      "suggestedPrimary": "Zombie Mushmom",
+      "suggestedAlternatives": [
+        "Black Mage",
+        "Verus Hilla"
       ]
     },
     {
@@ -158,6 +195,11 @@
           "boss": "Crimson Balrog",
           "evidence": "Earlier explored version"
         }
+      ],
+      "suggestedPrimary": "Empress Cygnus",
+      "suggestedAlternatives": [
+        "Horntail",
+        "Griffey"
       ]
     },
     {
@@ -184,6 +226,11 @@
           "boss": "Horntail-like dragon",
           "evidence": "Earlier experiment; boss identity unverified"
         }
+      ],
+      "suggestedPrimary": "Papulatus",
+      "suggestedAlternatives": [
+        "Kalos",
+        "Manon"
       ]
     },
     {
@@ -198,7 +245,12 @@
       ],
       "note": "Not created; Gollux is a future boss proposal only.",
       "historicalEncounters": [],
-      "proposedBoss": "Gollux"
+      "proposedBoss": "Gollux",
+      "suggestedPrimary": "Gollux",
+      "suggestedAlternatives": [
+        "Will",
+        "Kaling"
+      ]
     },
     {
       "family": "Explorers",
@@ -219,6 +271,11 @@
           "boss": "Crimson Balrog",
           "evidence": "Earlier encounter"
         }
+      ],
+      "suggestedPrimary": "Darknell",
+      "suggestedAlternatives": [
+        "Verus Hilla",
+        "Balrog"
       ]
     },
     {
@@ -241,6 +298,11 @@
           "boss": "Dodo",
           "evidence": "Earlier exploration"
         }
+      ],
+      "suggestedPrimary": "Von Bon",
+      "suggestedAlternatives": [
+        "Crimson Queen",
+        "Hilla"
       ]
     },
     {
@@ -255,7 +317,12 @@
       ],
       "note": "Not created; Lotus is a future boss proposal only.",
       "historicalEncounters": [],
-      "proposedBoss": "Lotus"
+      "proposedBoss": "Lotus",
+      "suggestedPrimary": "Will",
+      "suggestedAlternatives": [
+        "Lotus",
+        "Darknell"
+      ]
     },
     {
       "family": "Explorers",
@@ -281,6 +348,11 @@
           "boss": "Leviathan",
           "evidence": "Earlier explored encounter"
         }
+      ],
+      "suggestedPrimary": "First Adversary",
+      "suggestedAlternatives": [
+        "Lord Pirate",
+        "Ursus"
       ]
     },
     {
@@ -303,6 +375,11 @@
           "boss": "Captain Latanica",
           "evidence": "Earlier accepted encounter"
         }
+      ],
+      "suggestedPrimary": "Lord Pirate",
+      "suggestedAlternatives": [
+        "Pianus",
+        "Lotus"
       ]
     },
     {
@@ -317,7 +394,12 @@
       ],
       "note": "Not created; Guardian Angel Slime is a future boss proposal only.",
       "historicalEncounters": [],
-      "proposedBoss": "Guardian Angel Slime"
+      "proposedBoss": "Guardian Angel Slime",
+      "suggestedPrimary": "Ursus",
+      "suggestedAlternatives": [
+        "Guardian Angel Slime",
+        "Von Bon"
+      ]
     },
     {
       "family": "Cygnus Knights",
@@ -339,6 +421,11 @@
           "boss": "Arkarium",
           "evidence": "Earlier pairing explored; final artwork approval not established"
         }
+      ],
+      "suggestedPrimary": "Seren",
+      "suggestedAlternatives": [
+        "Arkarium",
+        "Black Mage"
       ]
     },
     {
@@ -361,6 +448,11 @@
           "boss": "Zakum",
           "evidence": "Earlier alternative candidate only, no completed scene confirmed"
         }
+      ],
+      "suggestedPrimary": "Vellum",
+      "suggestedAlternatives": [
+        "Crimson Queen",
+        "Zakum"
       ]
     },
     {
@@ -383,6 +475,11 @@
           "boss": "Griffey",
           "evidence": "Earlier alternative, not independently verified as a completed scene"
         }
+      ],
+      "suggestedPrimary": "Griffey",
+      "suggestedAlternatives": [
+        "Vellum",
+        "Horntail"
       ]
     },
     {
@@ -405,6 +502,11 @@
           "boss": "Von Leon",
           "evidence": "Earlier proposal; no finished image verified"
         }
+      ],
+      "suggestedPrimary": "Verus Hilla",
+      "suggestedAlternatives": [
+        "Hilla",
+        "Darknell"
       ]
     },
     {
@@ -427,6 +529,11 @@
           "boss": "Captain Darkgoo",
           "evidence": "Earlier boss proposal, exact identity and scene completion unverified"
         }
+      ],
+      "suggestedPrimary": "Pianus",
+      "suggestedAlternatives": [
+        "Kaling",
+        "Jupiter"
       ]
     },
     {
@@ -445,6 +552,11 @@
           "boss": "Arkarium",
           "evidence": "Previously approved composition and current approved primary"
         }
+      ],
+      "suggestedPrimary": "Arkarium",
+      "suggestedAlternatives": [
+        "Seren",
+        "Magnus"
       ]
     },
     {
@@ -463,6 +575,11 @@
           "boss": "Von Leon",
           "evidence": "Established historical pairing; primary reaffirmed Nov 15"
         }
+      ],
+      "suggestedPrimary": "Von Leon",
+      "suggestedAlternatives": [
+        "Lotus",
+        "Hilla"
       ]
     },
     {
@@ -481,6 +598,11 @@
           "boss": "Giant Blackheart",
           "evidence": "Earlier accepted encounter, used as approved handmade-plush texture reference"
         }
+      ],
+      "suggestedPrimary": "Giant Blackheart",
+      "suggestedAlternatives": [
+        "Horntail",
+        "Ursus"
       ]
     },
     {
@@ -500,6 +622,11 @@
           "boss": "Lotus",
           "evidence": "Selected encounter in recent island development; artwork underwent revisions and final approval cannot be inferred"
         }
+      ],
+      "suggestedPrimary": "Lotus",
+      "suggestedAlternatives": [
+        "Papulatus",
+        "Giant Blackheart"
       ]
     },
     {
@@ -523,6 +650,11 @@
           "boss": "Papulatus",
           "evidence": "Later primary proposal selected and explicitly approved November 15, 2026; published Blaster image does not name opponent"
         }
+      ],
+      "suggestedPrimary": "Pierre",
+      "suggestedAlternatives": [
+        "Magnus",
+        "Papulatus"
       ]
     },
     {
@@ -541,6 +673,11 @@
           "boss": "Verus Hilla",
           "evidence": "Established earlier pairing; approved as primary Nov 15"
         }
+      ],
+      "suggestedPrimary": "Verus Hilla",
+      "suggestedAlternatives": [
+        "Limbo",
+        "First Adversary"
       ]
     },
     {
@@ -559,6 +696,11 @@
           "boss": "Damien",
           "evidence": "Earlier Demon Slayer vs Damien encounter was created/explored; exact gallery winged-swordsman image identity not independently verified"
         }
+      ],
+      "suggestedPrimary": "Damien",
+      "suggestedAlternatives": [
+        "Black Mage",
+        "Gloom"
       ]
     },
     {
@@ -578,6 +720,11 @@
           "boss": "Gloom",
           "evidence": "Previously selected and refined encounter; primary confirmed Nov 15"
         }
+      ],
+      "suggestedPrimary": "Gloom",
+      "suggestedAlternatives": [
+        "Damien",
+        "Verus Hilla"
       ]
     },
     {
@@ -600,6 +747,11 @@
           "boss": "Arkarium",
           "evidence": "Earlier alternative proposal; no independently confirmed rendered encounter"
         }
+      ],
+      "suggestedPrimary": "Von Leon",
+      "suggestedAlternatives": [
+        "Arkarium",
+        "Baldrix"
       ]
     },
     {
@@ -622,6 +774,11 @@
           "boss": "Kaling",
           "evidence": "Earlier alternative proposal only; no confirmed created encounter"
         }
+      ],
+      "suggestedPrimary": "Horntail",
+      "suggestedAlternatives": [
+        "Kaling",
+        "Malefic Star"
       ]
     },
     {
@@ -644,6 +801,11 @@
           "boss": "Lucid",
           "evidence": "Earlier proposed primary/alternative, not verified as rendered"
         }
+      ],
+      "suggestedPrimary": "Crimson Queen",
+      "suggestedAlternatives": [
+        "Lucid",
+        "Princess No"
       ]
     },
     {
@@ -671,6 +833,11 @@
           "boss": "Hilla",
           "evidence": "Alternative suggested for story/lore fit; not a confirmed historical render"
         }
+      ],
+      "suggestedPrimary": "Hilla",
+      "suggestedAlternatives": [
+        "Empress Cygnus",
+        "Will"
       ]
     },
     {
@@ -693,6 +860,11 @@
           "boss": "Hilla",
           "evidence": "Earlier pairing proposal only; no separately confirmed created scene"
         }
+      ],
+      "suggestedPrimary": "Black Mage",
+      "suggestedAlternatives": [
+        "Will",
+        "Limbo"
       ]
     },
     {
@@ -716,6 +888,11 @@
           "boss": "Magnus",
           "evidence": "Earlier pairing proposal only; no separately confirmed created scene"
         }
+      ],
+      "suggestedPrimary": "Lucid",
+      "suggestedAlternatives": [
+        "Gloom",
+        "Guardian Angel Slime"
       ]
     },
     {
@@ -734,7 +911,12 @@
         "heroSource": "https://maplestorywiki.net/w/Kaiser",
         "boss": "https://media.maplestorywiki.net/yetidb/Boss_UI_-_Magnus.png",
         "bossSource": "https://maplestorywiki.net/w/Magnus/Monster"
-      }
+      },
+      "suggestedPrimary": "Magnus",
+      "suggestedAlternatives": [
+        "Baldrix",
+        "Horntail"
+      ]
     },
     {
       "family": "Nova",
@@ -752,7 +934,12 @@
         "heroSource": "https://maplestory.fandom.com/wiki/Angelic_Buster",
         "boss": "https://media.maplestorywiki.net/yetidb/Boss_Entry_UI_-_Lucid.png",
         "bossSource": "https://maplestorywiki.net/w/Lucid"
-      }
+      },
+      "suggestedPrimary": "Lucid",
+      "suggestedAlternatives": [
+        "Pink Bean",
+        "Guardian Angel Slime"
+      ]
     },
     {
       "family": "Nova",
@@ -770,7 +957,12 @@
         "heroSource": "https://www.nexon.com/maplestory/game/classes-and-jobs/1339/thief",
         "boss": "https://media.maplestorywiki.net/yetidb/Boss_UI_-_Magnus.png",
         "bossSource": "https://maplestorywiki.net/w/Magnus/Monster"
-      }
+      },
+      "suggestedPrimary": "Magnus",
+      "suggestedAlternatives": [
+        "Kalos",
+        "Lotus"
+      ]
     },
     {
       "family": "Nova",
@@ -788,7 +980,300 @@
         "heroSource": "https://www.nexon.com/maplestory/game/classes-and-jobs/1297/bowman",
         "boss": "https://media.maplestorywiki.net/yetidb/Boss_Entry_UI_-_Kaling.png",
         "bossSource": "https://maplestorywiki.net/w/Kaling"
-      }
+      },
+      "suggestedPrimary": "Kaling",
+      "suggestedAlternatives": [
+        "Damien",
+        "Malefic Star"
+      ]
+    },
+    {
+      "family": "Sengoku",
+      "hero": "Hayato",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Akechi Mitsuhide",
+        "Darknell"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Mori Ranmaru",
+      "suggestedAlternatives": [
+        "Akechi Mitsuhide",
+        "Darknell"
+      ],
+      "proposedBoss": "Mori Ranmaru"
+    },
+    {
+      "family": "Sengoku",
+      "hero": "Kanna",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Mori Ranmaru",
+        "Lucid"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Princess No",
+      "suggestedAlternatives": [
+        "Mori Ranmaru",
+        "Lucid"
+      ],
+      "proposedBoss": "Princess No"
+    },
+    {
+      "family": "Flora",
+      "hero": "Adele",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Baldrix",
+        "Magnus"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Seren",
+      "suggestedAlternatives": [
+        "Baldrix",
+        "Magnus"
+      ],
+      "proposedBoss": "Seren"
+    },
+    {
+      "family": "Flora",
+      "hero": "Ark",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "First Adversary",
+        "Malefic Star"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Limbo",
+      "suggestedAlternatives": [
+        "First Adversary",
+        "Malefic Star"
+      ],
+      "proposedBoss": "Limbo"
+    },
+    {
+      "family": "Flora",
+      "hero": "Illium",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Jupiter",
+        "Lotus"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Kalos",
+      "suggestedAlternatives": [
+        "Jupiter",
+        "Lotus"
+      ],
+      "proposedBoss": "Kalos"
+    },
+    {
+      "family": "Flora",
+      "hero": "Khali",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Kaling",
+        "Pierre"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Malefic Star",
+      "suggestedAlternatives": [
+        "Kaling",
+        "Pierre"
+      ],
+      "proposedBoss": "Malefic Star"
+    },
+    {
+      "family": "Anima",
+      "hero": "Hoyoung",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Gollux",
+        "Will"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Kaling",
+      "suggestedAlternatives": [
+        "Gollux",
+        "Will"
+      ],
+      "proposedBoss": "Kaling"
+    },
+    {
+      "family": "Anima",
+      "hero": "Lara",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Pink Bean",
+        "Zombie Mushmom"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Guardian Angel Slime",
+      "suggestedAlternatives": [
+        "Pink Bean",
+        "Zombie Mushmom"
+      ],
+      "proposedBoss": "Guardian Angel Slime"
+    },
+    {
+      "family": "Anima",
+      "hero": "Ren",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Akechi Mitsuhide",
+        "Seren"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Baldrix",
+      "suggestedAlternatives": [
+        "Akechi Mitsuhide",
+        "Seren"
+      ],
+      "proposedBoss": "Baldrix"
+    },
+    {
+      "family": "Jianghu",
+      "hero": "Lynn",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Guardian Angel Slime",
+        "Princess No"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Lucid",
+      "suggestedAlternatives": [
+        "Guardian Angel Slime",
+        "Princess No"
+      ],
+      "proposedBoss": "Lucid"
+    },
+    {
+      "family": "Jianghu",
+      "hero": "Mo Xuan",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Darknell",
+        "Ursus"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Akechi Mitsuhide",
+      "suggestedAlternatives": [
+        "Darknell",
+        "Ursus"
+      ],
+      "proposedBoss": "Akechi Mitsuhide"
+    },
+    {
+      "family": "Shine",
+      "hero": "Sia Astelle",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Jupiter",
+        "Gloom"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Malefic Star",
+      "suggestedAlternatives": [
+        "Jupiter",
+        "Gloom"
+      ],
+      "proposedBoss": "Malefic Star"
+    },
+    {
+      "family": "Shine",
+      "hero": "Erel Light",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Seren",
+        "Kalos"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Jupiter",
+      "suggestedAlternatives": [
+        "Seren",
+        "Kalos"
+      ],
+      "proposedBoss": "Jupiter"
+    },
+    {
+      "family": "Demon",
+      "hero": "Lethe",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Verus Hilla",
+        "Black Mage"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Hilla",
+      "suggestedAlternatives": [
+        "Verus Hilla",
+        "Black Mage"
+      ],
+      "proposedBoss": "Hilla"
+    },
+    {
+      "family": "Other",
+      "hero": "Kinesis",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Lotus",
+        "Papulatus"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Will",
+      "suggestedAlternatives": [
+        "Lotus",
+        "Papulatus"
+      ],
+      "proposedBoss": "Will"
+    },
+    {
+      "family": "Other",
+      "hero": "Zero",
+      "boss": null,
+      "status": "Not created",
+      "image": null,
+      "alternatives": [
+        "Arkarium",
+        "Limbo"
+      ],
+      "note": "No approved prior pairing or artwork recorded.",
+      "suggestedPrimary": "Black Mage",
+      "suggestedAlternatives": [
+        "Arkarium",
+        "Limbo"
+      ],
+      "proposedBoss": "Black Mage"
     }
   ]
 }
