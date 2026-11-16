@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15-full-54-proposal-v1",
-  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained.",
+  "version": "2026-11-15-full-54-interactive-reasons-v1",
+  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained. Each suggested primary and alternative has a short editorial rationale in pairingReasons. Reasons explain aesthetics/scene composition, not approval or completion. Approved existing pairings remain untouched.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -37,7 +37,12 @@
       "suggestedAlternatives": [
         "Darknell",
         "Damien"
-      ]
+      ],
+      "pairingReasons": {
+        "Balrog": "A classic sword duel against the winged demon, built around one huge finishing slash.",
+        "Darknell": "Heavy sword arcs contrast with a heavily armored knight and a huge weapon; a visually striking alternate matchup.",
+        "Damien": "Demonic wings and dark sword attacks give Hero a different challenge, emphasizing the demon's wings and dark flames."
+      }
     },
     {
       "family": "Explorers",
@@ -60,7 +65,12 @@
       "suggestedAlternatives": [
         "Magnus",
         "Von Leon"
-      ]
+      ],
+      "pairingReasons": {
+        "Zakum": "Holy hammer strikes confront Zakum's many stone arms—a defining MapleStory showdown.",
+        "Magnus": "Radiant shield and hammer blows contrast with purple sword attacks and a hazardous battlefield; a visually striking alternate matchup.",
+        "Von Leon": "A lion monarch and a snowbound castle give Paladin a different challenge, emphasizing the boss's distinctive silhouette."
+      }
     },
     {
       "family": "Explorers",
@@ -87,7 +97,12 @@
       "suggestedAlternatives": [
         "Darknell",
         "Arkarium"
-      ]
+      ],
+      "pairingReasons": {
+        "Horntail": "A dark spear warrior challenging three enormous dragon heads makes an epic vertical battle.",
+        "Darknell": "Shadow-laced spear thrusts contrast with a heavily armored knight and a huge weapon; a visually striking alternate matchup.",
+        "Arkarium": "Dark time magic and mystical clockwork give Dark Knight a different challenge, emphasizing the surrounding boss arena."
+      }
     },
     {
       "family": "Explorers",
@@ -114,7 +129,12 @@
       "suggestedAlternatives": [
         "Vellum",
         "Mori Ranmaru"
-      ]
+      ],
+      "pairingReasons": {
+        "Manon": "Meteor fire and toxic clouds erupt around Manon, creating vivid elemental tension.",
+        "Vellum": "Firestorms and drifting poison contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup.",
+        "Mori Ranmaru": "Fiery samurai imagery and ceremonial armor give Fire/Poison Arch Mage a different challenge, emphasizing the monster's attacks."
+      }
     },
     {
       "family": "Explorers",
@@ -137,7 +157,12 @@
       "suggestedAlternatives": [
         "Jupiter",
         "Papulatus"
-      ]
+      ],
+      "pairingReasons": {
+        "Pink Bean": "Icy-blue blizzards against a bright pink opponent create a playful color contrast.",
+        "Jupiter": "Crackling lightning and frozen air contrast with luminous high-level magic and unusual divine shapes; a visually striking alternate matchup.",
+        "Papulatus": "Swirling clocks and mechanical gears give Ice/Lightning Arch Mage a different challenge, emphasizing the boss's spell effects."
+      }
     },
     {
       "family": "Explorers",
@@ -168,7 +193,12 @@
       "suggestedAlternatives": [
         "Black Mage",
         "Verus Hilla"
-      ]
+      ],
+      "pairingReasons": {
+        "Zombie Mushmom": "Holy light protecting the battlefield from an undead mushroom is whimsical and recognizable.",
+        "Black Mage": "Angelic beams and protective magic contrast with overwhelming light-and-dark cosmic power; a visually striking alternate matchup.",
+        "Verus Hilla": "Crimson magic and lethal threads give Bishop a different challenge, emphasizing the enemy's striking form."
+      }
     },
     {
       "family": "Explorers",
@@ -200,7 +230,12 @@
       "suggestedAlternatives": [
         "Horntail",
         "Griffey"
-      ]
+      ],
+      "pairingReasons": {
+        "Empress Cygnus": "A rain of emerald arrows faces a corrupted empress in a dramatic royal encounter.",
+        "Horntail": "Rapid enchanted arrows contrast with three towering dragon heads; a visually striking alternate matchup.",
+        "Griffey": "Winged forest-beast movements give Bowmaster a different challenge, emphasizing the boss's imposing scale."
+      }
     },
     {
       "family": "Explorers",
@@ -231,7 +266,12 @@
       "suggestedAlternatives": [
         "Kalos",
         "Manon"
-      ]
+      ],
+      "pairingReasons": {
+        "Papulatus": "One precise crossbow shot against a chaotic clockwork boss makes every effect readable.",
+        "Kalos": "Focused crossbow bolts contrast with enormous mechanical wings and radiant machinery; a visually striking alternate matchup.",
+        "Manon": "A flame-breathing dragon in a rugged lair give Marksman a different challenge, emphasizing the opponent's distinctive mechanics."
+      }
     },
     {
       "family": "Explorers",
@@ -250,7 +290,12 @@
       "suggestedAlternatives": [
         "Will",
         "Kaling"
-      ]
+      ],
+      "pairingReasons": {
+        "Gollux": "Ancient relic arrows confront an immense cursed stone head and hands.",
+        "Will": "Purple relic energy and guided arrows contrast with mirrors, illusions, and spiderwebs; a visually striking alternate matchup.",
+        "Kaling": "Mythical beasts and shifting spiritual phases give Pathfinder a different challenge, emphasizing the boss's mystical setting."
+      }
     },
     {
       "family": "Explorers",
@@ -276,7 +321,12 @@
       "suggestedAlternatives": [
         "Verus Hilla",
         "Balrog"
-      ]
+      ],
+      "pairingReasons": {
+        "Darknell": "A storm of throwing stars challenges a towering dark knight, contrasting speed with armor.",
+        "Verus Hilla": "Shadowy throwing stars contrast with crimson magic and lethal threads; a visually striking alternate matchup.",
+        "Balrog": "Classic demonic wings and flames give Night Lord a different challenge, emphasizing the boss's towering form."
+      }
     },
     {
       "family": "Explorers",
@@ -303,7 +353,12 @@
       "suggestedAlternatives": [
         "Crimson Queen",
         "Hilla"
-      ]
+      ],
+      "pairingReasons": {
+        "Von Bon": "A close-range assassin dodges Von Bon's shifting clock attacks for a tense duel.",
+        "Crimson Queen": "Quick dagger strikes and evasive shadows contrast with eerie royal masks and sinister magic; a visually striking alternate matchup.",
+        "Hilla": "A sinister sorceress and necromantic flames give Shadower a different challenge, emphasizing the boss's unusual movement."
+      }
     },
     {
       "family": "Explorers",
@@ -322,7 +377,12 @@
       "suggestedAlternatives": [
         "Lotus",
         "Darknell"
-      ]
+      ],
+      "pairingReasons": {
+        "Will": "Rapid twin-sword slashes cut through mirrors and spiderwebs; speed beats illusion.",
+        "Lotus": "Crossing dual blades and quick dashes contrast with electric attacks and industrial Black Heaven machinery; a visually striking alternate matchup.",
+        "Darknell": "A heavily armored knight and a huge weapon give Dual Blade a different challenge, emphasizing the boss's environmental hazards."
+      }
     },
     {
       "family": "Explorers",
@@ -353,7 +413,12 @@
       "suggestedAlternatives": [
         "Lord Pirate",
         "Ursus"
-      ]
+      ],
+      "pairingReasons": {
+        "First Adversary": "Blue dragonlike punches erupt against a powerful high-level opponent.",
+        "Lord Pirate": "Explosive martial-arts strikes contrast with a colorful pirate captain and ship-deck atmosphere; a visually striking alternate matchup.",
+        "Ursus": "A huge charging bear give Buccaneer a different challenge, emphasizing the boss's dangerous attacks."
+      }
     },
     {
       "family": "Explorers",
@@ -380,7 +445,12 @@
       "suggestedAlternatives": [
         "Pianus",
         "Lotus"
-      ]
+      ],
+      "pairingReasons": {
+        "Lord Pirate": "A pistol-wielding pirate battles another pirate captain for a classic seafaring showdown.",
+        "Pianus": "Gunfire and cannon smoke contrast with a giant fish in an underwater cavern; a visually striking alternate matchup.",
+        "Lotus": "Electric attacks and industrial Black Heaven machinery give Corsair a different challenge, emphasizing the enemy's unusual silhouette."
+      }
     },
     {
       "family": "Explorers",
@@ -399,7 +469,12 @@
       "suggestedAlternatives": [
         "Guardian Angel Slime",
         "Von Bon"
-      ]
+      ],
+      "pairingReasons": {
+        "Ursus": "An oversized cannon against an enormous bear creates comic scale and explosive action.",
+        "Guardian Angel Slime": "Giant cannon blasts contrast with a playful bouncing slime and glowing halos; a visually striking alternate matchup.",
+        "Von Bon": "A bizarre clock-themed arena give Cannoneer a different challenge, emphasizing the opponent's charging attacks."
+      }
     },
     {
       "family": "Cygnus Knights",
@@ -426,7 +501,12 @@
       "suggestedAlternatives": [
         "Arkarium",
         "Black Mage"
-      ]
+      ],
+      "pairingReasons": {
+        "Seren": "Sun-and-moon sword magic meets Seren's radiant divinity in a celestial duel.",
+        "Arkarium": "Solar and lunar sword arcs contrast with dark time magic and mystical clockwork; a visually striking alternate matchup.",
+        "Black Mage": "Overwhelming light-and-dark cosmic power give Dawn Warrior a different challenge, emphasizing the boss's celestial light."
+      }
     },
     {
       "family": "Cygnus Knights",
@@ -453,7 +533,12 @@
       "suggestedAlternatives": [
         "Crimson Queen",
         "Zakum"
-      ]
+      ],
+      "pairingReasons": {
+        "Vellum": "Orbiting fire magic chases Vellum as the serpent erupts from beneath the ground.",
+        "Crimson Queen": "Swirling flame orbs contrast with eerie royal masks and sinister magic; a visually striking alternate matchup.",
+        "Zakum": "Multi-armed volcanic stone imagery give Blaze Wizard a different challenge, emphasizing the boss's erupting attacks."
+      }
     },
     {
       "family": "Cygnus Knights",
@@ -480,7 +565,12 @@
       "suggestedAlternatives": [
         "Vellum",
         "Horntail"
-      ]
+      ],
+      "pairingReasons": {
+        "Griffey": "Green wind arrows and a forest griffin create a nimble hunter-versus-beast scene.",
+        "Vellum": "Feather-light wind arrows contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup.",
+        "Horntail": "Three towering dragon heads give Wind Archer a different challenge, emphasizing the monster's aerial movement."
+      }
     },
     {
       "family": "Cygnus Knights",
@@ -507,7 +597,12 @@
       "suggestedAlternatives": [
         "Hilla",
         "Darknell"
-      ]
+      ],
+      "pairingReasons": {
+        "Verus Hilla": "Dark bats and throwing stars oppose Hilla's crimson death magic.",
+        "Hilla": "Fluttering shadow bats and stars contrast with a sinister sorceress and necromantic flames; a visually striking alternate matchup.",
+        "Darknell": "A heavily armored knight and a huge weapon give Night Walker a different challenge, emphasizing the boss's ominous aura."
+      }
     },
     {
       "family": "Cygnus Knights",
@@ -534,7 +629,12 @@
       "suggestedAlternatives": [
         "Kaling",
         "Jupiter"
-      ]
+      ],
+      "pairingReasons": {
+        "Pianus": "Electric shark strikes cut through an underwater arena around the colossal fish.",
+        "Kaling": "Surging blue shark-shaped lightning contrast with mythical beasts and shifting spiritual phases; a visually striking alternate matchup.",
+        "Jupiter": "Luminous high-level magic and unusual divine shapes give Thunder Breaker a different challenge, emphasizing the monster's waterborne form."
+      }
     },
     {
       "family": "Cygnus Knights",
@@ -557,7 +657,12 @@
       "suggestedAlternatives": [
         "Seren",
         "Magnus"
-      ]
+      ],
+      "pairingReasons": {
+        "Arkarium": "A radiant sword-and-shield knight stands firm against Arkarium's ominous time magic.",
+        "Seren": "Defensive shield flashes and radiant slashes contrast with radiant celestial light and angelic power; a visually striking alternate matchup.",
+        "Magnus": "Purple sword attacks and a hazardous battlefield give Mihile a different challenge, emphasizing the boss's time-bending spells."
+      }
     },
     {
       "family": "Resistance",
@@ -580,7 +685,12 @@
       "suggestedAlternatives": [
         "Lotus",
         "Hilla"
-      ]
+      ],
+      "pairingReasons": {
+        "Von Leon": "Purple battle magic and an accompanying spirit confront a cursed lion king.",
+        "Lotus": "Close-range dark magic and spirit attacks contrast with electric attacks and industrial Black Heaven machinery; a visually striking alternate matchup.",
+        "Hilla": "A sinister sorceress and necromantic flames give Battle Mage a different challenge, emphasizing the boss's imposing presence."
+      }
     },
     {
       "family": "Resistance",
@@ -603,7 +713,12 @@
       "suggestedAlternatives": [
         "Horntail",
         "Ursus"
-      ]
+      ],
+      "pairingReasons": {
+        "Giant Blackheart": "A crossbow hunter riding a jaguar battles a monstrous shadow creature.",
+        "Horntail": "Mounted crossbow volleys contrast with three towering dragon heads; a visually striking alternate matchup.",
+        "Ursus": "A huge charging bear give Wild Hunter a different challenge, emphasizing the monster's huge form."
+      }
     },
     {
       "family": "Resistance",
@@ -627,7 +742,12 @@
       "suggestedAlternatives": [
         "Papulatus",
         "Giant Blackheart"
-      ]
+      ],
+      "pairingReasons": {
+        "Lotus": "A piloted mech and robot summons confront Lotus amid Black Heaven machinery.",
+        "Papulatus": "Mech artillery and deployable robots contrast with swirling clocks and mechanical gears; a visually striking alternate matchup.",
+        "Giant Blackheart": "A towering shadowy beast give Mechanic a different challenge, emphasizing the boss's mechanical battlefield."
+      }
     },
     {
       "family": "Resistance",
@@ -655,7 +775,12 @@
       "suggestedAlternatives": [
         "Magnus",
         "Papulatus"
-      ]
+      ],
+      "pairingReasons": {
+        "Pierre": "Explosive gauntlet punches against Pierre's unpredictable clown movements feel kinetic and fun.",
+        "Magnus": "Rapid-powered gauntlet impacts contrast with purple sword attacks and a hazardous battlefield; a visually striking alternate matchup.",
+        "Papulatus": "Swirling clocks and mechanical gears give Blaster a different challenge, emphasizing the boss's erratic movement."
+      }
     },
     {
       "family": "Resistance",
@@ -678,7 +803,12 @@
       "suggestedAlternatives": [
         "Limbo",
         "First Adversary"
-      ]
+      ],
+      "pairingReasons": {
+        "Verus Hilla": "Precise high-tech energy attacks meet Hilla's blood-red supernatural magic.",
+        "Limbo": "Futuristic energy blades and lasers contrast with distorted spatial effects and ominous transformations; a visually striking alternate matchup.",
+        "First Adversary": "An imposing enemy and ominous magical attacks give Xenon a different challenge, emphasizing the boss's dangerous powers."
+      }
     },
     {
       "family": "Resistance",
@@ -701,7 +831,12 @@
       "suggestedAlternatives": [
         "Black Mage",
         "Gloom"
-      ]
+      ],
+      "pairingReasons": {
+        "Damien": "Black demonic sword energy against Damien makes a dark, personal battle.",
+        "Black Mage": "Demonic sword strokes and winged movement contrast with overwhelming light-and-dark cosmic power; a visually striking alternate matchup.",
+        "Gloom": "An enormous celestial eye and tentacles give Demon Slayer a different challenge, emphasizing the boss's threatening attacks."
+      }
     },
     {
       "family": "Resistance",
@@ -725,7 +860,12 @@
       "suggestedAlternatives": [
         "Damien",
         "Verus Hilla"
-      ]
+      ],
+      "pairingReasons": {
+        "Gloom": "Blood-red power clashes with Gloom's enormous cosmic eye, emphasizing scale.",
+        "Damien": "Vicious sword sweeps and crimson energy contrast with demonic wings and dark sword attacks; a visually striking alternate matchup.",
+        "Verus Hilla": "Crimson magic and lethal threads give Demon Avenger a different challenge, emphasizing the boss's eerie scale."
+      }
     },
     {
       "family": "Heroes of Maple",
@@ -752,7 +892,12 @@
       "suggestedAlternatives": [
         "Arkarium",
         "Baldrix"
-      ]
+      ],
+      "pairingReasons": {
+        "Von Leon": "A sweeping polearm faces the lion king in a snowy castle showdown.",
+        "Arkarium": "Powerful polearm sweeps contrast with dark time magic and mystical clockwork; a visually striking alternate matchup.",
+        "Baldrix": "Huge, aggressive boss attacks and imposing armor give Aran a different challenge, emphasizing the boss's historic arena."
+      }
     },
     {
       "family": "Heroes of Maple",
@@ -779,7 +924,12 @@
       "suggestedAlternatives": [
         "Kaling",
         "Malefic Star"
-      ]
+      ],
+      "pairingReasons": {
+        "Horntail": "Evan and Mir challenge a three-headed dragon in an icy cavern.",
+        "Kaling": "Mir's dragon breath and coordinated spellcasting contrast with mythical beasts and shifting spiritual phases; a visually striking alternate matchup.",
+        "Malefic Star": "Cosmic star-shaped power and strange celestial effects give Evan a different challenge, emphasizing the opponent's massive presence."
+      }
     },
     {
       "family": "Heroes of Maple",
@@ -806,7 +956,12 @@
       "suggestedAlternatives": [
         "Lucid",
         "Princess No"
-      ]
+      ],
+      "pairingReasons": {
+        "Crimson Queen": "Graceful dual bowguns fight a sinister queen amid an elegant rose-covered castle.",
+        "Lucid": "Acrobatic elven arrows contrast with dream butterflies and surreal forest illusions; a visually striking alternate matchup.",
+        "Princess No": "Spectral palace magic and Japanese folklore give Mercedes a different challenge, emphasizing the boss's magical traps."
+      }
     },
     {
       "family": "Heroes of Maple",
@@ -838,7 +993,12 @@
       "suggestedAlternatives": [
         "Empress Cygnus",
         "Will"
-      ]
+      ],
+      "pairingReasons": {
+        "Hilla": "Card tricks and stolen skills confront an ominous royal sorceress.",
+        "Empress Cygnus": "Throwing cards and evasive illusions contrast with a dark royal court and regal magic; a visually striking alternate matchup.",
+        "Will": "Mirrors, illusions, and spiderwebs give Phantom a different challenge, emphasizing the boss's twisted magic."
+      }
     },
     {
       "family": "Heroes of Maple",
@@ -865,7 +1025,12 @@
       "suggestedAlternatives": [
         "Will",
         "Limbo"
-      ]
+      ],
+      "pairingReasons": {
+        "Black Mage": "Light and darkness collide with their ultimate opposing force, the Black Mage.",
+        "Will": "Alternating light-and-dark spell bursts contrast with mirrors, illusions, and spiderwebs; a visually striking alternate matchup.",
+        "Limbo": "Distorted spatial effects and ominous transformations give Luminous a different challenge, emphasizing the foe's overwhelming power."
+      }
     },
     {
       "family": "Heroes of Maple",
@@ -893,7 +1058,12 @@
       "suggestedAlternatives": [
         "Gloom",
         "Guardian Angel Slime"
-      ]
+      ],
+      "pairingReasons": {
+        "Lucid": "Spirit-fox attacks thread through Lucid's surreal dreamscape.",
+        "Gloom": "Gentle spirit-fox energy and fast strikes contrast with an enormous celestial eye and tentacles; a visually striking alternate matchup.",
+        "Guardian Angel Slime": "A playful bouncing slime and glowing halos give Shade a different challenge, emphasizing the boss's dreamlike hazards."
+      }
     },
     {
       "family": "Nova",
@@ -916,7 +1086,12 @@
       "suggestedAlternatives": [
         "Baldrix",
         "Horntail"
-      ]
+      ],
+      "pairingReasons": {
+        "Magnus": "The legendary Nova warrior faces the traitorous Magnus in a personal sword duel.",
+        "Baldrix": "Fiery Nova sword arcs contrast with huge, aggressive boss attacks and imposing armor; a visually striking alternate matchup.",
+        "Horntail": "Three towering dragon heads give Kaiser a different challenge, emphasizing the rival's sweeping attacks."
+      }
     },
     {
       "family": "Nova",
@@ -939,7 +1114,12 @@
       "suggestedAlternatives": [
         "Pink Bean",
         "Guardian Angel Slime"
-      ]
+      ],
+      "pairingReasons": {
+        "Lucid": "Pop-idol magic and sparkling pink effects confront Lucid's haunting dreams.",
+        "Pink Bean": "Pink musical blasts and sparkling energy contrast with a mischievous pink silhouette; a visually striking alternate matchup.",
+        "Guardian Angel Slime": "A playful bouncing slime and glowing halos give Angelic Buster a different challenge, emphasizing the boss's dream-world imagery."
+      }
     },
     {
       "family": "Nova",
@@ -962,7 +1142,12 @@
       "suggestedAlternatives": [
         "Kalos",
         "Lotus"
-      ]
+      ],
+      "pairingReasons": {
+        "Magnus": "Fast chains and acrobatics confront Magnus, a personal enemy of the Nova.",
+        "Kalos": "Whipping chains and aerial moves contrast with enormous mechanical wings and radiant machinery; a visually striking alternate matchup.",
+        "Lotus": "Electric attacks and industrial Black Heaven machinery give Cadena a different challenge, emphasizing the foe's guarded attacks."
+      }
     },
     {
       "family": "Nova",
@@ -985,7 +1170,12 @@
       "suggestedAlternatives": [
         "Damien",
         "Malefic Star"
-      ]
+      ],
+      "pairingReasons": {
+        "Kaling": "Dark dragon-infused arrows face Kaling's mythical creatures.",
+        "Damien": "Shadowy crossbow bursts contrast with demonic wings and dark sword attacks; a visually striking alternate matchup.",
+        "Malefic Star": "Cosmic star-shaped power and strange celestial effects give Kain a different challenge, emphasizing the boss's mystical transformations."
+      }
     },
     {
       "family": "Sengoku",
@@ -1003,7 +1193,12 @@
         "Akechi Mitsuhide",
         "Darknell"
       ],
-      "proposedBoss": "Mori Ranmaru"
+      "proposedBoss": "Mori Ranmaru",
+      "pairingReasons": {
+        "Mori Ranmaru": "A katana master confronts Mori Ranmaru in a dramatic sword-and-flame duel.",
+        "Akechi Mitsuhide": "Fast katana slashes contrast with a rival swordsman's precise attacks; a visually striking alternate matchup.",
+        "Darknell": "A heavily armored knight and a huge weapon give Hayato a different challenge, emphasizing the rival's distinct attacks."
+      }
     },
     {
       "family": "Sengoku",
@@ -1021,7 +1216,12 @@
         "Mori Ranmaru",
         "Lucid"
       ],
-      "proposedBoss": "Princess No"
+      "proposedBoss": "Princess No",
+      "pairingReasons": {
+        "Princess No": "Shikigami and spiritual foxfire oppose Princess No in a spectral court.",
+        "Mori Ranmaru": "Flowing spirit summons and talismans contrast with fiery samurai imagery and ceremonial armor; a visually striking alternate matchup.",
+        "Lucid": "Dream butterflies and surreal forest illusions give Kanna a different challenge, emphasizing the boss's supernatural barriers."
+      }
     },
     {
       "family": "Flora",
@@ -1039,7 +1239,12 @@
         "Baldrix",
         "Magnus"
       ],
-      "proposedBoss": "Seren"
+      "proposedBoss": "Seren",
+      "pairingReasons": {
+        "Seren": "Floating ether swords surround Seren for a graceful celestial duel.",
+        "Baldrix": "Orbiting ether blades contrast with huge, aggressive boss attacks and imposing armor; a visually striking alternate matchup.",
+        "Magnus": "Purple sword attacks and a hazardous battlefield give Adele a different challenge, emphasizing the foe's otherworldly presence."
+      }
     },
     {
       "family": "Flora",
@@ -1057,7 +1262,12 @@
         "First Adversary",
         "Malefic Star"
       ],
-      "proposedBoss": "Limbo"
+      "proposedBoss": "Limbo",
+      "pairingReasons": {
+        "Limbo": "Abyss-powered transformations face Limbo in a strange, unstable dimension.",
+        "First Adversary": "Violent Abyss energy and claw attacks contrast with an imposing enemy and ominous magical attacks; a visually striking alternate matchup.",
+        "Malefic Star": "Cosmic star-shaped power and strange celestial effects give Ark a different challenge, emphasizing the boss's surreal battlefield."
+      }
     },
     {
       "family": "Flora",
@@ -1075,7 +1285,12 @@
         "Jupiter",
         "Lotus"
       ],
-      "proposedBoss": "Kalos"
+      "proposedBoss": "Kalos",
+      "pairingReasons": {
+        "Kalos": "Crystal magic and floating constructs oppose Kalos's futuristic defenses.",
+        "Jupiter": "Glowing crystals and geometric projectiles contrast with luminous high-level magic and unusual divine shapes; a visually striking alternate matchup.",
+        "Lotus": "Electric attacks and industrial Black Heaven machinery give Illium a different challenge, emphasizing the boss's constructed form."
+      }
     },
     {
       "family": "Flora",
@@ -1093,7 +1308,12 @@
         "Kaling",
         "Pierre"
       ],
-      "proposedBoss": "Malefic Star"
+      "proposedBoss": "Malefic Star",
+      "pairingReasons": {
+        "Malefic Star": "Swift chakrams and desert magic challenge a cosmic star-like horror.",
+        "Kaling": "Spinning chakrams and rapid dashes contrast with mythical beasts and shifting spiritual phases; a visually striking alternate matchup.",
+        "Pierre": "Unpredictable clown tricks and shifting colors give Khali a different challenge, emphasizing the boss's shifting magic."
+      }
     },
     {
       "family": "Anima",
@@ -1111,7 +1331,12 @@
         "Gollux",
         "Will"
       ],
-      "proposedBoss": "Kaling"
+      "proposedBoss": "Kaling",
+      "pairingReasons": {
+        "Kaling": "Talisman illusions and mystical beasts confront Kaling's mythic forms.",
+        "Gollux": "Painted talismans and mystical clones contrast with giant cursed stone hands and a floating head; a visually striking alternate matchup.",
+        "Will": "Mirrors, illusions, and spiderwebs give Hoyoung a different challenge, emphasizing the foe's supernatural creatures."
+      }
     },
     {
       "family": "Anima",
@@ -1129,7 +1354,12 @@
         "Pink Bean",
         "Zombie Mushmom"
       ],
-      "proposedBoss": "Guardian Angel Slime"
+      "proposedBoss": "Guardian Angel Slime",
+      "pairingReasons": {
+        "Guardian Angel Slime": "Cheerful earth spirits bounce around an equally playful giant slime.",
+        "Pink Bean": "Colorful spirit eruptions contrast with a mischievous pink silhouette; a visually striking alternate matchup.",
+        "Zombie Mushmom": "An enormous undead mushroom give Lara a different challenge, emphasizing the enemy's bubbly silhouette."
+      }
     },
     {
       "family": "Anima",
@@ -1147,7 +1377,12 @@
         "Akechi Mitsuhide",
         "Seren"
       ],
-      "proposedBoss": "Baldrix"
+      "proposedBoss": "Baldrix",
+      "pairingReasons": {
+        "Baldrix": "A disciplined swordswoman confronts the imposing Baldrix in a high-speed duel.",
+        "Akechi Mitsuhide": "Precise blade cuts contrast with a rival swordsman's precise attacks; a visually striking alternate matchup.",
+        "Seren": "Radiant celestial light and angelic power give Ren a different challenge, emphasizing the foe's sweeping attacks."
+      }
     },
     {
       "family": "Jianghu",
@@ -1165,7 +1400,12 @@
         "Guardian Angel Slime",
         "Princess No"
       ],
-      "proposedBoss": "Lucid"
+      "proposedBoss": "Lucid",
+      "pairingReasons": {
+        "Lucid": "Animal companions and healing woodland energy enter Lucid's dream forest.",
+        "Guardian Angel Slime": "Gentle beast spirits and blooming magic contrast with a playful bouncing slime and glowing halos; a visually striking alternate matchup.",
+        "Princess No": "Spectral palace magic and Japanese folklore give Lynn a different challenge, emphasizing the boss's dreamscape."
+      }
     },
     {
       "family": "Jianghu",
@@ -1183,7 +1423,12 @@
         "Darknell",
         "Ursus"
       ],
-      "proposedBoss": "Akechi Mitsuhide"
+      "proposedBoss": "Akechi Mitsuhide",
+      "pairingReasons": {
+        "Akechi Mitsuhide": "A martial-arts master duels Akechi in a close-range clash of discipline and power.",
+        "Darknell": "Fluid martial-arts strikes contrast with a heavily armored knight and a huge weapon; a visually striking alternate matchup.",
+        "Ursus": "A huge charging bear give Mo Xuan a different challenge, emphasizing the enemy's aggressive swordplay."
+      }
     },
     {
       "family": "Shine",
@@ -1201,7 +1446,12 @@
         "Jupiter",
         "Gloom"
       ],
-      "proposedBoss": "Malefic Star"
+      "proposedBoss": "Malefic Star",
+      "pairingReasons": {
+        "Malefic Star": "Constellation magic takes on a monstrous star, creating a cosmic spectacle.",
+        "Jupiter": "Bright zodiac constellations contrast with luminous high-level magic and unusual divine shapes; a visually striking alternate matchup.",
+        "Gloom": "An enormous celestial eye and tentacles give Sia Astelle a different challenge, emphasizing the boss's astral power."
+      }
     },
     {
       "family": "Shine",
@@ -1219,7 +1469,12 @@
         "Seren",
         "Kalos"
       ],
-      "proposedBoss": "Jupiter"
+      "proposedBoss": "Jupiter",
+      "pairingReasons": {
+        "Jupiter": "Luminous celestial techniques oppose Jupiter's bright, high-level magic.",
+        "Seren": "Radiant geometric spells contrast with radiant celestial light and angelic power; a visually striking alternate matchup.",
+        "Kalos": "Enormous mechanical wings and radiant machinery give Erel Light a different challenge, emphasizing the boss's dazzling abilities."
+      }
     },
     {
       "family": "Demon",
@@ -1237,7 +1492,12 @@
         "Verus Hilla",
         "Black Mage"
       ],
-      "proposedBoss": "Hilla"
+      "proposedBoss": "Hilla",
+      "pairingReasons": {
+        "Hilla": "Infernal summoning magic confronts Hilla's necromancy in a dark sorcerers' duel.",
+        "Verus Hilla": "Cursed summons and infernal magic contrast with crimson magic and lethal threads; a visually striking alternate matchup.",
+        "Black Mage": "Overwhelming light-and-dark cosmic power give Lethe a different challenge, emphasizing the boss's otherworldly powers."
+      }
     },
     {
       "family": "Other",
@@ -1255,7 +1515,12 @@
         "Lotus",
         "Papulatus"
       ],
-      "proposedBoss": "Will"
+      "proposedBoss": "Will",
+      "pairingReasons": {
+        "Will": "Telekinetic objects fly through Will's mirrors and spiderwebs.",
+        "Lotus": "Levitating debris and psychic blasts contrast with electric attacks and industrial Black Heaven machinery; a visually striking alternate matchup.",
+        "Papulatus": "Swirling clocks and mechanical gears give Kinesis a different challenge, emphasizing the boss's spatial illusions."
+      }
     },
     {
       "family": "Other",
@@ -1273,7 +1538,12 @@
         "Arkarium",
         "Limbo"
       ],
-      "proposedBoss": "Black Mage"
+      "proposedBoss": "Black Mage",
+      "pairingReasons": {
+        "Black Mage": "The twin warriors' time powers confront the Black Mage in a climactic battle.",
+        "Arkarium": "Paired sword slashes and time effects contrast with dark time magic and mystical clockwork; a visually striking alternate matchup.",
+        "Limbo": "Distorted spatial effects and ominous transformations give Zero a different challenge, emphasizing the boss's ultimate magic."
+      }
     }
   ]
 }
