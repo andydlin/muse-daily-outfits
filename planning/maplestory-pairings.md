@@ -6,7 +6,7 @@
 
 **Meaning of approved:** The user approved a class-versus-boss pairing in the existing tracker. This does NOT imply final artwork approval. Independent fresh suggestions shown below are NOT approved replacements. No artwork or cubby/island status is inferred.
 
-**Coverage:** All 54 classes have an independent recommended primary plus two alternatives. Across these 162 suggestion slots, all 42 featured boss identities occur at least twice and each appears as a fresh primary at least once.
+**Coverage:** All 54 classes have an independent recommended primary plus two alternatives. Across these 162 suggestion slots, all 44 featured boss identities occur at least twice and each appears as a fresh primary at least once.
 
 ## Explorers
 
@@ -117,7 +117,7 @@
 | Aran | Von Leon | Von Leon | Arkarium, Baldrix |
 | Evan | Horntail | Horntail | Kaling, Malefic Star |
 | Mercedes | Crimson Queen | Crimson Queen | Lucid, Princess No |
-| Phantom | Dark Cygnus | Hilla | Empress Cygnus, Will |
+| Phantom | Dark Cygnus | Mayrin | Empress Cygnus, Will |
 | Luminous | Will | Black Mage | Will, Limbo |
 | Shade | Lucid | Lucid | Gloom, Guardian Angel Slime |
 
@@ -152,7 +152,7 @@
 
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
-| Hayato | — Not yet selected | Mori Ranmaru | Akechi Mitsuhide, Darknell |
+| Hayato | — Not yet selected | Mori Ranmaru | Akechi Mitsuhide, Kai |
 | Kanna | — Not yet selected | Princess No | Mori Ranmaru, Lucid |
 
 ## Flora
@@ -183,7 +183,7 @@
 
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
-| Sia Astelle | — Not yet selected | Malefic Star | Jupiter, Gloom |
+| Sia Astelle | — Not yet selected | Malefic Star | Jupiter, Mayrin |
 | Erel Light | — Not yet selected | Jupiter | Seren, Kalos |
 
 ## Demon
@@ -197,7 +197,7 @@
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
 | Kinesis | — Not yet selected | Will | Lotus, Papulatus |
-| Zero | — Not yet selected | Black Mage | Arkarium, Limbo |
+| Zero | — Not yet selected | Kai | Arkarium, Limbo |
 
 ## Data rules
 
