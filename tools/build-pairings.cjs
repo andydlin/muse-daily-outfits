@@ -10,7 +10,7 @@ const lines=["# Gizmo's Wall — MapleStory Class × Boss Pairing Index","",
 "**Compact comparison page:** [Gizmo's Wall — 54-Class Pairings](https://www.andydlin.com/muse-daily-outfits/pairings.html)  ",
 "**Review history:** Explorers V4.1; Cygnus Knights V1; Resistance V1; Heroes of Maple V1 (November 15, 2026). Nova was also previously approved.","",
 "**Meaning of approved:** The user approved a class-versus-boss pairing in the existing tracker. This does NOT imply final artwork approval. Independent fresh suggestions shown below are NOT approved replacements. No artwork or cubby/island status is inferred.","",
-"**Coverage:** All 54 classes have an independent recommended primary plus two alternatives. Across these 162 suggestion slots, all 42 featured boss identities occur at least twice and each appears as a fresh primary at least once.",""];
+"**Coverage:** All 54 classes have an independent recommended primary plus two alternatives. Across these 162 suggestion slots, all 44 featured boss identities occur at least twice and each appears as a fresh primary at least once.",""];
 for(const family of d.collections){
 lines.push("## "+family,"","| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |","|---|---|---|---|");
 for(const p of d.pairings.filter(x=>x.family===family)){
