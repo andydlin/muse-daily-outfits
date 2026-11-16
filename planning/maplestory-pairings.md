@@ -64,7 +64,7 @@
 |---|---|---|---|
 | Dawn Warrior | Seren | Seren | Arkarium, Black Mage |
 | Blaze Wizard | Crimson Queen | Vellum | Crimson Queen, Zakum |
-| Wind Archer | Chaos Vellum | Griffey | Vellum, Horntail |
+| Wind Archer | Vellum | Griffey | Vellum, Horntail |
 | Night Walker | Verus Hilla | Verus Hilla | Hilla, Darknell |
 | Thunder Breaker | Kaling | Pianus | Kaling, Jupiter |
 | Mihile | Arkarium | Arkarium | Seren, Magnus |
@@ -77,7 +77,7 @@
 | Dawn Warrior | Arkarium | Earlier pairing explored; final artwork approval not established |
 | Blaze Wizard | Crimson Queen | Earlier pairing accepted in project discussion; current approved primary |
 | Blaze Wizard | Zakum | Earlier alternative candidate only, no completed scene confirmed |
-| Wind Archer | Chaos Vellum | Previously approved Vellum island pairing |
+| Wind Archer | Vellum | Previously approved Vellum island pairing |
 | Wind Archer | Griffey | Earlier alternative, not independently verified as a completed scene |
 | Night Walker | Verus Hilla | Earlier pairing in canonical tracker; user approved as primary Nov 15 |
 | Night Walker | Von Leon | Earlier proposal; no finished image verified |
