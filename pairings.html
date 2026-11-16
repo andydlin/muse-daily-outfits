@@ -16,6 +16,14 @@
 
 .choice{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;white-space:normal;overflow-wrap:anywhere}.choice-role{display:block;font-size:9px;font-weight:750;text-transform:uppercase;letter-spacing:.035em;color:#8c7e88}.choice[aria-pressed="true"] .choice-role{color:#76517f}.choice-name{display:block;font-size:12px;font-weight:600}.choice:first-child{border-style:solid;border-color:#aa91ae}.choice:first-child .choice-role{color:#76517f}
 @media(max-width:680px){.choice{min-height:51px;padding:6px 3px;gap:4px}.choice-role{font-size:8px}.choice-name{font-size:11px}.choice-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Highlight only proposed primaries that differ from an existing saved pairing. */
+.choice.changed-primary{background:#fff0ef;border-color:#dc8985;color:#a52e2e}
+.choice.changed-primary .choice-role{color:#b3453f}
+.choice.changed-primary .choice-name{color:#9e2929}
+.choice.changed-primary[aria-pressed="true"]{background:#fbd9d6;border-color:#c7504b;color:#962323;box-shadow:inset 0 0 0 1px #c7504b}
+.choice.changed-primary[aria-pressed="true"] .choice-role,.choice.changed-primary[aria-pressed="true"] .choice-name{color:#962323}
+.choice.changed-primary:hover{border-color:#be514c}
 </style></head><body>
 <div class="top"><div class="wrap"><a class="brand" href="index.html">Gizmo's Wall ✦</a><nav class="nav"><a href="index.html">Outfits</a><a href="maple-jelly.html">Maple</a><a href="islands.html">Islands</a><a href="planning/maplestory-pairings.md">Pairing file</a><a href="ideas.html">Ideas</a></nav></div></div>
 <main class="wrap">
@@ -50,7 +58,7 @@ heroWrap.append(title,reason);choices.append(buttons);
 const options=[p.suggestedPrimary||p.proposedBoss,...(p.suggestedAlternatives||p.alternatives||[])].filter(Boolean),controls=[];
 const initial=(boss.value&&options.includes(boss.value))?boss.value:options[0];
 function choose(selected){reason.textContent=(p.pairingReasons&&p.pairingReasons[selected])||'Alternative matchup based on this hero’s skills and the boss’s visual identity.';for(const b of controls)b.setAttribute('aria-pressed',String(b.dataset.boss===selected))}
-options.forEach((name,index)=>{const b=make('button','choice',undefined),tag=make('span','choice-role',index===0?'Primary':'Alternative');b.type='button';b.dataset.boss=name;b.title=(index===0?'Recommended primary: ':'Alternative: ')+name;b.setAttribute('aria-label',(index===0?'My primary pick: ':'Alternative boss: ')+name+'. Show reason');b.append(tag,make('span','choice-name',name));b.addEventListener('click',()=>choose(name));buttons.append(b);controls.push(b)});
+options.forEach((name,index)=>{const differentPrimary=index===0&&Boolean(p.boss)&&p.boss.trim().toLowerCase()!==name.trim().toLowerCase();const b=make('button','choice'+(differentPrimary?' changed-primary':''),undefined),tag=make('span','choice-role',index===0?'Primary':'Alternative');b.type='button';b.dataset.boss=name;b.title=(index===0?'Recommended primary: ':'Alternative: ')+name;b.setAttribute('aria-label',(index===0?'My primary pick: ':'Alternative boss: ')+name+'. Show reason');b.append(tag,make('span','choice-name',name));b.addEventListener('click',()=>choose(name));buttons.append(b);controls.push(b)});
 item.append(heroWrap,existing,choices);wrap.append(item);choose(initial)
 }
 sec.append(wrap);root.append(sec)}
