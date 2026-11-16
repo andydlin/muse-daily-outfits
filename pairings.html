@@ -13,6 +13,9 @@
 .choice[aria-pressed="true"]{border-color:#84658b;background:#eee5f0;color:#5a3764;font-weight:750}
 .choice:focus-visible{outline:2px solid #84658b;outline-offset:2px}.choice:hover{border-color:#a993ad}
 @media(max-width:680px){.item{grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);row-gap:8px;padding:10px 12px}.hero-wrap{grid-column:1/-1}.hero{font-size:15px}.reason{margin:5px 0 0;min-height:0}.existing{grid-column:1/-1}.choices{grid-column:1/-1}.choice-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.choice{padding:7px 5px;text-align:center;min-height:36px;font-size:11px}.choices .k{margin-bottom:4px}}
+
+.choice{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;white-space:normal;overflow-wrap:anywhere}.choice-role{display:block;font-size:9px;font-weight:750;text-transform:uppercase;letter-spacing:.035em;color:#8c7e88}.choice[aria-pressed="true"] .choice-role{color:#76517f}.choice-name{display:block;font-size:12px;font-weight:600}.choice:first-child{border-style:solid;border-color:#aa91ae}.choice:first-child .choice-role{color:#76517f}
+@media(max-width:680px){.choice{min-height:51px;padding:6px 3px;gap:4px}.choice-role{font-size:8px}.choice-name{font-size:11px}.choice-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
 </style></head><body>
 <div class="top"><div class="wrap"><a class="brand" href="index.html">Gizmo's Wall ✦</a><nav class="nav"><a href="index.html">Outfits</a><a href="maple-jelly.html">Maple</a><a href="islands.html">Islands</a><a href="planning/maplestory-pairings.md">Pairing file</a><a href="ideas.html">Ideas</a></nav></div></div>
 <main class="wrap">
@@ -42,12 +45,12 @@ if(!matches.length){root.append(make('p','empty','No matching pairings.'));retur
 for(const name of groups){const items=matches.filter(x=>x.family===name);if(!items.length)continue;
 const sec=make('section','section'),head=make('div','sectionhead');head.append(make('h2','',name),make('span','count',items.length+' classes'));sec.append(head);const wrap=make('div','items');
 for(const p of items){
-const item=make('article','item'),heroWrap=make('div','hero-wrap'),title=make('div','hero',p.hero),reason=make('p','reason'),existing=field('Existing',p.boss,'existing'),choices=make('div','choices'),label=make('span','k','Tap a boss to see why'),buttons=make('div','choice-list');
+const item=make('article','item'),heroWrap=make('div','hero-wrap'),title=make('div','hero',p.hero),reason=make('p','reason'),existing=field('Existing',p.boss,'existing'),choices=make('div','choices'),label=make('span','k','Recommended primary + two alternatives · tap for reason'),buttons=make('div','choice-list');
 heroWrap.append(title,reason);choices.append(label,buttons);
 const options=[p.suggestedPrimary||p.proposedBoss,...(p.suggestedAlternatives||p.alternatives||[])].filter(Boolean),controls=[];
 const initial=(boss.value&&options.includes(boss.value))?boss.value:options[0];
 function choose(selected){reason.textContent=(p.pairingReasons&&p.pairingReasons[selected])||'Alternative matchup based on this hero’s skills and the boss’s visual identity.';for(const b of controls)b.setAttribute('aria-pressed',String(b.dataset.boss===selected))}
-options.forEach((name,index)=>{const b=make('button','choice',name);b.type='button';b.dataset.boss=name;b.title=(index===0?'Recommended primary: ':'Alternative: ')+name;b.setAttribute('aria-label',(index===0?'My primary pick: ':'Alternative boss: ')+name+'. Show reason');b.addEventListener('click',()=>choose(name));buttons.append(b);controls.push(b)});
+options.forEach((name,index)=>{const b=make('button','choice',undefined),tag=make('span','choice-role',index===0?'Primary':'Alternative');b.type='button';b.dataset.boss=name;b.title=(index===0?'Recommended primary: ':'Alternative: ')+name;b.setAttribute('aria-label',(index===0?'My primary pick: ':'Alternative boss: ')+name+'. Show reason');b.append(tag,make('span','choice-name',name));b.addEventListener('click',()=>choose(name));buttons.append(b);controls.push(b)});
 item.append(heroWrap,existing,choices);wrap.append(item);choose(initial)
 }
 sec.append(wrap);root.append(sec)}
