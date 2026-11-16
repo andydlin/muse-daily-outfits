@@ -1,6 +1,6 @@
 {
   "version": "2026-11-15-full-54-challenger-bosses-v2",
-  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained. Each suggested primary and alternative has a short editorial rationale in pairingReasons. Reasons explain aesthetics/scene composition, not approval or completion. Approved existing pairings remain untouched. Kai and Mayrin added to independent recommendations on November 15, 2026. Kai primary for Zero / alternative Hayato; Mayrin primary for Phantom / alternative Sia Astelle. 44 bosses each primary at least once and appearing twice across 162 slots. All prior user-approved existing pairings remain unchanged.",
+  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained. Each suggested primary and alternative has a short editorial rationale in pairingReasons. Reasons explain aesthetics/scene composition, not approval or completion. Approved existing pairings remain untouched. Kai and Mayrin added to independent recommendations on November 15, 2026. Kai primary for Zero / alternative Hayato; Mayrin primary for Phantom / alternative Sia Astelle. 44 bosses each primary at least once and appearing twice across 162 slots. All prior user-approved existing pairings remain unchanged. Boss naming normalized: Vellum suggested entries use Chaos Vellum, matching the existing Wind Archer pairing; former was an alias, not an extra boss.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -127,13 +127,13 @@
       ],
       "suggestedPrimary": "Manon",
       "suggestedAlternatives": [
-        "Vellum",
+        "Chaos Vellum",
         "Mori Ranmaru"
       ],
       "pairingReasons": {
         "Manon": "Meteor fire and toxic clouds erupt around Manon, creating vivid elemental tension.",
-        "Vellum": "Firestorms and drifting poison contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup.",
-        "Mori Ranmaru": "Against fiery samurai imagery and ceremonial armor, Fire/Poison Arch Mage could bring a new rhythm and visual contrast to the fight."
+        "Mori Ranmaru": "Against fiery samurai imagery and ceremonial armor, Fire/Poison Arch Mage could bring a new rhythm and visual contrast to the fight.",
+        "Chaos Vellum": "Firestorms and drifting poison contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup."
       }
     },
     {
@@ -529,15 +529,15 @@
           "evidence": "Earlier alternative candidate only, no completed scene confirmed"
         }
       ],
-      "suggestedPrimary": "Vellum",
+      "suggestedPrimary": "Chaos Vellum",
       "suggestedAlternatives": [
         "Crimson Queen",
         "Zakum"
       ],
       "pairingReasons": {
-        "Vellum": "Orbiting fire magic chases Vellum as the serpent erupts from beneath the ground.",
         "Crimson Queen": "Swirling flame orbs contrast with eerie royal masks and sinister magic; a visually striking alternate matchup.",
-        "Zakum": "Against multi-armed volcanic stone imagery, Blaze Wizard could bring a new rhythm and visual contrast to the fight."
+        "Zakum": "Against multi-armed volcanic stone imagery, Blaze Wizard could bring a new rhythm and visual contrast to the fight.",
+        "Chaos Vellum": "Orbiting fire magic chases Chaos Vellum as the serpent erupts from beneath the ground."
       }
     },
     {
@@ -563,13 +563,13 @@
       ],
       "suggestedPrimary": "Griffey",
       "suggestedAlternatives": [
-        "Vellum",
+        "Chaos Vellum",
         "Horntail"
       ],
       "pairingReasons": {
         "Griffey": "Green wind arrows and a forest griffin create a nimble hunter-versus-beast scene.",
-        "Vellum": "Feather-light wind arrows contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup.",
-        "Horntail": "Against three towering dragon heads, Wind Archer could bring a new rhythm and visual contrast to the fight."
+        "Horntail": "Against three towering dragon heads, Wind Archer could bring a new rhythm and visual contrast to the fight.",
+        "Chaos Vellum": "Feather-light wind arrows contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup."
       }
     },
     {
