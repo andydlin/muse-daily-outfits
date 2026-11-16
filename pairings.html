@@ -19,9 +19,9 @@
 </style></head><body>
 <div class="top"><div class="wrap"><a class="brand" href="index.html">Gizmo's Wall ✦</a><nav class="nav"><a href="index.html">Outfits</a><a href="maple-jelly.html">Maple</a><a href="islands.html">Islands</a><a href="planning/maplestory-pairings.md">Pairing file</a><a href="ideas.html">Ideas</a></nav></div></div>
 <main class="wrap">
-<section class="intro"><div class="eyebrow">MapleStory · full class roster</div><h1>Class × Boss Pairings</h1><p>Compare existing pairings with my fresh picks. Tap a primary or alternative boss to see why it works. No artwork previews.</p></section>
+<section class="intro"><div class="eyebrow">MapleStory · full class roster</div><h1>Class × Boss Pairings</h1></section>
 <div class="stats"><span class="stat"><strong id="total">54</strong> classes</span><span class="stat"><strong id="bosses">42</strong> featured bosses</span><span class="stat"><strong id="families">12</strong> families</span><span class="stat"><strong id="existing">—</strong> existing primaries</span></div>
-<div class="explainer"><strong>What did “Approved” mean?</strong> In the old version, the green badge only indicated that you had approved the <em>existing class × boss pairing</em>. It did <strong>not</strong> mean the scene was finished or that you approved the new recommendations. I've removed the badges to avoid confusion. <strong>Existing</strong> is your saved primary, while <strong>My pick</strong> is the independent 54-class proposal and does not replace it.</div>
+
 <div class="toolbar"><input id="search" type="search" aria-label="Search heroes or bosses" placeholder="Search class or boss…"><select id="family" aria-label="Filter family"><option value="">All families</option></select><select id="boss" aria-label="Filter boss"><option value="">All bosses</option></select><select id="diff" aria-label="Show pairings"><option value="">All classes</option><option value="changed">Different picks only</option><option value="uncreated">No existing pairing</option><option value="same">Same primary</option></select></div>
 <div id="content"><p class="empty">Loading the 54-class pairing matrix…</p></div>
 </main><div class="footer"><div class="wrap">All pairings are sourced from <a href="planning/maplestory-pairings.json">the canonical GitHub data file</a>. Existing approvals and historical encounters are preserved there. This new comparison is planning-only; it doesn't record image completion.</div></div>
@@ -45,8 +45,8 @@ if(!matches.length){root.append(make('p','empty','No matching pairings.'));retur
 for(const name of groups){const items=matches.filter(x=>x.family===name);if(!items.length)continue;
 const sec=make('section','section'),head=make('div','sectionhead');head.append(make('h2','',name),make('span','count',items.length+' classes'));sec.append(head);const wrap=make('div','items');
 for(const p of items){
-const item=make('article','item'),heroWrap=make('div','hero-wrap'),title=make('div','hero',p.hero),reason=make('p','reason'),existing=field('Existing',p.boss,'existing'),choices=make('div','choices'),label=make('span','k','Recommended primary + two alternatives · tap for reason'),buttons=make('div','choice-list');
-heroWrap.append(title,reason);choices.append(label,buttons);
+const item=make('article','item'),heroWrap=make('div','hero-wrap'),title=make('div','hero',p.hero),reason=make('p','reason'),existing=field('Existing',p.boss,'existing'),choices=make('div','choices'),label=null,buttons=make('div','choice-list');
+heroWrap.append(title,reason);choices.append(buttons);
 const options=[p.suggestedPrimary||p.proposedBoss,...(p.suggestedAlternatives||p.alternatives||[])].filter(Boolean),controls=[];
 const initial=(boss.value&&options.includes(boss.value))?boss.value:options[0];
 function choose(selected){reason.textContent=(p.pairingReasons&&p.pairingReasons[selected])||'Alternative matchup based on this hero’s skills and the boss’s visual identity.';for(const b of controls)b.setAttribute('aria-pressed',String(b.dataset.boss===selected))}
