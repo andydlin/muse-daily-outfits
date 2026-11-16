@@ -1,37 +1,36 @@
 # Gizmo's Wall — MapleStory Class × Boss Pairing Index
 
 **Canonical data:** [maplestory-pairings.json](maplestory-pairings.json)  
-**Pairing website:** [MapleStory Pairing Tracker](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
-**Explorer approval:** V4.1, November 15, 2026  
-**Cygnus Knights approval:** V1, November 15, 2026  
-**Resistance approval:** V1, November 15, 2026  
-**Heroes of Maple approval:** V1, November 15, 2026
+**Compact comparison page:** [Gizmo's Wall — 54-Class Pairings](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
+**Review history:** Explorers V4.1; Cygnus Knights V1; Resistance V1; Heroes of Maple V1 (November 15, 2026). Nova was also previously approved.
 
-An approved primary pairing is a planning decision, NOT confirmation of final artwork approval. Published gallery thumbnails may depict older opponents. Historical records distinguish created work, exploratory proposals, and uncertain identities. No cubby/island format selection or signature-action metadata is tracked here.
+**Meaning of approved:** The user approved a class-versus-boss pairing in the existing tracker. This does NOT imply final artwork approval. Independent fresh suggestions shown below are NOT approved replacements. No artwork or cubby/island status is inferred.
+
+**Coverage:** All 54 classes have an independent recommended primary plus two alternatives. Across these 162 suggestion slots, all 42 featured boss identities occur at least twice and each appears as a fresh primary at least once.
 
 ## Explorers
 
-| Class | Primary boss | Alternatives | Pairing status | Gallery image |
-|---|---|---|---|---|
-| Hero | Jr. Balrog | Darknell, Crimson Balrog | Approved 2026-11-15 | [View](../maple-jelly/12-hero-v3.webp) |
-| Paladin | Zakum | Magnus, Von Leon | Approved 2026-11-15 | [View](../maple-jelly/08-paladin-v3.webp) |
-| Dark Knight | Horntail | Zakum, Darknell | Approved 2026-11-15 | [View](../maple-jelly/07-dark-knight-v2.webp) |
-| Fire/Poison Arch Mage | Manon | Pianus, Vellum | Approved 2026-11-15 | [View](../maple-jelly/11-fire-poison-v2.webp) |
-| Ice/Lightning Arch Mage | Pink Bean | Horntail, Jupiter | Approved 2026-11-15 | [View](../maple-jelly/06-ice-lightning-v2.webp) |
-| Bishop | Zombie Mushmom | Von Leon, Black Mage | Approved 2026-11-15 | [View](../maple-jelly/05-bishop-v2.webp) |
-| Bowmaster | Empress Cygnus | Griffey, Crimson Balrog, Horntail | Approved 2026-11-15 | [View](../maple-jelly/04-bowmaster-v3.webp) |
-| Marksman | Papulatus | Manon, Kalos | Approved 2026-11-15 | [View](../maple-jelly/03-marksman-v2.webp) |
-| Pathfinder | — (not created; proposed: Gollux) | Gollux, Will | Not created | — |
-| Night Lord | Darknell | Crimson Balrog | Approved 2026-11-15 | [View](../maple-jelly/09-night-lord-v2.webp) |
-| Shadower | Crimson Queen | Dodo, Verus Hilla | Approved 2026-11-15 | [View](../maple-jelly/10-shadower-v2.webp) |
-| Dual Blade | — (not created; proposed: Lotus) | Lotus, Will | Not created | — |
-| Buccaneer | First Adversary | Lord Pirate, Leviathan | Approved 2026-11-15 | [View](../maple-jelly/01-buccaneer-v2.webp) |
-| Corsair | Pianus | Captain Latanica, Leviathan | Approved 2026-11-15 | [View](../islands/01-corsair.webp) |
-| Cannoneer | — (not created; proposed: Guardian Angel Slime) | Guardian Angel Slime, Papulatus | Not created | — |
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Hero | Jr. Balrog | Balrog | Darknell, Damien |
+| Paladin | Zakum | Zakum | Magnus, Von Leon |
+| Dark Knight | Horntail | Horntail | Darknell, Arkarium |
+| Fire/Poison Arch Mage | Manon | Manon | Vellum, Mori Ranmaru |
+| Ice/Lightning Arch Mage | Pink Bean | Pink Bean | Jupiter, Papulatus |
+| Bishop | Zombie Mushmom | Zombie Mushmom | Black Mage, Verus Hilla |
+| Bowmaster | Empress Cygnus | Empress Cygnus | Horntail, Griffey |
+| Marksman | Papulatus | Papulatus | Kalos, Manon |
+| Pathfinder | — Not yet selected | Gollux | Will, Kaling |
+| Night Lord | Darknell | Darknell | Verus Hilla, Balrog |
+| Shadower | Crimson Queen | Von Bon | Crimson Queen, Hilla |
+| Dual Blade | — Not yet selected | Will | Lotus, Darknell |
+| Buccaneer | First Adversary | First Adversary | Lord Pirate, Ursus |
+| Corsair | Pianus | Lord Pirate | Pianus, Lotus |
+| Cannoneer | — Not yet selected | Ursus | Guardian Angel Slime, Von Bon |
 
-### Explorers — historical encounters and proposals
+### Historical encounters and proposals
 
-| Class | Boss | Historical evidence / qualification |
+| Hero | Boss | Evidence / qualification |
 |---|---|---|
 | Hero | Jr. Balrog | Historical encounter; current wall selection |
 | Paladin | Zakum | Historical encounter; current wall selection |
@@ -59,22 +58,20 @@ An approved primary pairing is a planning decision, NOT confirmation of final ar
 | Corsair | Pianus | Current wall and approved island encounter |
 | Corsair | Captain Latanica | Earlier accepted encounter |
 
-**Bishop caveat:** User approved Zombie Mushmom as current wall pairing and earlier creation supports it, but the deployed Bishop binary has not been directly inspected.
-
 ## Cygnus Knights
 
-| Class | Primary boss | Alternatives | Pairing status | Gallery image |
-|---|---|---|---|---|
-| Dawn Warrior | Seren | Magnus, Arkarium | Approved 2026-11-15 | [View](../maple-jelly/17-dawn-warrior-v2.webp) |
-| Blaze Wizard | Crimson Queen | Vellum, Zakum | Approved 2026-11-15 | [View](../maple-jelly/16-blaze-wizard.webp) |
-| Wind Archer | Chaos Vellum | Horntail, Griffey | Approved 2026-11-15 | [View](../islands/02-wind-archer-v2.webp) |
-| Night Walker | Verus Hilla | Von Leon, Darknell | Approved 2026-11-15 | [View](../maple-jelly/15-night-walker-v2.webp) |
-| Thunder Breaker | Kaling | Captain Darkgoo, Pianus | Approved 2026-11-15 | [View](../maple-jelly/13-thunder-breaker-v2.webp) |
-| Mihile | Arkarium | Seren, Magnus | Approved 2026-11-15 | [View](../maple-jelly/19-mihile.webp) |
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Dawn Warrior | Seren | Seren | Arkarium, Black Mage |
+| Blaze Wizard | Crimson Queen | Vellum | Crimson Queen, Zakum |
+| Wind Archer | Chaos Vellum | Griffey | Vellum, Horntail |
+| Night Walker | Verus Hilla | Verus Hilla | Hilla, Darknell |
+| Thunder Breaker | Kaling | Pianus | Kaling, Jupiter |
+| Mihile | Arkarium | Arkarium | Seren, Magnus |
 
-### Cygnus Knights — historical encounters and proposals
+### Historical encounters and proposals
 
-| Class | Boss | Historical evidence / qualification |
+| Hero | Boss | Evidence / qualification |
 |---|---|---|
 | Dawn Warrior | Magnus | Earlier pairing documented in the tracker and approved in previous Cygnus work; older variant |
 | Dawn Warrior | Arkarium | Earlier pairing explored; final artwork approval not established |
@@ -88,23 +85,21 @@ An approved primary pairing is a planning decision, NOT confirmation of final ar
 | Thunder Breaker | Captain Darkgoo | Earlier boss proposal, exact identity and scene completion unverified |
 | Mihile | Arkarium | Previously approved composition and current approved primary |
 
-**Dawn Warrior caveat:** Seren is now the approved primary, although the published thumbnail may still depict the older Magnus encounter.
-
 ## Resistance
 
-| Class | Primary boss | Alternatives | Pairing status | Gallery image |
-|---|---|---|---|---|
-| Battle Mage | Von Leon | Lotus, Verus Hilla | Approved 2026-11-15 | [View](../maple-jelly/18-battle-mage.webp) |
-| Wild Hunter | Giant Blackheart | Crimson Queen, Horntail | Approved 2026-11-15 | [View](../maple-jelly/20-wild-hunter.webp) |
-| Mechanic | Lotus | Kalos, Papulatus, Vellum | Approved 2026-11-15 | — |
-| Blaster | Papulatus | Magnus, Ursus, Pierre | Approved 2026-11-15 | [View](../maple-jelly/22-blaster-v2.webp) |
-| Xenon | Verus Hilla | Lotus, Damien | Approved 2026-11-15 | [View](../maple-jelly/21-xenon-v2.webp) |
-| Demon Slayer | Damien | Black Mage, Darknell | Approved 2026-11-15 | [View](../maple-jelly/24-winged-swordsman.webp) |
-| Demon Avenger | Gloom | Verus Hilla, Damien, Cygnus | Approved 2026-11-15 | [View](../maple-jelly/23-demon-avenger-v2.webp) |
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Battle Mage | Von Leon | Von Leon | Lotus, Hilla |
+| Wild Hunter | Giant Blackheart | Giant Blackheart | Horntail, Ursus |
+| Mechanic | Lotus | Lotus | Papulatus, Giant Blackheart |
+| Blaster | Papulatus | Pierre | Magnus, Papulatus |
+| Xenon | Verus Hilla | Verus Hilla | Limbo, First Adversary |
+| Demon Slayer | Damien | Damien | Black Mage, Gloom |
+| Demon Avenger | Gloom | Gloom | Damien, Verus Hilla |
 
-### Resistance — historical encounters and proposals
+### Historical encounters and proposals
 
-| Class | Boss | Historical evidence / qualification |
+| Hero | Boss | Evidence / qualification |
 |---|---|---|
 | Battle Mage | Von Leon | Established historical pairing; primary reaffirmed Nov 15 |
 | Wild Hunter | Giant Blackheart | Earlier accepted encounter, used as approved handmade-plush texture reference |
@@ -115,22 +110,20 @@ An approved primary pairing is a planning decision, NOT confirmation of final ar
 | Demon Slayer | Damien | Earlier Demon Slayer vs Damien encounter was created/explored; exact gallery winged-swordsman image identity not independently verified |
 | Demon Avenger | Gloom | Previously selected and refined encounter; primary confirmed Nov 15 |
 
-**Resistance caveats:** Blaster × Papulatus is an approved primary selection; the boss in the published Blaster thumbnail was not independently identified. Demon Slayer's winged-swordsman thumbnail identity is likewise not independently verified. Mechanic × Lotus approval does not establish completion of the floating-island artwork.
-
 ## Heroes of Maple
 
-| Class | Primary boss | Alternatives | Pairing status | Gallery image |
-|---|---|---|---|---|
-| Aran | Von Leon | Arkarium, Damien | Approved 2026-11-15 | [View](../maple-jelly/25-aran.webp) |
-| Evan | Horntail | Kaling, Arkarium | Approved 2026-11-15 | [View](../maple-jelly/26-evan.webp) |
-| Mercedes | Crimson Queen | Lucid, Verus Hilla | Approved 2026-11-15 | [View](../maple-jelly/27-mercedes.webp) |
-| Phantom | Dark Cygnus | Hilla, Will, Pink Bean | Approved 2026-11-15 | [View](../maple-jelly/30-phantom.webp) |
-| Luminous | Will | Black Mage, Hilla | Approved 2026-11-15 | [View](../maple-jelly/29-luminous.webp) |
-| Shade | Lucid | Gloom, Damien, Magnus | Approved 2026-11-15 | [View](../maple-jelly/28-shade.webp) |
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Aran | Von Leon | Von Leon | Arkarium, Baldrix |
+| Evan | Horntail | Horntail | Kaling, Malefic Star |
+| Mercedes | Crimson Queen | Crimson Queen | Lucid, Princess No |
+| Phantom | Dark Cygnus | Hilla | Empress Cygnus, Will |
+| Luminous | Will | Black Mage | Will, Limbo |
+| Shade | Lucid | Lucid | Gloom, Guardian Angel Slime |
 
-### Heroes of Maple — historical encounters and proposals
+### Historical encounters and proposals
 
-| Class | Boss | Historical evidence / qualification |
+| Hero | Boss | Evidence / qualification |
 |---|---|---|
 | Aran | Von Leon | Existing pairing documented in the canonical tracker and previously approved; later affirmed as primary November 15, 2026 |
 | Aran | Arkarium | Earlier alternative proposal; no independently confirmed rendered encounter |
@@ -146,21 +139,70 @@ An approved primary pairing is a planning decision, NOT confirmation of final ar
 | Shade | Lucid | Existing canonical pairing reaffirmed as primary November 15, 2026 |
 | Shade | Magnus | Earlier pairing proposal only; no separately confirmed created scene |
 
-**Heroes of Maple caveat:** Six primary boss pairings were approved, but earlier alternatives (for example Mercedes × Lucid, Phantom × Pink Bean, Luminous × Hilla, Shade × Magnus) are proposals unless a separate created encounter is confirmed. Existing wall thumbnails do not independently prove final artwork approval.
-
 ## Nova
 
-| Class | Primary boss | Alternatives | Pairing status | Gallery image |
-|---|---|---|---|---|
-| Kaiser | Magnus | Baldrix, Horntail | Approved 2026-11-15 | — |
-| Angelic Buster | Lucid | Pink Bean, Guardian Angel Slime | Approved 2026-11-15 | — |
-| Cadena | Magnus | Kalos, Lotus | Approved 2026-11-15 | — |
-| Kain | Kaling | Damien, Malefic Star | Approved 2026-11-15 | — |
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Kaiser | Magnus | Magnus | Baldrix, Horntail |
+| Angelic Buster | Lucid | Lucid | Pink Bean, Guardian Angel Slime |
+| Cadena | Magnus | Magnus | Kalos, Lotus |
+| Kain | Kaling | Kaling | Damien, Malefic Star |
 
-## Maintenance
+## Sengoku
 
-- Edit `planning/maplestory-pairings.json` first; the website reads it directly.
-- Run `node tools/build-pairings.cjs` after editing JSON to regenerate this Markdown.
-- Preserve historical encounters in `historicalEncounters` with evidence qualifiers; do not equate primary-pairing approval with artwork approval.
-- Not-created classes retain `boss: null` until approved; proposals stay alternatives.
-- Nova's two Magnus selections remain intentional and unchanged.
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Hayato | — Not yet selected | Mori Ranmaru | Akechi Mitsuhide, Darknell |
+| Kanna | — Not yet selected | Princess No | Mori Ranmaru, Lucid |
+
+## Flora
+
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Adele | — Not yet selected | Seren | Baldrix, Magnus |
+| Ark | — Not yet selected | Limbo | First Adversary, Malefic Star |
+| Illium | — Not yet selected | Kalos | Jupiter, Lotus |
+| Khali | — Not yet selected | Malefic Star | Kaling, Pierre |
+
+## Anima
+
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Hoyoung | — Not yet selected | Kaling | Gollux, Will |
+| Lara | — Not yet selected | Guardian Angel Slime | Pink Bean, Zombie Mushmom |
+| Ren | — Not yet selected | Baldrix | Akechi Mitsuhide, Seren |
+
+## Jianghu
+
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Lynn | — Not yet selected | Lucid | Guardian Angel Slime, Princess No |
+| Mo Xuan | — Not yet selected | Akechi Mitsuhide | Darknell, Ursus |
+
+## Shine
+
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Sia Astelle | — Not yet selected | Malefic Star | Jupiter, Gloom |
+| Erel Light | — Not yet selected | Jupiter | Seren, Kalos |
+
+## Demon
+
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Lethe | — Not yet selected | Hilla | Verus Hilla, Black Mage |
+
+## Other
+
+| Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
+|---|---|---|---|
+| Kinesis | — Not yet selected | Will | Lotus, Papulatus |
+| Zero | — Not yet selected | Black Mage | Arkarium, Limbo |
+
+## Data rules
+
+- Edit `planning/maplestory-pairings.json` as the single source of truth; the website reads it dynamically.
+- `boss` and `status` preserve previously approved pairing decisions; `suggestedPrimary` and `suggestedAlternatives` are independent planning recommendations.
+- `historicalEncounters` distinguishes documented created work from proposals with evidence qualifiers.
+- Pairing approval never implies final image/artwork approval.
+- Regenerate this file using `node tools/build-pairings.cjs` after changing JSON.
