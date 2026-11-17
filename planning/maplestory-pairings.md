@@ -2,6 +2,8 @@
 
 **Canonical data:** [maplestory-pairings.json](maplestory-pairings.json)  
 **Compact comparison page:** [Gizmo's Wall — 54-Class Pairings](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
+**Latest scene decisions (November 16, 2026):** Pathfinder × Gollux selected; artwork pending. Blaze Wizard × Vellum and Phantom × Mayrin final artwork approved. Published gallery image files have not been verified or replaced. Earlier Crimson Queen and Dark Cygnus pairings remain historical encounters.
+
 **Review history:** Explorers V4.1; Cygnus Knights V1; Resistance V1; Heroes of Maple V1 (November 15, 2026). Nova was also previously approved.
 
 **Meaning of approved:** The user approved a class-versus-boss pairing in the existing tracker. This does NOT imply final artwork approval. Independent fresh suggestions shown below are NOT approved replacements. No artwork or cubby/island status is inferred.
@@ -9,6 +11,8 @@
 **Coverage:** All 54 classes have an independent recommended primary plus two alternatives. Across these 162 suggestion slots, all 44 featured boss identities occur at least twice and each appears as a fresh primary at least once.
 
 ## Explorers
+
+Pathfinder × Gollux selected November 16, 2026; cubby artwork not yet created.
 
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
@@ -20,7 +24,7 @@
 | Bishop | Zombie Mushmom | Zombie Mushmom | Black Mage, Verus Hilla |
 | Bowmaster | Empress Cygnus | Empress Cygnus | Horntail, Griffey |
 | Marksman | Papulatus | Papulatus | Kalos, Manon |
-| Pathfinder | — Not yet selected | Gollux | Will, Kaling |
+| Pathfinder | Gollux (selected; artwork pending) | Gollux | Will, Kaling |
 | Night Lord | Darknell | Darknell | Verus Hilla, Balrog |
 | Shadower | Crimson Queen | Von Bon | Crimson Queen, Hilla |
 | Dual Blade | — Not yet selected | Will | Lotus, Darknell |
@@ -63,7 +67,7 @@
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
 | Dawn Warrior | Seren | Seren | Arkarium, Black Mage |
-| Blaze Wizard | Crimson Queen | Vellum | Crimson Queen, Zakum |
+| Blaze Wizard | Vellum (final artwork approved) | Vellum | Crimson Queen, Zakum |
 | Wind Archer | Vellum | Griffey | Vellum, Horntail |
 | Night Walker | Verus Hilla | Verus Hilla | Hilla, Darknell |
 | Thunder Breaker | Kaling | Pianus | Kaling, Jupiter |
@@ -75,7 +79,7 @@
 |---|---|---|
 | Dawn Warrior | Magnus | Earlier pairing documented in the tracker and approved in previous Cygnus work; older variant |
 | Dawn Warrior | Arkarium | Earlier pairing explored; final artwork approval not established |
-| Blaze Wizard | Crimson Queen | Earlier pairing accepted in project discussion; current approved primary |
+| Blaze Wizard | Crimson Queen | Earlier approved primary, superseded by completed Vellum scene |
 | Blaze Wizard | Zakum | Earlier alternative candidate only, no completed scene confirmed |
 | Wind Archer | Vellum | Previously approved Vellum island pairing |
 | Wind Archer | Griffey | Earlier alternative, not independently verified as a completed scene |
@@ -117,7 +121,7 @@
 | Aran | Von Leon | Von Leon | Arkarium, Baldrix |
 | Evan | Horntail | Horntail | Kaling, Malefic Star |
 | Mercedes | Crimson Queen | Crimson Queen | Lucid, Princess No |
-| Phantom | Dark Cygnus | Mayrin | Empress Cygnus, Will |
+| Phantom | Mayrin (final artwork approved) | Mayrin | Empress Cygnus, Will |
 | Luminous | Will | Black Mage | Will, Limbo |
 | Shade | Lucid | Lucid | Gloom, Guardian Angel Slime |
 
@@ -131,7 +135,7 @@
 | Evan | Kaling | Earlier alternative proposal only; no confirmed created encounter |
 | Mercedes | Crimson Queen | Existing pairing in canonical tracker and user's approved primary November 15, 2026 |
 | Mercedes | Lucid | Earlier proposed primary/alternative, not verified as rendered |
-| Phantom | Dark Cygnus | Existing canonical pairing reaffirmed as primary November 15, 2026 |
+| Phantom | Dark Cygnus | Earlier approved primary, superseded by completed Mayrin scene |
 | Phantom | Pink Bean | Mentioned as earlier pairing proposal; no confirmed completed encounter |
 | Phantom | Hilla | Alternative suggested for story/lore fit; not a confirmed historical render |
 | Luminous | Will | Existing canonical pairing reaffirmed as primary November 15, 2026 |
