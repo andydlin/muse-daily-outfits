@@ -6,7 +6,7 @@
 
 - Hero/class: [CLASS]
 - Boss/monster: [BOSS]
-- Signature ability: [SKILL / ACTION]
+- Optional action or signature ability: [ONLY IF USER SPECIFIES; otherwise propose a natural pose and visual effects]
 - Specific hero costume/monster reference images: [ATTACHED]
 - Approved scene plan + pose direction: [APPROVED PLAN]
 - Cubby color references: `MASTER_Cubby_Bulbasaur.png` (primary), `MASTER_Cubby_Secondary_Link.png` (secondary): [ATTACHED]
@@ -16,13 +16,13 @@
 
 **Brainstorm the pairing and staging first and obtain approval before rendering.** Where creating sequential pairs, vary/alternate facing direction, action silhouette and gaze rather than repeating poses. Class references determine costume/hair/weapon details; boss references determine monster silhouette. Neither controls the image's plush rendering style.
 
-**Weapon and skill accuracy — mandatory during planning:** Identify the class's actual signature weapon, its physical construction (hilt, handle, blade, mechanism or other defining form), grip, movement and relationship to its signature skill before proposing the scene. Clearly distinguish physical weapon components from surrounding magical/energy effects. Do not replace a characteristic weapon with generic glowing arcs, ordinary swords or decorative effects. If source references are ambiguous, verify the class-specific weapon interpretation before rendering. In the scene proposal, explicitly describe the weapon silhouette and how the action reads.
+**Weapon accuracy — mandatory during planning; skill selection optional:** Identify the class's actual signature weapon, its physical construction (hilt, handle, blade, mechanism or other defining form), grip, movement and relationship to the intended action before proposing the scene. Do not require the user to select a hero skill or boss attack for cubby scenes; those separate reference-selection steps belong to the floating-island workflow. Clearly distinguish physical weapon components from surrounding magical/energy effects. Do not replace a characteristic weapon with generic glowing arcs, ordinary swords or decorative effects. If source references are ambiguous, verify the class-specific weapon interpretation before rendering. In the scene proposal, explicitly describe the weapon silhouette and how the action reads.
 
-**First-pass staging checklist:** Describe the hero's visual size and foreground position, boss size and depth/placement, class-specific weapon silhouette, hairstyle translation into plush, facing/gaze, and readable skill effects. Obtain approval before generating.
+**First-pass staging checklist:** Describe the hero's visual size and foreground position, boss size and depth/placement, class-specific weapon silhouette, hairstyle translation into plush, facing/gaze, and readable effects where appropriate. Do not ask the user to pick a specific hero skill or boss attack for cubby scenes. Obtain approval before generating.
 
 ## Generate
 
-Create **one square standalone photorealistic 3D plush miniature diorama** of **Gizmo as a MapleStory-inspired [CLASS]** confronting **[BOSS]** using **[SIGNATURE SKILL]**.
+Create **one square standalone photorealistic 3D plush miniature diorama** of **Gizmo as a MapleStory-inspired [CLASS]** confronting **[BOSS]** in **[APPROVED POSE / ACTION]**, with optional class-appropriate magical effects. A named signature skill is included only if specifically requested or approved.
 
 Gizmo and the primary weapon/action silhouette generally occupy approximately **75–85% of the usable cubby interior**, as appropriate to the pose. **Hero dominance is critical on the first pass:** favor a substantial, unmistakably foreground hero, with the face, costume, weapon and action silhouette immediately readable. **Scale flexibility:** allow modest variation for class silhouette, weapon size and dynamic posing; do not force identical hero sizes across scenes. **Boss hierarchy:** place the boss visibly secondary in size and typically deeper in the mid/background, preserving enough distinctive silhouette, face, weapon and effects for clear recognition. Maintain deliberate separation and negative space between hero and boss. Do not enlarge the hero by cropping the cubby or its margins; preserve the approved framing. Stage genuine layered depth with class-specific pose, intact hand/weapon grips, room for effects and environment. Do not achieve scale by cropping the cubby. Avoid reusing prior combat poses.
 
