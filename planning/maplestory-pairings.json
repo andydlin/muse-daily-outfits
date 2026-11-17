@@ -277,13 +277,13 @@
       "family": "Explorers",
       "hero": "Pathfinder",
       "boss": "Gollux",
-      "status": "Pairing selected 2026-11-16; artwork not created",
+      "status": "Artwork completed 2026-11-17 (user confirmed)",
       "image": null,
       "alternatives": [
         "Gollux",
         "Will"
       ],
-      "note": "Gollux selected as next cubby pairing November 16, 2026; reference collection and artwork pending.",
+      "note": "Pathfinder × Gollux cubby artwork reported completed by user November 17, 2026. Final image file/public gallery publication not yet verified; existing selection and suggested alternatives preserved.",
       "historicalEncounters": [],
       "proposedBoss": "Gollux",
       "suggestedPrimary": "Gollux",
@@ -295,7 +295,8 @@
         "Gollux": "Ancient relic arrows confront an immense cursed stone head and hands.",
         "Will": "Purple relic energy and guided arrows contrast with mirrors, illusions, and spiderwebs; a visually striking alternate matchup.",
         "Kaling": "Against mythical beasts and shifting spiritual phases, Pathfinder could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-17)"
     },
     {
       "family": "Explorers",
