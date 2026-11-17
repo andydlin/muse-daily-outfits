@@ -2,7 +2,7 @@
 
 **Canonical data:** [maplestory-pairings.json](maplestory-pairings.json)  
 **Compact comparison page:** [Gizmo's Wall — 54-Class Pairings](https://www.andydlin.com/muse-daily-outfits/pairings.html)  
-**Latest scene decisions (November 16, 2026):** Pathfinder × Gollux selected; artwork pending. Blaze Wizard × Vellum and Phantom × Mayrin final artwork approved. Published gallery image files have not been verified or replaced. Earlier Crimson Queen and Dark Cygnus pairings remain historical encounters.
+**Latest scene decisions (November 17, 2026):** Pathfinder × Gollux artwork completed (user confirmed); gallery upload unverified. Blaze Wizard × Vellum and Phantom × Mayrin final artwork approved. Published gallery image files have not been verified or replaced. Earlier Crimson Queen and Dark Cygnus pairings remain historical encounters.
 
 **Review history:** Explorers V4.1; Cygnus Knights V1; Resistance V1; Heroes of Maple V1 (November 15, 2026). Nova was also previously approved.
 
@@ -12,7 +12,7 @@
 
 ## Explorers
 
-Pathfinder × Gollux selected November 16, 2026; cubby artwork not yet created.
+Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed); gallery image file not yet verified.
 
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
@@ -24,7 +24,7 @@ Pathfinder × Gollux selected November 16, 2026; cubby artwork not yet created.
 | Bishop | Zombie Mushmom | Zombie Mushmom | Black Mage, Verus Hilla |
 | Bowmaster | Empress Cygnus | Empress Cygnus | Horntail, Griffey |
 | Marksman | Papulatus | Papulatus | Kalos, Manon |
-| Pathfinder | Gollux (selected; artwork pending) | Gollux | Will, Kaling |
+| Pathfinder | Gollux (artwork completed; gallery unverified) | Gollux | Will, Kaling |
 | Night Lord | Darknell | Darknell | Verus Hilla, Balrog |
 | Shadower | Crimson Queen | Von Bon | Crimson Queen, Hilla |
 | Dual Blade | — Not yet selected | Will | Lotus, Darknell |
