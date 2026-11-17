@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-15-full-54-challenger-bosses-v2",
-  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained. Each suggested primary and alternative has a short editorial rationale in pairingReasons. Reasons explain aesthetics/scene composition, not approval or completion. Approved existing pairings remain untouched. Kai and Mayrin added to independent recommendations on November 15, 2026. Kai primary for Zero / alternative Hayato; Mayrin primary for Phantom / alternative Sia Astelle. 44 bosses each primary at least once and appearing twice across 162 slots. All prior user-approved existing pairings remain unchanged. Boss display naming uses Vellum; Chaos is a difficulty modifier rather than a separate boss identity.",
+  "version": "2026-11-16-pathfinder-selected-phantom-mayrin-blaze-vellum",
+  "notes": "54-class independent comparison proposal with 42 distinct featured bosses. Each boss appears as a suggested primary at least once and twice among 162 suggested selections. Existing approved boss and status fields remain unchanged. suggestedPrimary and suggestedAlternatives are planning-only, NOT approved pairings or artwork. All historical encounters retained. Each suggested primary and alternative has a short editorial rationale in pairingReasons. Reasons explain aesthetics/scene composition, not approval or completion. Approved existing pairings remain untouched. Kai and Mayrin added to independent recommendations on November 15, 2026. Kai primary for Zero / alternative Hayato; Mayrin primary for Phantom / alternative Sia Astelle. 44 bosses each primary at least once and appearing twice across 162 slots. All prior user-approved existing pairings remain unchanged. Boss display naming uses Vellum; Chaos is a difficulty modifier rather than a separate boss identity. November 16: Pathfinder × Gollux selected (not rendered); Blaze Wizard × Vellum and Phantom × Mayrin final artwork approved; previous primaries retained in historicalEncounters. Gallery image paths for new finals not verified.",
   "collections": [
     "Explorers",
     "Cygnus Knights",
@@ -276,14 +276,14 @@
     {
       "family": "Explorers",
       "hero": "Pathfinder",
-      "boss": null,
-      "status": "Not created",
+      "boss": "Gollux",
+      "status": "Pairing selected 2026-11-16; artwork not created",
       "image": null,
       "alternatives": [
         "Gollux",
         "Will"
       ],
-      "note": "Not created; Gollux is a future boss proposal only.",
+      "note": "Gollux selected as next cubby pairing November 16, 2026; reference collection and artwork pending.",
       "historicalEncounters": [],
       "proposedBoss": "Gollux",
       "suggestedPrimary": "Gollux",
@@ -511,18 +511,22 @@
     {
       "family": "Cygnus Knights",
       "hero": "Blaze Wizard",
-      "boss": "Crimson Queen",
-      "status": "Approved 2026-11-15",
-      "image": "maple-jelly/16-blaze-wizard.webp",
+      "boss": "Vellum",
+      "status": "Final artwork approved 2026-11-16",
+      "image": null,
       "alternatives": [
-        "Vellum",
+        "Crimson Queen",
         "Zakum"
       ],
-      "note": "Crimson Queen approved as primary Nov 15; referenced as an earlier accepted pairing. Exact opponent in the published Blaze Wizard thumbnail has not been independently visually verified.",
+      "note": "Blaze Wizard vs. Vellum final master approved in conversation November 16, 2026. Published gallery image path not verified or updated; previous Crimson Queen pairing retained in history.",
       "historicalEncounters": [
         {
+          "boss": "Vellum",
+          "evidence": "Final artwork explicitly approved in conversation November 16, 2026; gallery upload not verified"
+        },
+        {
           "boss": "Crimson Queen",
-          "evidence": "Earlier pairing accepted in project discussion; current approved primary"
+          "evidence": "Previously approved primary; superseded by Vellum final scene November 16, 2026"
         },
         {
           "boss": "Zakum",
@@ -966,19 +970,24 @@
     {
       "family": "Heroes of Maple",
       "hero": "Phantom",
-      "boss": "Dark Cygnus",
-      "status": "Approved 2026-11-15",
-      "image": "maple-jelly/30-phantom.webp",
+      "boss": "Mayrin",
+      "status": "Final artwork approved 2026-11-16",
+      "image": null,
       "alternatives": [
+        "Dark Cygnus",
         "Hilla",
         "Will",
         "Pink Bean"
       ],
-      "note": "Phantom × Dark Cygnus remains primary. Hilla and Pink Bean are ideas only until historical artwork evidence is found.",
+      "note": "Phantom vs. Mayrin final master approved in conversation November 16, 2026. Published gallery image path not verified or updated; previous Dark Cygnus pairing retained in history.",
       "historicalEncounters": [
         {
+          "boss": "Mayrin",
+          "evidence": "Final artwork explicitly approved in conversation November 16, 2026; gallery upload not verified"
+        },
+        {
           "boss": "Dark Cygnus",
-          "evidence": "Existing canonical pairing reaffirmed as primary November 15, 2026"
+          "evidence": "Previously approved primary; superseded by Mayrin final scene November 16, 2026"
         },
         {
           "boss": "Pink Bean",
