@@ -457,13 +457,13 @@
       "family": "Explorers",
       "hero": "Cannoneer",
       "boss": null,
-      "status": "Not created",
+      "status": "Artwork completed 2026-11-17 (user confirmed; boss not yet recorded)",
       "image": null,
       "alternatives": [
         "Guardian Angel Slime",
         "Papulatus"
       ],
-      "note": "Not created; Guardian Angel Slime is a future boss proposal only.",
+      "note": "Cannoneer artwork completed per user November 17, 2026. Actual boss pairing and final gallery image not yet verified; Ursus remains the independent suggested primary, not a confirmed completed opponent.",
       "historicalEncounters": [],
       "proposedBoss": "Guardian Angel Slime",
       "suggestedPrimary": "Ursus",
@@ -475,7 +475,8 @@
         "Ursus": "An oversized cannon against an enormous bear creates comic scale and explosive action.",
         "Guardian Angel Slime": "Giant cannon blasts contrast with a playful bouncing slime and glowing halos; a visually striking alternate matchup.",
         "Von Bon": "Against a bizarre clock-themed arena, Cannoneer could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-17)"
     },
     {
       "family": "Cygnus Knights",
