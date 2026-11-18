@@ -247,7 +247,7 @@
         "Crimson Balrog",
         "Horntail"
       ],
-      "note": "Empress Cygnus is the current wall pairing. Earlier Griffey and Crimson Balrog versions preserved.",
+      "note": "Empress Cygnus is the current wall pairing. Earlier Griffey and Crimson Balrog versions preserved. Current linked gallery render reviewed and confirmed good by user November 18, 2026.",
       "historicalEncounters": [
         {
           "boss": "Empress Cygnus",
@@ -271,6 +271,12 @@
         "Empress Cygnus": "A rain of emerald arrows faces a corrupted empress in a dramatic royal encounter.",
         "Horntail": "Rapid enchanted arrows contrast with three towering dragon heads; a visually striking alternate matchup.",
         "Griffey": "Against winged forest-beast movements, Bowmaster could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/04-bowmaster-v3.webp"
       }
     },
     {
