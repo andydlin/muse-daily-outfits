@@ -94,7 +94,7 @@
         "Zakum",
         "Darknell"
       ],
-      "note": "Current wall: Horntail. Earlier Zakum render preserved.",
+      "note": "Current wall: Horntail. Earlier Zakum render preserved. Current gallery render reviewed and confirmed good by user November 17, 2026.",
       "historicalEncounters": [
         {
           "boss": "Horntail",
@@ -114,6 +114,12 @@
         "Horntail": "A dark spear warrior challenging three enormous dragon heads makes an epic vertical battle.",
         "Darknell": "Shadow-laced spear thrusts contrast with a heavily armored knight and a huge weapon; a visually striking alternate matchup.",
         "Arkarium": "Against dark time magic and mystical clockwork, Dark Knight could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-17",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/07-dark-knight-v2.webp"
       }
     },
     {
