@@ -90,6 +90,8 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 
 ## Cygnus Knights
 
+Thunder Breaker × Kaling — linked gallery render marked **Needs update** by user November 18, 2026 (`maple-jelly/13-thunder-breaker-v2.webp`); Kaling retained, Pianus remains an independent recommendation.
+
 Night Walker × Verus Hilla — linked gallery render confirmed to depict Verus Hilla and reviewed as good by user November 18, 2026 (`maple-jelly/15-night-walker-v2.webp`).
 
 Wind Archer × Vellum — existing floating-island render marked **Needs update** by user November 18, 2026 (`islands/02-wind-archer-v2.webp`); Vellum retained as existing pairing, Griffey remains a separate suggestion.
