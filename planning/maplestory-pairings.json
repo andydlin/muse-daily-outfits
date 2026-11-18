@@ -782,7 +782,7 @@
         "Lotus",
         "Verus Hilla"
       ],
-      "note": "Von Leon approved as primary pairing. Published gallery image exists; pairing approval is not final artwork approval.",
+      "note": "Von Leon approved as primary pairing. Current linked gallery render reviewed and confirmed good by user November 18, 2026.",
       "historicalEncounters": [
         {
           "boss": "Von Leon",
@@ -798,6 +798,12 @@
         "Von Leon": "Purple battle magic and an accompanying spirit confront a cursed lion king.",
         "Lotus": "Close-range dark magic and spirit attacks contrast with electric attacks and industrial Black Heaven machinery; a visually striking alternate matchup.",
         "Hilla": "Against a sinister sorceress and necromantic flames, Battle Mage could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in existing-render audit",
+        "image": "maple-jelly/18-battle-mage.webp"
       }
     },
     {
