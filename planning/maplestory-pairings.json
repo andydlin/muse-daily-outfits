@@ -710,7 +710,7 @@
         "Captain Darkgoo",
         "Pianus"
       ],
-      "note": "Kaling approved primary. Captain Darkgoo was mentioned as an older proposal, not a verified completed encounter.",
+      "note": "Kaling approved primary. Captain Darkgoo was mentioned as an older proposal, not a verified completed encounter. Existing Thunder Breaker × Kaling gallery render marked for update by user November 18, 2026; Kaling remains the existing pairing and Pianus stays a separate proposed primary.",
       "historicalEncounters": [
         {
           "boss": "Kaling",
@@ -730,6 +730,12 @@
         "Pianus": "Electric shark strikes cut through an underwater arena around the colossal fish.",
         "Kaling": "Surging blue shark-shaped lightning contrast with mythical beasts and shifting spiritual phases; a visually striking alternate matchup.",
         "Jupiter": "Against luminous high-level magic and unusual divine shapes, Thunder Breaker could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Needs update",
+        "date": "2026-11-18",
+        "source": "User requested update in existing-render audit",
+        "image": "maple-jelly/13-thunder-breaker-v2.webp"
       }
     },
     {
