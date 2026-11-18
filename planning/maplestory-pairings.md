@@ -127,6 +127,8 @@ Dawn Warrior × Seren — current linked gallery render confirmed to depict Sere
 
 ## Resistance
 
+Demon Avenger × Gloom — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/23-demon-avenger-v2.webp`).
+
 Demon Slayer × Damien — user verified that `maple-jelly/24-winged-swordsman.webp` depicts Demon Slayer and Damien and confirmed the existing render good November 18, 2026; earlier image-identity uncertainty resolved.
 
 Xenon × Verus Hilla — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/21-xenon-v2.webp`).
