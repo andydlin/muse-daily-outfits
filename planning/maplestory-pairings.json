@@ -880,7 +880,7 @@
         "Ursus",
         "Pierre"
       ],
-      "note": "Papulatus is now approved pairing, but boss pictured in maple-jelly/22-blaster-v2.webp remains visually unverified. Earlier Magnus variant is preserved with an evidence qualifier.",
+      "note": "Papulatus is now approved pairing, but boss pictured in maple-jelly/22-blaster-v2.webp remains visually unverified. Earlier Magnus variant is preserved with an evidence qualifier. Existing Blaster gallery render marked for update by user November 18, 2026. Papulatus remains approved pairing; pictured boss remains visually unverified and Pierre remains only a suggested alternative.",
       "historicalEncounters": [
         {
           "boss": "Magnus",
@@ -900,6 +900,12 @@
         "Pierre": "Explosive gauntlet punches against Pierre's unpredictable clown movements feel kinetic and fun.",
         "Magnus": "Rapid-powered gauntlet impacts contrast with purple sword attacks and a hazardous battlefield; a visually striking alternate matchup.",
         "Papulatus": "Against swirling clocks and mechanical gears, Blaster could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Needs update",
+        "date": "2026-11-18",
+        "source": "User requested update in existing-render audit",
+        "image": "maple-jelly/22-blaster-v2.webp"
       }
     },
     {
