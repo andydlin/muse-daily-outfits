@@ -26,6 +26,8 @@ Compared the current `maple-jelly.html` and `islands.html` galleries against can
 
 ## Explorers
 
+**Dual Blade × Will — final artwork approved November 18, 2026.** Cubby #32 (`maple-jelly/32-dual-blade.webp`) visibly depicts Will and was explicitly confirmed final by the user; Lotus is retained as an alternative proposal, not the pictured boss.
+
 Corsair × Pianus — existing floating-island render marked **Needs update** by user November 18, 2026 (`islands/01-corsair.webp`); Pianus retained, Lord Pirate remains an independent suggestion.
 
 Buccaneer × First Adversary — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/01-buccaneer-v2.webp`).
