@@ -816,7 +816,7 @@
         "Crimson Queen",
         "Horntail"
       ],
-      "note": "Giant Blackheart reaffirmed as primary pairing; earlier approved image/reference recorded independently.",
+      "note": "Giant Blackheart reaffirmed as primary pairing; earlier approved image/reference recorded independently. Current linked gallery render reviewed and confirmed good by user November 18, 2026; the approved handmade plush texture master reference remains unchanged.",
       "historicalEncounters": [
         {
           "boss": "Giant Blackheart",
@@ -832,6 +832,12 @@
         "Giant Blackheart": "A crossbow hunter riding a jaguar battles a monstrous shadow creature.",
         "Horntail": "Mounted crossbow volleys contrast with three towering dragon heads; a visually striking alternate matchup.",
         "Ursus": "Against a huge charging bear, Wild Hunter could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in existing-render audit",
+        "image": "maple-jelly/20-wild-hunter.webp"
       }
     },
     {
