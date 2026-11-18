@@ -952,7 +952,7 @@
         "Black Mage",
         "Darknell"
       ],
-      "note": "Damien approved primary. maple-jelly/24-winged-swordsman.webp is associated with earlier work, but class/boss identity of that binary remains unverified.",
+      "note": "Damien approved primary. On November 18, 2026, user verified that maple-jelly/24-winged-swordsman.webp depicts Demon Slayer fighting Damien and confirmed the linked render good; previous gallery identity uncertainty resolved.",
       "historicalEncounters": [
         {
           "boss": "Damien",
@@ -968,6 +968,12 @@
         "Damien": "Black demonic sword energy against Damien makes a dark, personal battle.",
         "Black Mage": "Demonic sword strokes and winged movement contrast with overwhelming light-and-dark cosmic power; a visually striking alternate matchup.",
         "Gloom": "Against an enormous celestial eye and tentacles, Demon Slayer could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed gallery render correctly depicts Demon Slayer and Damien in existing-render audit",
+        "image": "maple-jelly/24-winged-swordsman.webp"
       }
     },
     {
