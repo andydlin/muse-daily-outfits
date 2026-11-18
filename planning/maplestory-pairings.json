@@ -26,7 +26,7 @@
         "Darknell",
         "Crimson Balrog"
       ],
-      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline. Current gallery render reviewed and confirmed good by user November 17, 2026.",
       "historicalEncounters": [
         {
           "boss": "Jr. Balrog",
@@ -42,6 +42,12 @@
         "Balrog": "A classic sword duel against the winged demon, built around one huge finishing slash.",
         "Darknell": "Heavy sword arcs contrast with a heavily armored knight and a huge weapon; a visually striking alternate matchup.",
         "Damien": "Against demonic wings and dark sword attacks, Hero could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-17",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/12-hero-v3.webp"
       }
     },
     {
