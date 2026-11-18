@@ -634,7 +634,7 @@
         "Horntail",
         "Griffey"
       ],
-      "note": "Chaos Vellum approved primary; an earlier Vellum island encounter is documented.",
+      "note": "Chaos Vellum approved primary; an earlier Vellum island encounter is documented. Existing Wind Archer × Vellum floating-island render marked for update by user November 18, 2026; Vellum pairing remains unchanged and Griffey is still a separate suggested primary.",
       "historicalEncounters": [
         {
           "boss": "Vellum",
@@ -654,6 +654,12 @@
         "Griffey": "Green wind arrows and a forest griffin create a nimble hunter-versus-beast scene.",
         "Horntail": "Against three towering dragon heads, Wind Archer could bring a new rhythm and visual contrast to the fight.",
         "Vellum": "Feather-light wind arrows contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup."
+      },
+      "artworkReview": {
+        "decision": "Needs update",
+        "date": "2026-11-18",
+        "source": "User requested update in existing-render audit",
+        "image": "islands/02-wind-archer-v2.webp"
       }
     },
     {
