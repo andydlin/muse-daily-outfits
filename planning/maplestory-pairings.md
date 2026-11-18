@@ -12,6 +12,8 @@
 
 ## Explorers
 
+Bowmaster × Empress Cygnus — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/04-bowmaster-v3.webp`).
+
 Bishop × Zombie Mushmom — linked gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/05-bishop-v2.webp`).
 
 Ice/Lightning Arch Mage × Pink Bean — current gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/06-ice-lightning-v2.webp`).
