@@ -1097,7 +1097,7 @@
         "Lucid",
         "Verus Hilla"
       ],
-      "note": "Mercedes × Crimson Queen remains approved primary; prior Lucid idea retained as a proposal, not a separately confirmed rendered encounter.",
+      "note": "Mercedes × Crimson Queen remains approved primary; prior Lucid idea retained as a proposal, not a separately confirmed rendered encounter. Current linked gallery render reviewed and confirmed good by user November 18, 2026; prior Lucid proposal remains historical.",
       "historicalEncounters": [
         {
           "boss": "Crimson Queen",
@@ -1117,6 +1117,12 @@
         "Crimson Queen": "Graceful dual bowguns fight a sinister queen amid an elegant rose-covered castle.",
         "Lucid": "Acrobatic elven arrows contrast with dream butterflies and surreal forest illusions; a visually striking alternate matchup.",
         "Princess No": "Against spectral palace magic and japanese folklore, Mercedes could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in existing-render audit",
+        "image": "maple-jelly/27-mercedes.webp"
       }
     },
     {
