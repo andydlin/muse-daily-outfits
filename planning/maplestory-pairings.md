@@ -12,6 +12,8 @@
 
 ## Explorers
 
+Ice/Lightning Arch Mage × Pink Bean — current gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/06-ice-lightning-v2.webp`).
+
 Fire/Poison Arch Mage × Manon — current gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/11-fire-poison-v2.webp`).
 
 Dark Knight × Horntail — current gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/07-dark-knight-v2.webp`).
