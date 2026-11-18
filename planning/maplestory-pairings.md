@@ -90,6 +90,8 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 
 ## Cygnus Knights
 
+Mihile × Arkarium — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/19-mihile.webp`).
+
 Thunder Breaker × Kaling — linked gallery render marked **Needs update** by user November 18, 2026 (`maple-jelly/13-thunder-breaker-v2.webp`); Kaling retained, Pianus remains an independent recommendation.
 
 Night Walker × Verus Hilla — linked gallery render confirmed to depict Verus Hilla and reviewed as good by user November 18, 2026 (`maple-jelly/15-night-walker-v2.webp`).
