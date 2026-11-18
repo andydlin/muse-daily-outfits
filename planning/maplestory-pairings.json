@@ -456,14 +456,14 @@
     {
       "family": "Explorers",
       "hero": "Cannoneer",
-      "boss": null,
-      "status": "Artwork completed 2026-11-17 (user confirmed; boss not yet recorded)",
+      "boss": "Ursus",
+      "status": "Artwork completed 2026-11-17 (user confirmed)",
       "image": null,
       "alternatives": [
         "Guardian Angel Slime",
-        "Papulatus"
+        "Von Bon"
       ],
-      "note": "Cannoneer artwork completed per user November 17, 2026. Actual boss pairing and final gallery image not yet verified; Ursus remains the independent suggested primary, not a confirmed completed opponent.",
+      "note": "Cannoneer × Ursus artwork completed and opponent confirmed by user November 17, 2026. Gallery file/publication not yet verified.",
       "historicalEncounters": [],
       "proposedBoss": "Guardian Angel Slime",
       "suggestedPrimary": "Ursus",
@@ -1191,14 +1191,14 @@
     {
       "family": "Sengoku",
       "hero": "Hayato",
-      "boss": null,
-      "status": "Not created",
+      "boss": "Mori Ranmaru",
+      "status": "Artwork completed 2026-11-17 (user confirmed)",
       "image": null,
       "alternatives": [
         "Akechi Mitsuhide",
-        "Darknell"
+        "Kai"
       ],
-      "note": "No approved prior pairing or artwork recorded.",
+      "note": "Hayato × Mori Ranmaru artwork completed and opponent confirmed by user November 17, 2026. Gallery file/publication not yet verified.",
       "suggestedPrimary": "Mori Ranmaru",
       "suggestedAlternatives": [
         "Akechi Mitsuhide",
@@ -1209,7 +1209,8 @@
         "Mori Ranmaru": "A katana master confronts Mori Ranmaru in a dramatic sword-and-flame duel.",
         "Akechi Mitsuhide": "Hayato’s rapid blade cuts face Akechi’s precise swordsmanship in a disciplined samurai rivalry.",
         "Kai": "Hayato’s swift katana techniques challenge Kai’s time-bending swordplay: speed against distorted timing."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-17)"
     },
     {
       "family": "Sengoku",
