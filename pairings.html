@@ -49,7 +49,7 @@ try{
 const r=await fetch('planning/maplestory-pairings.json',{cache:'no-cache'});if(!r.ok)throw Error('data fetch failed');
 const db=await r.json(),entries=db.pairings,groups=db.collections||[...new Set(entries.map(v=>v.family))];
 const bosses=new Set(entries.flatMap(p=>[p.suggestedPrimary,...(p.suggestedAlternatives||[])].filter(Boolean)));
-document.getElementById('total').textContent=entries.length;document.getElementById('families').textContent=groups.length;document.getElementById('bosses').textContent=bosses.size;const progressOf=p=>p.artworkStatus&&p.artworkStatus.startsWith('Completed')||p.status&&(/^(Artwork completed|Final artwork approved)/).test(p.status)?'completed':p.image?'review':'remaining';
+document.getElementById('total').textContent=entries.length;document.getElementById('families').textContent=groups.length;document.getElementById('bosses').textContent=bosses.size;const progressOf=p=>p.artworkReview?.decision==='Confirmed good'||p.artworkStatus&&p.artworkStatus.startsWith('Completed')||p.status&&(/^(Artwork completed|Final artwork approved)/).test(p.status)?'completed':p.image?'review':'remaining';
 for(const category of ['completed','review','remaining'])document.getElementById(category).textContent=entries.filter(p=>progressOf(p)===category).length;
 for(const name of groups){const o=make('option','',name);o.value=name;family.append(o)}
 const allBosses=[...new Set(entries.flatMap(p=>[p.boss,p.suggestedPrimary,...(p.suggestedAlternatives||[])].filter(Boolean)))].sort((a,b)=>a.localeCompare(b));
