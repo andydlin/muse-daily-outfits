@@ -127,6 +127,8 @@ Dawn Warrior × Seren — current linked gallery render confirmed to depict Sere
 
 ## Resistance
 
+Demon Slayer × Damien — user verified that `maple-jelly/24-winged-swordsman.webp` depicts Demon Slayer and Damien and confirmed the existing render good November 18, 2026; earlier image-identity uncertainty resolved.
+
 Xenon × Verus Hilla — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/21-xenon-v2.webp`).
 
 Blaster × Papulatus — linked gallery render marked **Needs update** by user November 18, 2026 (`maple-jelly/22-blaster-v2.webp`); Papulatus remains the approved pairing, pictured boss unverified, Pierre not adopted.
