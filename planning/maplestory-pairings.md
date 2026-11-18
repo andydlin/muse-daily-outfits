@@ -127,6 +127,8 @@ Dawn Warrior × Seren — current linked gallery render confirmed to depict Sere
 
 ## Resistance
 
+Battle Mage × Von Leon — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/18-battle-mage.webp`).
+
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
 | Battle Mage | Von Leon | Von Leon | Lotus, Hilla |
