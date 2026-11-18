@@ -1177,7 +1177,7 @@
         "Black Mage",
         "Hilla"
       ],
-      "note": "Luminous × Will approved as primary, not proof that the final image was approved. Hilla remains a historical proposal.",
+      "note": "Luminous × Will approved as primary, not proof that the final image was approved. Hilla remains a historical proposal. Existing Luminous × Will gallery render marked for update by user November 18, 2026; Will remains approved primary and Black Mage remains a separate suggested pairing.",
       "historicalEncounters": [
         {
           "boss": "Will",
@@ -1197,6 +1197,12 @@
         "Black Mage": "Light and darkness collide with their ultimate opposing force, the Black Mage.",
         "Will": "Alternating light-and-dark spell bursts contrast with mirrors, illusions, and spiderwebs; a visually striking alternate matchup.",
         "Limbo": "Against distorted spatial effects and ominous transformations, Luminous could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Needs update",
+        "date": "2026-11-18",
+        "source": "User requested update in existing-render audit",
+        "image": "maple-jelly/29-luminous.webp"
       }
     },
     {
