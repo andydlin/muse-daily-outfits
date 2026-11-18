@@ -24,6 +24,16 @@ Compared the current `maple-jelly.html` and `islands.html` galleries against can
 - **Hero** — island gallery: `islands/03-fighter.webp`
 - **Ice/Lightning Arch Mage** — island gallery: `islands/04-ice-lightning-v3.webp`
 
+## New gallery completions — November 18, 2026
+
+The user marked all five new cubby renders **Completed**; their image paths are linked in the canonical JSON. This is an artwork completion decision, not an automatic boss-pairing approval. Kanna retains the previously approved Princess No pairing; the four Flora classes keep their boss field unassigned until verified.
+
+- **Khali** — Completed; `maple-jelly/34-khali.webp` — boss pairing unverified
+- **Illium** — Completed; `maple-jelly/35-illium.webp` — boss pairing unverified
+- **Ark** — Completed; `maple-jelly/36-ark.webp` — boss pairing unverified
+- **Adele** — Completed; `maple-jelly/37-adele.webp` — boss pairing unverified
+- **Kanna** — Completed; `maple-jelly/38-kanna.webp` — approved boss: Princess No
+
 ## Explorers
 
 **Dual Blade × Will — final artwork approved November 18, 2026.** Cubby #32 (`maple-jelly/32-dual-blade.webp`) visibly depicts Will and was explicitly confirmed final by the user; Lotus is retained as an alternative proposal, not the pictured boss.
