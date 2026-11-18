@@ -164,6 +164,8 @@ Battle Mage × Von Leon — current linked gallery render reviewed and confirmed
 
 ## Heroes of Maple
 
+Luminous × Will — existing gallery render marked **Needs update** by user November 18, 2026 (`maple-jelly/29-luminous.webp`); Will remains approved pairing, Black Mage only a separate recommendation.
+
 Mercedes × Crimson Queen — existing linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/27-mercedes.webp`).
 
 Evan × Horntail — user verified existing icy-cavern render depicts Horntail correctly and confirmed it good on November 18, 2026 (`maple-jelly/26-evan.webp`).
