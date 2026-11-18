@@ -1468,13 +1468,13 @@
       "family": "Sengoku",
       "hero": "Kanna",
       "boss": "Princess No",
-      "status": "Artwork completed 2026-11-17 (user confirmed)",
-      "image": null,
+      "status": "Artwork completed 2026-11-18 (user confirmed)",
+      "image": "maple-jelly/38-kanna.webp",
       "alternatives": [
         "Mori Ranmaru",
         "Lucid"
       ],
-      "note": "Kanna × Princess No artwork completed and opponent confirmed by user November 17, 2026. Gallery file/publication not yet verified.",
+      "note": "Kanna × Princess No was previously confirmed completed with boss identity approved November 17, 2026. User reconfirmed this published cubby #38 as completed November 18, 2026. Gallery file: maple-jelly/38-kanna.webp.",
       "suggestedPrimary": "Princess No",
       "suggestedAlternatives": [
         "Mori Ranmaru",
@@ -1486,19 +1486,27 @@
         "Mori Ranmaru": "Flowing spirit summons and talismans contrast with fiery samurai imagery and ceremonial armor; a visually striking alternate matchup.",
         "Lucid": "Against dream butterflies and surreal forest illusions, Kanna could bring a new rhythm and visual contrast to the fight."
       },
-      "artworkStatus": "Completed (user confirmed 2026-11-17)"
+      "artworkStatus": "Completed (user confirmed 2026-11-18)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/38-kanna.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": true
+        }
+      ]
     },
     {
       "family": "Flora",
       "hero": "Adele",
       "boss": null,
-      "status": "Not created",
-      "image": null,
+      "status": "Artwork completed 2026-11-18 (user confirmed)",
+      "image": "maple-jelly/37-adele.webp",
       "alternatives": [
         "Baldrix",
         "Magnus"
       ],
-      "note": "No approved prior pairing or artwork recorded.",
+      "note": "User marked the published Adele cubby artwork as completed November 18, 2026. Gallery file: maple-jelly/37-adele.webp. The depicted boss identity and final boss pairing are not separately verified; proposed primary Seren remains a recommendation, not an approved pairing.",
       "suggestedPrimary": "Seren",
       "suggestedAlternatives": [
         "Baldrix",
@@ -1509,19 +1517,28 @@
         "Seren": "Floating ether swords surround Seren for a graceful celestial duel.",
         "Baldrix": "Orbiting ether blades contrast with huge, aggressive boss attacks and imposing armor; a visually striking alternate matchup.",
         "Magnus": "Against purple sword attacks and a hazardous battlefield, Adele could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-18)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/37-adele.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Flora",
       "hero": "Ark",
       "boss": null,
-      "status": "Not created",
-      "image": null,
+      "status": "Artwork completed 2026-11-18 (user confirmed)",
+      "image": "maple-jelly/36-ark.webp",
       "alternatives": [
         "First Adversary",
         "Malefic Star"
       ],
-      "note": "No approved prior pairing or artwork recorded.",
+      "note": "User marked the published Ark cubby artwork as completed November 18, 2026. Gallery file: maple-jelly/36-ark.webp. The depicted boss identity and final boss pairing are not separately verified; proposed primary Limbo remains a recommendation, not an approved pairing.",
       "suggestedPrimary": "Limbo",
       "suggestedAlternatives": [
         "First Adversary",
@@ -1532,19 +1549,28 @@
         "Limbo": "Abyss-powered transformations face Limbo in a strange, unstable dimension.",
         "First Adversary": "Violent Abyss energy and claw attacks contrast with an imposing enemy and ominous magical attacks; a visually striking alternate matchup.",
         "Malefic Star": "Against cosmic star-shaped power and strange celestial effects, Ark could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-18)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/36-ark.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Flora",
       "hero": "Illium",
       "boss": null,
-      "status": "Not created",
-      "image": null,
+      "status": "Artwork completed 2026-11-18 (user confirmed)",
+      "image": "maple-jelly/35-illium.webp",
       "alternatives": [
         "Jupiter",
         "Lotus"
       ],
-      "note": "No approved prior pairing or artwork recorded.",
+      "note": "User marked the published Illium cubby artwork as completed November 18, 2026. Gallery file: maple-jelly/35-illium.webp. The depicted boss identity and final boss pairing are not separately verified; proposed primary Kalos remains a recommendation, not an approved pairing.",
       "suggestedPrimary": "Kalos",
       "suggestedAlternatives": [
         "Jupiter",
@@ -1555,19 +1581,28 @@
         "Kalos": "Crystal magic and floating constructs oppose Kalos's futuristic defenses.",
         "Jupiter": "Glowing crystals and geometric projectiles contrast with luminous high-level magic and unusual divine shapes; a visually striking alternate matchup.",
         "Lotus": "Against electric attacks and industrial black heaven machinery, Illium could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-18)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/35-illium.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Flora",
       "hero": "Khali",
       "boss": null,
-      "status": "Not created",
-      "image": null,
+      "status": "Artwork completed 2026-11-18 (user confirmed)",
+      "image": "maple-jelly/34-khali.webp",
       "alternatives": [
         "Kaling",
         "Pierre"
       ],
-      "note": "No approved prior pairing or artwork recorded.",
+      "note": "User marked the published Khali cubby artwork as completed November 18, 2026. Gallery file: maple-jelly/34-khali.webp. The depicted boss identity and final boss pairing are not separately verified; proposed primary Malefic Star remains a recommendation, not an approved pairing.",
       "suggestedPrimary": "Malefic Star",
       "suggestedAlternatives": [
         "Kaling",
@@ -1578,7 +1613,16 @@
         "Malefic Star": "Swift chakrams and desert magic challenge a cosmic star-like horror.",
         "Kaling": "Spinning chakrams and rapid dashes contrast with mythical beasts and shifting spiritual phases; a visually striking alternate matchup.",
         "Pierre": "Against unpredictable clown tricks and shifting colors, Khali could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-18)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/34-khali.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Anima",
