@@ -393,7 +393,7 @@
         "Dodo",
         "Verus Hilla"
       ],
-      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline. Current Crimson Queen gallery render marked for update by user November 18, 2026; boss pairing remains unchanged and replacement artwork is not yet approved.",
       "historicalEncounters": [
         {
           "boss": "Crimson Queen",
@@ -413,6 +413,12 @@
         "Von Bon": "A close-range assassin dodges Von Bon's shifting clock attacks for a tense duel.",
         "Crimson Queen": "Quick dagger strikes and evasive shadows contrast with eerie royal masks and sinister magic; a visually striking alternate matchup.",
         "Hilla": "Against a sinister sorceress and necromantic flames, Shadower could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Needs update",
+        "date": "2026-11-18",
+        "source": "User requested update in existing-render audit",
+        "image": "maple-jelly/10-shadower-v2.webp"
       }
     },
     {
