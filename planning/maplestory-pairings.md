@@ -164,6 +164,8 @@ Battle Mage × Von Leon — current linked gallery render reviewed and confirmed
 
 ## Heroes of Maple
 
+Aran × Von Leon — existing snowy-castle gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/25-aran.webp`).
+
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
 | Aran | Von Leon | Von Leon | Arkarium, Baldrix |
