@@ -497,7 +497,7 @@
         "Captain Latanica",
         "Leviathan"
       ],
-      "note": "Current wall pairing is Pianus. Captain Latanica remains an accepted earlier encounter.",
+      "note": "Current wall pairing is Pianus. Captain Latanica remains an accepted earlier encounter. Current Corsair × Pianus floating-island render marked for update by user November 18, 2026; Pianus remains existing pairing, while Lord Pirate is only a proposed primary.",
       "historicalEncounters": [
         {
           "boss": "Pianus",
@@ -517,6 +517,12 @@
         "Lord Pirate": "A pistol-wielding pirate battles another pirate captain for a classic seafaring showdown.",
         "Pianus": "Gunfire and cannon smoke contrast with a giant fish in an underwater cavern; a visually striking alternate matchup.",
         "Lotus": "Against electric attacks and industrial black heaven machinery, Corsair could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Needs update",
+        "date": "2026-11-18",
+        "source": "User requested update in existing-render audit",
+        "image": "islands/01-corsair.webp"
       }
     },
     {
