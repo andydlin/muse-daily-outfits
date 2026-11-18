@@ -127,6 +127,8 @@ Dawn Warrior × Seren — current linked gallery render confirmed to depict Sere
 
 ## Resistance
 
+Blaster × Papulatus — linked gallery render marked **Needs update** by user November 18, 2026 (`maple-jelly/22-blaster-v2.webp`); Papulatus remains the approved pairing, pictured boss unverified, Pierre not adopted.
+
 Wild Hunter × Giant Blackheart — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/20-wild-hunter.webp`); approved texture reference remains unchanged.
 
 Battle Mage × Von Leon — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/18-battle-mage.webp`).
