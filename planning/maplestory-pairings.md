@@ -12,6 +12,8 @@
 
 ## Explorers
 
+Shadower × Crimson Queen — existing linked render marked **Needs update** by user November 18, 2026 (`maple-jelly/10-shadower-v2.webp`); existing boss kept, proposed Von Bon not adopted.
+
 Night Lord × Darknell — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/09-night-lord-v2.webp`).
 
 Marksman × Papulatus — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/03-marksman-v2.webp`).
