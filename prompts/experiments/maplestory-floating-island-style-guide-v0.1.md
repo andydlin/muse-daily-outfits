@@ -670,6 +670,10 @@ The **environment-first creation and acceptance** sequence above is the authorit
 
 For edits to already-approved encounters, enter at the applicable review/refinement gate without reopening settled decisions unnecessarily, but require approval for each changed scope. Do not claim generative changes achieve exact requested percentages or pixel preservation without verification.
 
+## Latest approved Wind Archer versus Vellum island base — November 18, 2026
+
+[Wind Archer’s Velvet Details.png](https://chatgpt.com/library?file_id=libfile_5236adce3c908191b7f6c02baab925f1&account_id=personal) is the approved base for subsequent work on this encounter. It uses the shallow 83%-width slate arena, the accepted character placement and scale, the existing brazier lighting, and reference-matched rubble at Vellum’s emergence point. Wind Archer’s approved finish includes directional hair fibers, a velvety teal cloak, matte cheeks, and smaller dark embroidered-style eyes. Use this exact artwork as the starting point for any later effects pass. The November 13 entry below retains its role as the historical finished encounter reference.
+
 ## Accepted Wind Archer versus Vellum encounter — November 13, 2026
 
 **Supplemental reference filename:** `REF_Island_Encounter_Wind_Archer_Vellum.png`  
