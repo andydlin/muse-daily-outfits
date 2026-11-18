@@ -672,7 +672,7 @@
         "Von Leon",
         "Darknell"
       ],
-      "note": "Verus Hilla approved primary. Earlier Von Leon idea retained as proposal; published thumbnail does not name the boss.",
+      "note": "Night Walker × Verus Hilla current gallery render explicitly confirmed correct and good by user November 18, 2026. Earlier Von Leon proposal preserved as historical; prior thumbnail identity uncertainty resolved by user.",
       "historicalEncounters": [
         {
           "boss": "Verus Hilla",
@@ -692,6 +692,12 @@
         "Verus Hilla": "Dark bats and throwing stars oppose Hilla's crimson death magic.",
         "Hilla": "Fluttering shadow bats and stars contrast with a sinister sorceress and necromantic flames; a visually striking alternate matchup.",
         "Darknell": "Against a heavily armored knight and a huge weapon, Night Walker could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed current linked render is correct and depicts Verus Hilla",
+        "image": "maple-jelly/15-night-walker-v2.webp"
       }
     },
     {
