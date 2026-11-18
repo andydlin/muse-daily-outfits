@@ -206,6 +206,8 @@ The Mechanic vs Lotus V3/V4 tests demonstrated that a correct floating-island si
 
 Follow the current Wild Hunter material hierarchy across the entire scene. Use dimensional sculpted textile hair, fine woven clothes, seams and restrained stitching. Keep the cream face and exposed body short-pile and finely textured. Use cohesive handmade miniature finishes on terrain, stone, plants and bosses.
 
+**Hero textile check.** Inspect the hero at full resolution and at the intended gallery size. Use the Ice/Lightning Mage as a supplemental reference for a soft matte facial inset with fine velvet nap. Use Fighter as a supplemental reference for visible directional fibers along sculpted hair tufts and fine velvet pile and folds on cape panels. Keep color, tuft shape, tailoring, embroidery, and lighting faithful to the character. The face should show the finest texture, hair should retain its directional fiber detail, and cloth should show visible weave or pile appropriate to the garment. Avoid smooth painted surfaces, coarse fuzz, and uniform grain across different materials. The existing material-reference priorities apply.
+
 Armor, swords, horns and mechanical parts retain structured hard surfaces and appropriate matte miniature finishes. Ice, glass and magic may retain translucency and luminous highlights.
 
 Use soft diffuse shared illumination. Let localized spells illuminate nearby paving, armor and characters. Boot and object contact shadows sit on island surfaces. The open background beneath the floating island stays clear of a floor-like cast shadow.
