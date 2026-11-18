@@ -170,7 +170,7 @@
         "Horntail",
         "Jupiter"
       ],
-      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline. Current gallery render reviewed and confirmed good by user November 17, 2026.",
       "historicalEncounters": [
         {
           "boss": "Pink Bean",
@@ -186,6 +186,12 @@
         "Pink Bean": "Icy-blue blizzards against a bright pink opponent create a playful color contrast.",
         "Jupiter": "Crackling lightning and frozen air contrast with luminous high-level magic and unusual divine shapes; a visually striking alternate matchup.",
         "Papulatus": "Against swirling clocks and mechanical gears, Ice/Lightning Arch Mage could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-17",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/06-ice-lightning-v2.webp"
       }
     },
     {
