@@ -448,15 +448,20 @@
     {
       "family": "Explorers",
       "hero": "Dual Blade",
-      "boss": null,
-      "status": "Gallery render found 2026-11-18; boss pairing unverified",
+      "boss": "Will",
+      "status": "Artwork completed 2026-11-18 (user confirmed)",
       "image": "maple-jelly/32-dual-blade.webp",
       "alternatives": [
         "Lotus",
-        "Will"
+        "Darknell"
       ],
-      "note": "A Dual Blade cubby image is listed on maple-jelly.html as maple-jelly/32-dual-blade.webp. Previous 'Not created' status superseded by gallery evidence; boss pairing and final artwork approval require user verification. Lotus remains a future proposal, not an approved opponent.",
-      "historicalEncounters": [],
+      "note": "Dual Blade × Will is the confirmed existing pairing. User explicitly approved final cubby #32 (`maple-jelly/32-dual-blade.webp`) on November 18, 2026. Lotus remains an alternative future proposal, not the depicted boss. Previous unverified-gallery status is superseded.",
+      "historicalEncounters": [
+        {
+          "boss": "Will",
+          "evidence": "Published cubby #32; boss identity verified from render and final artwork approved by user November 18, 2026"
+        }
+      ],
       "proposedBoss": "Lotus",
       "suggestedPrimary": "Will",
       "suggestedAlternatives": [
@@ -473,9 +478,16 @@
           "path": "maple-jelly/32-dual-blade.webp",
           "format": "cubby",
           "source": "maple-jelly.html",
-          "pairingVerified": false
+          "pairingVerified": true
         }
-      ]
+      ],
+      "artworkStatus": "Completed (user confirmed 2026-11-18)",
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed Dual Blade × Will cubby #32 final and approved",
+        "image": "maple-jelly/32-dual-blade.webp"
+      }
     },
     {
       "family": "Explorers",
