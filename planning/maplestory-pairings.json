@@ -1216,7 +1216,7 @@
         "Damien",
         "Magnus"
       ],
-      "note": "Shade × Lucid approved as primary; older Magnus idea preserved as a proposal, not verified historical artwork.",
+      "note": "Shade × Lucid approved as primary; older Magnus idea preserved as a proposal, not verified historical artwork. Current linked Shade × Lucid gallery render reviewed and confirmed good by user November 18, 2026. Existing-render audit complete; prior Magnus proposal remains historical.",
       "historicalEncounters": [
         {
           "boss": "Lucid",
@@ -1236,6 +1236,12 @@
         "Lucid": "Spirit-fox attacks thread through Lucid's surreal dreamscape.",
         "Gloom": "Gentle spirit-fox energy and fast strikes contrast with an enormous celestial eye and tentacles; a visually striking alternate matchup.",
         "Guardian Angel Slime": "Against a playful bouncing slime and glowing halos, Shade could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in existing-render audit",
+        "image": "maple-jelly/28-shade.webp"
       }
     },
     {
