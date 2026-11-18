@@ -355,7 +355,7 @@
       "alternatives": [
         "Crimson Balrog"
       ],
-      "note": "Current wall opponent is Darknell (not the Dark Knight playable class).",
+      "note": "Current wall opponent is Darknell (not the Dark Knight playable class). Current linked gallery render reviewed and confirmed good by user November 18, 2026.",
       "historicalEncounters": [
         {
           "boss": "Darknell",
@@ -375,6 +375,12 @@
         "Darknell": "A storm of throwing stars challenges a towering dark knight, contrasting speed with armor.",
         "Verus Hilla": "Shadowy throwing stars contrast with crimson magic and lethal threads; a visually striking alternate matchup.",
         "Balrog": "Against classic demonic wings and flames, Night Lord could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/09-night-lord-v2.webp"
       }
     },
     {
