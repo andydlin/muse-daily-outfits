@@ -1059,7 +1059,7 @@
         "Kaling",
         "Arkarium"
       ],
-      "note": "Evan × Horntail approved as primary; existing icy-cavern gallery image, but gallery caption does not independently name the boss.",
+      "note": "Evan × Horntail approved as primary. User verified the current icy-cavern gallery render depicts Horntail correctly and confirmed it good on November 18, 2026; earlier caption identity ambiguity resolved.",
       "historicalEncounters": [
         {
           "boss": "Horntail",
@@ -1079,6 +1079,12 @@
         "Horntail": "Evan and Mir challenge a three-headed dragon in an icy cavern.",
         "Kaling": "Mir's dragon breath and coordinated spellcasting contrast with mythical beasts and shifting spiritual phases; a visually striking alternate matchup.",
         "Malefic Star": "Against cosmic star-shaped power and strange celestial effects, Evan could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed existing gallery render correctly depicts Horntail and is good",
+        "image": "maple-jelly/26-evan.webp"
       }
     },
     {
