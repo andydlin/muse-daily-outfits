@@ -68,7 +68,7 @@ const wrap=make('div','items');
 for(const p of items){
 const item=make('article','item'),heroWrap=make('div','hero-wrap'),title=make('div','hero',p.hero),familyName=make('span','family-tag',p.family),reason=make('p','reason'),existing=field('Existing',p.boss,'existing'),choices=make('div','choices'),buttons=make('div','choice-list');
 const headline=make('div','hero-line');headline.append(title,familyName);heroWrap.append(headline,reason);
-if(p.image){const link=make('a','render-link','View render ↗');link.href=p.image;link.target='_blank';link.rel='noopener noreferrer';heroWrap.append(link)}
+const renders=[...(p.image?[{path:p.image,format:p.image.startsWith('islands/')?'island':'cubby',primary:true}]:[]),...(p.galleryRenders||[]).filter(g=>g.path&&g.path!==p.image)];for(const [index,g] of renders.entries()){const link=make('a','render-link',(index?'Also view ':'View ')+(g.format==='island'?'island':'cubby')+' render ↗');link.href=g.path;link.target='_blank';link.rel='noopener noreferrer';link.style.marginRight='12px';heroWrap.append(link)}
 choices.append(buttons);
 const options=[p.suggestedPrimary||p.proposedBoss,...(p.suggestedAlternatives||p.alternatives||[])].filter(Boolean),controls=[];
 const initial=(boss.value&&options.includes(boss.value))?boss.value:options[0];
