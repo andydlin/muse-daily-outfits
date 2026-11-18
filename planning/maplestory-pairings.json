@@ -204,7 +204,7 @@
         "Von Leon",
         "Black Mage"
       ],
-      "note": "Current wall: Zombie Mushmom per user; the deployed Bishop binary was not directly inspected. Older Von Leon and later Black Mage work preserved.",
+      "note": "Current wall: Zombie Mushmom per user; the deployed Bishop binary was not directly inspected. Older Von Leon and later Black Mage work preserved. Current linked gallery render reviewed and confirmed good by user November 17, 2026.",
       "historicalEncounters": [
         {
           "boss": "Zombie Mushmom",
@@ -228,6 +228,12 @@
         "Zombie Mushmom": "Holy light protecting the battlefield from an undead mushroom is whimsical and recognizable.",
         "Black Mage": "Angelic beams and protective magic contrast with overwhelming light-and-dark cosmic power; a visually striking alternate matchup.",
         "Verus Hilla": "Against crimson magic and lethal threads, Bishop could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-17",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/05-bishop-v2.webp"
       }
     },
     {
