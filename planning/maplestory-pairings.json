@@ -1021,7 +1021,7 @@
         "Arkarium",
         "Damien"
       ],
-      "note": "Aran × Von Leon is the approved primary and has an existing snowy-castle gallery image. Pairing approval is separate from final artwork approval.",
+      "note": "Aran × Von Leon is the approved primary and has an existing snowy-castle gallery image. User reviewed this linked render and confirmed it good on November 18, 2026.",
       "historicalEncounters": [
         {
           "boss": "Von Leon",
@@ -1041,6 +1041,12 @@
         "Von Leon": "A sweeping polearm faces the lion king in a snowy castle showdown.",
         "Arkarium": "Powerful polearm sweeps contrast with dark time magic and mystical clockwork; a visually striking alternate matchup.",
         "Baldrix": "Against huge, aggressive boss attacks and imposing armor, Aran could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in existing-render audit",
+        "image": "maple-jelly/25-aran.webp"
       }
     },
     {
