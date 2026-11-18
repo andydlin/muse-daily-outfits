@@ -48,7 +48,15 @@
         "date": "2026-11-17",
         "source": "User confirmed in render audit",
         "image": "maple-jelly/12-hero-v3.webp"
-      }
+      },
+      "galleryRenders": [
+        {
+          "path": "islands/03-fighter.webp",
+          "format": "island",
+          "source": "islands.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Explorers",
@@ -192,7 +200,15 @@
         "date": "2026-11-17",
         "source": "User confirmed in render audit",
         "image": "maple-jelly/06-ice-lightning-v2.webp"
-      }
+      },
+      "galleryRenders": [
+        {
+          "path": "islands/04-ice-lightning-v3.webp",
+          "format": "island",
+          "source": "islands.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Explorers",
@@ -326,12 +342,12 @@
       "hero": "Pathfinder",
       "boss": "Gollux",
       "status": "Artwork completed 2026-11-17 (user confirmed)",
-      "image": null,
+      "image": "maple-jelly/31-pathfinder.webp",
       "alternatives": [
         "Gollux",
         "Will"
       ],
-      "note": "Pathfinder × Gollux cubby artwork reported completed by user November 17, 2026. Final image file/public gallery publication not yet verified; existing selection and suggested alternatives preserved.",
+      "note": "Pathfinder × Gollux cubby artwork reported completed by user November 17, 2026. Final image file/public gallery publication not yet verified; existing selection and suggested alternatives preserved. Published cubby gallery file found in the live-wall source November 18, 2026 (maple-jelly/31-pathfinder.webp); appearance and boss identity not separately audited.",
       "historicalEncounters": [],
       "proposedBoss": "Gollux",
       "suggestedPrimary": "Gollux",
@@ -344,7 +360,15 @@
         "Will": "Purple relic energy and guided arrows contrast with mirrors, illusions, and spiderwebs; a visually striking alternate matchup.",
         "Kaling": "Against mythical beasts and shifting spiritual phases, Pathfinder could bring a new rhythm and visual contrast to the fight."
       },
-      "artworkStatus": "Completed (user confirmed 2026-11-17)"
+      "artworkStatus": "Completed (user confirmed 2026-11-17)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/31-pathfinder.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Explorers",
@@ -425,13 +449,13 @@
       "family": "Explorers",
       "hero": "Dual Blade",
       "boss": null,
-      "status": "Not created",
-      "image": null,
+      "status": "Gallery render found 2026-11-18; boss pairing unverified",
+      "image": "maple-jelly/32-dual-blade.webp",
       "alternatives": [
         "Lotus",
         "Will"
       ],
-      "note": "Not created; Lotus is a future boss proposal only.",
+      "note": "A Dual Blade cubby image is listed on maple-jelly.html as maple-jelly/32-dual-blade.webp. Previous 'Not created' status superseded by gallery evidence; boss pairing and final artwork approval require user verification. Lotus remains a future proposal, not an approved opponent.",
       "historicalEncounters": [],
       "proposedBoss": "Lotus",
       "suggestedPrimary": "Will",
@@ -443,7 +467,15 @@
         "Will": "Rapid twin-sword slashes cut through mirrors and spiderwebs; speed beats illusion.",
         "Lotus": "Crossing dual blades and quick dashes contrast with electric attacks and industrial Black Heaven machinery; a visually striking alternate matchup.",
         "Darknell": "Against a heavily armored knight and a huge weapon, Dual Blade could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/32-dual-blade.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Explorers",
@@ -523,19 +555,27 @@
         "date": "2026-11-18",
         "source": "User requested update in existing-render audit",
         "image": "islands/01-corsair.webp"
-      }
+      },
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/02-corsair-v3.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Explorers",
       "hero": "Cannoneer",
       "boss": "Ursus",
       "status": "Artwork completed 2026-11-17 (user confirmed)",
-      "image": null,
+      "image": "maple-jelly/33-cannoneer.webp",
       "alternatives": [
         "Guardian Angel Slime",
         "Von Bon"
       ],
-      "note": "Cannoneer × Ursus artwork completed and opponent confirmed by user November 17, 2026. Gallery file/publication not yet verified.",
+      "note": "Cannoneer × Ursus artwork completed and opponent confirmed by user November 17, 2026. Gallery file/publication not yet verified. Published cubby gallery file found in the live-wall source November 18, 2026 (maple-jelly/33-cannoneer.webp); appearance and boss identity not separately audited.",
       "historicalEncounters": [],
       "proposedBoss": "Guardian Angel Slime",
       "suggestedPrimary": "Ursus",
@@ -548,7 +588,15 @@
         "Guardian Angel Slime": "Giant cannon blasts contrast with a playful bouncing slime and glowing halos; a visually striking alternate matchup.",
         "Von Bon": "Against a bizarre clock-themed arena, Cannoneer could bring a new rhythm and visual contrast to the fight."
       },
-      "artworkStatus": "Completed (user confirmed 2026-11-17)"
+      "artworkStatus": "Completed (user confirmed 2026-11-17)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/33-cannoneer.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
@@ -593,12 +641,12 @@
       "hero": "Blaze Wizard",
       "boss": "Vellum",
       "status": "Final artwork approved 2026-11-16",
-      "image": null,
+      "image": "maple-jelly/16-blaze-wizard-v2.webp",
       "alternatives": [
         "Crimson Queen",
         "Zakum"
       ],
-      "note": "Blaze Wizard vs. Vellum final master approved in conversation November 16, 2026. Published gallery image path not verified or updated; previous Crimson Queen pairing retained in history.",
+      "note": "Blaze Wizard vs. Vellum final master approved in conversation November 16, 2026. Published gallery image path not verified or updated; previous Crimson Queen pairing retained in history. Published cubby gallery file found in the live-wall source November 18, 2026 (maple-jelly/16-blaze-wizard-v2.webp); appearance and boss identity not separately audited.",
       "historicalEncounters": [
         {
           "boss": "Vellum",
@@ -622,7 +670,15 @@
         "Crimson Queen": "Swirling flame orbs contrast with eerie royal masks and sinister magic; a visually striking alternate matchup.",
         "Zakum": "Against multi-armed volcanic stone imagery, Blaze Wizard could bring a new rhythm and visual contrast to the fight.",
         "Vellum": "Orbiting fire magic chases Vellum as the serpent erupts from beneath the ground."
-      }
+      },
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/16-blaze-wizard-v2.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
@@ -660,7 +716,15 @@
         "date": "2026-11-18",
         "source": "User requested update in existing-render audit",
         "image": "islands/02-wind-archer-v2.webp"
-      }
+      },
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/14-wind-archer-v2.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",
@@ -1130,14 +1194,14 @@
       "hero": "Phantom",
       "boss": "Mayrin",
       "status": "Final artwork approved 2026-11-16",
-      "image": null,
+      "image": "maple-jelly/30-phantom-v2.webp",
       "alternatives": [
         "Dark Cygnus",
         "Hilla",
         "Will",
         "Pink Bean"
       ],
-      "note": "Phantom vs. Mayrin final master approved in conversation November 16, 2026. Published gallery image path not verified or updated; previous Dark Cygnus pairing retained in history.",
+      "note": "Phantom vs. Mayrin final master approved in conversation November 16, 2026. Published gallery image path not verified or updated; previous Dark Cygnus pairing retained in history. Published cubby gallery file found in the live-wall source November 18, 2026 (maple-jelly/30-phantom-v2.webp); appearance and boss identity not separately audited.",
       "historicalEncounters": [
         {
           "boss": "Mayrin",
@@ -1165,7 +1229,15 @@
         "Mayrin": "Phantom’s playing cards meet Mayrin’s fate magic in an elegant duel about luck, destiny, and deception.",
         "Empress Cygnus": "A rogue card magician confronting a corrupted empress creates dramatic royal intrigue and shadowy illusions.",
         "Will": "Phantom’s card tricks and misdirection challenge Will’s mirrored chambers and spiderweb traps."
-      }
+      },
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/30-phantom-v2.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",
