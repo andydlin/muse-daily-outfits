@@ -289,7 +289,7 @@
         "Manon",
         "Kalos"
       ],
-      "note": "Papulatus is the actual approved image currently on wall, confirmed by user.",
+      "note": "Papulatus is the actual approved image currently on wall, confirmed by user. Current linked gallery render reviewed and confirmed good by user November 18, 2026.",
       "historicalEncounters": [
         {
           "boss": "Papulatus",
@@ -313,6 +313,12 @@
         "Papulatus": "One precise crossbow shot against a chaotic clockwork boss makes every effect readable.",
         "Kalos": "Focused crossbow bolts contrast with enormous mechanical wings and radiant machinery; a visually striking alternate matchup.",
         "Manon": "Against a flame-breathing dragon in a rugged lair, Marksman could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/03-marksman-v2.webp"
       }
     },
     {
