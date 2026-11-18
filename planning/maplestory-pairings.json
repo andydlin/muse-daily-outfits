@@ -748,7 +748,7 @@
         "Seren",
         "Magnus"
       ],
-      "note": "Arkarium approved primary; earlier Arkarium composition approval exists.",
+      "note": "Arkarium approved primary; earlier Arkarium composition approval exists. Current linked gallery render reviewed and confirmed good by user November 18, 2026.",
       "historicalEncounters": [
         {
           "boss": "Arkarium",
@@ -764,6 +764,12 @@
         "Arkarium": "A radiant sword-and-shield knight stands firm against Arkarium's ominous time magic.",
         "Seren": "Defensive shield flashes and radiant slashes contrast with radiant celestial light and angelic power; a visually striking alternate matchup.",
         "Magnus": "Against purple sword attacks and a hazardous battlefield, Mihile could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in existing-render audit",
+        "image": "maple-jelly/19-mihile.webp"
       }
     },
     {
