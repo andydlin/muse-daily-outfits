@@ -90,6 +90,8 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 
 ## Cygnus Knights
 
+Dawn Warrior × Seren — current linked gallery render confirmed to depict Seren and approved as good by user November 18, 2026 (`maple-jelly/17-dawn-warrior-v2.webp`).
+
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
 | Dawn Warrior | Seren | Seren | Arkarium, Black Mage |
