@@ -455,7 +455,7 @@
         "Lord Pirate",
         "Leviathan"
       ],
-      "note": "Current wall pairing is First Adversary; Lord Pirate remains an earlier separately approved encounter.",
+      "note": "Current wall pairing is First Adversary; Lord Pirate remains an earlier separately approved encounter. Current linked gallery render reviewed and confirmed good by user November 18, 2026.",
       "historicalEncounters": [
         {
           "boss": "First Adversary",
@@ -479,6 +479,12 @@
         "First Adversary": "Blue dragonlike punches erupt against a powerful high-level opponent.",
         "Lord Pirate": "Explosive martial-arts strikes contrast with a colorful pirate captain and ship-deck atmosphere; a visually striking alternate matchup.",
         "Ursus": "Against a huge charging bear, Buccaneer could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/01-buccaneer-v2.webp"
       }
     },
     {
