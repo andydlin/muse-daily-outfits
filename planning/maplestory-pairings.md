@@ -10,6 +10,20 @@
 
 **Coverage:** All 54 classes have an independent recommended primary plus two alternatives. Across these 162 suggestion slots, all 44 featured boss identities occur at least twice and each appears as a fresh primary at least once.
 
+## Gallery reconciliation — November 18, 2026
+
+Compared the current `maple-jelly.html` and `islands.html` galleries against canonical class records. Nine published image paths were missing from the pairing tracker. Published file presence is **not** confirmation of the depicted boss, final artwork approval, or replacement of an older approved render. Existing audit decisions remain unchanged.
+
+- **Corsair** — cubby gallery: `maple-jelly/02-corsair-v3.webp`
+- **Wind Archer** — cubby gallery: `maple-jelly/14-wind-archer-v2.webp`
+- **Blaze Wizard** — cubby gallery: `maple-jelly/16-blaze-wizard-v2.webp`
+- **Phantom** — cubby gallery: `maple-jelly/30-phantom-v2.webp`
+- **Pathfinder** — cubby gallery: `maple-jelly/31-pathfinder.webp`
+- **Dual Blade** — cubby gallery: `maple-jelly/32-dual-blade.webp` (newly discovered; boss pairing unverified; do not assume Lotus)
+- **Cannoneer** — cubby gallery: `maple-jelly/33-cannoneer.webp`
+- **Hero** — island gallery: `islands/03-fighter.webp`
+- **Ice/Lightning Arch Mage** — island gallery: `islands/04-ice-lightning-v3.webp`
+
 ## Explorers
 
 Corsair × Pianus — existing floating-island render marked **Needs update** by user November 18, 2026 (`islands/01-corsair.webp`); Pianus retained, Lord Pirate remains an independent suggestion.
