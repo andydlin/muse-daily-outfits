@@ -60,7 +60,7 @@
         "Magnus",
         "Von Leon"
       ],
-      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline.",
+      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline. Current gallery render reviewed and confirmed good by user November 17, 2026.",
       "historicalEncounters": [
         {
           "boss": "Zakum",
@@ -76,6 +76,12 @@
         "Zakum": "Holy hammer strikes confront Zakum's many stone arms—a defining MapleStory showdown.",
         "Magnus": "Radiant shield and hammer blows contrast with purple sword attacks and a hazardous battlefield; a visually striking alternate matchup.",
         "Von Leon": "Against a lion monarch and a snowbound castle, Paladin could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-17",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/08-paladin-v3.webp"
       }
     },
     {
