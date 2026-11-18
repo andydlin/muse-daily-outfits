@@ -12,7 +12,7 @@
 
 ## Explorers
 
-Cannoneer artwork completed November 17, 2026 (user confirmed); opponent and gallery file not yet verified. Ursus remains a proposed primary, not a confirmed finished pairing.
+Cannoneer × Ursus artwork completed November 17, 2026 (user confirmed); gallery file not yet verified.
 
 Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed); gallery image file not yet verified.
 
@@ -32,7 +32,7 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 | Dual Blade | — Not yet selected | Will | Lotus, Darknell |
 | Buccaneer | First Adversary | First Adversary | Lord Pirate, Ursus |
 | Corsair | Pianus | Lord Pirate | Pianus, Lotus |
-| Cannoneer | Artwork completed (boss unconfirmed) | Ursus | Guardian Angel Slime, Von Bon |
+| Cannoneer | Ursus (artwork completed; gallery unverified) | Ursus | Guardian Angel Slime, Von Bon |
 
 ### Historical encounters and proposals
 
@@ -156,9 +156,11 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 
 ## Sengoku
 
+Hayato × Mori Ranmaru artwork completed November 17, 2026 (user confirmed); gallery file not yet verified.
+
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
-| Hayato | — Not yet selected | Mori Ranmaru | Akechi Mitsuhide, Kai |
+| Hayato | Mori Ranmaru (artwork completed; gallery unverified) | Mori Ranmaru | Akechi Mitsuhide, Kai |
 | Kanna | — Not yet selected | Princess No | Mori Ranmaru, Lucid |
 
 ## Flora
