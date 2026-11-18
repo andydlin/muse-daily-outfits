@@ -164,6 +164,8 @@ Battle Mage × Von Leon — current linked gallery render reviewed and confirmed
 
 ## Heroes of Maple
 
+Mercedes × Crimson Queen — existing linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/27-mercedes.webp`).
+
 Evan × Horntail — user verified existing icy-cavern render depicts Horntail correctly and confirmed it good on November 18, 2026 (`maple-jelly/26-evan.webp`).
 
 Aran × Von Leon — existing snowy-castle gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/25-aran.webp`).
