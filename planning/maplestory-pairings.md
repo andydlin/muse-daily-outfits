@@ -156,12 +156,14 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 
 ## Sengoku
 
+Kanna × Princess No artwork completed November 17, 2026 (user confirmed); gallery file not yet verified.
+
 Hayato × Mori Ranmaru artwork completed November 17, 2026 (user confirmed); gallery file not yet verified.
 
 | Hero | Existing approved primary | My fresh primary pick | Fresh alternatives |
 |---|---|---|---|
 | Hayato | Mori Ranmaru (artwork completed; gallery unverified) | Mori Ranmaru | Akechi Mitsuhide, Kai |
-| Kanna | — Not yet selected | Princess No | Mori Ranmaru, Lucid |
+| Kanna | Princess No (artwork completed; gallery unverified) | Princess No | Mori Ranmaru, Lucid |
 
 ## Flora
 
