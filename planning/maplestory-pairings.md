@@ -12,6 +12,8 @@
 
 ## Explorers
 
+Dark Knight × Horntail — current gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/07-dark-knight-v2.webp`).
+
 Paladin × Zakum — current gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/08-paladin-v3.webp`).
 
 Hero × Jr. Balrog — existing gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/12-hero-v3.webp`).
