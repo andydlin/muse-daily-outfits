@@ -1215,14 +1215,14 @@
     {
       "family": "Sengoku",
       "hero": "Kanna",
-      "boss": null,
-      "status": "Not created",
+      "boss": "Princess No",
+      "status": "Artwork completed 2026-11-17 (user confirmed)",
       "image": null,
       "alternatives": [
         "Mori Ranmaru",
         "Lucid"
       ],
-      "note": "No approved prior pairing or artwork recorded.",
+      "note": "Kanna × Princess No artwork completed and opponent confirmed by user November 17, 2026. Gallery file/publication not yet verified.",
       "suggestedPrimary": "Princess No",
       "suggestedAlternatives": [
         "Mori Ranmaru",
@@ -1233,7 +1233,8 @@
         "Princess No": "Shikigami and spiritual foxfire oppose Princess No in a spectral court.",
         "Mori Ranmaru": "Flowing spirit summons and talismans contrast with fiery samurai imagery and ceremonial armor; a visually striking alternate matchup.",
         "Lucid": "Against dream butterflies and surreal forest illusions, Kanna could bring a new rhythm and visual contrast to the fight."
-      }
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-17)"
     },
     {
       "family": "Flora",
