@@ -132,7 +132,7 @@
         "Pianus",
         "Vellum"
       ],
-      "note": "Current wall: Manon, replacing previous Pianus pairing.",
+      "note": "Current wall: Manon, replacing previous Pianus pairing. Current gallery render reviewed and confirmed good by user November 17, 2026.",
       "historicalEncounters": [
         {
           "boss": "Manon",
@@ -152,6 +152,12 @@
         "Manon": "Meteor fire and toxic clouds erupt around Manon, creating vivid elemental tension.",
         "Mori Ranmaru": "Against fiery samurai imagery and ceremonial armor, Fire/Poison Arch Mage could bring a new rhythm and visual contrast to the fight.",
         "Vellum": "Firestorms and drifting poison contrast with a gigantic serpent bursting out of the earth; a visually striking alternate matchup."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-17",
+        "source": "User confirmed in render audit",
+        "image": "maple-jelly/11-fire-poison-v2.webp"
       }
     },
     {
