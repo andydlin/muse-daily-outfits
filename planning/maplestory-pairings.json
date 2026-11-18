@@ -560,7 +560,7 @@
         "Magnus",
         "Arkarium"
       ],
-      "note": "Seren approved as the new primary on Nov 15. Earlier Magnus pairing remains in history; Arkarium was explored. Existing gallery thumbnail may depict an older version, not Seren.",
+      "note": "Dawn Warrior × Seren is the approved primary. User reviewed the current gallery render and explicitly confirmed that it depicts Seren and looks good on November 18, 2026. Earlier Magnus pairing remains historical; Arkarium was explored.",
       "historicalEncounters": [
         {
           "boss": "Magnus",
@@ -580,6 +580,12 @@
         "Seren": "Sun-and-moon sword magic meets Seren's radiant divinity in a celestial duel.",
         "Arkarium": "Solar and lunar sword arcs contrast with dark time magic and mystical clockwork; a visually striking alternate matchup.",
         "Black Mage": "Against overwhelming light-and-dark cosmic power, Dawn Warrior could bring a new rhythm and visual contrast to the fight."
+      },
+      "artworkReview": {
+        "decision": "Confirmed good",
+        "date": "2026-11-18",
+        "source": "User confirmed linked existing render depicts Seren and is good",
+        "image": "maple-jelly/17-dawn-warrior-v2.webp"
       }
     },
     {
