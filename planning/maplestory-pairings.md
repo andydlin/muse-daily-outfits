@@ -12,6 +12,8 @@
 
 ## Explorers
 
+Hero × Jr. Balrog — existing gallery render reviewed and confirmed good by user November 17, 2026 (`maple-jelly/12-hero-v3.webp`).
+
 Cannoneer × Ursus artwork completed November 17, 2026 (user confirmed); gallery file not yet verified.
 
 Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed); gallery image file not yet verified.
