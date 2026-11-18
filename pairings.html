@@ -24,46 +24,62 @@
 .choice.changed-primary[aria-pressed="true"]{background:#fbd9d6;border-color:#c7504b;color:#962323;box-shadow:inset 0 0 0 1px #c7504b}
 .choice.changed-primary[aria-pressed="true"] .choice-role,.choice.changed-primary[aria-pressed="true"] .choice-name{color:#962323}
 .choice.changed-primary:hover{border-color:#be514c}
+
+/* Completion-first compact view. A pairing approval is not an artwork completion. */
+.section-title h2{margin:0}.section-desc{margin:3px 0 0;font-size:11px;color:var(--muted);max-width:650px}
+.hero-line{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.family-tag{font-size:10px;font-weight:500;color:#91857b}
+.render-link{display:inline-block;font-size:11px;color:#775781;text-decoration:underline;text-underline-offset:2px;margin-top:5px}
+.sectionhead{align-items:flex-start}
+@media(max-width:680px){.section-desc{font-size:11px}.family-tag{font-size:10px}.stats{margin:12px 0}.section{margin-bottom:20px}}
 </style></head><body>
 <div class="top"><div class="wrap"><a class="brand" href="index.html">Gizmo's Wall ✦</a><nav class="nav"><a href="index.html">Outfits</a><a href="maple-jelly.html">Maple</a><a href="islands.html">Islands</a><a href="planning/maplestory-pairings.md">Pairing file</a><a href="ideas.html">Ideas</a></nav></div></div>
 <main class="wrap">
 <section class="intro"><div class="eyebrow">MapleStory · full class roster</div><h1>Class × Boss Pairings</h1></section>
-<div class="stats"><span class="stat"><strong id="total">54</strong> classes</span><span class="stat"><strong id="bosses">42</strong> featured bosses</span><span class="stat"><strong id="families">12</strong> families</span><span class="stat"><strong id="existing">—</strong> existing primaries</span></div>
+<div class="stats"><span class="stat"><strong id="total">54</strong> classes</span><span class="stat"><strong id="bosses">42</strong> featured bosses</span><span class="stat"><strong id="families">12</strong> families</span><span class="stat"><strong id="completed">—</strong> completed</span><span class="stat"><strong id="review">—</strong> to review</span><span class="stat"><strong id="remaining">—</strong> remaining</span></div>
 
-<div class="toolbar"><input id="search" type="search" aria-label="Search heroes or bosses" placeholder="Search class or boss…"><select id="family" aria-label="Filter family"><option value="">All families</option></select><select id="boss" aria-label="Filter boss"><option value="">All bosses</option></select><select id="diff" aria-label="Show pairings"><option value="">All classes</option><option value="changed">Different picks only</option><option value="uncreated">No existing pairing</option><option value="same">Same primary</option></select></div>
+<div class="toolbar"><input id="search" type="search" aria-label="Search heroes or bosses" placeholder="Search class or boss…"><select id="family" aria-label="Filter family"><option value="">All families</option></select><select id="boss" aria-label="Filter boss"><option value="">All bosses</option></select><select id="progress" aria-label="Filter completion"><option value="">All progress</option><option value="completed">Completed</option><option value="review">Review existing renders</option><option value="remaining">Still to complete</option></select><select id="diff" aria-label="Show pairings"><option value="">All classes</option><option value="changed">Different picks only</option><option value="uncreated">No existing pairing</option><option value="same">Same primary</option></select></div>
 <div id="content"><p class="empty">Loading the 54-class pairing matrix…</p></div>
 </main><div class="footer"><div class="wrap">All pairings are sourced from <a href="planning/maplestory-pairings.json">the canonical GitHub data file</a>. Existing approvals and historical encounters are preserved there. This new comparison is planning-only; it doesn't record image completion.</div></div>
 <script>
 (async()=>{
-const root=document.getElementById('content'),search=document.getElementById('search'),family=document.getElementById('family'),boss=document.getElementById('boss'),diff=document.getElementById('diff');
+const root=document.getElementById('content'),search=document.getElementById('search'),family=document.getElementById('family'),boss=document.getElementById('boss'),progress=document.getElementById('progress'),diff=document.getElementById('diff');
 const make=(tag,cls,value)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(value!==undefined)n.textContent=value;return n};
 try{
 const r=await fetch('planning/maplestory-pairings.json',{cache:'no-cache'});if(!r.ok)throw Error('data fetch failed');
 const db=await r.json(),entries=db.pairings,groups=db.collections||[...new Set(entries.map(v=>v.family))];
 const bosses=new Set(entries.flatMap(p=>[p.suggestedPrimary,...(p.suggestedAlternatives||[])].filter(Boolean)));
-document.getElementById('total').textContent=entries.length;document.getElementById('families').textContent=groups.length;document.getElementById('bosses').textContent=bosses.size;document.getElementById('existing').textContent=entries.filter(v=>v.boss).length;
+document.getElementById('total').textContent=entries.length;document.getElementById('families').textContent=groups.length;document.getElementById('bosses').textContent=bosses.size;const progressOf=p=>p.artworkStatus&&p.artworkStatus.startsWith('Completed')||p.status&&(/^(Artwork completed|Final artwork approved)/).test(p.status)?'completed':p.image?'review':'remaining';
+for(const category of ['completed','review','remaining'])document.getElementById(category).textContent=entries.filter(p=>progressOf(p)===category).length;
 for(const name of groups){const o=make('option','',name);o.value=name;family.append(o)}
 const allBosses=[...new Set(entries.flatMap(p=>[p.boss,p.suggestedPrimary,...(p.suggestedAlternatives||[])].filter(Boolean)))].sort((a,b)=>a.localeCompare(b));
 for(const name of allBosses){const count=entries.filter(p=>[p.boss,p.suggestedPrimary,...(p.suggestedAlternatives||[])].includes(name)).length;const option=make('option','',name+' ('+count+')');option.value=name;boss.append(option)}
 function field(label,value,cls){const b=make('div','cell '+cls);b.append(make('span','k',label),make('div','v'+(!value?' noexisting':''),value||'— None yet'));return b}
 function draw(){
 root.replaceChildren();const q=search.value.trim().toLowerCase();
-const matches=entries.filter(x=>(!family.value||family.value===x.family)&&(!boss.value||[x.boss,x.suggestedPrimary,...(x.suggestedAlternatives||[])].includes(boss.value))&&(!diff.value||(diff.value==='changed'&&x.boss&&x.boss!==x.suggestedPrimary)||(diff.value==='uncreated'&&!x.boss)||(diff.value==='same'&&x.boss===x.suggestedPrimary))&&(!q||[x.hero,x.boss,x.suggestedPrimary,...(x.suggestedAlternatives||[])].filter(Boolean).join(' ').toLowerCase().includes(q)));
+const matches=entries.filter(x=>(!progress.value||progressOf(x)===progress.value)&&(!family.value||family.value===x.family)&&(!boss.value||[x.boss,x.suggestedPrimary,...(x.suggestedAlternatives||[])].includes(boss.value))&&(!diff.value||(diff.value==='changed'&&x.boss&&x.boss!==x.suggestedPrimary)||(diff.value==='uncreated'&&!x.boss)||(diff.value==='same'&&x.boss===x.suggestedPrimary))&&(!q||[x.hero,x.boss,x.suggestedPrimary,...(x.suggestedAlternatives||[])].filter(Boolean).join(' ').toLowerCase().includes(q)));
 if(!matches.length){root.append(make('p','empty','No matching pairings.'));return}
-for(const name of groups){const items=matches.filter(x=>x.family===name);if(!items.length)continue;
-const sec=make('section','section'),head=make('div','sectionhead');head.append(make('h2','',name),make('span','count',items.length+' classes'));sec.append(head);const wrap=make('div','items');
+const categories=[['completed','Completed','Artwork reported complete or final artwork approved. Gallery publication is separate.'],['review','Existing renders to review','A gallery render is recorded, but its current artwork has not been personally reconfirmed in this audit.'],['remaining','Still to complete / verify','No confirmed final artwork or linked gallery render yet; some pairings may already be selected.']];
+for(const [category,heading,desc] of categories){
+const items=matches.filter(p=>progressOf(p)===category);if(!items.length)continue;
+const sec=make('section','section'),head=make('div','sectionhead'),left=make('div','section-title');left.append(make('h2','',heading),make('p','section-desc',desc));
+head.append(left,make('span','count',items.length+' classes'));sec.append(head);
+const wrap=make('div','items');
 for(const p of items){
-const item=make('article','item'),heroWrap=make('div','hero-wrap'),title=make('div','hero',p.hero),reason=make('p','reason'),existing=field('Existing',p.boss,'existing'),choices=make('div','choices'),label=null,buttons=make('div','choice-list');
-heroWrap.append(title,reason);choices.append(buttons);
+const item=make('article','item'),heroWrap=make('div','hero-wrap'),title=make('div','hero',p.hero),familyName=make('span','family-tag',p.family),reason=make('p','reason'),existing=field('Existing',p.boss,'existing'),choices=make('div','choices'),buttons=make('div','choice-list');
+const headline=make('div','hero-line');headline.append(title,familyName);heroWrap.append(headline,reason);
+if(p.image){const link=make('a','render-link','View render ↗');link.href=p.image;link.target='_blank';link.rel='noopener noreferrer';heroWrap.append(link)}
+choices.append(buttons);
 const options=[p.suggestedPrimary||p.proposedBoss,...(p.suggestedAlternatives||p.alternatives||[])].filter(Boolean),controls=[];
 const initial=(boss.value&&options.includes(boss.value))?boss.value:options[0];
 function choose(selected){reason.textContent=(p.pairingReasons&&p.pairingReasons[selected])||'Alternative matchup based on this hero’s skills and the boss’s visual identity.';for(const b of controls)b.setAttribute('aria-pressed',String(b.dataset.boss===selected))}
 options.forEach((name,index)=>{const differentPrimary=index===0&&Boolean(p.boss)&&p.boss.trim().toLowerCase()!==name.trim().toLowerCase();const b=make('button','choice'+(differentPrimary?' changed-primary':''),undefined),tag=make('span','choice-role',index===0?'Primary':'Alternative');b.type='button';b.dataset.boss=name;b.title=(index===0?'Recommended primary: ':'Alternative: ')+name;b.setAttribute('aria-label',(index===0?'My primary pick: ':'Alternative boss: ')+name+'. Show reason');b.append(tag,make('span','choice-name',name));b.addEventListener('click',()=>choose(name));buttons.append(b);controls.push(b)});
 item.append(heroWrap,existing,choices);wrap.append(item);choose(initial)
 }
-sec.append(wrap);root.append(sec)}
+sec.append(wrap);root.append(sec)
 }
-search.addEventListener('input',draw);family.addEventListener('change',draw);boss.addEventListener('change',draw);diff.addEventListener('change',draw);draw();
+}
+search.addEventListener('input',draw);family.addEventListener('change',draw);boss.addEventListener('change',draw);progress.addEventListener('change',draw);diff.addEventListener('change',draw);draw();
 }catch(e){root.replaceChildren(make('p','empty','Unable to load pairings. Open the canonical GitHub file from the navigation.'))}
 })();
 </script>
