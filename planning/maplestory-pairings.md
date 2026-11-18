@@ -12,6 +12,8 @@
 
 ## Explorers
 
+Night Lord × Darknell — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/09-night-lord-v2.webp`).
+
 Marksman × Papulatus — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/03-marksman-v2.webp`).
 
 Bowmaster × Empress Cygnus — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/04-bowmaster-v3.webp`).
