@@ -12,6 +12,8 @@
 
 ## Explorers
 
+Corsair × Pianus — existing floating-island render marked **Needs update** by user November 18, 2026 (`islands/01-corsair.webp`); Pianus retained, Lord Pirate remains an independent suggestion.
+
 Buccaneer × First Adversary — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/01-buccaneer-v2.webp`).
 
 Shadower × Crimson Queen — existing linked render marked **Needs update** by user November 18, 2026 (`maple-jelly/10-shadower-v2.webp`); existing boss kept, proposed Von Bon not adopted.
