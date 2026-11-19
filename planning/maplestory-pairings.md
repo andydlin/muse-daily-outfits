@@ -42,7 +42,7 @@ Corsair × Pianus — existing floating-island render marked **Needs update** by
 
 Buccaneer × First Adversary — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/01-buccaneer-v2.webp`).
 
-Shadower × Crimson Queen — existing linked render marked **Needs update** by user November 18, 2026 (`maple-jelly/10-shadower-v2.webp`); existing boss kept, proposed Von Bon not adopted.
+Shadower × Von Bon cubby completed November 19, 2026. The previous Crimson Queen gallery render is retained as a historical encounter. Gallery upload of the Von Bon cubby is pending.
 
 Night Lord × Darknell — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/09-night-lord-v2.webp`).
 
@@ -78,7 +78,7 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 | Marksman | Papulatus | Papulatus | Kalos, Manon |
 | Pathfinder | Gollux (artwork completed; gallery unverified) | Gollux | Will, Kaling |
 | Night Lord | Darknell | Darknell | Verus Hilla, Balrog |
-| Shadower | Crimson Queen | Von Bon | Crimson Queen, Hilla |
+| Shadower | Von Bon | Von Bon | Crimson Queen, Hilla |
 | Dual Blade | — Not yet selected | Will | Lotus, Darknell |
 | Buccaneer | First Adversary | First Adversary | Lord Pirate, Ursus |
 | Corsair | Pianus | Lord Pirate | Pianus, Lotus |
@@ -106,7 +106,8 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 | Marksman | Horntail-like dragon | Earlier experiment; boss identity unverified |
 | Night Lord | Darknell | Current wall pairing, user clarified |
 | Night Lord | Crimson Balrog | Earlier encounter |
-| Shadower | Crimson Queen | Current pairing |
+| Shadower | Crimson Queen | Previous pairing and linked gallery render |
+| Shadower | Von Bon | Replacement cubby completed November 19, 2026; gallery upload pending |
 | Shadower | Dodo | Earlier exploration |
 | Buccaneer | First Adversary | Current wall pairing, user clarified |
 | Buccaneer | Lord Pirate | Earlier final-approved encounter |

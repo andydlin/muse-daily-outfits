@@ -410,22 +410,27 @@
     {
       "family": "Explorers",
       "hero": "Shadower",
-      "boss": "Crimson Queen",
-      "status": "Approved 2026-11-15",
-      "image": "maple-jelly/10-shadower-v2.webp",
+      "boss": "Von Bon",
+      "status": "Artwork completed 2026-11-19 (user confirmed)",
+      "image": null,
       "alternatives": [
+        "Crimson Queen",
         "Dodo",
         "Verus Hilla"
       ],
-      "note": "Current Explorer primary confirmed in user-approved V4.1 historical baseline. Current Crimson Queen gallery render marked for update by user November 18, 2026; boss pairing remains unchanged and replacement artwork is not yet approved.",
+      "note": "Shadower × Von Bon cubby completed November 19, 2026. The previous Crimson Queen gallery render is retained as a historical encounter. Gallery upload of the Von Bon cubby is pending.",
       "historicalEncounters": [
         {
           "boss": "Crimson Queen",
-          "evidence": "Current pairing"
+          "evidence": "Previous pairing and linked gallery render"
         },
         {
           "boss": "Dodo",
           "evidence": "Earlier exploration"
+        },
+        {
+          "boss": "Von Bon",
+          "evidence": "Replacement cubby completed November 19, 2026; gallery upload pending"
         }
       ],
       "suggestedPrimary": "Von Bon",
@@ -439,11 +444,19 @@
         "Hilla": "Against a sinister sorceress and necromantic flames, Shadower could bring a new rhythm and visual contrast to the fight."
       },
       "artworkReview": {
-        "decision": "Needs update",
-        "date": "2026-11-18",
-        "source": "User requested update in existing-render audit",
-        "image": "maple-jelly/10-shadower-v2.webp"
-      }
+        "decision": "Confirmed good",
+        "date": "2026-11-19",
+        "source": "User marked the Shadower × Von Bon cubby done"
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-19)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/10-shadower-v2.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Explorers",
