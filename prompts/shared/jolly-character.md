@@ -1,6 +1,6 @@
 # Shared spec — Muse Jolly identity
 
-**Applies:** All daily outfit and MapleStory hero scenes, including face-only corrections.
+**Applies:** Daily Outfit and MapleStory cubby scenes, including face-only corrections. Standalone floating-island heroes follow the [island face and eye rules](../maplestory/floating-islands.md).
 
 ## Locked identity
 

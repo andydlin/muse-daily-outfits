@@ -2,6 +2,8 @@
 
 **Read with:** ../shared/jolly-character.md, ../shared/cubby-lighting.md, ../shared/plush-materials.md. Attach visual references.
 
+**Standalone islands:** See [Floating islands](floating-islands.md) for class-based face and eye styling. The face rules below apply to MapleStory cubbies.
+
 ## Inputs
 
 - Hero/class: [CLASS]

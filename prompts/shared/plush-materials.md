@@ -20,7 +20,9 @@ When generating a new MapleStory confrontation, **attach the approved Wild Hunte
 
 These filenames identify **ChatGPT Project reference assets**; they are not automatically present in this GitHub repository. Attach/retrieve the actual images before generating. Preserve distinct facial-identity and cubby-reference priorities, which are documented separately.
 
-## Jolly-specific short-pile finish — applies to all scenes (2026-11-10)
+## Jolly-specific short-pile finish (2026-11-10)
+
+For standalone floating islands, apply the general handmade material guidance to the class-specific facial design defined in [Floating islands](../maplestory/floating-islands.md). The Jolly face material hierarchy below applies where the scene uses Jolly’s face design.
 
 Apply the separate character material hierarchy from `shared/jolly-character.md`: **velvety fine-pile face → subtly fluffier cream face border → dense, uniformly short-pile exposed cream body**. Avoid long, coarse, individually obvious directional hairs on Jolly's face, belly, arms, hands, legs and feet. Even though Wild Hunter is the **primary overall scene/material** reference, it must **not** cause Jolly's cream body to become shaggy, fuzzy-bouclé, or oversharpened. Keep Jolly visibly textile and handmade, not glossy plastic.
 
