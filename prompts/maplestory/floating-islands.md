@@ -25,6 +25,19 @@ Use this workflow for standalone floating islands. Use [Hero Pairing](hero-pairi
 
 > Create one square 1254 × 1254 standalone floating-island miniature. Use the approved Blender layout and empty island as the framing and environment references. Lock the approved nearly side-on camera angle, platform width, vertical island position, center front-rim y coordinate, and visible deck depth in every pass. Keep the floor continuous behind the figures. Follow the approved character references for pose, design, and gaze. Match each hero’s face and eyes to the MapleStory class-design reference, including anime-style eyes where appropriate. Do not use the Jolly face or button-style eyes in island artwork. Use the Wild Hunter master for the miniature material finish. Match the key light and contact or hover shadows. Render attached or enclosing apparatus with its character. Keep the central action readable at gallery size. Change only the elements approved for this pass. Keep the complete island in frame, with no cubby, text, or UI.
 
+## Load the Blender blueprint kit from Project Sources
+
+Look for `Gizmos-Wall-Island-Blueprint-Kit.zip` or `Gizmos-Wall-Island-Blueprint-Kit(1).zip` in Project Sources. Open the archive and extract the matching camera guide, `Gizmos-Wall-Island-Blueprints.blend`, and `Layout-Measurements.json` into the workspace. Open the guide image to inspect it. The PNGs in the ZIP are sufficient when separate copies have not been uploaded.
+
+| Staging | Blender scene | Camera guide in the ZIP |
+| --- | --- | --- |
+| Melee | Melee | `Camera-Guides/Melee.png` |
+| Ranged | Ranged | `Camera-Guides/Ranged.png` |
+| Hover | Hover | `Camera-Guides/Hover.png` |
+| Mixed | Mixed | `Camera-Guides/Mixed.png` |
+
+Use the named Blender scene as the starting point and its PNG as the baseline view. For example, start Blaster × Pierre from **Melee**. Save encounter-specific changes in a separate Blender file and export its own square camera PNG. Once that encounter layout is approved, use its camera PNG for all subsequent passes. If Blender cannot open the file, use the extracted PNG and measurements for planning and state that direct scene inspection was unavailable. If the archive cannot be accessed or extracted, use an available standalone guide or ask for the matching image.
+
 ## Blueprint comparison at every checkpoint
 
 To start, give the encounter and available references, then ask to use this guide. Follow the workflow above from the requested stage. For a new encounter, start with the Blender layout and present the square camera view for approval. Reuse an approved blueprint when one exists. Use the actual camera render as a visual input for each subsequent generation or edit, alongside the last approved artwork for that stage.
