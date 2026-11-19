@@ -10,6 +10,7 @@ Canonical prompt specifications for Gizmo's Wall dioramas. This folder contains 
 | Recolor an approved daily outfit | [daily-outfits/recolor.md](daily-outfits/recolor.md) | Cubby/lighting; Bulbasaur visual reference |
 | New MapleStory hero + boss | [maplestory/hero-pairing.md](maplestory/hero-pairing.md) | Jolly, cubby/lighting, plush materials; Wild Hunter texture |
 | Recolor an approved MapleStory scene | [maplestory/recolor.md](maplestory/recolor.md) | Cubby/lighting; Bulbasaur primary, Link secondary |
+| MapleStory floating island | [Floating islands](maplestory/floating-islands.md) | Blender layout, empty island review, character and effects checks |
 
 Shared:
 - [shared/jolly-character.md](shared/jolly-character.md)
