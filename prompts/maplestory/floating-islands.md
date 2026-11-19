@@ -23,11 +23,11 @@ Use this workflow for standalone floating islands. Use [Hero Pairing](hero-pairi
 
 > Create one square 1254 × 1254 standalone floating-island miniature. Use the approved Blender layout and empty island as the framing and environment references. Lock the approved nearly side-on camera angle, platform width, vertical island position, center front-rim y coordinate, and visible deck depth in every pass. Keep the floor continuous behind the figures. Follow the approved character references for pose, design, and gaze, and use the Wild Hunter master for the miniature material finish. Match the key light and contact or hover shadows. Render attached or enclosing apparatus with its character. Keep the central action readable at gallery size. Change only the elements approved for this pass. Keep the complete island in frame, with no cubby, text, or UI.
 
-## Waterfall or cliffside stress test
+## Blueprint comparison at every checkpoint
 
-Start with a Blender layout. Use the [waterfall environment reference](https://chatgpt.com/library?file_id=libfile_f8475945b78c81919c2d5047bfd84664&account_id=personal) for the scenery. Put the tallest cliff mass toward the rear or one side, keep the watercourse off the playable deck, and reserve a clean silhouette and ground or hover anchor for the full boss envelope, including wings, horns, and props. Keep mist local to the falls.
+To start, give the encounter and available references, then ask to use this guide. Follow the workflow above from the requested stage. For a new encounter, start with the Blender layout and present the square camera view for approval. Reuse an approved blueprint when one exists. Use the actual camera render as a visual input for each subsequent generation or edit, alongside the last approved artwork for that stage.
 
-At the Blender layout, empty-island, character placement, effects, and final backdrop checkpoints, compare the current camera view directly with the approved Blender camera view at the same canvas size. Report Blueprint, Current Pass, and Difference for platform width, center front-rim y, visible floor depth, and camera angle where measurable. Label estimates and call out silhouette overlap, deck continuity, or framing drift before proceeding. Approve each checkpoint before advancing.
+Compare the empty island, character placement, effects, and final backdrop directly with the approved Blender camera view at the same canvas size. Use a short table with **Blueprint**, **Current Pass**, and **Difference** for platform width, center front-rim y, and visible floor depth. Compare the camera angle visually when the current pass is raster art and report degrees only when scene geometry supports that measurement. Label estimates. Also check the floor in front of and behind the figures, ground or hover anchors, silhouette clearance, and the action lane as applicable. Flag drift before asking for approval to advance.
 
 ## Black Heaven references
 
