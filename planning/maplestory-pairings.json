@@ -792,14 +792,14 @@
     {
       "family": "Cygnus Knights",
       "hero": "Thunder Breaker",
-      "boss": "Kaling",
-      "status": "Approved 2026-11-15",
-      "image": "maple-jelly/13-thunder-breaker-v2.webp",
+      "boss": "Pianus",
+      "status": "Approved 2026-11-19",
+      "image": null,
       "alternatives": [
-        "Captain Darkgoo",
-        "Pianus"
+        "Kaling",
+        "Captain Darkgoo"
       ],
-      "note": "Kaling approved primary. Captain Darkgoo was mentioned as an older proposal, not a verified completed encounter. Existing Thunder Breaker × Kaling gallery render marked for update by user November 18, 2026; Kaling remains the existing pairing and Pianus stays a separate proposed primary.",
+      "note": "Pianus approved as the primary cubby pairing on November 19, 2026. Replacement artwork is pending. The Kaling cubby remains in the gallery history.",
       "historicalEncounters": [
         {
           "boss": "Kaling",
@@ -808,6 +808,10 @@
         {
           "boss": "Captain Darkgoo",
           "evidence": "Earlier boss proposal, exact identity and scene completion unverified"
+        },
+        {
+          "boss": "Pianus",
+          "evidence": "Approved primary November 19, 2026; replacement artwork pending"
         }
       ],
       "suggestedPrimary": "Pianus",
@@ -823,9 +827,18 @@
       "artworkReview": {
         "decision": "Needs update",
         "date": "2026-11-18",
-        "source": "User requested update in existing-render audit",
+        "source": "Historical Kaling gallery render flagged in existing-render audit",
         "image": "maple-jelly/13-thunder-breaker-v2.webp"
-      }
+      },
+      "artworkStatus": "Not created",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/13-thunder-breaker-v2.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Cygnus Knights",

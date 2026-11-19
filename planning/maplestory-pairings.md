@@ -119,7 +119,7 @@ Pathfinder × Gollux cubby artwork completed November 17, 2026 (user confirmed);
 
 Mihile × Arkarium — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/19-mihile.webp`).
 
-Thunder Breaker × Kaling — linked gallery render marked **Needs update** by user November 18, 2026 (`maple-jelly/13-thunder-breaker-v2.webp`); Kaling retained, Pianus remains an independent recommendation.
+Thunder Breaker × Pianus approved as the primary cubby pairing on November 19, 2026. Replacement artwork is pending. The Kaling cubby remains in the gallery history.
 
 Night Walker × Verus Hilla — linked gallery render confirmed to depict Verus Hilla and reviewed as good by user November 18, 2026 (`maple-jelly/15-night-walker-v2.webp`).
 
@@ -133,7 +133,7 @@ Dawn Warrior × Seren — current linked gallery render confirmed to depict Sere
 | Blaze Wizard | Vellum (final artwork approved) | Vellum | Crimson Queen, Zakum |
 | Wind Archer | Vellum | Griffey | Vellum, Horntail |
 | Night Walker | Verus Hilla | Verus Hilla | Hilla, Darknell |
-| Thunder Breaker | Kaling | Pianus | Kaling, Jupiter |
+| Thunder Breaker | Pianus | Pianus | Kaling, Jupiter |
 | Mihile | Arkarium | Arkarium | Seren, Magnus |
 
 ### Historical encounters and proposals
@@ -150,6 +150,7 @@ Dawn Warrior × Seren — current linked gallery render confirmed to depict Sere
 | Night Walker | Von Leon | Earlier proposal; no finished image verified |
 | Thunder Breaker | Kaling | Earlier canonical tracker selection; approved primary Nov 15 |
 | Thunder Breaker | Captain Darkgoo | Earlier boss proposal, exact identity and scene completion unverified |
+| Thunder Breaker | Pianus | Approved primary November 19, 2026; replacement artwork pending |
 | Mihile | Arkarium | Previously approved composition and current approved primary |
 
 ## Resistance
