@@ -975,14 +975,14 @@
       "family": "Resistance",
       "hero": "Blaster",
       "boss": "Pierre",
-      "status": "Approved 2026-11-19",
+      "status": "Artwork completed 2026-11-19 (user confirmed)",
       "image": null,
       "alternatives": [
         "Magnus",
         "Ursus",
         "Papulatus"
       ],
-      "note": "Pierre approved as the primary cubby pairing on November 19, 2026. Replacement cubby artwork is pending. The earlier gallery render (maple-jelly/22-blaster-v2.webp) remains in the gallery history with its pictured boss unverified.",
+      "note": "Blaster × Pierre replacement cubby completed November 19, 2026. Gallery upload is pending. The earlier gallery render (maple-jelly/22-blaster-v2.webp) remains in the gallery history with its pictured boss unverified.",
       "historicalEncounters": [
         {
           "boss": "Magnus",
@@ -994,7 +994,7 @@
         },
         {
           "boss": "Pierre",
-          "evidence": "Approved primary November 19, 2026; replacement cubby artwork pending"
+          "evidence": "Replacement cubby completed November 19, 2026; gallery upload pending"
         }
       ],
       "suggestedPrimary": "Pierre",
@@ -1008,12 +1008,11 @@
         "Papulatus": "Against swirling clocks and mechanical gears, Blaster could bring a new rhythm and visual contrast to the fight."
       },
       "artworkReview": {
-        "decision": "Needs update",
-        "date": "2026-11-18",
-        "source": "Historical Blaster gallery render flagged in existing-render audit; pictured boss unverified",
-        "image": "maple-jelly/22-blaster-v2.webp"
+        "decision": "Confirmed good",
+        "date": "2026-11-19",
+        "source": "User marked the Blaster × Pierre cubby done"
       },
-      "artworkStatus": "Not created",
+      "artworkStatus": "Completed (user confirmed 2026-11-19)",
       "galleryRenders": [
         {
           "path": "maple-jelly/22-blaster-v2.webp",

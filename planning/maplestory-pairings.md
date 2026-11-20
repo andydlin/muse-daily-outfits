@@ -161,7 +161,7 @@ Demon Slayer × Damien — user verified that `maple-jelly/24-winged-swordsman.w
 
 Xenon × Verus Hilla — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/21-xenon-v2.webp`).
 
-Blaster × Pierre approved as the primary cubby pairing on November 19, 2026. Replacement cubby artwork is pending. The earlier gallery render (`maple-jelly/22-blaster-v2.webp`) was marked **Needs update** on November 18, 2026, and its pictured boss remains unverified.
+Blaster × Pierre replacement cubby completed November 19, 2026. Gallery upload is pending. The earlier gallery render (maple-jelly/22-blaster-v2.webp) remains in the gallery history with its pictured boss unverified.
 
 Wild Hunter × Giant Blackheart — current linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/20-wild-hunter.webp`); approved texture reference remains unchanged.
 
@@ -186,7 +186,7 @@ Battle Mage × Von Leon — current linked gallery render reviewed and confirmed
 | Mechanic | Lotus | Selected encounter in recent island development; artwork underwent revisions and final approval cannot be inferred |
 | Blaster | Magnus | Earlier pairing reported as previously approved in collection audit; exact source image and final artwork state not independently confirmed |
 | Blaster | Papulatus | Later primary proposal selected and explicitly approved November 15, 2026; published Blaster image does not name opponent |
-| Blaster | Pierre | Approved primary November 19, 2026; replacement cubby artwork pending |
+| Blaster | Pierre | Replacement cubby completed November 19, 2026; gallery upload pending |
 | Xenon | Verus Hilla | Established earlier pairing; approved as primary Nov 15 |
 | Demon Slayer | Damien | Earlier Demon Slayer vs Damien encounter was created/explored; exact gallery winged-swordsman image identity not independently verified |
 | Demon Avenger | Gloom | Previously selected and refined encounter; primary confirmed Nov 15 |
