@@ -974,15 +974,15 @@
     {
       "family": "Resistance",
       "hero": "Blaster",
-      "boss": "Papulatus",
-      "status": "Approved 2026-11-15",
-      "image": "maple-jelly/22-blaster-v2.webp",
+      "boss": "Pierre",
+      "status": "Approved 2026-11-19",
+      "image": null,
       "alternatives": [
         "Magnus",
         "Ursus",
-        "Pierre"
+        "Papulatus"
       ],
-      "note": "Papulatus is now approved pairing, but boss pictured in maple-jelly/22-blaster-v2.webp remains visually unverified. Earlier Magnus variant is preserved with an evidence qualifier. Existing Blaster gallery render marked for update by user November 18, 2026. Papulatus remains approved pairing; pictured boss remains visually unverified and Pierre remains only a suggested alternative.",
+      "note": "Pierre approved as the primary cubby pairing on November 19, 2026. Replacement cubby artwork is pending. The earlier gallery render (maple-jelly/22-blaster-v2.webp) remains in the gallery history with its pictured boss unverified.",
       "historicalEncounters": [
         {
           "boss": "Magnus",
@@ -991,6 +991,10 @@
         {
           "boss": "Papulatus",
           "evidence": "Later primary proposal selected and explicitly approved November 15, 2026; published Blaster image does not name opponent"
+        },
+        {
+          "boss": "Pierre",
+          "evidence": "Approved primary November 19, 2026; replacement cubby artwork pending"
         }
       ],
       "suggestedPrimary": "Pierre",
@@ -1006,9 +1010,18 @@
       "artworkReview": {
         "decision": "Needs update",
         "date": "2026-11-18",
-        "source": "User requested update in existing-render audit",
+        "source": "Historical Blaster gallery render flagged in existing-render audit; pictured boss unverified",
         "image": "maple-jelly/22-blaster-v2.webp"
-      }
+      },
+      "artworkStatus": "Not created",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/22-blaster-v2.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Resistance",
