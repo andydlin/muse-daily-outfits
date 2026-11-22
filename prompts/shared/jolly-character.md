@@ -53,3 +53,9 @@ Jolly is a **premium short-pile plush collectible**, **never a long-haired or sh
 Use **`MASTER_Cubby_Bulbasaur.png`** as a supplemental **Jolly fine-plush surface** reference in addition to its primary cubby role. Compare the face and exposed cream body to Bulbasaur for pile length, density and visual softness. **Jett remains the primary Jolly face/identity master**, Goku secondary; Bulbasaur does not override face proportions, eyes, expressions, costume or pose. Wild Hunter remains the overall handmade diorama texture master.
 
 When refining plush pile length on an approved image, adjust **only the specified face/body/fur surfaces**; keep the original eyes, expression, proportions, pose, costume, props, environment, effects, cubby colors, LED and framing unchanged. Do not flatten all surface materials to the same texture.
+
+## Locked compact body proportions — approved Ahri V5 (2026-11-21)
+
+For Daily Outfit and MapleStory cubbies, preserve Jolly-first anatomy regardless of the source character's gender or physique. Use Jett and Goku as visual anatomy anchors: dominant rounded head, short softly rounded torso, minimal waist taper, short rounded arms and legs, simplified plush paws and chunky rounded feet/boots. Adapt costumes to the mascot, not the mascot to human or slender anime anatomy. Preserve approved action and expression; elegance does not require elongated limbs or an hourglass waist. Ahri #40 V5 is a supplemental approved example, not a replacement master. Its edit percentages are case-specific, not universal ratios. Standalone island anatomy remains governed by its own guide.
+
+Check these proportions before generation and after each edit. If they drift, propose a localized anatomy correction, preserve all unrelated details and recheck cubby geometry. Do not silently change scale or pose.
