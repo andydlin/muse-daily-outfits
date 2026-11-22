@@ -793,13 +793,13 @@
       "family": "Cygnus Knights",
       "hero": "Thunder Breaker",
       "boss": "Pianus",
-      "status": "Approved 2026-11-19",
-      "image": null,
+      "status": "Artwork completed 2026-11-19 (user confirmed)",
+      "image": "maple-jelly/13-thunder-breaker-v3.webp",
       "alternatives": [
         "Kaling",
         "Captain Darkgoo"
       ],
-      "note": "Pianus approved as the primary cubby pairing on November 19, 2026. Replacement artwork is pending. The Kaling cubby remains in the gallery history.",
+      "note": "Thunder Breaker × Pianus cubby completed November 19, 2026 (user confirmed). The published v3 cubby depicts Pianus. The earlier Kaling cubby remains in the gallery history.",
       "historicalEncounters": [
         {
           "boss": "Kaling",
@@ -811,7 +811,7 @@
         },
         {
           "boss": "Pianus",
-          "evidence": "Approved primary November 19, 2026; replacement artwork pending"
+          "evidence": "Approved and completed November 19, 2026; published cubby v3 visually verified"
         }
       ],
       "suggestedPrimary": "Pianus",
@@ -825,18 +825,24 @@
         "Jupiter": "Against luminous high-level magic and unusual divine shapes, Thunder Breaker could bring a new rhythm and visual contrast to the fight."
       },
       "artworkReview": {
-        "decision": "Needs update",
-        "date": "2026-11-18",
-        "source": "Historical Kaling gallery render flagged in existing-render audit",
-        "image": "maple-jelly/13-thunder-breaker-v2.webp"
+        "decision": "Confirmed good",
+        "date": "2026-11-19",
+        "source": "User approved and marked the Thunder Breaker × Pianus replacement cubby done; published v3 visually verified",
+        "image": "maple-jelly/13-thunder-breaker-v3.webp"
       },
-      "artworkStatus": "Not created",
+      "artworkStatus": "Completed (user confirmed 2026-11-19)",
       "galleryRenders": [
         {
           "path": "maple-jelly/13-thunder-breaker-v2.webp",
           "format": "cubby",
           "source": "maple-jelly.html",
           "pairingVerified": false
+        },
+        {
+          "path": "maple-jelly/13-thunder-breaker-v3.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": true
         }
       ]
     },
