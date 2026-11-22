@@ -21,3 +21,7 @@
 - Mark an image final only after user acceptance and clearly distinguish accepted artistic exceptions from objectively verified technical checks.
 - Never silently update master priorities, approved visuals, or GitHub rules. Keep approval and scope constraints from the task-specific prompt authoritative.
 - Keep reviews readable: detailed tables for substantive audits, short paragraphs for straightforward passes, and no gratuitous checklists inside artwork.
+
+## Body proportion quality gate — approved Ahri V5 (2026-11-21)
+
+For Jolly cubbies, include a body-proportion check alongside face, texture, color and geometry checks. Compare to the compact anatomy lock in `jolly-character.md`, report deviations and propose only necessary localized corrections with explicit approval. Revalidate after editing. Island-specific anatomy follows its separate guide.
