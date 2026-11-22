@@ -53,3 +53,5 @@ If only the cubby fails validation, correct **only** cubby geometry, frame/wall 
 ## Review and approval presentation
 
 Follow [`../shared/review-approval-workflow.md`](../shared/review-approval-workflow.md) for structured master-reference checks, prioritized next steps, explicit locked details, approval/edit/keep options, and final post-edit validation. This adds communication and quality gates only; the task-specific visual and edit constraints above remain authoritative.
+
+**Body proportion validation (mandatory):** Apply the compact anatomy lock in `../shared/jolly-character.md` before generation and during every post-edit review. Compare head dominance, torso, waist, limb length and rounded paws/boots to Jett and Goku; adapt costume to Jolly, not vice versa. Obtain approval for any proportion correction.
