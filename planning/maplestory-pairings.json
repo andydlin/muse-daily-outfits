@@ -1292,22 +1292,26 @@
     {
       "family": "Heroes of Maple",
       "hero": "Luminous",
-      "boss": "Will",
-      "status": "Approved 2026-11-15",
-      "image": "maple-jelly/29-luminous.webp",
+      "boss": "Black Mage",
+      "status": "Artwork completed 2026-11-21 (user confirmed)",
+      "image": null,
       "alternatives": [
-        "Black Mage",
+        "Will",
         "Hilla"
       ],
-      "note": "Luminous × Will approved as primary, not proof that the final image was approved. Hilla remains a historical proposal. Existing Luminous × Will gallery render marked for update by user November 18, 2026; Will remains approved primary and Black Mage remains a separate suggested pairing.",
+      "note": "Luminous × Black Mage replacement cubby completed November 21, 2026. Gallery upload is pending. The earlier Luminous × Will render (maple-jelly/29-luminous.webp) remains in the gallery history.",
       "historicalEncounters": [
         {
           "boss": "Will",
-          "evidence": "Existing canonical pairing reaffirmed as primary November 15, 2026"
+          "evidence": "Existing canonical pairing reaffirmed as primary November 15, 2026; linked gallery render flagged for update November 18, 2026"
         },
         {
           "boss": "Hilla",
           "evidence": "Earlier pairing proposal only; no separately confirmed created scene"
+        },
+        {
+          "boss": "Black Mage",
+          "evidence": "Replacement cubby completed November 21, 2026; gallery upload pending"
         }
       ],
       "suggestedPrimary": "Black Mage",
@@ -1321,11 +1325,19 @@
         "Limbo": "Against distorted spatial effects and ominous transformations, Luminous could bring a new rhythm and visual contrast to the fight."
       },
       "artworkReview": {
-        "decision": "Needs update",
-        "date": "2026-11-18",
-        "source": "User requested update in existing-render audit",
-        "image": "maple-jelly/29-luminous.webp"
-      }
+        "decision": "Confirmed good",
+        "date": "2026-11-21",
+        "source": "User accepted the Luminous × Black Mage cubby and moved to the next pairing"
+      },
+      "artworkStatus": "Completed (user confirmed 2026-11-21)",
+      "galleryRenders": [
+        {
+          "path": "maple-jelly/29-luminous.webp",
+          "format": "cubby",
+          "source": "maple-jelly.html",
+          "pairingVerified": false
+        }
+      ]
     },
     {
       "family": "Heroes of Maple",

@@ -195,7 +195,7 @@ Battle Mage × Von Leon — current linked gallery render reviewed and confirmed
 
 Shade × Lucid — linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/28-shade.webp`); completes the 28-render existing-gallery audit.
 
-Luminous × Will — existing gallery render marked **Needs update** by user November 18, 2026 (`maple-jelly/29-luminous.webp`); Will remains approved pairing, Black Mage only a separate recommendation.
+Luminous × Black Mage replacement cubby completed November 21, 2026. Gallery upload is pending. The earlier Luminous × Will render (maple-jelly/29-luminous.webp) remains in the gallery history.
 
 Mercedes × Crimson Queen — existing linked gallery render reviewed and confirmed good by user November 18, 2026 (`maple-jelly/27-mercedes.webp`).
 
@@ -209,7 +209,7 @@ Aran × Von Leon — existing snowy-castle gallery render reviewed and confirmed
 | Evan | Horntail | Horntail | Kaling, Malefic Star |
 | Mercedes | Crimson Queen | Crimson Queen | Lucid, Princess No |
 | Phantom | Mayrin (final artwork approved) | Mayrin | Empress Cygnus, Will |
-| Luminous | Will | Black Mage | Will, Limbo |
+| Luminous | Black Mage | Black Mage | Will, Limbo |
 | Shade | Lucid | Lucid | Gloom, Guardian Angel Slime |
 
 ### Historical encounters and proposals
@@ -227,6 +227,7 @@ Aran × Von Leon — existing snowy-castle gallery render reviewed and confirmed
 | Phantom | Hilla | Alternative suggested for story/lore fit; not a confirmed historical render |
 | Luminous | Will | Existing canonical pairing reaffirmed as primary November 15, 2026 |
 | Luminous | Hilla | Earlier pairing proposal only; no separately confirmed created scene |
+| Luminous | Black Mage | Replacement cubby completed November 21, 2026; gallery upload pending |
 | Shade | Lucid | Existing canonical pairing reaffirmed as primary November 15, 2026 |
 | Shade | Magnus | Earlier pairing proposal only; no separately confirmed created scene |
 
