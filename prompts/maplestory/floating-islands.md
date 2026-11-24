@@ -14,6 +14,9 @@ Approved composition master controls framing, apparent camera, silhouette, chara
 Canvas 1254 × 1254; final background #F3E6DD. Current structural targets: width 1074 px (85.6%), side margins 90 px, Blender camera elevation 7°, projected floor depth 127 px, center front rim y846, bottom y1079, underside depth 233 px. These are provisional, not universal locked values. Use a low nearly side-on camera, level playing surface, curved rim and organically tapered underside. Do not apply B85 or earlier width, floor-depth or hero-height rules. Distinguish measured Blender geometry from raster estimates; never infer exact camera degrees from generated art.
 Maintain shared world scale. Standing hero calibration of 225 px is provisional. Distinguish standing anatomy, posed height, equipment silhouette, mounted assembly and boss extensions. Do not enlarge figures to fill space. Boss scaling exceptions require explicit approval. Reserve room for melee, ranged, summons, machinery and aerial action.
 
+## Map interpretation
+Interpret recognizable MapleStory maps as standalone themed floating islands rather than literal miniature reproductions of gameplay maps. Preserve their distinctive materials, colors, vegetation, architecture and atmosphere. Omit gameplay platforms, ropes, enclosing ceilings and other navigation structures unless they meaningfully contribute to the island's physical design and visual identity.
+
 ## Mandatory workflow
 Follow [Hybrid Assembly Workflow V1](hybrid-assembly-workflow-v1.md). Obtain explicit approval at each generation/edit checkpoint; preserve approved assets, report drift and measured versus estimated values. Keep mobile reviews concise, one main image and separate links. Validation-only encounters may omit effects.
 
