@@ -17,6 +17,9 @@ Maintain shared world scale. Standing hero calibration of 225 px is provisional.
 ## Map interpretation
 Interpret recognizable MapleStory maps as standalone themed floating islands rather than literal miniature reproductions of gameplay maps. Preserve their distinctive materials, colors, vegetation, architecture and atmosphere. Omit gameplay platforms, ropes, enclosing ceilings and other navigation structures unless they meaningfully contribute to the island's physical design and visual identity.
 
+## Composition-aware foundation planning
+Before foundation generation, approve a lightweight composition-aware spatial blueprint on provisional V2B geometry: approximate posed hero and boss silhouettes, footing, combat lane and visible scenery zones. For large, mounted, mechanical or aerial assemblies, include full projected silhouettes, weapon, wing and tail clearance as relevant. Plan distinctive scenery where it remains readable around characters. Placeholders guide foundation generation but must not appear in the foundation; integrated bosses remain physically integrated. Environment-only islands need no character placeholders. This planning blueprint does not replace the later measured structural composite. Apply from Validation 04 onward; do not restart Validation 03.
+
 ## Mandatory workflow
 Follow [Hybrid Assembly Workflow V1](hybrid-assembly-workflow-v1.md). Obtain explicit approval at each generation/edit checkpoint; preserve approved assets, report drift and measured versus estimated values. Keep mobile reviews concise, one main image and separate links. Validation-only encounters may omit effects.
 
