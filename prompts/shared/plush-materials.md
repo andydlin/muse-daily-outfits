@@ -1,6 +1,6 @@
 # Shared spec — Handmade miniature material language
 
-> **Approved island material override (2026-11-23):** Standalone islands use premium handcrafted miniature collectible figures, not cubby plush characters. Use `MASTER_Island_Composition_V1.jpeg` for the visual direction; `MASTER_Island_Character_Texture_V1.png` is approved as the primary island character material reference (textures only; not scale, pose, class identity or composition). Hair: dimensional sculpted locks with subtle directional grooves, not yarn or dense fibers. Face: smooth matte anime face, minimal grain, class-specific eyes. Clothing: restrained fine fabric, seams and stitching; no coarse repetitive weave. Armor and weapons: satin-matte miniature metal; leather: subtle grain; fur: short controlled fibers where appropriate. Avoid glossy plastic and excessive fuzz. Wild Hunter and Mechanic are supplemental material references only, never island face, scale or composition authorities. This override supersedes conflicting plush guidance for islands only; cubby rules remain unchanged.
+> **Island V2.1 (approved 2026-11-23):** Standalone islands use premium handcrafted miniature collectibles, not cubby plush. `MASTER_Island_Composition_V1.jpeg` controls composition; `MASTER_Island_Character_Texture_V1` controls character materials only (approved PNG or JPEG copy). Hair is sculpted with subtle grooves; faces smooth matte anime with class-specific eyes; fabrics fine and restrained; metal satin-matte; leather subtle grain; fur short and controlled; machinery distinct painted and metallic surfaces. No Jolly faces, button eyes, yarn hair, excessive fuzz or glossy plastic. Wild Hunter and Mechanic cubby masters are historical only for islands unless explicitly requested. Cubby rules remain unchanged. See [floating islands](../maplestory/floating-islands.md).
 
 
 - Photorealistic **3D handmade plush miniature diorama**; tactile, premium, camera-photographed miniature rather than 2D illustration, shiny PVC collectible or generic CGI.
@@ -11,11 +11,11 @@
 - Keep surfaces consistent across hero, boss and terrain rather than rendering the hero as cloth against a smooth toy boss.
 - Avoid overly coarse fabric/bouclé, oversharpened noise, plastic skin, flat pasted-on hair and two-dimensional scenery.
 
-## MapleStory V4 texture anchor
+## MapleStory cubby V4 texture anchor
 
-When generating a new MapleStory confrontation, **attach the approved Wild Hunter vs Giant Blackheart image** and treat it as primary **material/texture** reference. It is not permission to copy the Wild Hunter outfit, pose, boss or scene. Preserve character-specific designs from their own references.
+When generating a new MapleStory cubby confrontation, **attach the approved Wild Hunter vs Giant Blackheart image** and treat it as primary **material/texture** reference. It is not permission to copy the Wild Hunter outfit, pose, boss or scene. Preserve character-specific designs from their own references.
 
-## Approved project-file texture reference priority (2026-11-09)
+## Approved cubby project-file texture reference priority (2026-11-09)
 
 1. **Primary:** `MASTER_Texture_Wild_Hunter.jpg` — entire image's consistent handcrafted plush, fabric and miniature material language. Uploaded as a JPEG; do not assume a PNG version exists.
 2. **Secondary:** `MASTER_Texture_Mechanic.png` — auxiliary reference for detailed clothing, hardware, and matte miniature metal. It does **not** supersede Wild Hunter.
@@ -25,7 +25,7 @@ These filenames identify **ChatGPT Project reference assets**; they are not auto
 
 ## Jolly-specific short-pile finish (2026-11-10)
 
-For standalone floating islands, apply the general handmade material guidance to the class-specific facial design defined in [Floating islands](../maplestory/floating-islands.md). The Jolly face material hierarchy below applies where the scene uses Jolly’s face design.
+For standalone floating islands, use the island-specific material rules above and [Floating islands](../maplestory/floating-islands.md), not the cubby plush hierarchy below.
 
 Apply the separate character material hierarchy from `shared/jolly-character.md`: **velvety fine-pile face → subtly fluffier cream face border → dense, uniformly short-pile exposed cream body**. Avoid long, coarse, individually obvious directional hairs on Jolly's face, belly, arms, hands, legs and feet. Even though Wild Hunter is the **primary overall scene/material** reference, it must **not** cause Jolly's cream body to become shaggy, fuzzy-bouclé, or oversharpened. Keep Jolly visibly textile and handmade, not glossy plastic.
 
@@ -42,4 +42,4 @@ The user-approved **refined Ice/Lightning Mage vs Pink Bean** image is a **suppl
 - **Clothing:** Fine woven fabrics, delicate stitching and embroidery, with restrained roughness rather than thick, coarse felt.
 - **Overall:** Cohesive premium handmade plush finish across hero, boss, and environment. Soften specular shine on fabric surfaces, **without flattening dimensional detail**.
 - **Material exceptions:** Metal remains matte painted hard-surface metal, ice/crystals and glass can be reflective, and spell effects remain luminous; do not make all objects fuzzy or dull.
-- **Scope:** Use as an additional visual check when creating or refining MapleStory scenes; do not alter approved character designs, poses, cubby colors, or scene effects during texture-only refinements.
+- **Scope:** Use as an additional visual check when creating or refining MapleStory cubby scenes; do not alter approved character designs, poses, cubby colors, or scene effects during texture-only refinements.
