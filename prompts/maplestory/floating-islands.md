@@ -2,6 +2,9 @@
 
 > **Island V2.1 (approved 2026-11-23):** Standalone islands use premium handcrafted miniature collectibles, not cubby plush. `MASTER_Island_Composition_V1.jpeg` controls composition; `MASTER_Island_Character_Texture_V1` controls character materials only (approved PNG or JPEG copy). Hair is sculpted with subtle grooves; faces smooth matte anime with class-specific eyes; fabrics fine and restrained; metal satin-matte; leather subtle grain; fur short and controlled; machinery distinct painted and metallic surfaces. No Jolly faces, button eyes, yarn hair, excessive fuzz or glossy plastic. Wild Hunter and Mechanic cubby masters are historical only for islands unless explicitly requested. Cubby rules remain unchanged. See [floating islands](floating-islands.md).
 
+## Floating presentation — no exterior shadow
+The island floats freely in an uninterrupted background. No ground plane, exterior cast shadow, grounding shadow, drop shadow or reflection beneath the island. Preserve natural internal contact shadows between characters, scenery and terrain, and natural shading on the island underside.
+
 ## Reference hierarchy
 Approved composition master controls framing, apparent camera, silhouette, character/environment proportions, combat space and environmental depth; texture master controls materials only, not scale, pose, class identity or composition. Preserve both without regeneration. Extract and inspect the relevant guides, Blender geometry and measurements from `V2B_Camera_Geometry_Guide_Package.zip` in Project Sources (provisional). If unavailable, state the limitation and request the guide; do not substitute legacy geometry. Historical conversations, attachments, failed experiments and superseded specs are for learning only, not active visual authorities unless explicitly requested. Prefer dedicated versioned reference sheets with complete examples and close-ups; create additional masters only when needed.
 
