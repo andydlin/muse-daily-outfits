@@ -20,6 +20,9 @@ Interpret recognizable MapleStory maps as standalone themed floating islands rat
 ## Composition-aware foundation planning
 Before foundation generation, approve a lightweight composition-aware spatial blueprint on provisional V2B geometry: approximate posed hero and boss silhouettes, footing, combat lane and visible scenery zones. For large, mounted, mechanical or aerial assemblies, include full projected silhouettes, weapon, wing and tail clearance as relevant. Plan distinctive scenery where it remains readable around characters. Placeholders guide foundation generation but must not appear in the foundation; integrated bosses remain physically integrated. Environment-only islands need no character placeholders. This planning blueprint does not replace the later measured structural composite. Apply from Validation 04 onward; do not restart Validation 03.
 
+## Large-boss staging
+Prefer a slightly recessed footing position for large bosses when it improves visual mass distribution, foreground flooring, combat clearance and environmental depth, as observed in Paladin × Zakum and Wild Hunter × Horntail. This is an optional staging preference, not a universal depth rule. Keep physically plausible footing and readable silhouettes; validate against the encounter blueprint and measured composite. Do not change approved anatomy or scale to achieve this effect.
+
 ## Mandatory workflow
 Follow [Hybrid Assembly Workflow V1](hybrid-assembly-workflow-v1.md). Obtain explicit approval at each generation/edit checkpoint; preserve approved assets, report drift and measured versus estimated values. Keep mobile reviews concise, one main image and separate links. Validation-only encounters may omit effects.
 
