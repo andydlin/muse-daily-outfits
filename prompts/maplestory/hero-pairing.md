@@ -1,11 +1,11 @@
 # MapleStory — Hero Pairing V4 (Wild Hunter plush lock)
 
-> **Approved island material override (2026-11-23):** Standalone islands use premium handcrafted miniature collectible figures, not cubby plush characters. Use `MASTER_Island_Composition_V1.jpeg` for the visual direction; `MASTER_Island_Character_Texture_V1.png` is approved as the primary island character material reference (textures only; not scale, pose, class identity or composition). Hair: dimensional sculpted locks with subtle directional grooves, not yarn or dense fibers. Face: smooth matte anime face, minimal grain, class-specific eyes. Clothing: restrained fine fabric, seams and stitching; no coarse repetitive weave. Armor and weapons: satin-matte miniature metal; leather: subtle grain; fur: short controlled fibers where appropriate. Avoid glossy plastic and excessive fuzz. Wild Hunter and Mechanic are supplemental material references only, never island face, scale or composition authorities. This override supersedes conflicting plush guidance for islands only; cubby rules remain unchanged.
+> **Island V2.1 (approved 2026-11-23):** Standalone islands use premium handcrafted miniature collectibles, not cubby plush. `MASTER_Island_Composition_V1.jpeg` controls composition; `MASTER_Island_Character_Texture_V1` controls character materials only (approved PNG or JPEG copy). Hair is sculpted with subtle grooves; faces smooth matte anime with class-specific eyes; fabrics fine and restrained; metal satin-matte; leather subtle grain; fur short and controlled; machinery distinct painted and metallic surfaces. No Jolly faces, button eyes, yarn hair, excessive fuzz or glossy plastic. Wild Hunter and Mechanic cubby masters are historical only for islands unless explicitly requested. Cubby rules remain unchanged. See [floating islands](floating-islands.md).
 
 
 **Read with:** ../shared/jolly-character.md, ../shared/cubby-lighting.md, ../shared/plush-materials.md. Attach visual references.
 
-**Standalone islands:** See [Floating islands](floating-islands.md) for class-based face and eye styling. The face rules below apply to MapleStory cubbies.
+**Standalone islands:** Follow [Floating islands](floating-islands.md) and its V2.1 workflow, geometry and texture references. Only class/boss identity, equipment accuracy and approval principles transfer from this file; all cubby staging, plush, face, sizing and generation rules below are cubby-only.
 
 ## Inputs
 
