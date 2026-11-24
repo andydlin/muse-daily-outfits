@@ -1,0 +1,20 @@
+# MapleStory Islands — Hybrid Assembly Workflow V1
+Status: provisionally approved 2026-11-24. Preferred workflow for new island validations; universal geometry, anatomical scale and boss ratios remain provisional.
+
+## Workflow
+1. Read canonical island, scale, pairing and shared material specs; inspect approved composition, character texture V2, relevant boss-style masters and extracted V2B guides. Collect encounter references and obtain explicit plan approval before generation or editing.
+2. Classify physical relationships: independent heroes/bosses may be separate assets; rooted or architectural bosses (Zakum) belong with terrain and scenery. Mounted/mechanical assemblies are evaluated case by case.
+3. Generate cohesive foundation with connected terrain, architecture, scenery and any integrated boss. Preserve map identity, open combat lanes and natural depth.
+4. Normalize and approve foundation geometry BEFORE adding independent characters. Use proportional resizing/repositioning, not distortion. V2B targets remain provisional: 1254 square, width 1074, margins 90, rim y846, bottom y1079, underside 233, projected floor depth 127 px, Blender elevation 7°. Overall underside depth matters more than rock shapes; flooring materials are map-specific. Check integrated boss scale after normalization.
+5. Approve independent assets: compare head-to-body proportions with Fighter, check class identity, anatomy, equipment, grip and materials. Fine directional fiber hair is permitted per approved texture V2; avoid coarse yarn or fuzz. Boss-style master Zakum V1 is retained.
+6. Programmatically composite approved assets at measured posed heights and positions on normalized foundation; check shared combat plane, visible flooring ahead of feet, clearance, full silhouettes. Composite is structural authority, not final artwork.
+7. With explicit approval, generate one cohesive photographic scene using composite as primary reference and individual assets for identity; Fighter controls photographic quality, not map design. Permit lighting, contact shadows, material interaction and progressive depth of field, not redesign. Use clean chat/reference sheet if competing references interfere. Preserve source assets; reject material drift. Never claim pixel preservation after regeneration.
+8. Check framing and scale after every generation. Review identity, anatomy, materials, grounding, lighting, depth and clearance at full size and actual uncropped 256 square. Correct minor framing programmatically only if character scale remains acceptable; otherwise return to foundation/composite. Effects only for production or explicitly approved tests. Final background #F3E6DD; no exterior shadow, ground plane, reflection, text or UI. Internal contact shadows allowed.
+
+## Validation record
+- 01 Mechanic × Pianus: visually approved validation-only; do not recreate. Candidate B 225 px standing calibration remains provisional; Mechanic assembly ~300–330 px, Pianus ~365–375 px (visual estimates).
+- 02 Paladin × Zakum: Integrated Assembly V5 approved artistic checkpoint, not final geometry lock. Integrated boss foundation plus precise structural composite followed by cohesive generation was strongest approach. Separate asset compositing alone looked pasted on; direct generation without composite drifted in scale. Deferred: revisit Paladin head proportions against Fighter (10–15% increase is a proposed test, not locked); normalize island width before placing revised hero, then recalibrate posed height and review gallery. Preserve V5 and approved masters.
+- 03 proposed mounted/ranged/aerial validation Wild Hunter × Horntail; not yet approved as encounter. Combine objectives rather than requiring seven renders.
+
+## Scope
+Supersedes rigid empty-island-first and independent-character layering requirements for new island work only. Cubby rules and approved existing artwork unchanged. No universal scale or geometry lock. Explicit approval required for permanent changes and each generation.
