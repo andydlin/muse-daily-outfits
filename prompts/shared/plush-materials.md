@@ -1,5 +1,8 @@
 # Shared spec — Handmade miniature material language
 
+> **Approved island material override (2026-11-23):** Standalone islands use premium handcrafted miniature collectible figures, not cubby plush characters. Use `MASTER_Island_Composition_V1.jpeg` for the visual direction; a dedicated island character texture master is pending selection. Hair: dimensional sculpted locks with subtle directional grooves, not yarn or dense fibers. Face: smooth matte anime face, minimal grain, class-specific eyes. Clothing: restrained fine fabric, seams and stitching; no coarse repetitive weave. Armor and weapons: satin-matte miniature metal; leather: subtle grain; fur: short controlled fibers where appropriate. Avoid glossy plastic and excessive fuzz. Wild Hunter and Mechanic are supplemental material references only, never island face, scale or composition authorities. This override supersedes conflicting plush guidance for islands only; cubby rules remain unchanged.
+
+
 - Photorealistic **3D handmade plush miniature diorama**; tactile, premium, camera-photographed miniature rather than 2D illustration, shiny PVC collectible or generic CGI.
 - Fine textile fibers/nap on soft cream face (while preserving Jolly's smooth inset silhouette), fuller fibers in framing cream fur; dimensional hair with directional woven/yarn texture.
 - Clothing, capes, costumes and soft props show felt/weave texture, seams and delicate stitches. Scenery, soil, stone, foliage and monsters use cohesive handcrafted miniature textures appropriate to each object.
