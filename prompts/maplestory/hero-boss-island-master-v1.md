@@ -1,5 +1,8 @@
 # Hero × Boss Island — Master Scale & Camera Spec v1
 
+> **Approved island material override (2026-11-23):** Standalone islands use premium handcrafted miniature collectible figures, not cubby plush characters. Use `MASTER_Island_Composition_V1.jpeg` for the visual direction; a dedicated island character texture master is pending selection. Hair: dimensional sculpted locks with subtle directional grooves, not yarn or dense fibers. Face: smooth matte anime face, minimal grain, class-specific eyes. Clothing: restrained fine fabric, seams and stitching; no coarse repetitive weave. Armor and weapons: satin-matte miniature metal; leather: subtle grain; fur: short controlled fibers where appropriate. Avoid glossy plastic and excessive fuzz. Wild Hunter and Mechanic are supplemental material references only, never island face, scale or composition authorities. This override supersedes conflicting plush guidance for islands only; cubby rules remain unchanged.
+
+
 **Status:** User-approved design direction, 2026-11-20. Visual baseline sheets and master render are not yet generated or approved. **Applies to NEW Hero × Boss encounter islands**; does not retroactively change approved existing island art.
 
 ## Identity
