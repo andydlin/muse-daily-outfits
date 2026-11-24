@@ -4,6 +4,9 @@
 
 Approved: composition and character texture masters, separate island art direction and dedicated reference-sheet approach. V2B structural blueprint, universal hero scale, boss scaling allowances and action-space requirements remain provisional. This applies to new encounters; preserve existing approved artwork.
 
+## Floating presentation — no exterior shadow
+The island floats freely in an uninterrupted background. No ground plane, exterior cast shadow, grounding shadow, drop shadow or reflection beneath the island. Preserve natural internal contact shadows between characters, scenery and terrain, and natural shading on the island underside.
+
 ## Provisional V2B A geometry and scale
 Canvas 1254 × 1254; final background #F3E6DD. Current structural targets: width 1074 px (85.6%), side margins 90 px, Blender camera elevation 7°, projected floor depth 127 px, center front rim y846, bottom y1079, underside depth 233 px. These are provisional, not universal locked values. Use a low nearly side-on camera, level playing surface, curved rim and organically tapered underside. Do not apply B85 or earlier width, floor-depth or hero-height rules. Distinguish measured Blender geometry from raster estimates; never infer exact camera degrees from generated art.
 Maintain shared world scale. Standing hero calibration of 225 px is provisional. Distinguish standing anatomy, posed height, equipment silhouette, mounted assembly and boss extensions. Do not enlarge figures to fill space. Boss scaling exceptions require explicit approval. Reserve room for melee, ranged, summons, machinery and aerial action.
