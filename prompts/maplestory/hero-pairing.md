@@ -5,7 +5,7 @@
 
 **Read with:** ../shared/jolly-character.md, ../shared/cubby-lighting.md, ../shared/plush-materials.md. Attach visual references.
 
-**Standalone islands:** Follow [Floating islands](floating-islands.md) and its V2.1 workflow, geometry and texture references. Only class/boss identity, equipment accuracy and approval principles transfer from this file; all cubby staging, plush, face, sizing and generation rules below are cubby-only.
+**Standalone islands:** Follow [Floating islands](floating-islands.md) and [approved Hybrid Assembly V2](hybrid-assembly-workflow-v2.md), provisional geometry and texture references. Only class/boss identity, equipment accuracy and approval principles transfer from this file; all cubby staging, plush, face, sizing and generation rules below are cubby-only.
 
 ## Inputs
 
