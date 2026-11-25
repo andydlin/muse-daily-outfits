@@ -1,0 +1,24 @@
+# MapleStory Islands — Hybrid Assembly Workflow V2
+Approved 2026-11-24. Active workflow for new island work; supersedes V1 workflow, not its historical findings. [V1 archive](hybrid-assembly-workflow-v1.md). See [validation consolidation](master-validation-v2-consolidation.md).
+
+## Fixed presentation and references
+1254 × 1254 canvas; final background #F3E6DD. Freely floating island: no exterior cast shadow, ground plane or reflection; internal contact/hover shadows and underside shading permitted. No text, logos or UI.
+Preserve all three approved masters: Fighter × Jr. Balrog composition (framing, balance, photographic quality); Character Texture V2 (materials only); Zakum Boss Style V1 (charming handcrafted boss direction, not universal anatomy). Premium handcrafted miniature collectibles, smooth matte anime faces, class-specific eyes, sculpted directional hair, fine fabrics, satin-matte metal, subtle leather grain, controlled fur and distinct machinery. No cubby/Jolly faces, button eyes, coarse yarn or excessive fuzz. Island rules override cubby rules.
+
+## Workflow
+1. Read canonical island, scale, pairing and shared material specs; inspect masters and extract relevant V2B guides. Gather encounter references and obtain explicit plan approval.
+2. Approve composition-aware spatial blueprint: approximate posed silhouettes, footing/hover anchors, weapon/wing/tail clearance, combat lane and visible scenery zones. Environment-only scenes need no character placeholders. Classify independent, mounted, mechanical and integrated assets.
+3. Generate cohesive foundation with connected terrain, recognizable map identity and physically integrated bosses where appropriate. Placeholders guide generation but do not appear in foundation.
+4. Normalize and approve foundation before independent character placement, using proportional resizing/repositioning, not distortion. Recheck integrated boss scale.
+5. Approve independent assets: Fighter head/body comparison, identity, anatomy, equipment, grip, materials and native pose.
+6. Create and approve measured structural composite. It is structural authority for scale, position, geometry, footing/hover clearance and combat space. Preserve source assets. Characters may be grounded, hovering, flying, mounted or environment-integrated; no mandatory common ground plane. Large bosses may be recessed when useful, not universally.
+7. Select photographic integration path per encounter:
+   - A: controlled compositing (experimental, pending fidelity pilot). Localized lighting/tonal adjustment, contact and separated hover shadows, color bounce, masking/edge refinement, progressive depth of field and restrained material/contrast adjustment. Preserve anatomy, equipment, scale, placement and geometry. A composite may become final artwork if artistic and structural QC pass; do not assume this path is validated.
+   - B: optional full-scene photographic generation. Composite controls arrangement; individual assets control identity; Fighter controls photographic quality only. No universal preferred chat environment or reference-sheet format. Permit integration, not redesign. Generate one image per approved step. After two unsuccessful full-scene assembly attempts stop and review; additional attempts require explicit approval. Never claim pixel preservation after regeneration.
+8. Structural and artistic QC: compare framing, rim, underside, apparent camera, identity, anatomy, equipment, scale, grounding, clearance, materials, lighting and depth with approved assets and composite. Separate measured values from estimates; never infer exact camera degrees from generated artwork. Reject unacceptable drift. Proportional normalization can correct framing only if relative scale is acceptable; cannot conceal incorrect proportions. Return to approved composite when needed.
+9. Add approved combat effects for production (omit for validation unless needed), apply final background and review full size and actual uncropped 256 × 256 gallery preview.
+
+Explicit approval before generation/editing and permanent spec changes. Preserve all four approved artistic checkpoints without regeneration. No master replacement.
+
+## Provisional geometry and scale
+V2B targets unchanged: width 1074 px (85.6%), margins 90 px, Blender elevation 7°, projected floor depth 127 px, front rim y846, bottom y1079, underside depth 233 px; standing hero 225 px. All these geometry and scale values and boss ratios remain provisional; only canvas and final background fixed. No B85 legacy geometry. Distinguish standing anatomy, posed height, equipment silhouette, mounted assembly and hover clearance. Do not enlarge characters to fill space; boss scale exceptions require approval. Finalize universal geometry/scale only after sufficient validation and explicit approval.
