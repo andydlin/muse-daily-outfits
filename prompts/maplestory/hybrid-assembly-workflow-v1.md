@@ -1,4 +1,6 @@
 # MapleStory Islands — Hybrid Assembly Workflow V1
+> **Historical archive:** Superseded by [approved Hybrid Assembly V2](hybrid-assembly-workflow-v2.md) on 2026-11-24. Retain all original findings below; see [consolidation and Test G](master-validation-v2-consolidation.md).
+
 Status: provisionally approved 2026-11-24. Preferred workflow for new island validations; universal geometry, anatomical scale and boss ratios remain provisional.
 
 ## Workflow
