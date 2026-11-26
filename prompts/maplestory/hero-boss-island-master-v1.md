@@ -20,3 +20,9 @@ Use the approved composition master for balance, open combat lane and environmen
 Master Validation V2: Mechanic × Pianus complete; Paladin × Zakum V5 approved artistic checkpoint with deferred framing and head-proportion refinements. Combine remaining mounted, ranged, humanoid, aerial and multi-character objectives where practical; see hybrid workflow validation record. Validate shared scale, full silhouettes, footing or hover anchors, weapon paths and effect clearance. No universal boss ratios are locked. Finalize geometry and scale only after validation and explicit approval. Do not recreate approved Fighter × Jr. Balrog unnecessarily.
 
 Develop dedicated character scale, environment or effects reference sheets only when needed, with explicit approval before generation. Reference annotations may be approved; final gallery artwork has no text or UI. See [workflow](floating-islands.md).
+
+## Original Island reference-specific calibration
+
+Original Island V3.0 and V3.1 preserve a validated D5Ra-derived structural configuration with a 9° orthographic camera. See [Original Island Production Blueprint V3.1](original-island-production-blueprint-v3.md) for the reference-specific registry and validation limitations.
+
+This approval does not replace provisional V2B series-wide geometry, standing hero calibration or encounter-specific boss scaling. Do not generalize original Fighter × Jr. Balrog posed measurements into universal anatomy standards.
