@@ -1,5 +1,5 @@
 # MapleStory Islands — Hybrid Assembly Workflow V2
-Approved 2026-11-24. Active workflow for new island work; supersedes V1 workflow, not its historical findings. [V1 archive](hybrid-assembly-workflow-v1.md). See [validation consolidation](master-validation-v2-consolidation.md).
+Approved 2026-11-24. Historical workflow; superseded as default by [V3](hybrid-assembly-workflow-v3.md) on 2026-11-25; retained as an alternative; supersedes V1 workflow, not its historical findings. [V1 archive](hybrid-assembly-workflow-v1.md). See [validation consolidation](master-validation-v2-consolidation.md).
 
 ## Fixed presentation and references
 1254 × 1254 canvas; final background #F3E6DD. Freely floating island: no exterior cast shadow, ground plane or reflection; internal contact/hover shadows and underside shading permitted. No text, logos or UI.
