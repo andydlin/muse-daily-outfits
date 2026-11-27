@@ -33,7 +33,8 @@ Create sections as actual content is inventoried and approved, rather than popul
 | photography/ | Lighting, framing and miniature readability |
 | composition/ | Spatial organization and integration |
 | validation/ | Coverage matrices, experiments and QA |
-| asset-registry.json | Stable asset identifiers, versions, provenance, locations and approval scope |
+| [asset-management.md](asset-management.md) | Approved storage, retrieval and preservation conventions |
+| [asset-registry.json](asset-registry.json) | Stable asset identifiers, versions, provenance, locations and approval scope |
 | CHANGELOG.md | Development and release history |
 
 The existing prompts remain in their current locations. A future Cubbies design system may have a separate sibling directory; it is outside this initiative.
@@ -41,8 +42,11 @@ The existing prompts remain in their current locations. A future Cubbies design 
 ## Documentation and assets
 
 - GitHub: versioned specifications, registry and validation records.
-- Figma (planned): browsable visual reference library, component examples, variants and comparisons.
-- Source asset storage (not yet selected): full-resolution originals, donors, masks, composites, Blender packages and measurement data. Keep individual production assets separate from reference sheets.
+- Cloudflare R2: approved permanent binary storage in the private `maplestory-islands-assets` bucket; see [asset management](asset-management.md).
+- Project Sources: active production library for frequently used references and working packages.
+- Codex: secure asset retrieval, upload and checksum verification. Direct ChatGPT R2 retrieval remains unvalidated; use verified downloads and attachments as needed.
+- Curated reference sheets: human-facing visual overview; individual targeted images: production references.
+- Figma and the private visual portal are deferred; the portal can be revisited when the asset library and metadata are sufficiently mature.
 
 Use stable asset IDs and explicit version, status and scope. Distinguish exploratory results, candidates, scoped approvals, validated findings and canonical standards. Record provenance and unresolved validation rather than inferring approval.
 
@@ -50,13 +54,13 @@ Use stable asset IDs and explicit version, status and scope. Distinguish explora
 
 1. Establish this independent documentation workspace.
 2. Inventory existing assets and verify availability, provenance and approval status.
-3. Establish storage and catalog conventions.
-4. Build the initial Figma visual library from preserved assets.
+3. Establish storage and catalog conventions (approved; initial registry created).
+4. Build curated visual reference sheets from preserved assets and register individual production references.
 5. Draft a provisional Hero Style Guide from verified evidence.
 6. Map intended hero roster coverage and choose representative edge cases.
 7. Expand and validate reusable hero components across classes and poses.
 8. Review a proposed Hero Design System V1.0 release for explicit approval.
 
-Current handoff: Fighter exploration and Ice Lightning Mage F05 artistic candidate acceptance are reported; F04-A4 is the preserved material-refined foundation. Exact F05 structural checks and actual island placement remain unfinished. Source files and reported metrics must be independently inventoried before catalog promotion. These records do not establish new universal rules.
+Current handoff: Fighter exploration and Ice Lightning Mage F05 artistic candidate acceptance are reported; F04-A4 is the preserved material-refined foundation. Exact F05 structural checks and actual island placement remain unfinished. Initial hair and face sheets are prepared, with R2 upload unconfirmed. The R2 pilot passed as reported by Codex, but underlying reports have not been independently inspected here. See the asset registry for reported keys, hashes and pending inventory. Source files and reported metrics must be independently verified before promotion. These records do not establish new universal rules.
 
 Boss, environment and photographic system development can follow independently. No new Blender development is proposed without a demonstrated production deficiency.
