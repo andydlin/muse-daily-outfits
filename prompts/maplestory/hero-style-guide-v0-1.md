@@ -15,7 +15,8 @@ Maintain a distinct artistic identity from cubby mascots. Do not import Jolly an
 
 Each reference governs only its designated artistic or technical properties.
 
-- Character-specific MapleStory references govern identity, hairstyle, costume and equipment.
+- Character-specific MapleStory artwork is a Character Identity Reference only: recognizable hairstyle, colors, facial features, personality, costume, accessories and equipment. It does not govern anatomical proportions, facial proportions, rendering style or pose by default.
+- Independently selected miniature anatomical references and approved character-specific proportion targets govern anatomy. Preserve identity; reconstruct anatomy in our artistic language. Adapt costume and equipment to anatomy, not the reverse.
 - Character Texture Master V2 governs material treatment only.
 - Island Composition Master V1 governs island composition.
 - Boss Style Master V1 governs boss artistic treatment.
@@ -41,7 +42,7 @@ Distinguish anatomical proportions, projected posed height and extended silhouet
 
 The original Fighter's approximately 1.79-head posed height is a historical reference-specific measurement, not a universal requirement.
 
-Standing hero calibration, body ratios and character scale remain provisional.
+Before generation, approve miniature anatomy references and character-specific targets for head share, shoulder breadth, torso and limb proportions. Distinguish posed measurements from standing anatomy and extended silhouettes. Standing hero calibration, body ratios and character scale remain provisional.
 
 ## 4. Facial architecture
 
@@ -148,7 +149,7 @@ Automatic MCP-to-ImageGen reference handoff remains unverified.
 
 ## 11. Production and localized refinement
 
-Follow the current Hybrid Assembly V3 workflow.
+Follow the current Hybrid Assembly V3 workflow and [Hero Generation Prompt](hero-generation-prompt.md). Retrieve the latest prompt before generation; disclose proposed reusable changes, obtain explicit approval, commit and verify before adoption. Record revision and resolved inputs per checkpoint.
 
 Preserve approved foundations, geometry, character assets and artistic checkpoints.
 
@@ -172,7 +173,7 @@ Do not initiate additional Blender development or multi-angle generation without
 
 ## 13. Validation and approval
 
-Evaluate character identity, anatomy, hairstyle, facial expression, equipment, materials, pose and silhouette readability.
+Validate anatomy against approved targets before approving a new foundation or beginning component refinement. Report measured landmarks separately from estimates; preserve failed candidates and seek approval for correction. Evaluate character identity, anatomy, hairstyle, facial expression, equipment, materials, pose and silhouette readability.
 
 For island integration, additionally validate measured placement, scale, grounding or hovering, lighting, clearance and environmental continuity.
 
