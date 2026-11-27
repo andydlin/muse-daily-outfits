@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1",
+  "namespace": "MSI",
+  "storage": {
+    "provider": "Cloudflare R2",
+    "bucket": "maplestory-islands-assets",
+    "private": true,
+    "storage_class": "Standard",
+    "active_library": "ChatGPT Project Sources"
+  },
+  "verification": {
+    "source": "User-relayed Codex pilot and retrieval summaries, 2026-11-27",
+    "remote_independently_verified_in_chat": false,
+    "underlying_reports_inspected": false,
+    "chatgpt_direct_retrieval": "unvalidated",
+    "reported_pilot_objects": 4,
+    "reported_pilot_bytes": 160597663
+  },
+  "assets": [
+    {
+      "id": "MSI-HERO-001",
+      "version": "0.1",
+      "name": "Ice Lightning Mage F05",
+      "filename": "F05_background_candidate.png",
+      "source": "Hero Development 01 / F05",
+      "foundation": "F04-A4_reassembled.png",
+      "object_key": "pilot/v0.1/heroes/ice-lightning-mage/f05/F05_background_candidate.png",
+      "bytes": 1339116,
+      "sha256": "782a46b503b99b643f4c575aecc52d8f02ebd9db5c462eb2b45a9608bc7e8d70",
+      "artistic_status": "approved_candidate",
+      "technical_status": "structural_validation_pending",
+      "production_authority": "reference_only",
+      "usage": "Hero artistic reference; preserve foundation; not universal anatomy",
+      "transfer_verification": "reported_codex_sha256_match"
+    },
+    {
+      "id": "MSI-HAIR-001",
+      "version": "0.1",
+      "name": "Flowing curl refinement F02-E4",
+      "filename": "F02-E4_reassembled.png",
+      "source": "Hero Development 01 / F02-E4",
+      "object_key": "pilot/v0.1/components/hair/f02-e4/F02-E4_reassembled.png",
+      "bytes": 2013918,
+      "sha256": "3252747c40d70c7077ae6ca25792375699432fb47abb29259b7f611823b08e97",
+      "artistic_status": "retained_experiment",
+      "technical_status": "cross_character_validation_pending",
+      "production_authority": "experimental",
+      "usage": "Directional hair material reference; not universal geometry",
+      "transfer_verification": "reported_codex_sha256_match"
+    }
+  ],
+  "pending_inventory": [
+    {
+      "name": "Character Texture Master V2",
+      "status": "reported_pilot_uploaded",
+      "object_key": null,
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "name": "Hero Development 01 Archive",
+      "status": "reported_pilot_uploaded",
+      "object_key": null,
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "name": "Hair & Finish Reference V0.1",
+      "status": "prepared_upload_unconfirmed"
+    },
+    {
+      "name": "Faces & Eyes Reference V0.1",
+      "status": "prepared_upload_unconfirmed"
+    }
+  ]
+}
