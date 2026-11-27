@@ -36,6 +36,8 @@ Follow [Hybrid Assembly V3](hybrid-assembly-workflow-v3.md). Obtain explicit app
 Compare width, center rim, rear playable edge, underside, apparent camera and silhouette clearance against approved foundation and relevant guide at equal canvas size. Report measured vs estimated values. Check character identity, anatomy, equipment, grounding, materials, lighting, depth and action clearance before advancing. Existing approved artwork and encounter-specific locked cameras remain unchanged unless separately approved.
 
 ## Canonical references
+See [Hero Style Guide V0.1](hero-style-guide-v0-1.md) for approved hero artistic guidance, component reference authority and experimental research limitations.
+
 Read [scale and camera](hero-boss-island-master-v1.md), [hero pairing](hero-pairing.md) and [shared materials](../shared/plush-materials.md). Island-specific rules override cubby plush. Update permanent rules only after explicit approval.
 
 ## Historical encounter notes (archival only)
