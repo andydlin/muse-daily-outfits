@@ -9,12 +9,13 @@
     "active_library": "ChatGPT Project Sources"
   },
   "verification": {
-    "source": "User-relayed Codex pilot and retrieval summaries, 2026-11-27",
+    "source": "Inspected original Codex roundtrip-report.json (completed 2026-11-27T09:40:30.491136+00:00); separate read-only retrieval summary user-relayed",
     "remote_independently_verified_in_chat": false,
-    "underlying_reports_inspected": false,
     "chatgpt_direct_retrieval": "unvalidated",
     "reported_pilot_objects": 4,
-    "reported_pilot_bytes": 160597663
+    "reported_pilot_bytes": 160597663,
+    "original_roundtrip_report_inspected": true,
+    "read_only_report_inspected": false
   },
   "assets": [
     {
@@ -31,7 +32,7 @@
       "technical_status": "structural_validation_pending",
       "production_authority": "reference_only",
       "usage": "Hero artistic reference; preserve foundation; not universal anatomy",
-      "transfer_verification": "reported_codex_sha256_match"
+      "transfer_verification": "codex_roundtrip_report_inspected_sha256_and_size_match"
     },
     {
       "id": "MSI-HAIR-001",
@@ -46,24 +47,40 @@
       "technical_status": "cross_character_validation_pending",
       "production_authority": "experimental",
       "usage": "Directional hair material reference; not universal geometry",
-      "transfer_verification": "reported_codex_sha256_match"
+      "transfer_verification": "codex_roundtrip_report_inspected_sha256_and_size_match"
+    },
+    {
+      "id": "MSI-MASTER-001",
+      "version": "V2",
+      "name": "Character Texture Master V2",
+      "filename": "MASTER_Island_Character_Texture_V2.jpeg",
+      "source": "Approved island character texture master; Project Sources",
+      "object_key": "pilot/v0.1/masters/MASTER_Island_Character_Texture_V2.jpeg",
+      "bytes": 519068,
+      "sha256": "d158d48d0d6f3b3e0ce28e4af49955bf2f403265a80884fc795cf348438bce49",
+      "artistic_status": "approved_master",
+      "technical_status": "material_reference_only",
+      "production_authority": "canonical_material_reference_only",
+      "usage": "Character materials; not anatomy, scale, pose or composition authority",
+      "transfer_verification": "codex_roundtrip_report_inspected_sha256_and_size_match"
+    },
+    {
+      "id": "MSI-ARCHIVE-001",
+      "version": "01",
+      "name": "Hero Development 01 Archive",
+      "filename": "Hero_Development_01_Archive.zip",
+      "source": "Hero Development 01 archive; Project Sources",
+      "object_key": "pilot/v0.1/archives/Hero_Development_01_Archive.zip",
+      "bytes": 156725561,
+      "sha256": "6745ed3c9b87e15ecdf730be3ae1986904a4cfc1fb0ee7b3a7636e0ff3f077c5",
+      "artistic_status": "mixed_archival",
+      "technical_status": "individual_asset_validation_varies",
+      "production_authority": "historical_archive",
+      "usage": "Preservation and research; inspect individual assets and approval scope before use",
+      "transfer_verification": "codex_roundtrip_report_inspected_sha256_and_size_match"
     }
   ],
   "pending_inventory": [
-    {
-      "name": "Character Texture Master V2",
-      "status": "reported_pilot_uploaded",
-      "object_key": null,
-      "sha256": null,
-      "bytes": null
-    },
-    {
-      "name": "Hero Development 01 Archive",
-      "status": "reported_pilot_uploaded",
-      "object_key": null,
-      "sha256": null,
-      "bytes": null
-    },
     {
       "name": "Hair & Finish Reference V0.1",
       "status": "prepared_upload_unconfirmed"
