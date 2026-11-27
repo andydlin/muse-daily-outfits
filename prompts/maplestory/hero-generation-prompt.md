@@ -1,5 +1,5 @@
 # MapleStory Islands — Hero Generation Prompt
-Version 1.1 — operational sequencing update 2026-11-27
+Version 1.2 — manual reference attachment update 2026-11-27
 
 ## Usage and version control
 Read the current [Hero Style Guide](hero-style-guide-v0-1.md), [Floating Islands](floating-islands.md), [Hybrid Assembly V3](hybrid-assembly-workflow-v3.md), [scale and camera](hero-boss-island-master-v1.md), [hero pairing](hero-pairing.md) and [shared materials](../shared/plush-materials.md). This is the editable, reusable authored prompt, not a recovered verbatim internal image-generator prompt. Canonical specifications and approved structural composites retain authority.
@@ -16,7 +16,7 @@ Every generation preparation review must show the user the actual active visual 
 1. Preparation and approval turn: refresh canonical GitHub specifications, inspect actual references, define scope and protected assets, resolve and record the authored prompt and reference roles in GitHub, and present the plan for explicit approval. Do not generate in this turn.
 2. Execution turn: after approval, initiate exactly one approved image generation directly, without additional GitHub retrieval or unrelated tool calls before generation. If preparation is stale, incomplete or changed, return to preparation and obtain approval before executing in a subsequent turn. Preserve all previous checkpoints.
 
-Evaluate artistic quality and technical fidelity in a separate subsequent turn and append results to the generation record. If initiation fails, disclose the observed failure and seek an explicit retry without silently changing the prompt. Do not claim backend causation or verified reference handoff. Manual attachment and prompt resubmission are optional troubleshooting measures, not default requirements. Separate turns within the same chat are sufficient; separate chats are not required.
+Evaluate artistic quality and technical fidelity in a separate subsequent turn and append results to the generation record. If initiation fails, disclose the observed failure and seek an explicit retry without silently changing the prompt. Do not claim backend causation or verified reference handoff. For reference-sensitive generation, prefer the experimental same-chat manual attachment method: after reviewing and approving the active reference sheet and resolved prompt, the user attaches the approved images and submits the prompt in the execution turn. Fresh external chats remain optional. H06-A1/A2 yielded 0/2 favorable fidelity results with assistant-managed references, A3/A4 2/2 with fresh-chat manual attachment, and A5 1/1 with same-chat manual attachment. Small, non-controlled sample; causation and backend delivery remain unverified. Other generation methods remain available. Separate turns within the same chat are sufficient; separate chats are not required.
 
 This is the operational default, not a proven reliability fix. H05-C/T01 succeeded on its first execution turn after preparation was separated; H05-A and H05-B required repeated requests. The cause remains unverified. All artistic, structural, approval and preservation safeguards remain unchanged.
 
@@ -61,3 +61,5 @@ Before approving a new character foundation or beginning component refinement, c
 ## Revision history
 - V1.0: Initial reusable authored baseline. Incorporates Hero H01/H01-C lesson: identity artwork must not dictate anatomy; independent proportion planning and validation are required. H01-C's 53–56% experimental head-share range is character-specific, not a universal standard.
 - V1.1: Approved two-step preparation/execution sequencing; reusable artistic prompt unchanged.
+
+- V1.2: Approved experimental preference for manual attachment in reference-sensitive generation; artistic prompt unchanged.
