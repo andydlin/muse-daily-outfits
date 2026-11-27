@@ -1,5 +1,5 @@
 # MapleStory Islands — Hero Generation Prompt
-Version 1.0 — approved publication 2026-11-27
+Version 1.1 — operational sequencing update 2026-11-27
 
 ## Usage and version control
 Read the current [Hero Style Guide](hero-style-guide-v0-1.md), [Floating Islands](floating-islands.md), [Hybrid Assembly V3](hybrid-assembly-workflow-v3.md), [scale and camera](hero-boss-island-master-v1.md), [hero pairing](hero-pairing.md) and [shared materials](../shared/plush-materials.md). This is the editable, reusable authored prompt, not a recovered verbatim internal image-generator prompt. Canonical specifications and approved structural composites retain authority.
@@ -8,6 +8,15 @@ Before each generation, retrieve the latest GitHub version, inspect actual refer
 
 ## Component prompts and checkpoint records
 Use the [component prompt library](refinements/README.md) and [generation records](generation-records/README.md). Save the resolved authored instructions before generation and append results, deviations and evaluation afterward. Component templates require approval before adoption; historical records do not establish new standards.
+
+## Two-step generation execution (approved 2026-11-27)
+
+1. Preparation and approval turn: refresh canonical GitHub specifications, inspect actual references, define scope and protected assets, resolve and record the authored prompt and reference roles in GitHub, and present the plan for explicit approval. Do not generate in this turn.
+2. Execution turn: after approval, initiate exactly one approved image generation directly, without additional GitHub retrieval or unrelated tool calls before generation. If preparation is stale, incomplete or changed, return to preparation and obtain approval before executing in a subsequent turn. Preserve all previous checkpoints.
+
+Evaluate artistic quality and technical fidelity in a separate subsequent turn and append results to the generation record. If initiation fails, disclose the observed failure and seek an explicit retry without silently changing the prompt. Do not claim backend causation or verified reference handoff. Manual attachment and prompt resubmission are optional troubleshooting measures, not default requirements. Separate turns within the same chat are sufficient; separate chats are not required.
+
+This is the operational default, not a proven reliability fix. H05-C/T01 succeeded on its first execution turn after preparation was separated; H05-A and H05-B required repeated requests. The cause remains unverified. All artistic, structural, approval and preservation safeguards remain unchanged.
 
 ## Inputs (resolve before generation)
 - Character/class and supplied identity artwork: [IDENTITY]
@@ -49,3 +58,4 @@ Before approving a new character foundation or beginning component refinement, c
 
 ## Revision history
 - V1.0: Initial reusable authored baseline. Incorporates Hero H01/H01-C lesson: identity artwork must not dictate anatomy; independent proportion planning and validation are required. H01-C's 53–56% experimental head-share range is character-specific, not a universal standard.
+- V1.1: Approved two-step preparation/execution sequencing; reusable artistic prompt unchanged.
