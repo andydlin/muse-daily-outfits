@@ -11,6 +11,8 @@ Use the [component prompt library](refinements/README.md) and [generation record
 
 ## Two-step generation execution (approved 2026-11-27)
 
+Every generation preparation review must show the user the actual active visual reference sheet, with each image or crop labeled by its authority. Keep internal master audits separate; exclude unrelated references from the active set. Any change to active references requires a revised sheet and explicit approval before execution. The sheet records intended inputs, not verified backend delivery.
+
 1. Preparation and approval turn: refresh canonical GitHub specifications, inspect actual references, define scope and protected assets, resolve and record the authored prompt and reference roles in GitHub, and present the plan for explicit approval. Do not generate in this turn.
 2. Execution turn: after approval, initiate exactly one approved image generation directly, without additional GitHub retrieval or unrelated tool calls before generation. If preparation is stale, incomplete or changed, return to preparation and obtain approval before executing in a subsequent turn. Preserve all previous checkpoints.
 
