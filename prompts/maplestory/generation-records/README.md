@@ -1,0 +1,2 @@
+# Generation records
+Historical authored prompts and prospective resolved instructions, not hidden generator prompts. Store per project and checkpoint; include approval, baseline revision, reference roles, source/crop/mask, authored instructions, output IDs, deviations, evaluation and disposition. Label unavailable details and reconstructed wording. Preserve failed experiments. Record before generation and append results afterward. Do not silently overwrite history.
