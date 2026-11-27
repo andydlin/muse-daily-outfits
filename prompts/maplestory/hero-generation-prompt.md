@@ -6,6 +6,9 @@ Read the current [Hero Style Guide](hero-style-guide-v0-1.md), [Floating Islands
 
 Before each generation, retrieve the latest GitHub version, inspect actual reference images, fill the inputs and present the planned generation for approval. Record the prompt revision, resolved character-specific inputs, reference roles and any step-specific deviations with the checkpoint. Notify the user whenever a reusable prompt change is proposed or needed; show the change and rationale, obtain explicit approval, commit to GitHub and verify the committed contents before adopting it. Do not silently change the baseline. Character-specific input substitutions are not baseline revisions; disclose them in the step plan. If GitHub or required references are inaccessible, disclose the limitation before proceeding. Do not claim access to hidden generator rewrites or automatic reference handoff.
 
+## Component prompts and checkpoint records
+Use the [component prompt library](refinements/README.md) and [generation records](generation-records/README.md). Save the resolved authored instructions before generation and append results, deviations and evaluation afterward. Component templates require approval before adoption; historical records do not establish new standards.
+
 ## Inputs (resolve before generation)
 - Character/class and supplied identity artwork: [IDENTITY]
 - Approved miniature anatomy references: [ANATOMY REFERENCES]
