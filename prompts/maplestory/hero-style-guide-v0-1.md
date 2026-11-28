@@ -1,5 +1,7 @@
 # MapleStory Islands — Hero Style Guide V0.1
 
+**Approved 2026-11-27 — Character Texture Master V3:** `MASTER_Island_Character_Texture_V3.jpeg` is the primary island character material authority only. Preserve V2 unchanged as a historical material reference. V3 demonstrates refined plush-like sculpted hair across Warrior, Ice/Lightning Mage and Mechanic, plus material construction details. It does not establish anatomy, pose, scale, composition or boss standards. Original JPEG SHA-256: `f7316b5711daa242da69ac29a6a6352762d64397f75cae820986eae51472bc46`. Project Sources and R2 registration pending.
+
 **Status:** Approved November 27, 2026  
 **Scope:** Playable character artistic development for standalone MapleStory floating islands.
 
@@ -17,7 +19,7 @@ Each reference governs only its designated artistic or technical properties.
 
 - Character-specific MapleStory artwork is a Character Identity Reference only: recognizable hairstyle, colors, facial features, personality, costume, accessories and equipment. It does not govern anatomical proportions, facial proportions, rendering style or pose by default.
 - Independently selected miniature anatomical references and approved character-specific proportion targets govern anatomy. Preserve identity; reconstruct anatomy in our artistic language. Adapt costume and equipment to anatomy, not the reverse.
-- Character Texture Master V2 governs material treatment only.
+- Character Texture Master V3 governs material treatment only.
 - Island Composition Master V1 governs island composition.
 - Boss Style Master V1 governs boss artistic treatment.
 - Approved Hero Design reference sheets support component-level artistic development.
@@ -106,7 +108,7 @@ Maintain physically recognizable material differences:
 
 Do not make every surface plush.
 
-The Character Texture Master V2 retains canonical material authority. Individual material donors support targeted refinement without overriding character identity.
+The Character Texture Master V3 retains canonical material authority. Individual material donors support targeted refinement without overriding character identity.
 
 ## 8. Costume and equipment
 
