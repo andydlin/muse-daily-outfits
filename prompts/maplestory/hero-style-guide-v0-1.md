@@ -1,6 +1,6 @@
 # MapleStory Islands — Hero Style Guide V0.1
 
-**Approved 2026-11-27 — Character Texture Master V3:** `MASTER_Island_Character_Texture_V3.jpeg` is the primary island character material authority only. Preserve V2 unchanged as a historical material reference. V3 demonstrates refined plush-like sculpted hair across Warrior, Ice/Lightning Mage and Mechanic, plus material construction details. It does not establish anatomy, pose, scale, composition or boss standards. Original JPEG SHA-256: `f7316b5711daa242da69ac29a6a6352762d64397f75cae820986eae51472bc46`. Project Sources and R2 registration pending.
+**Approved 2026-11-27 — Character Texture Master V3:** `MASTER_Island_Character_Texture_V3.jpeg` is the primary island character material authority only. Preserve V2 unchanged as a historical material reference. V3 demonstrates refined plush-like sculpted hair across Warrior, Ice/Lightning Mage and Mechanic, plus material construction details. It does not establish anatomy, pose, scale, composition or boss standards. Original JPEG SHA-256: `f7316b5711daa242da69ac29a6a6352762d64397f75cae820986eae51472bc46`. Project Sources available; R2 registration pending.
 
 **Status:** Approved November 27, 2026  
 **Scope:** Playable character artistic development for standalone MapleStory floating islands.
@@ -194,4 +194,7 @@ Preserve source artwork and approved checkpoints. Report limitations, drift, mea
 
 The roadmap represents research priorities, not mandatory sequential production steps.
 
-**Approved V3 material authority (2026-11-27):** V3 is primary for materials only; V2 remains preserved historically. No anatomy, pose or scale changes. Project Sources and R2 registration pending.
+**Approved V3 material authority (2026-11-27):** V3 is primary for materials only; V2 remains preserved historically. No anatomy, pose or scale changes. Project Sources available; R2 registration pending.
+
+## Foundational full-character artistic references
+See [Hero Artistic Reference Collection V1](hero-artistic-reference-collection-v1.md). Fighter and Mage guide overall artistic cohesion; Fighter additionally guides combat orientation. Mage V1 pose is not encounter-approved. Material, structural and identity authorities remain unchanged.
