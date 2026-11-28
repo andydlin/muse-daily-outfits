@@ -1,6 +1,6 @@
 # MapleStory floating islands — V2.1
 
-**Approved 2026-11-27 — Character Texture Master V3:** `MASTER_Island_Character_Texture_V3.jpeg` is the primary island character material authority only. Preserve V2 unchanged as a historical material reference. V3 demonstrates refined plush-like sculpted hair across Warrior, Ice/Lightning Mage and Mechanic, plus material construction details. It does not establish anatomy, pose, scale, composition or boss standards. Original JPEG SHA-256: `f7316b5711daa242da69ac29a6a6352762d64397f75cae820986eae51472bc46`. Project Sources and R2 registration pending.
+**Approved 2026-11-27 — Character Texture Master V3:** `MASTER_Island_Character_Texture_V3.jpeg` is the primary island character material authority only. Preserve V2 unchanged as a historical material reference. V3 demonstrates refined plush-like sculpted hair across Warrior, Ice/Lightning Mage and Mechanic, plus material construction details. It does not establish anatomy, pose, scale, composition or boss standards. Original JPEG SHA-256: `f7316b5711daa242da69ac29a6a6352762d64397f75cae820986eae51472bc46`. Project Sources available; R2 registration pending.
 
 > **Original Island V3.1 — approved production infrastructure:** Preserve V3.0 as the Structural Migration Baseline and V3.1 as the Original Island Production Blueprint and Localized Assembly Toolkit. See [Original Island Production Blueprint V3.1](original-island-production-blueprint-v3.md). Geometry refinement is closed for this configuration. Existing artistic masters, checkpoints and provisional series-wide geometry remain unchanged.
 
@@ -59,3 +59,6 @@ The following notes preserve earlier scene-specific decisions, not active geomet
 - [Gantry blueprint](https://chatgpt.com/library?file_id=libfile_393d33ca5d4c81918b42efc43e3c9e0b&account_id=personal) — staging and framing.
 - [Empty Black Heaven island](https://chatgpt.com/library?file_id=libfile_828f07dea940819183fd426ae5b865cd&account_id=personal) — mechanical environment and 83% platform footprint. Use the final scene for the extended rear deck.
 - [Approved Mechanic vs. Lotus](https://chatgpt.com/library?file_id=libfile_4b515d476ff88191a10277d55ef58f15&account_id=personal) — integrated hover ring, secondary summon, short cannon burst, and deck reflection. The approved backdrop retains a slight gradient.
+
+## Foundational full-character artistic references
+See [Hero Artistic Reference Collection V1](hero-artistic-reference-collection-v1.md). Fighter and Mage guide overall artistic cohesion; Fighter additionally guides combat orientation. Mage V1 pose is not encounter-approved. Material, structural and identity authorities remain unchanged.
