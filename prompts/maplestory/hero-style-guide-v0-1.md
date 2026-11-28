@@ -193,3 +193,5 @@ Preserve source artwork and approved checkpoints. Report limitations, drift, mea
 6. Validate repeatability before approving broader production standards.
 
 The roadmap represents research priorities, not mandatory sequential production steps.
+
+**Approved V3 material authority (2026-11-27):** V3 is primary for materials only; V2 remains preserved historically. No anatomy, pose or scale changes. Project Sources and R2 registration pending.
