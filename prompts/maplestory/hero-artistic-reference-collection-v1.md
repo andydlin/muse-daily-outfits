@@ -14,3 +14,6 @@ Fighter and Mage jointly guide full-character artistic cohesion: compact express
 
 ## Next experiments
 Preserve Mage V1 and develop a separately approved right-facing casting candidate; preserve cheerful expression, blue hair, bow, staff, spellbook and costume. Approve actual active sheet and resolved prompt before generation. H10 Hero paused until foundational pair reviewed. H08-E and H09-C preserved; 95% scale provisional. H07-X1 excluded from active direction. Visual style guide and island integration validation follow; no generation authorized by this record.
+
+## Approved encounter-ready Mage — 2026-11-27
+M05-B (`M05B_candidate.png`) is the preferred encounter-ready Mage artistic reference, approved following M06 comparison with Fighter V1. Preserve Mage V1 unchanged as the foundational display reference. Fighter V1 and M05-B are now the preferred pair for encounter-ready artistic cohesion and H10 preparation. See [Mage M01–M06 development record](generation-records/Mage-M01-M06.md). The earlier Next experiments section is historical; Mage artistic development is complete. M05-B checksum and durable Project Sources/R2 registration pending. Background cleanup and structural validation remain separate. No universal proportions, camera or scale rules changed.
