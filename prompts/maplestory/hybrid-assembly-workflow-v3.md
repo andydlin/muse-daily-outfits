@@ -1,4 +1,6 @@
 # MapleStory Islands — Hybrid Assembly V3: Localized Crop Assembly
+
+**Approved 2026-11-27 — Character Texture Master V3:** `MASTER_Island_Character_Texture_V3.jpeg` is the primary island character material authority only. Preserve V2 unchanged as a historical material reference. V3 demonstrates refined plush-like sculpted hair across Warrior, Ice/Lightning Mage and Mechanic, plus material construction details. It does not establish anatomy, pose, scale, composition or boss standards. Original JPEG SHA-256: `f7316b5711daa242da69ac29a6a6352762d64397f75cae820986eae51472bc46`. Project Sources and R2 registration pending.
 Approved 2026-11-25 as preferred workflow, with ongoing validation. Supersedes V2 as default, not its safeguards or historical findings. [V2 archive and alternative methods](hybrid-assembly-workflow-v2.md).
 
 ## Authority and unchanged standards
