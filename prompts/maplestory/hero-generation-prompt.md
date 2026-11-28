@@ -1,5 +1,7 @@
 # MapleStory Islands — Hero Generation Prompt
-Version 1.2 — manual reference attachment update 2026-11-27
+
+**Approved 2026-11-27 — Character Texture Master V3:** `MASTER_Island_Character_Texture_V3.jpeg` is the primary island character material authority only. Preserve V2 unchanged as a historical material reference. V3 demonstrates refined plush-like sculpted hair across Warrior, Ice/Lightning Mage and Mechanic, plus material construction details. It does not establish anatomy, pose, scale, composition or boss standards. Original JPEG SHA-256: `f7316b5711daa242da69ac29a6a6352762d64397f75cae820986eae51472bc46`. Project Sources and R2 registration pending.
+Version 1.3 — V3 material authority update 2026-11-27
 
 ## Usage and version control
 Read the current [Hero Style Guide](hero-style-guide-v0-1.md), [Floating Islands](floating-islands.md), [Hybrid Assembly V3](hybrid-assembly-workflow-v3.md), [scale and camera](hero-boss-island-master-v1.md), [hero pairing](hero-pairing.md) and [shared materials](../shared/plush-materials.md). This is the editable, reusable authored prompt, not a recovered verbatim internal image-generator prompt. Canonical specifications and approved structural composites retain authority.
@@ -45,7 +47,7 @@ Hair is sculpted in form, plush in material: soft, dimensional plush-like hair w
 
 Faces are smooth matte anime-inspired, with soft dimensional contours, restrained tonal transitions, expressive character-specific eyes and controlled catchlights. No button eyes, Jolly faces or generic mascot styling.
 
-Use Character Texture Master V2 for materials only: fine restrained fabric weave, delicate stitching, subtle leather grain, satin-matte metal, short controlled fur, distinct painted machinery and appropriate luminous/translucent magical materials. Preserve material separation. Avoid glossy plastic and generic CGI. Apply [REFERENCES] only within their assigned roles.
+Use Character Texture Master V3 for materials only: fine restrained fabric weave, delicate stitching, subtle leather grain, satin-matte metal, short controlled fur, distinct painted machinery and appropriate luminous/translucent magical materials. Preserve material separation. Avoid glossy plastic and generic CGI. Apply [REFERENCES] only within their assigned roles.
 
 Preserve [EQUIPMENT] with believable physical construction, coherent grip and readable silhouette. Distinguish weapons from energy effects. Follow [POSE] and [APPROVED EFFECTS OR NONE].
 
@@ -63,3 +65,5 @@ Before approving a new character foundation or beginning component refinement, c
 - V1.1: Approved two-step preparation/execution sequencing; reusable artistic prompt unchanged.
 
 - V1.2: Approved experimental preference for manual attachment in reference-sensitive generation; artistic prompt unchanged.
+
+- V1.3: Promote Character Texture Master V3 to primary material authority; preserve V2 historically. No anatomy or pose changes.
